@@ -73,6 +73,7 @@ RENDER.v3 = () => {
   ${apps ? appBlock(apps) : `<div class="card s6 rv wait"><div class="ct"><h3>アプリレビュー（最新）</h3>${tagOf('wait')}</div>${waitBox('App Store 最新50件・Google Play 最新150件の星と本文を取得します', '初回ラウンドで反映（DataForSEO App Data）')}</div>`}
   ${am ? amazonBlock(am, prods) : `<div class="card s12 rv wait"><div class="ct"><h3>Amazon.co.jp 検索結果（kindle / 電子書籍リーダー / kobo）</h3>${tagOf('wait')}</div>${waitBox('順位・価格・星・レビュー数・先月の購入数（bought_past_month）・ベストセラー／Amazon\'s Choice を取得します', '初回ラウンドで反映（DataForSEO Merchant Amazon）')}</div>`}
   ${shelfBlock()}
+  ${kakakuBlock()}
   ${ca ? caBlock(ca) : ''}
   <div class="card s12 rv"><div class="ct"><h3>SNS（X / Instagram / TikTok）の言及量・感情</h3>${tagOf('teaser')}<span class="sub">SNS管理者アカウント（API）連携で解放</span></div>
     <div class="teaserbox" style="border-radius:12px;padding:6px">${lineChart({w: 900, h: 160, dates: Array.from({length: 26}, (_, i) => 'W' + (i + 1)), series: [{name: 'X 言及数', color: '#22D3EE', values: Array.from({length: 26}, (_, i) => 40 + 30 * Math.abs(Math.sin(i / 3)))}], fill: true, labelsEvery: 4})}</div>
@@ -144,3 +145,28 @@ function shelfBlock(){
     <div class="src">出典: <a href="${esc(sh.source_url)}" target="_blank" rel="noopener">${esc(sh.source)}</a>（${esc(sh.measured_at)}）／${esc(sh.note)}</div></div>`;
 }
 function avg(a){ const v = a.filter(isNum); return v.length ? v.reduce((x, y) => x + y, 0) / v.length : null; }
+
+function kakakuBlock(){
+  const k = D.kakaku; if(!k) return '';
+  const BR = {kindle: '#E36A1E', kobo: '#d55181', boox: '#199e70', sony: '#3987e5', other: '#c98500'};
+  const BRL = {kindle: 'Kindle', kobo: '楽天Kobo', boox: 'BOOX', sony: 'ソニー', other: 'その他'};
+  const cnt = {}; k.rows.forEach(r => { cnt[r.brand] = (cnt[r.brand] || 0) + 1; });
+  const old2 = k.rows.filter(r => r.released < '2015').length;
+  return `<div class="card s12 rv"><div class="ct"><h3>比較サイトの棚 — 価格.com「電子書籍リーダー」に <span class="hl">Kindleは1製品も無い</span></h3>${tagOf('live')}<span class="sub">${esc(k.period)}・Chromeで実測</span><span class="hb" onclick="help('kakaku')">?</span></div>
+    <div class="kpi" style="margin-bottom:12px">
+      <div class="k hero rose"><div class="l">登録製品数のうち Kindle</div><div class="v"><span data-cu="0">0</span><small>/${k.registered_products}製品</small></div><div class="d">Amazonデバイスは価格.comに製品登録がない＝<b>比較検討の場に存在しない</b></div></div>
+      <div class="k cyan"><div class="l">ランキング上位のブランド</div><div class="v" style="font-size:18px">${Object.entries(cnt).sort((a, b) => b[1] - a[1]).map(([b, n]) => `${BRL[b] || b} ${n}`).join(' / ')}</div><div class="d">1位 Kobo Libra Colour ／ 2位 BOOX Note Air4 C</div></div>
+      <div class="k violet"><div class="l">2015年より前の製品が</div><div class="v"><span data-cu="${old2}">0</span><small>製品ランクイン</small></div><div class="d">ソニー Reader PRS-650（2010年）が<b>2位</b>、PRS-T2（2012年）が<b>4位</b>。Kindle不在の穴を10年以上前の端末が埋めている</div></div>
+      <div class="k lime"><div class="l">満足度トップ</div><div class="v" style="font-size:18px">PRS-T2 4.52</div><div class="d">レビュー40人。Kobo Libra Colour は 3.00（3人）— 母数は少ないが公開の点数として残る</div></div>
+    </div>
+    <div class="row" style="align-items:flex-start;gap:18px;flex-wrap:wrap">
+      <div style="flex:2 1 420px" class="tw"><table><tr><th class="num">順位</th><th>製品</th><th>ブランド</th><th class="num">最安値</th><th class="num">満足度</th><th class="num">件数</th><th>発売</th></tr>
+      ${k.rows.map(r => `<tr><td class="num">${r.rank}</td><td>${esc(r.name)}</td><td><span class="pill" style="background:${BR[r.brand]}33;color:${BR[r.brand]}">${esc(BRL[r.brand] || r.brand)}</span></td><td class="num">${yen(r.price)}</td><td class="num">${fmt(r.sat, 2)}</td><td class="num">${r.n}</td><td class="muted">${esc(r.released)}</td></tr>`).join('')}
+      <tr style="background:rgba(227,106,30,.08)"><td class="num">—</td><td><b style="color:#FFD9B3">Kindle（全モデル）</b></td><td><span class="pill b-owned">Kindle</span></td><td class="num">—</td><td class="num">—</td><td class="num">0</td><td class="muted">製品登録なし</td></tr>
+      </table></div>
+      <div style="flex:1 1 280px">
+        <div class="note" style="margin-top:0"><b>なぜ効くか</b><br>AIは回答をつくるとき、比較サイト・ランキング記事を第三者ソースとして読みます（資料p31・p34）。価格.comに製品が無いと、<span class="hl">「電子書籍リーダー 比較」「おすすめ ランキング」系の文脈でKindleが構造的に落ちる</span>。棚（Amazon）で1位でも、比較の土俵には上がっていません。</div>
+        <div class="note"><b>打ち手</b>：①価格.comへの製品登録（メーカー登録の可否確認）②登録できない場合は、比較記事・レビューサイト側で「Kindleを含む比較表」を増やす（V9-01/02）。効果は「電子書籍リーダー 比較」系クエリでの自社・第三者引用率で測る。</div>
+      </div></div>
+    <div class="src">出典: <a href="${esc(k.source_url)}" target="_blank" rel="noopener">${esc(k.source)}</a>（${esc(k.measured_at)} 取得）／${esc(k.note)}</div></div>`;
+}

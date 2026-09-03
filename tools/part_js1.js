@@ -249,6 +249,9 @@ RENDER.v0 = () => {
   <div class="card s6 rv"><div class="ct"><h3>AI6面の反応（${AI.measured ? '実測 ' + esc(AI.date) : '計測待ち'}）</h3>${tagOf(AI.measured ? 'live' : 'wait')}<span class="hb" onclick="help('idx')">?</span></div>
     ${AI.measured ? faceRadar() : waitBox('AI6面の言及率・第一想起・自社引用率をレーダーで表示します', '計測は ChatGPT(gpt-5) / Gemini 2.5 / Claude / Perplexity / Google AI Overview / AIモード。1周 ≒ $10。')}
   </div>
+  <div class="card s12 rv"><div class="ct"><h3>今週の発見（すべて実測・出典リンク付き）</h3>${tagOf('live')}<span class="sub">クリックすると根拠のビューへ</span></div>
+    <div class="flex">${findings().map(f => `<div class="pl" onclick="go('${f.v}')" style="flex:1 1 300px"><span class="arrow">→</span><div class="n">${esc(f.tag)}</div><div class="t" style="font-size:15px">${f.t}</div><div class="m">${f.d}</div></div>`).join('')}</div></div>
+
   <div class="card s12 rv"><div class="ct"><h3>直近のニュース・トピック（2026年）</h3>${tagOf('live')}<span class="sub">報道から抽出・全件リンク付き</span></div>
     <div class="flex">${(D.news_curated || []).slice().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 8).map(n => `<a class="qi" style="flex:1 1 280px;display:block" href="${esc(n.url)}" target="_blank" rel="noopener"><div class="id">${esc(n.date)} ・ ${esc(n.media)} <span class="fam" style="border-color:${n.tone === 'neg' ? 'rgba(248,113,113,.6)' : n.tone === 'pos' ? 'rgba(52,211,153,.6)' : 'var(--line2)'}">${esc(n.tag)}</span></div><div class="tx" style="color:var(--ink)">${esc(n.title)}</div></a>`).join('')}</div></div>
   </div>`;
@@ -332,3 +335,17 @@ RENDER.v1 = () => {
     </table></div></div>
   </div>`;
 };
+
+function findings(){
+  const k = D.kakaku, sh = D.shelf, T = D.trends || {};
+  const out = [];
+  if(sh){ const kin = (sh.items || []).filter(i => i.brand === 'kindle');
+    out.push({v: 'v3', tag: '棚 / Amazon', t: `ベストセラー10位内に <b style="color:#FFD166">Kindleが5枠</b>`, d: `1位 Paperwhite・2位 PWシグニチャー・4位 Colorsoft・6位 無印・7位 Colorsoft SE。Amazonの棚は取れている（${esc(sh.measured_at)} 実測）`});
+    out.push({v: 'v3', tag: '満足度 / 弱点', t: `カラー機の★が競合に <b style="color:#FDA4AF">0.9pt 負け</b>`, d: `Kobo Libra Colour ★4.7 に対し Kindle Colorsoft シグニチャー ★3.8。カラー体験の評価が伸びていない`}); }
+  if(k) out.push({v: 'v3', tag: '比較の場 / 不在', t: `価格.comに Kindleは <b style="color:#FDA4AF">0製品</b>`, d: `登録11製品はKobo・BOOX・ソニー・HUAWEI。2010年のソニーReaderが2位に入るほど「比較の土俵」に不在`});
+  const rel = ((T.related || {}).Kindle || {}).top || [];
+  if(rel.length) out.push({v: 'v2', tag: '需要 / 不満', t: `関連検索の上位に <b style="color:#FDA4AF">「kindle 解約」</b>`, d: `1位 kindle amazon・2位 kindle unlimited・3位 kindle セール に続き、解約系が複数。需要は「セール待ち」と「やめ方」に二極化`});
+  if(T.share_12m) out.push({v: 'v2', tag: '需要 / 強さ', t: `検索関心は Kobo の <b style="color:#8FF0C9">約${fmt((T.share_12m.Kindle || 0) / (T.share_12m.Kobo || 1), 0)}倍</b>`, d: `カテゴリ語「電子書籍リーダー」(0.9) よりブランド語「Kindle」(75.9) が桁違い。カテゴリ＝Kindleになっている`});
+  out.push({v: 'v1', tag: '市場 / 構造', t: `電子は伸び、紙は <b style="color:#FDA4AF">初の1兆円割れ</b>`, d: `電子出版5,815億円(+2.7%)／紙9,647億円(−4.1%)。ただしKindleストアの利用率は20.5→17.6%、課金経験率も28.6→24.1%と低下`});
+  return out;
+}
