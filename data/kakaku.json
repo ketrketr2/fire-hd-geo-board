@@ -1,0 +1,22 @@
+{
+ "measured_at": "2026-09-03",
+ "period": "2026/08/27〜09/02 の集計（更新日 2026/09/03）",
+ "source": "価格.com 電子書籍リーダー 人気売れ筋ランキング",
+ "source_url": "https://kakaku.com/pc/ebook-reader/ranking_0033/",
+ "registered_products": 11,
+ "kindle_products": 0,
+ "note": "価格.comの「電子書籍リーダー」カテゴリは登録が全11製品。Kindleは1製品も登録されていない（Amazonデバイスは価格.comに製品登録がない）。ランキングはショップサイトへのアクセス数から推定販売数を集計したもの。",
+ "rows": [
+  {"rank": 1, "brand": "kobo", "name": "Kobo Libra Colour", "price": 38384, "sat": 3.00, "n": 3, "released": "2024-05-01"},
+  {"rank": 2, "brand": "boox", "name": "BOOX Note Air4 C", "price": 71838, "sat": 3.33, "n": 2, "released": "2025-01-08"},
+  {"rank": 2, "brand": "sony", "name": "SONY Reader Touch Edition PRS-650", "price": 11800, "sat": 4.50, "n": 22, "released": "2010-12-10"},
+  {"rank": 4, "brand": "sony", "name": "SONY Reader PRS-T2", "price": 15600, "sat": 4.52, "n": 40, "released": "2012-09-21"},
+  {"rank": 5, "brand": "boox", "name": "BOOX Note Air3 C", "price": 86800, "sat": 3.55, "n": 4, "released": "2024-09-06"},
+  {"rank": 5, "brand": "boox", "name": "BOOX Palma", "price": 35455, "sat": 3.13, "n": 2, "released": "2024-09-06"},
+  {"rank": 7, "brand": "other", "name": "HUAWEI MatePad Paper", "price": 46500, "sat": 3.86, "n": 8, "released": "2022-06-09"},
+  {"rank": 8, "brand": "kobo", "name": "Kobo Clara 2E", "price": 20000, "sat": 4.50, "n": 2, "released": "2022-09-26"},
+  {"rank": 8, "brand": "kobo", "name": "Kobo Clara BW", "price": 23692, "sat": 3.67, "n": 3, "released": "2024-05-01"},
+  {"rank": 8, "brand": "kobo", "name": "Kobo Clara Colour", "price": 27365, "sat": 3.72, "n": 4, "released": "2024-05-01"},
+  {"rank": 11, "brand": "sony", "name": "SONY Reader PRS-T3S", "price": 21458, "sat": 3.89, "n": 32, "released": "2013-10-04"}
+ ]
+}
