@@ -1,0 +1,23 @@
+{
+ "measured_at": "2026-09-03",
+ "source": "Amazon.co.jp 検索「電子書籍リーダー」1ページ目（Chromeで実測）",
+ "source_url": "https://www.amazon.co.jp/s?k=%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC",
+ "note": "価格・評価・レビュー数・ベストセラー順位・「過去1か月に購入された点数」はAmazonの商品カード表示をそのまま採録。カバー等のアクセサリは除外。",
+ "items": [
+  {"rank": 1, "brand": "kindle", "name": "Kindle Paperwhite 16GB 広告なし", "price": 27980, "list": null, "rating": 4.3, "reviews": 9652, "bought": "1000点以上", "note": "ベストセラー1位"},
+  {"rank": 2, "brand": "kindle", "name": "Kindle Paperwhite シグニチャーエディション 32GB", "price": 32980, "list": null, "rating": 4.4, "reviews": 5219, "bought": "2000点以上", "note": "ベストセラー2位"},
+  {"rank": 3, "brand": "other", "name": "XTEINK X3（3.7型・58g・16GB）", "price": 11120, "list": 13900, "rating": 4.2, "reviews": 31, "bought": "100点以上", "note": "ベストセラー3位・無名ブランドの1万円台機"},
+  {"rank": 4, "brand": "kindle", "name": "Kindle Colorsoft 16GB", "price": 36193, "list": 39980, "rating": 4.1, "reviews": 1704, "bought": "1000点以上", "note": "ベストセラー4位"},
+  {"rank": 6, "brand": "kindle", "name": "Kindle（無印）16GB 広告なし", "price": 29980, "list": null, "rating": 4.4, "reviews": 30766, "bought": "2000点以上", "note": "ベストセラー6位・レビュー数は全機種最多（3万件）。この色は在庫薄で価格が上振れ表示"},
+  {"rank": 7, "brand": "kindle", "name": "Kindle Colorsoft シグニチャーエディション 32GB", "price": 44980, "list": null, "rating": 3.8, "reviews": 2046, "bought": "200点以上", "note": "ベストセラー7位・Kindle勢で最低評価"},
+  {"rank": 8, "brand": "other", "name": "VIWOODS AiPaper Mini 8.2型 AI電子ノート", "price": 62000, "list": 65800, "rating": 4.1, "reviews": 10, "bought": null, "note": "ベストセラー8位"},
+  {"rank": 9, "brand": "bigme", "name": "Bigme B6（6型カラー・Android14）", "price": 29999, "list": null, "rating": 4.1, "reviews": 9, "bought": null, "note": "ベストセラー9位"},
+  {"rank": 10, "brand": "kobo", "name": "Kobo Libra Colour 7型 防水", "price": 40798, "list": 41800, "rating": 4.7, "reviews": 32, "bought": null, "note": "ベストセラー10位・カテゴリ最高評価"},
+  {"rank": null, "brand": "boox", "name": "BOOX Go 7（7型・Android13）", "price": 39800, "list": null, "rating": 3.8, "reviews": 19, "bought": "50点以上", "note": ""},
+  {"rank": null, "brand": "kobo", "name": "Kobo Clara Colour 6型 防水", "price": 27870, "list": 29800, "rating": 3.9, "reviews": 23, "bought": null, "note": ""},
+  {"rank": null, "brand": "kobo", "name": "Kobo Clara BW 6型 防水", "price": 25480, "list": null, "rating": 4.5, "reviews": 41, "bought": null, "note": "新品5点のみ"},
+  {"rank": null, "brand": "bigme", "name": "Bigme HiBreak Pro（6.13型カラー・5G）", "price": 76993, "list": null, "rating": 4.2, "reviews": 5, "bought": null, "note": ""},
+  {"rank": null, "brand": "other", "name": "Meebook/Likebook M8（7.8型・Android14）", "price": 39399, "list": null, "rating": 3.8, "reviews": 17, "bought": null, "note": ""},
+  {"rank": null, "brand": "sony", "name": "ソニー Reader PRS-T3S（6型）", "price": 8980, "list": null, "rating": 3.9, "reviews": 72, "bought": null, "note": "中古・新品の在庫のみ"}
+ ]
+}
