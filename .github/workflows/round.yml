@@ -1,7 +1,7 @@
 name: round
 
 # 週次ラウンド: AI6面計測 → 付帯収集 → 集計 → ビルド → playwright検証 → 暗号化 → 復号検証 → docs/公開 → コミット。
-# 定常cronはテスト1周と予算確定後に有効化する（毎週月曜 07:10 JST = 日曜 22:10 UTC）。
+# 定常cron: 毎週月曜 07:10 JST（= 日曜 22:10 UTC）。2026-09-03のラウンド#2成功（$8.44/252セル）を受けて有効化。
 on:
   workflow_dispatch:
     inputs:
@@ -14,8 +14,8 @@ on:
       skip_extra:
         description: "付帯収集をスキップする（true/false）"
         default: "false"
-  # schedule:
-  #   - cron: "10 22 * * 0"
+  schedule:
+    - cron: "10 22 * * 0"
 
 permissions:
   contents: write
