@@ -72,6 +72,7 @@ RENDER.v3 = () => {
   ${yt ? ytBlock(yt) : `<div class="card s6 rv wait"><div class="ct"><h3>YouTube で語られるKindle</h3>${tagOf('wait')}<span class="sub">AI引用の第1位ソースはYouTube</span></div>${waitBox('「Kindle おすすめ」「Kindle Kobo 比較」など5語の上位20本・再生数を取得します', '初回ラウンドで反映（DataForSEO YouTube SERP）')}</div>`}
   ${apps ? appBlock(apps) : `<div class="card s6 rv wait"><div class="ct"><h3>アプリレビュー（最新）</h3>${tagOf('wait')}</div>${waitBox('App Store 最新50件・Google Play 最新150件の星と本文を取得します', '初回ラウンドで反映（DataForSEO App Data）')}</div>`}
   ${am ? amazonBlock(am, prods) : `<div class="card s12 rv wait"><div class="ct"><h3>Amazon.co.jp 検索結果（kindle / 電子書籍リーダー / kobo）</h3>${tagOf('wait')}</div>${waitBox('順位・価格・星・レビュー数・先月の購入数（bought_past_month）・ベストセラー／Amazon\'s Choice を取得します', '初回ラウンドで反映（DataForSEO Merchant Amazon）')}</div>`}
+  ${shelfBlock()}
   ${ca ? caBlock(ca) : ''}
   <div class="card s12 rv"><div class="ct"><h3>SNS（X / Instagram / TikTok）の言及量・感情</h3>${tagOf('teaser')}<span class="sub">SNS管理者アカウント（API）連携で解放</span></div>
     <div class="teaserbox" style="border-radius:12px;padding:6px">${lineChart({w: 900, h: 160, dates: Array.from({length: 26}, (_, i) => 'W' + (i + 1)), series: [{name: 'X 言及数', color: '#22D3EE', values: Array.from({length: 26}, (_, i) => 40 + 30 * Math.abs(Math.sin(i / 3)))}], fill: true, labelsEvery: 4})}</div>
@@ -114,3 +115,32 @@ function caBlock(ca){
     <div style="flex:1 1 260px"><div class="muted" style="font-size:11px;margin-bottom:4px">言及の多いドメイン</div>${(s.top_domains || []).slice(0, 10).map(d => `<div class="row" style="justify-content:space-between;font-size:12px;padding:3px 0;border-bottom:1px solid var(--line)"><span>${esc(d.domain)}</span><b class="mono">${fmt(d.count)}</b></div>`).join('')}</div></div>
     ${(ca.mentions || []).length ? `<div style="max-height:300px;overflow:auto;margin-top:10px">${ca.mentions.slice(0, 30).map(m => `<a class="qi" href="${esc(m.url)}" target="_blank" rel="noopener" style="display:block"><div class="id">${esc(m.domain)} ・ ${esc((m.date || '').slice(0, 10))}</div><div class="tx" style="color:var(--ink)">${esc(short(m.title || '', 90))}</div><div style="font-size:11px;color:var(--ink2)">${esc(short(m.snippet || '', 160))}</div></a>`).join('')}</div>` : ''}</div>`;
 }
+
+function shelfBlock(){
+  const sh = D.shelf; if(!sh) return '';
+  const items = sh.items || [];
+  const kin = items.filter(i => i.brand === 'kindle');
+  const ranked = items.filter(i => isNum(i.rank)).sort((a, b) => a.rank - b.rank);
+  const kinTop10 = ranked.filter(i => i.brand === 'kindle').length;
+  const avgK = avg(kin.map(i => i.rating)), avgR = avg(items.filter(i => i.brand !== 'kindle' && i.reviews >= 15).map(i => i.rating));
+  const BR = {kindle: '#E36A1E', kobo: '#d55181', boox: '#199e70', bigme: '#9085e9', sony: '#3987e5', other: '#c98500'};
+  const BRL = {kindle: 'Kindle', kobo: '楽天Kobo', boox: 'BOOX', bigme: 'Bigme', sony: 'ソニー', other: 'その他'};
+  return `<div class="card s12 rv"><div class="ct"><h3>Amazon.co.jp の棚 — 「電子書籍リーダー」検索1ページ目（実測）</h3>${tagOf('live')}<span class="sub">${esc(sh.measured_at)} 時点・Chromeで採録</span><span class="hb" onclick="help('shelf')">?</span></div>
+    <div class="kpi" style="margin-bottom:12px">
+      <div class="k orange"><div class="l">ベストセラー10位内のKindle</div><div class="v"><span data-cu="${kinTop10}">0</span><small>/${ranked.length}枠</small></div><div class="d">1位 Paperwhite・2位 PWシグニチャー・4位 Colorsoft・6位 無印・7位 Colorsoft SE</div></div>
+      <div class="k cyan"><div class="l">Kindle平均★（5機種）</div><div class="v"><span data-cu="${avgK}" data-d="2">0</span><small>/5</small></div><div class="d">競合（レビュー15件以上）平均 ${fmt(avgR, 2)} — <b>${avgK >= avgR ? '上回る' : '下回る'}</b></div></div>
+      <div class="k rose"><div class="l">最安の上位機（非Kindle）</div><div class="v"><span data-cu="11120" data-pre="¥">0</span></div><div class="d">XTEINK X3（3.7型58g）が<b>ベストセラー3位</b>。1万円台の無名機が棚に入っている</div></div>
+      <div class="k violet"><div class="l">カテゴリ最高評価</div><div class="v" style="font-size:20px">Kobo Libra Colour</div><div class="d">★4.7（32件）— Kindle Colorsoft SE ★3.8 との差は<b>0.9pt</b></div></div>
+    </div>
+    <div class="row" style="align-items:flex-start;gap:18px;flex-wrap:wrap">
+      <div style="flex:2 1 460px" class="tw"><table><tr><th class="num">BS順位</th><th>商品</th><th>ブランド</th><th class="num">価格</th><th class="num">★</th><th class="num">レビュー</th><th>過去1か月</th></tr>
+        ${items.map(i => `<tr><td class="num">${isNum(i.rank) ? i.rank : '—'}</td><td>${esc(i.name)}${i.note ? `<br><span class="muted" style="font-size:10px">${esc(i.note)}</span>` : ''}</td><td><span class="pill" style="background:${BR[i.brand]}33;color:${BR[i.brand]}">${esc(BRL[i.brand] || i.brand)}</span></td><td class="num">${yen(i.price)}${isNum(i.list) && i.list > i.price ? `<br><span class="muted" style="font-size:10px">参考 ${yen(i.list)}</span>` : ''}</td><td class="num" style="color:${i.rating >= 4.4 ? '#8FF0C9' : i.rating < 4 ? '#FDA4AF' : 'var(--ink)'}">${fmt(i.rating, 1)}</td><td class="num">${fmt(i.reviews)}</td><td>${esc(i.bought || '—')}</td></tr>`).join('')}
+      </table></div>
+      <div style="flex:1 1 300px">
+        <div class="muted" style="font-size:11px;margin-bottom:4px">評価（★）— レビュー15件以上の機種</div>
+        ${hbars(items.filter(i => i.reviews >= 15).sort((a, b) => b.rating - a.rating).map(i => ({name: short(i.name, 26), v: i.rating, sub: fmt(i.reviews) + '件', color: BR[i.brand], tip: `<b>${esc(i.name)}</b><br>★${fmt(i.rating, 1)}（${fmt(i.reviews)}件）<br>${yen(i.price)}`})), {max: 5, d: 1})}
+        <div class="note">棚（順位）は取れているが、<span class="hl">満足度では Kobo Libra Colour ★4.7 / Kobo Clara BW ★4.5 が上</span>。特にカラー機（Colorsoft ★4.1 / Colorsoft SE ★3.8）が弱い。レビュー数はKindleが桁違い（無印3万件）なので比較は参考値だが、<b>新規レビューの星が下がっていないか</b>は週次で追う価値がある。</div>
+      </div></div>
+    <div class="src">出典: <a href="${esc(sh.source_url)}" target="_blank" rel="noopener">${esc(sh.source)}</a>（${esc(sh.measured_at)}）／${esc(sh.note)}</div></div>`;
+}
+function avg(a){ const v = a.filter(isNum); return v.length ? v.reduce((x, y) => x + y, 0) / v.length : null; }

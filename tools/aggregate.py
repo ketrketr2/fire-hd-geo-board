@@ -475,7 +475,8 @@ def status_block(ai: dict, extras: dict, trends: dict | None) -> list[dict]:
         {"id": "trends", "label": "Google検索需要（トレンド）", "state": "live" if trends else "wait", "src": "Google Trends（pytrends）", "how": "毎ラウンド自動更新"},
         {"id": "kwvol", "label": "検索ボリューム（月間）", "state": "live" if ex.get("keywords") else "wait", "src": "DataForSEO Google Ads", "how": "毎ラウンド自動更新"},
         {"id": "ai", "label": "AI6面の語られ方（実クエリ42本）", "state": "live" if ai.get("measured") else "wait", "src": "DataForSEO AI Optimization / SERP", "how": "毎週月曜 自動計測"},
-        {"id": "amazon", "label": "Amazon.co.jp 検索結果・レビュー", "state": "live" if ex.get("amazon_serp") else "wait", "src": "DataForSEO Merchant", "how": "毎ラウンド自動更新"},
+        {"id": "shelf", "label": "Amazon.co.jp の棚（順位・価格・評価）", "state": "live", "src": "Amazon.co.jp 検索結果をChromeで実測", "how": "DataForSEO Merchant 接続後は自動更新に切替"},
+        {"id": "amazon", "label": "Amazon.co.jp 検索結果・レビュー（API自動化）", "state": "live" if ex.get("amazon_serp") else "wait", "src": "DataForSEO Merchant", "how": "毎ラウンド自動更新"},
         {"id": "apps", "label": "Kindleアプリ評価（App Store / Google Play）", "state": "live" if ex.get("apps") else "wait", "src": "DataForSEO App Data", "how": "毎ラウンド自動更新"},
         {"id": "youtube", "label": "YouTube 語られ方", "state": "live" if ex.get("youtube") else "wait", "src": "DataForSEO YouTube SERP", "how": "毎ラウンド自動更新"},
         {"id": "news", "label": "ニュース", "state": "live", "src": "報道リンク集 + DataForSEO News", "how": "毎ラウンド自動更新"},
@@ -491,13 +492,14 @@ def main() -> None:
     ai = ai_block(snap)
     trends = trends_block()
     extras = extras_block()
+    shelf = read_json(DATA / "amazon_shelf.json")
     board = {
         "meta": {"built_at": now_jst(), "brand": "Kindle", "owner": load("settings")["site"]["owner"],
                  "measured_at": ai.get("date"), "facts_as_of": fb["as_of"], "marker": "KINDLE_BOARD"},
         "status": status_block(ai, extras, trends),
         "facts": facts, "ebook_series": fb["ebook_series"], "news_curated": fb["news"],
         "lineup": lineup_block(facts), "competitors": competitor_block(facts),
-        "sales": sales_sample(), "trends": trends, "ai": ai, "extras": extras,
+        "sales": sales_sample(), "trends": trends, "ai": ai, "extras": extras, "shelf": shelf,
     }
     write_json(ROOT / "tools" / "board_data.json", board, compact=True)
     size = (ROOT / "tools" / "board_data.json").stat().st_size
