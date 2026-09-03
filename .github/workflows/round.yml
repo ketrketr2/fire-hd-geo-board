@@ -68,22 +68,27 @@ jobs:
         run: python src/collect_extra.py --cap "${{ inputs.extra_cap || '6' }}"
 
       - name: Googleトレンド（pytrends・失敗しても続行）
+        if: ${{ hashFiles('tools/pull_trends.py') != '' }}
         continue-on-error: true
         run: python tools/pull_trends.py
 
       - name: 集計 → tools/board_data.json
+        if: ${{ hashFiles('tools/aggregate.py') != '' }}
         run: python tools/aggregate.py
 
       - uses: actions/setup-node@v4
+        if: ${{ hashFiles('tools/build.py') != '' }}
         with:
           node-version: "20"
 
       - name: Playwright
+        if: ${{ hashFiles('tools/build.py') != '' }}
         run: |
           npm i -D playwright
           npx playwright install --with-deps chromium
 
       - name: ビルド → 検証（ERRORS none まで公開しない）
+        if: ${{ hashFiles('tools/build.py') != '' }}
         env:
           PW_CHROME: ""
         run: |
@@ -92,6 +97,7 @@ jobs:
           node tools/verify.js
 
       - name: 暗号化 → 復号検証 → 公開（KINDLE_GATE_KEY が未登録なら公開はスキップ）
+        if: ${{ hashFiles('tools/build.py') != '' }}
         env:
           KINDLE_GATE_KEY: ${{ secrets.KINDLE_GATE_KEY }}
           PW_CHROME: ""
@@ -106,12 +112,14 @@ jobs:
           mv index_new.html docs/index.html
           rm -f s_board.png s_gate_after.png plain.html
 
-      - name: コミット
+      - name: コミット（存在するパスだけを個別に add）
         if: ${{ always() }}
         run: |
           git config user.name  "kindle-geo-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -f data/snapshots data/raw data/trends.json tools/board_data.json docs/ || true
+          for p in data/snapshots data/raw data/trends.json data/last_error.txt tools/board_data.json docs; do
+            [ -e "$p" ] && git add -f "$p" || true
+          done
           git diff --staged --quiet || git commit -m "chore: round $(date -u +%Y-%m-%dT%H:%M)"
           git pull --rebase -q || true
           git push
