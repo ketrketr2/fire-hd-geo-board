@@ -1,0 +1,57 @@
+name: publish
+
+# 再計測なしの公開のみ: 既存snapshot → 集計 → ビルド → 検証 → 暗号化 → 復号検証 → docs/公開。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kindle-geo
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 集計 → board_data.json（再計測なし）
+        run: python tools/aggregate.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Playwright
+        run: |
+          npm i -D playwright
+          npx playwright install --with-deps chromium
+      - name: ビルド → 検証 → 暗号化 → 復号検証 → 公開
+        env:
+          KINDLE_GATE_KEY: ${{ secrets.KINDLE_GATE_KEY }}
+          PW_CHROME: ""
+        run: |
+          set -e
+          python tools/build.py
+          node tools/verify.js
+          if [ -z "$KINDLE_GATE_KEY" ]; then
+            echo "::error::KINDLE_GATE_KEY 未登録（Settings > Secrets > Actions に 'id:pw' 形式で登録）"
+            exit 1
+          fi
+          python tools/encrypt.py
+          node tools/verify_gate.js
+          mv index_new.html docs/index.html
+          rm -f s_board.png s_gate_after.png plain.html
+      - name: コミット
+        run: |
+          git config user.name  "kindle-geo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f docs/ tools/board_data.json || true
+          git diff --staged --quiet || git commit -m "chore: publish $(date -u +%Y-%m-%dT%H:%M)"
+          git pull --rebase -q || true
+          git push
