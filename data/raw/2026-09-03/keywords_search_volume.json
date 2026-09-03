@@ -1,0 +1,7411 @@
+{
+ "groups": {
+  "brand": [
+   "kindle",
+   "キンドル",
+   "amazon kindle",
+   "kindle 端末",
+   "kindle おすすめ",
+   "kindle 比較",
+   "kindle 選び方",
+   "kindle 新型",
+   "kindle 最新",
+   "kindle 2026"
+  ],
+  "models": [
+   "kindle paperwhite",
+   "kindle paperwhite 第12世代",
+   "kindle paperwhite シグニチャー",
+   "kindle colorsoft",
+   "kindle scribe",
+   "kindle scribe colorsoft",
+   "kindle キッズモデル",
+   "kindle 無印",
+   "kindle 第11世代",
+   "kindle oasis"
+  ],
+  "price": [
+   "kindle セール",
+   "kindle 値段",
+   "kindle 価格",
+   "kindle 安く買う",
+   "kindle どこで買う",
+   "kindle 中古",
+   "kindle プライムデー",
+   "kindle ブラックフライデー",
+   "kindle 割引",
+   "kindle 値上げ"
+  ],
+  "channel": [
+   "kindle ビックカメラ",
+   "kindle ヨドバシ",
+   "kindle ヤマダ電機",
+   "kindle 家電量販店",
+   "kindle 店舗",
+   "kindle 楽天",
+   "kindle 実機",
+   "kindle 店頭"
+  ],
+  "service": [
+   "kindle unlimited",
+   "kindle unlimited 料金",
+   "kindle unlimited 解約",
+   "kindle unlimited おすすめ",
+   "kindle unlimited キャンペーン",
+   "prime reading",
+   "kindle 日替わりセール",
+   "kindle 本 セール",
+   "kindle 無料",
+   "kindle 漫画"
+  ],
+  "usage": [
+   "kindle アプリ",
+   "kindle pc",
+   "kindle pdf",
+   "kindle 自炊",
+   "kindle 使い方",
+   "kindle 広告なし",
+   "kindle 防水",
+   "kindle バッテリー",
+   "kindle 故障",
+   "kindle 初期化"
+  ],
+  "category": [
+   "電子書籍リーダー",
+   "電子書籍リーダー おすすめ",
+   "電子書籍リーダー 比較",
+   "電子書籍 端末",
+   "電子ペーパー タブレット",
+   "電子ペーパー",
+   "e-ink タブレット",
+   "読書 タブレット",
+   "電子書籍 タブレット",
+   "電子書籍リーダー カラー",
+   "電子書籍リーダー 防水",
+   "電子書籍リーダー マンガ",
+   "電子書籍リーダー 手書き"
+  ],
+  "competitor": [
+   "kobo",
+   "楽天kobo",
+   "kobo clara",
+   "kobo libra colour",
+   "kobo elipsa",
+   "kobo kindle 比較",
+   "boox",
+   "boox palma",
+   "boox go",
+   "onyx boox",
+   "remarkable",
+   "supernote",
+   "bigme",
+   "meebook",
+   "ipad mini 読書",
+   "quaderno"
+  ],
+  "ebook": [
+   "電子書籍",
+   "電子書籍 おすすめ",
+   "電子書籍 ストア 比較",
+   "電子書籍 メリット",
+   "ピッコマ",
+   "line マンガ",
+   "コミックシーモア",
+   "booklive",
+   "ebookjapan",
+   "honto",
+   "dmm ブックス"
+  ]
+ },
+ "result": [
+  {
+   "keyword": "amazon kindle",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 24,
+   "search_volume": 74000,
+   "low_top_of_page_bid": 0.55,
+   "high_top_of_page_bid": 1.04,
+   "cpc": 0.51,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 74000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 74000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 74000
+    }
+   ]
+  },
+  {
+   "keyword": "bigme",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 83,
+   "search_volume": 2900,
+   "low_top_of_page_bid": 0.06,
+   "high_top_of_page_bid": 0.25,
+   "cpc": 0.18,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 2900
+    }
+   ]
+  },
+  {
+   "keyword": "booklive",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 4,
+   "search_volume": 165000,
+   "low_top_of_page_bid": 0.31,
+   "high_top_of_page_bid": 0.97,
+   "cpc": 0.87,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 165000
+    }
+   ]
+  },
+  {
+   "keyword": "boox",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 74,
+   "search_volume": 8100,
+   "low_top_of_page_bid": 0.09,
+   "high_top_of_page_bid": 0.84,
+   "cpc": 0.33,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9900
+    }
+   ]
+  },
+  {
+   "keyword": "boox go",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 83,
+   "search_volume": 390,
+   "low_top_of_page_bid": 0.08,
+   "high_top_of_page_bid": 0.4,
+   "cpc": 0.17,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 260
+    }
+   ]
+  },
+  {
+   "keyword": "boox palma",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 81,
+   "search_volume": 1600,
+   "low_top_of_page_bid": 0.07,
+   "high_top_of_page_bid": 0.32,
+   "cpc": 0.18,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1600
+    }
+   ]
+  },
+  {
+   "keyword": "dmm ブックス",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 368000,
+   "low_top_of_page_bid": 0.57,
+   "high_top_of_page_bid": 1.86,
+   "cpc": 1.83,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 301000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 301000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 301000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 368000
+    }
+   ]
+  },
+  {
+   "keyword": "e-ink タブレット",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 88,
+   "search_volume": 2900,
+   "low_top_of_page_bid": 0.05,
+   "high_top_of_page_bid": 0.21,
+   "cpc": 0.18,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 2900
+    }
+   ]
+  },
+  {
+   "keyword": "ebookjapan",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 368000,
+   "low_top_of_page_bid": 0.61,
+   "high_top_of_page_bid": 1.82,
+   "cpc": 1.76,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 450000
+    }
+   ]
+  },
+  {
+   "keyword": "honto",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 1,
+   "search_volume": 165000,
+   "low_top_of_page_bid": 0.17,
+   "high_top_of_page_bid": 1.84,
+   "cpc": 0.71,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 165000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 165000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 165000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 201000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 201000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 165000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 165000
+    }
+   ]
+  },
+  {
+   "keyword": "ipad mini 読書",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 590,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 320
+    }
+   ]
+  },
+  {
+   "keyword": "kindle",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 27,
+   "search_volume": 368000,
+   "low_top_of_page_bid": 0.81,
+   "high_top_of_page_bid": 1.27,
+   "cpc": 0.7,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 368000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 301000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 368000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 368000
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 2026",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 44,
+   "search_volume": 50,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 0.16,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 10
+    }
+   ]
+  },
+  {
+   "keyword": "kindle colorsoft",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 80,
+   "search_volume": 4400,
+   "low_top_of_page_bid": 0.16,
+   "high_top_of_page_bid": 0.66,
+   "cpc": 0.42,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9900
+    }
+   ]
+  },
+  {
+   "keyword": "kindle oasis",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 74,
+   "search_volume": 1600,
+   "low_top_of_page_bid": 0.1,
+   "high_top_of_page_bid": 0.51,
+   "cpc": 0.29,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1900
+    }
+   ]
+  },
+  {
+   "keyword": "kindle paperwhite",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 85,
+   "search_volume": 9900,
+   "low_top_of_page_bid": 0.13,
+   "high_top_of_page_bid": 0.54,
+   "cpc": 0.35,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9900
+    }
+   ]
+  },
+  {
+   "keyword": "kindle paperwhite シグニチャー",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 85,
+   "search_volume": 20,
+   "low_top_of_page_bid": 0.2,
+   "high_top_of_page_bid": 1.96,
+   "cpc": 1.07,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 10
+    }
+   ]
+  },
+  {
+   "keyword": "kindle paperwhite 第12世代",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 86,
+   "search_volume": 170,
+   "low_top_of_page_bid": 0.16,
+   "high_top_of_page_bid": 0.69,
+   "cpc": 0.32,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 140
+    }
+   ]
+  },
+  {
+   "keyword": "kindle pc",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 6600,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 8100
+    }
+   ]
+  },
+  {
+   "keyword": "kindle pdf",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 2900,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 2400
+    }
+   ]
+  },
+  {
+   "keyword": "kindle scribe",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 88,
+   "search_volume": 5400,
+   "low_top_of_page_bid": 0.13,
+   "high_top_of_page_bid": 0.57,
+   "cpc": 0.29,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 3600
+    }
+   ]
+  },
+  {
+   "keyword": "kindle scribe colorsoft",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 87,
+   "search_volume": 1900,
+   "low_top_of_page_bid": 0.11,
+   "high_top_of_page_bid": 0.71,
+   "cpc": 0.39,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 10
+    }
+   ]
+  },
+  {
+   "keyword": "kindle unlimited",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 27,
+   "search_volume": 110000,
+   "low_top_of_page_bid": 5.5,
+   "high_top_of_page_bid": 5.57,
+   "cpc": 0.5,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 110000
+    }
+   ]
+  },
+  {
+   "keyword": "kindle unlimited おすすめ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 10,
+   "search_volume": 1900,
+   "low_top_of_page_bid": 0.68,
+   "high_top_of_page_bid": 1.39,
+   "cpc": 1.65,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1900
+    }
+   ]
+  },
+  {
+   "keyword": "kindle unlimited キャンペーン",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 24,
+   "search_volume": 4400,
+   "low_top_of_page_bid": 1.4,
+   "high_top_of_page_bid": 1.92,
+   "cpc": 2.27,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 3600
+    }
+   ]
+  },
+  {
+   "keyword": "kindle unlimited 料金",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 23,
+   "search_volume": 3600,
+   "low_top_of_page_bid": 1.08,
+   "high_top_of_page_bid": 1.61,
+   "cpc": 1.89,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 3600
+    }
+   ]
+  },
+  {
+   "keyword": "kindle unlimited 解約",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 14800,
+   "low_top_of_page_bid": 0.67,
+   "high_top_of_page_bid": 0.67,
+   "cpc": 0.9,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 18100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 14800
+    }
+   ]
+  },
+  {
+   "keyword": "kindle おすすめ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 52,
+   "search_volume": 1300,
+   "low_top_of_page_bid": 0.17,
+   "high_top_of_page_bid": 0.77,
+   "cpc": 0.43,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1300
+    }
+   ]
+  },
+  {
+   "keyword": "kindle どこで買う",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 66,
+   "search_volume": 210,
+   "low_top_of_page_bid": 0.41,
+   "high_top_of_page_bid": 1.49,
+   "cpc": 0.36,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 320
+    }
+   ]
+  },
+  {
+   "keyword": "kindle アプリ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 12,
+   "search_volume": 9900,
+   "low_top_of_page_bid": 1.25,
+   "high_top_of_page_bid": 2.05,
+   "cpc": 1.89,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9900
+    }
+   ]
+  },
+  {
+   "keyword": "kindle キッズモデル",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 61,
+   "search_volume": 170,
+   "low_top_of_page_bid": 0.13,
+   "high_top_of_page_bid": 0.5,
+   "cpc": 0.28,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 170
+    }
+   ]
+  },
+  {
+   "keyword": "kindle セール",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 7,
+   "search_volume": 74000,
+   "low_top_of_page_bid": 1.81,
+   "high_top_of_page_bid": 2.85,
+   "cpc": 2.52,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 74000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 60500
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 74000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 74000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 74000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 74000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 74000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 74000
+    }
+   ]
+  },
+  {
+   "keyword": "kindle バッテリー",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 1,
+   "search_volume": 110,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 110
+    }
+   ]
+  },
+  {
+   "keyword": "kindle ビックカメラ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 99,
+   "search_volume": 170,
+   "low_top_of_page_bid": 0.07,
+   "high_top_of_page_bid": 0.48,
+   "cpc": 0.25,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 210
+    }
+   ]
+  },
+  {
+   "keyword": "kindle ブラックフライデー",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 11,
+   "search_volume": 590,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 1.29,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 70
+    }
+   ]
+  },
+  {
+   "keyword": "kindle プライムデー",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 21,
+   "search_volume": 90,
+   "low_top_of_page_bid": 0.07,
+   "high_top_of_page_bid": 0.2,
+   "cpc": 0.27,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 70
+    }
+   ]
+  },
+  {
+   "keyword": "kindle ヤマダ電機",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 57,
+   "search_volume": 70,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 0.12,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 90
+    }
+   ]
+  },
+  {
+   "keyword": "kindle ヨドバシ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 96,
+   "search_volume": 110,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 0.44,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 140
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 中古",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 83,
+   "search_volume": 1000,
+   "low_top_of_page_bid": 0.04,
+   "high_top_of_page_bid": 0.09,
+   "cpc": 0.11,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1300
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 使い方",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 1,
+   "search_volume": 2900,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 1.26,
+   "cpc": 1.82,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 3600
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 価格",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 35,
+   "search_volume": 320,
+   "low_top_of_page_bid": 0.11,
+   "high_top_of_page_bid": 0.37,
+   "cpc": 0.21,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 320
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 値上げ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 13,
+   "search_volume": 50,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 90
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 値段",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 31,
+   "search_volume": 880,
+   "low_top_of_page_bid": 1.12,
+   "high_top_of_page_bid": 2.02,
+   "cpc": 1.78,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 880
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 初期化",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 480,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 590
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 割引",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 21,
+   "search_volume": 320,
+   "low_top_of_page_bid": 1.24,
+   "high_top_of_page_bid": 1.74,
+   "cpc": 2.3,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 260
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 安く買う",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 69,
+   "search_volume": 170,
+   "low_top_of_page_bid": 1.71,
+   "high_top_of_page_bid": 2.07,
+   "cpc": 1.1,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 170
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 実機",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 12,
+   "search_volume": 30,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 40
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 家電量販店",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 86,
+   "search_volume": 50,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 0.14,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 90
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 広告なし",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 51,
+   "search_volume": 30,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 0.28,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 40
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 店舗",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 27,
+   "search_volume": 90,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 2.07,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 140
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 店頭",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 41,
+   "search_volume": 40,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 0.44,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 50
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 故障",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 50,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 70
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 新型",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 44,
+   "search_volume": 260,
+   "low_top_of_page_bid": 0.19,
+   "high_top_of_page_bid": 0.48,
+   "cpc": 0.19,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 210
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 日替わりセール",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 14800,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 18100
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 22200
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 18100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 18100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 12100
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 最新",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 82,
+   "search_volume": 320,
+   "low_top_of_page_bid": 0.19,
+   "high_top_of_page_bid": 0.63,
+   "cpc": 0.32,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 390
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 本 セール",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 15,
+   "search_volume": 720,
+   "low_top_of_page_bid": 0.07,
+   "high_top_of_page_bid": 0.2,
+   "cpc": 0.13,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 720
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 楽天",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 81,
+   "search_volume": 90,
+   "low_top_of_page_bid": 0.26,
+   "high_top_of_page_bid": 0.99,
+   "cpc": 0.41,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 110
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 比較",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 46,
+   "search_volume": 880,
+   "low_top_of_page_bid": 0.14,
+   "high_top_of_page_bid": 0.92,
+   "cpc": 0.56,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 720
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 漫画",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 38,
+   "search_volume": 14800,
+   "low_top_of_page_bid": 0.85,
+   "high_top_of_page_bid": 1.57,
+   "cpc": 0.83,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 14800
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 18100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 18100
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 18100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 14800
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 無印",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 82,
+   "search_volume": 390,
+   "low_top_of_page_bid": 0.13,
+   "high_top_of_page_bid": 0.47,
+   "cpc": 0.3,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 390
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 無料",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 16,
+   "search_volume": 3600,
+   "low_top_of_page_bid": 1.14,
+   "high_top_of_page_bid": 1.98,
+   "cpc": 2.37,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 4400
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 端末",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 94,
+   "search_volume": 6600,
+   "low_top_of_page_bid": 0.11,
+   "high_top_of_page_bid": 0.36,
+   "cpc": 0.26,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 8100
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 第11世代",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 81,
+   "search_volume": 140,
+   "low_top_of_page_bid": 0.07,
+   "high_top_of_page_bid": 0.12,
+   "cpc": 0.11,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 210
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 自炊",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 320,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 390
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 選び方",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 47,
+   "search_volume": 70,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 1.47,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 70
+    }
+   ]
+  },
+  {
+   "keyword": "kindle 防水",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 56,
+   "search_volume": 590,
+   "low_top_of_page_bid": 0.12,
+   "high_top_of_page_bid": 0.42,
+   "cpc": 0.34,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 480
+    }
+   ]
+  },
+  {
+   "keyword": "kobo",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 25,
+   "search_volume": 33100,
+   "low_top_of_page_bid": 0.26,
+   "high_top_of_page_bid": 0.26,
+   "cpc": 0.08,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 33100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 33100
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 33100
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 33100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 33100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 33100
+    }
+   ]
+  },
+  {
+   "keyword": "kobo clara",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 86,
+   "search_volume": 390,
+   "low_top_of_page_bid": 0.08,
+   "high_top_of_page_bid": 0.6,
+   "cpc": 0.51,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 210
+    }
+   ]
+  },
+  {
+   "keyword": "kobo elipsa",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 99,
+   "search_volume": 110,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": 0.31,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 110
+    }
+   ]
+  },
+  {
+   "keyword": "kobo kindle 比較",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 28,
+   "search_volume": 390,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 0.2,
+   "cpc": 0.26,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 480
+    }
+   ]
+  },
+  {
+   "keyword": "kobo libra colour",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 97,
+   "search_volume": 2400,
+   "low_top_of_page_bid": 0.06,
+   "high_top_of_page_bid": 0.58,
+   "cpc": 0.85,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1900
+    }
+   ]
+  },
+  {
+   "keyword": "line マンガ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 7,
+   "search_volume": 110000,
+   "low_top_of_page_bid": 0.65,
+   "high_top_of_page_bid": 2.15,
+   "cpc": 1.37,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 110000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 165000
+    }
+   ]
+  },
+  {
+   "keyword": "meebook",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 71,
+   "search_volume": 320,
+   "low_top_of_page_bid": 0.07,
+   "high_top_of_page_bid": 0.26,
+   "cpc": 0.11,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 390
+    }
+   ]
+  },
+  {
+   "keyword": "onyx boox",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 74,
+   "search_volume": 8100,
+   "low_top_of_page_bid": 0.09,
+   "high_top_of_page_bid": 0.84,
+   "cpc": 0.33,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9900
+    }
+   ]
+  },
+  {
+   "keyword": "prime reading",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 12,
+   "search_volume": 6600,
+   "low_top_of_page_bid": 0.06,
+   "high_top_of_page_bid": 1.86,
+   "cpc": 0.72,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9900
+    }
+   ]
+  },
+  {
+   "keyword": "quaderno",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 66,
+   "search_volume": 1900,
+   "low_top_of_page_bid": 0.08,
+   "high_top_of_page_bid": 0.34,
+   "cpc": 0.25,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1900
+    }
+   ]
+  },
+  {
+   "keyword": "remarkable",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 33,
+   "search_volume": 9900,
+   "low_top_of_page_bid": 0.07,
+   "high_top_of_page_bid": 0.64,
+   "cpc": 0.25,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 8100
+    }
+   ]
+  },
+  {
+   "keyword": "supernote",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 33,
+   "search_volume": 1300,
+   "low_top_of_page_bid": 0.2,
+   "high_top_of_page_bid": 0.87,
+   "cpc": 0.31,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1300
+    }
+   ]
+  },
+  {
+   "keyword": "キンドル",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 24,
+   "search_volume": 90500,
+   "low_top_of_page_bid": 0.56,
+   "high_top_of_page_bid": 0.96,
+   "cpc": 0.7,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 90500
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 110000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 90500
+    }
+   ]
+  },
+  {
+   "keyword": "コミックシーモア",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 0,
+   "search_volume": 6120000,
+   "low_top_of_page_bid": 0.69,
+   "high_top_of_page_bid": 2.29,
+   "cpc": 2.01,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 7480000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 5000000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 6120000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 5000000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 5000000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 5000000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 6120000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 6120000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 7480000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 9140000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 9140000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9140000
+    }
+   ]
+  },
+  {
+   "keyword": "ピッコマ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 1,
+   "search_volume": 2740000,
+   "low_top_of_page_bid": 0.9,
+   "high_top_of_page_bid": 3.51,
+   "cpc": 2.76,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 2240000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 2240000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 2740000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 2740000
+    }
+   ]
+  },
+  {
+   "keyword": "楽天kobo",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 18,
+   "search_volume": 165000,
+   "low_top_of_page_bid": 0.26,
+   "high_top_of_page_bid": 0.26,
+   "cpc": 0.06,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 135000
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 165000
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 165000
+    }
+   ]
+  },
+  {
+   "keyword": "読書 タブレット",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 67,
+   "search_volume": 720,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 1.22,
+   "cpc": 0.22,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 590
+    }
+   ]
+  },
+  {
+   "keyword": "電子ペーパー",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 40,
+   "search_volume": 12100,
+   "low_top_of_page_bid": 0.05,
+   "high_top_of_page_bid": 0.17,
+   "cpc": 0.18,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 22200
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 8100
+    }
+   ]
+  },
+  {
+   "keyword": "電子ペーパー タブレット",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 91,
+   "search_volume": 2900,
+   "low_top_of_page_bid": 0.04,
+   "high_top_of_page_bid": 0.19,
+   "cpc": 0.18,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 2400
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 50,
+   "search_volume": 40500,
+   "low_top_of_page_bid": 0.61,
+   "high_top_of_page_bid": 1.92,
+   "cpc": 1.85,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 40500
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 40500
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 40500
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 40500
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 40500
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 40500
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 40500
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 40500
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 40500
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 49500
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 40500
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍 おすすめ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 58,
+   "search_volume": 9900,
+   "low_top_of_page_bid": 0.65,
+   "high_top_of_page_bid": 2.45,
+   "cpc": 2.08,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 14800
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍 ストア 比較",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 15,
+   "search_volume": 30,
+   "low_top_of_page_bid": 1.45,
+   "high_top_of_page_bid": 2.44,
+   "cpc": null,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 20
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍 タブレット",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 90,
+   "search_volume": 3600,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 1.23,
+   "cpc": 0.28,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 4400
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍 メリット",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "LOW",
+   "competition_index": 1,
+   "search_volume": 720,
+   "low_top_of_page_bid": 1.35,
+   "high_top_of_page_bid": 3.32,
+   "cpc": 3.15,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 590
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍 端末",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 88,
+   "search_volume": 720,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 0.43,
+   "cpc": 0.22,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 880
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍リーダー",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 90,
+   "search_volume": 8100,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 1.22,
+   "cpc": 0.26,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 12100
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 8100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 8100
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 9900
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍リーダー おすすめ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 90,
+   "search_volume": 1600,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 0.44,
+   "cpc": 0.21,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 1600
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍リーダー カラー",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "search_volume": 480,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 0.18,
+   "cpc": 0.2,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 720
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍リーダー マンガ",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 70,
+   "search_volume": 140,
+   "low_top_of_page_bid": 0.02,
+   "high_top_of_page_bid": 0.35,
+   "cpc": 0.4,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 140
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍リーダー 手書き",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": null,
+   "competition_index": null,
+   "search_volume": null,
+   "low_top_of_page_bid": null,
+   "high_top_of_page_bid": null,
+   "cpc": null,
+   "monthly_searches": null
+  },
+  {
+   "keyword": "電子書籍リーダー 比較",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "MEDIUM",
+   "competition_index": 44,
+   "search_volume": 140,
+   "low_top_of_page_bid": 0.01,
+   "high_top_of_page_bid": 0.04,
+   "cpc": 0.03,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 110
+    }
+   ]
+  },
+  {
+   "keyword": "電子書籍リーダー 防水",
+   "spell": null,
+   "location_code": 2392,
+   "language_code": "ja",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 79,
+   "search_volume": 70,
+   "low_top_of_page_bid": 0.03,
+   "high_top_of_page_bid": 0.18,
+   "cpc": 0.21,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 70
+    }
+   ]
+  }
+ ]
+}

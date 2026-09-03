@@ -1,0 +1,10 @@
+{
+ "date": "2026-09-03",
+ "spent": {
+  "usd": 0.4745,
+  "calls": 48
+ },
+ "errors": [
+  "llm_mentions: RuntimeError: 40501 Invalid Field: 'Exactly one of 'domain' or 'keyword' must be provided.'."
+ ]
+}

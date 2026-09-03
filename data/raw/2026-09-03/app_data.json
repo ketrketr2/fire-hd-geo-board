@@ -1,0 +1,5002 @@
+{
+ "apple_info": [
+  {
+   "id": "09030709-1009-0419-0000-f759b229d76e",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0208 sec.",
+   "cost": 0,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "app_data",
+    "apple",
+    "app_info",
+    "task_get",
+    "advanced",
+    "09030709-1009-0419-0000-f759b229d76e"
+   ],
+   "data": {
+    "se_type": "app_info",
+    "api": "app_data",
+    "function": "app_info",
+    "se": "apple",
+    "app_id": "302584613",
+    "location_code": 2392,
+    "language_code": "ja",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "app_id": "302584613",
+     "se_domain": "itunes.apple.com",
+     "location_code": 2392,
+     "language_code": "ja",
+     "check_url": "https://apps.apple.com/jp/app/id302584613?l=ja-JP",
+     "datetime": "2026-09-03 07:09:54 +00:00",
+     "se_results_count": 1,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "app_store_info_organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "app_id": "302584613",
+       "title": "Amazon Kindle",
+       "subtitle": "Amazonマンガ、小説、雑誌など、様々なジャンルを・・・",
+       "url": "https://apps.apple.com/jp/app/amazon-kindle/id302584613",
+       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/2a/e0/792ae0e8-b4bd-71fe-bc89-7aade94b11cc/Placeholder.mill/512x512bb.jpg",
+       "description": "Kindle無料アプリをインストールすれば、お使いのiPhoneまたはiPadでいつでもどこでも電子書籍を楽しめます！漫画やFliptoon（フリップトゥーン）、雑誌、小説/ラノベ、ビジネス書など、様々なジャンルの本をいつでも持ち運ぼう。\n\nAmazonで購入したKindle本は、アプリを開くだけで自動的に表示されます。Kindle UnlimitedまたはAmazonプライムの会員であれば、それぞれの読み放題対象の電子書籍をアプリから直接ダウンロードすることが可能です。\n\n主な機能:\n\n* 漫画を含む電子書籍の無料サンプルを試し読み\n* フォントサイズ、書体、背景の色など、読書環境をカスタマイズ\n* 画面の明るさとページの色が調整できるため、いつでも快適な読書が可能\n* Fliptoon（フリップトゥーン）：縦読み形式のフルカラーマンガを読書\n* 読んでいるページはそのままで、翻訳や定義をすばやく表示\n* ハイライトの追加とシェア\n* X-Ray、Whispersync、フラッシュカードなどの便利な機能\n\n\n◆漫画も小説も、無料で楽しめる豊富なコンテンツ！\nKindleストアでは、人気のマンガや小説、雑誌など、さまざまなジャンルの本を取り揃えています。\n無料で試し読みできるタイトルもあるので新しいお気に入りを見つけるチャンス！いつでもどこでも、Kindleアプリで本を楽しみましょう！\n\n本アプリを使用することで、お客様はAmazon.co.jp利用規約 (https://www.amazon.co.jp/conditionsofuse)およびプライバシー規約（www.amazon.co.jp/privacy）に同意するものとします。\n",
+       "reviews_count": 1116476,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.6,
+        "votes_count": 1116476,
+        "rating_max": 5
+       },
+       "price": null,
+       "is_free": true,
+       "main_category": null,
+       "categories": null,
+       "languages": [
+        "JA"
+       ],
+       "advisories": [
+        "13+"
+       ],
+       "developer": "AMZN Mobile LLC",
+       "developer_id": "297606954",
+       "developer_url": "https://apps.apple.com/jp/developer/amzn-mobile-llc/id297606954?platform=iphone",
+       "version": "バージョン7.66.1",
+       "minimum_os_version": "iOS 16.0以降が必要です。",
+       "size": "203.6 MB",
+       "released_date": null,
+       "last_update_date": "2026-09-01 05:31:12 +00:00",
+       "update_notes": "操作性の向上とバグの修正",
+       "images": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/33/bc/f533bcc0-16af-7159-a399-1e35357fa86e/jp_iphone1.jpg/512x512bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/16/a9/d016a9d0-d75d-af5a-75c7-9dce03c3e609/jp_iphone2.jpg/512x512bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/26/33/812633be-78b8-d860-9f6d-37091c8870a4/jp_iphone3.jpg/512x512bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/3c/4a/863c4aa6-f677-8545-d497-cbc27e5d642b/jp_iphone4.jpg/512x512bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/1d/bb/c31dbbc1-8fce-23e1-76b4-b3d989bebe25/jp_iphone5.jpg/512x512bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/a6/76/18a6767e-33a2-3f5c-1d48-5023145bb5cf/jp_iphone6.jpg/512x512bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/7e/72/c27e726b-787d-7407-86ca-cc74ab363058/jp_iphone7.jpg/512x512bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/fd/b8/30fdb85f-650f-2910-9610-f9a90dd5518c/jp_iphone8.jpg/512x512bb.jpg"
+       ],
+       "similar_apps": [
+        {
+         "app_id": "1488170618",
+         "title": "Fable: Track & Discuss Books",
+         "url": "https://apps.apple.com/jp/app/fable-track-discuss-books/id1488170618"
+        },
+        {
+         "app_id": "1479475087",
+         "title": "BookFunnel",
+         "url": "https://apps.apple.com/jp/app/bookfunnel/id1479475087"
+        },
+        {
+         "app_id": "1500217654",
+         "title": "AnyStories - 小説 & ブック",
+         "url": "https://apps.apple.com/jp/app/anystories-%E5%B0%8F%E8%AA%AC-%E3%83%96%E3%83%83%E3%82%AF/id1500217654"
+        },
+        {
+         "app_id": "1076402606",
+         "title": "Libby、ライブラリーアプリ",
+         "url": "https://apps.apple.com/jp/app/libby-%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id1076402606"
+        },
+        {
+         "app_id": "1033598731",
+         "title": "Inkitt: Books, Novels, Stories",
+         "url": "https://apps.apple.com/jp/app/inkitt-books-novels-stories/id1033598731"
+        },
+        {
+         "app_id": "6448085430",
+         "title": "Novellair",
+         "url": "https://apps.apple.com/jp/app/novellair/id6448085430"
+        },
+        {
+         "app_id": "1085047737",
+         "title": "Bookly: Book Tracker",
+         "url": "https://apps.apple.com/jp/app/bookly-book-tracker/id1085047737"
+        },
+        {
+         "app_id": "355833469",
+         "title": "Goodreads: Book Tracker & More",
+         "url": "https://apps.apple.com/jp/app/goodreads-book-tracker-more/id355833469"
+        },
+        {
+         "app_id": "400989007",
+         "title": "Google Play ブックス: 漫画・電子書籍・ラノベ",
+         "url": "https://apps.apple.com/jp/app/google-play-%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9-%E6%BC%AB%E7%94%BB-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D-%E3%83%A9%E3%83%8E%E3%83%99/id400989007"
+        },
+        {
+         "app_id": "1380362212",
+         "title": "Inkitt Galatea: Audio & eBooks",
+         "url": "https://apps.apple.com/jp/app/inkitt-galatea-audio-ebooks/id1380362212"
+        }
+       ],
+       "more_apps_by_developer": [
+        {
+         "app_id": "374254473",
+         "title": "Amazon ショッピングアプリ",
+         "url": "https://apps.apple.com/jp/app/amazon-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id374254473"
+        },
+        {
+         "app_id": "545519333",
+         "title": "Amazon Prime Video",
+         "url": "https://apps.apple.com/jp/app/amazon-prime-video/id545519333"
+        },
+        {
+         "app_id": "510855668",
+         "title": "Amazon Music: 音楽やポッドキャスト",
+         "url": "https://apps.apple.com/jp/app/amazon-music-%E9%9F%B3%E6%A5%BD%E3%82%84%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id510855668"
+        },
+        {
+         "app_id": "621574163",
+         "title": "Amazon Photos",
+         "url": "https://apps.apple.com/jp/app/amazon-photos/id621574163"
+        },
+        {
+         "app_id": "947984433",
+         "title": "Amazon Fire TV",
+         "url": "https://apps.apple.com/jp/app/amazon-fire-tv/id947984433"
+        },
+        {
+         "app_id": "944011620",
+         "title": "Amazon Alexa",
+         "url": "https://apps.apple.com/jp/app/amazon-alexa/id944011620"
+        },
+        {
+         "app_id": "794141485",
+         "title": "Amazon Seller",
+         "url": "https://apps.apple.com/jp/app/amazon-seller/id794141485"
+        },
+        {
+         "app_id": "1454725763",
+         "title": "Amazon Flex",
+         "url": "https://apps.apple.com/jp/app/amazon-flex/id1454725763"
+        },
+        {
+         "app_id": "1498197033",
+         "title": "Amazonビジネス: B2B ショッピングアプリ",
+         "url": "https://apps.apple.com/jp/app/amazon%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9-b2b-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id1498197033"
+        },
+        {
+         "app_id": "6471528064",
+         "title": "Amazon Kids ペアレントダッシュボード",
+         "url": "https://apps.apple.com/jp/app/amazon-kids-%E3%83%9A%E3%82%A2%E3%83%AC%E3%83%B3%E3%83%88%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89/id6471528064"
+        },
+        {
+         "app_id": "1151746202",
+         "title": "Transparency",
+         "url": "https://apps.apple.com/jp/app/transparency/id1151746202"
+        },
+        {
+         "app_id": "1183436022",
+         "title": "Amazon Chime",
+         "url": "https://apps.apple.com/jp/app/amazon-chime/id1183436022"
+        },
+        {
+         "app_id": "580990573",
+         "title": "AWS Console",
+         "url": "https://apps.apple.com/jp/app/aws-console/id580990573"
+        },
+        {
+         "app_id": "1494755014",
+         "title": "Amazon Shopper Panel",
+         "url": "https://apps.apple.com/jp/app/amazon-shopper-panel/id1494755014"
+        },
+        {
+         "app_id": "1413909063",
+         "title": "Amazon A to Z",
+         "url": "https://apps.apple.com/jp/app/amazon-a-to-z/id1413909063"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "apple_reviews": [
+  {
+   "id": "09030710-1009-0425-0000-4837d6798c0d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0461 sec.",
+   "cost": 0,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "app_data",
+    "apple",
+    "app_reviews",
+    "task_get",
+    "advanced",
+    "09030710-1009-0425-0000-4837d6798c0d"
+   ],
+   "data": {
+    "se_type": "app_reviews",
+    "se": "apple",
+    "api": "app_data",
+    "function": "app_reviews",
+    "app_id": "302584613",
+    "location_code": 2392,
+    "language_code": "ja",
+    "depth": 50,
+    "sort_by": "most_recent",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "app_id": "302584613",
+     "type": "reviews",
+     "se_domain": "itunes.apple.com",
+     "location_code": 2392,
+     "language_code": "ja",
+     "check_url": "https://apps.apple.com/jp/app/id302584613?see-all=reviews",
+     "datetime": "2026-09-03 07:10:13 +00:00",
+     "title": "Amazon Kindle",
+     "rating": {
+      "rating_type": "Max5",
+      "value": 4.6,
+      "votes_count": 1116476,
+      "rating_max": 5
+     },
+     "reviews_count": 1116476,
+     "items_count": 50,
+     "items": [
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "version": "7.66.1",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 00:00:00 +00:00",
+       "id": "14500144794",
+       "title": "おすすめとかいらんから",
+       "review_text": "電子書籍そのものに特に不満はないんですけど、アプデでホーム画面に「⚪︎⚪︎を読んでる方におすすめ」だとか「関連商品」だかがあがってくるのが本当に邪魔。\nそれよりも購入したやつの新刊とかの案内を出して！戻して！\n本家Amazon側も同じような作りだから無理なんですかねぇ…",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "position": "left",
+       "version": "7.66.1",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 00:00:00 +00:00",
+       "id": "14499813806",
+       "title": "kindle端末と操作性を揃えて欲しい",
+       "review_text": "kindle端末と併用していると、操作法に違和感を感じてしまいます。iPadに特化するより、kindle端末と同じ画面構成にしてもらえた方が、読書に没入できるのですが。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "position": "left",
+       "version": "7.66.1",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 00:00:00 +00:00",
+       "id": "14496900963",
+       "title": "操作性の向上の意味わかってる？",
+       "review_text": "ダウンロードした書籍一覧を表示させるのに何回あちこちタッチさせれば気が済むんだ？\n以前の様にほぼ一発で切り替え出来る様に戻せ！！\nお前らがやってることは操作性の改悪と言うんだよ",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 4,
+       "rank_absolute": 4,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 00:00:00 +00:00",
+       "id": "14496492425",
+       "title": "複数の本を持ち歩ける",
+       "review_text": "26/09\nKindleを10年くらい使っています。\n様々なデバイスを横断していますが、最低限の読書はできていますので電子書籍のリーダーとして優秀だと思います。\n\n複数の書籍が携帯やタブレットで見れるので、その日の気分に合わせて並行して本を読む事ができるので、漫画、小説、実用、詩などジャンル問わず読書量が上がりました。\n\n細々した欠点は目につきますが、それ以上に便利だと感じます。\n\n一方でこのアップデートだけは看過できないので、レビューしますが【完全に削除】という項目は長押しで表示ではなく、もっと手順が複雑な場所において欲しい。\n\nこの【完全に削除】は本の閲覧権を無くす物で、購入し直さないといけなくなります。\nいわば【本の破棄】なのですが、誤タップしたりヒューマンエラーで実行できる場所に置くのは危ないと感じます。\n\nおそらく、本の購入自体無かったことにしたいという声に応えた形なのでしょうが、【本を閲覧するアプリ】という機能に対して【一歩間違えると本を読め無くなる機能】が数タップで行える位置にあるのは危険だと考えています。\n\nぜひ、【完全に削除】は設定などから行えるようにして頂きたく思います。\n\n本を読むという基本的な機能を阻害する可能性がある機能があるので星は3です。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 5,
+       "rank_absolute": 5,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 00:00:00 +00:00",
+       "id": "14493517307",
+       "title": "Stäbjtjci",
+       "review_text": "1:371-ka uzzte",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 6,
+       "rank_absolute": 6,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 00:00:00 +00:00",
+       "id": "14492933327",
+       "title": "物理での価値がない",
+       "review_text": "データは、紙の存在もないのに同価値？価格是正求める",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 7,
+       "rank_absolute": 7,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14491727408",
+       "title": "オカルト魂と知的好奇心",
+       "review_text": "仙台に向かう新幹線の車内で購入しました。タイトルですでに興味深いのですが、読み進めると綿密な取材や文献検索が行われており筆者の熱量が伝わってきます。オカルト的なテーマを扱ってますが内容は大変学術的で、背中がゾクゾクする題材を斬れ味いい理論で説明してくれるので是非ご一読ください。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 8,
+       "rank_absolute": 8,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14491230583",
+       "title": "カンサハンミダ",
+       "review_text": "昔の漫画も手軽に購入できてとても重宝してます。学生時代に読んでた漫画を読むとあの時のキモチを思い出します。あの時の新鮮な思いを胸に今日も仕事がんばります。\n一点、現況を勘案すると仕方ないことやと思うんですが、いつの時点からかは分からないんですが、価格改定があったのには驚きました。\nお願いベースにしかなりませんが電子書籍の値段下げていただけると嬉しいです😇",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 9,
+       "rank_absolute": 9,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14490626950",
+       "title": "シリーズ物のまとめ",
+       "review_text": "例えば「小市民シリーズ」等のコミカライズ、「捨てられ聖女」シリーズの小説などは今だにシリーズ物として纏まらず散らばってしまいます。なんとかなりませんかね？",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 10,
+       "rank_absolute": 10,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14490598955",
+       "title": "アップデートで改悪されている",
+       "review_text": "元のスタイルの方が良かった\nどの本が本棚にあるのかぱっと見にくい",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 11,
+       "rank_absolute": 11,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14490505766",
+       "title": "So useful",
+       "review_text": "I don’t need paper book",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 12,
+       "rank_absolute": 12,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14489746175",
+       "title": "やっと！絞り込みを覚えたままになった！",
+       "review_text": "セールで買ってあんまり刺さんなかったから容量のためにも消したいけどせっかく買ったので完全削除するのは勿体無い書籍の扱いに困ってました\nダウンロード消してもライブラリには居座り続けるから誤タップですぐに再ダウンロード始まるし\nライブラリで絞り込んで表示しないようにしてもKindle開き直すと絞り込み初期化されてるし\nだけどやっと！絞り込みを覚えたままになってくれた！\nもう少し『本棚』として使いやすくなってくれるとありがたいです",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 13,
+       "rank_absolute": 13,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14489409820",
+       "title": "読み終えた本は最初に戻って欲しい。",
+       "review_text": "動作は安定していて良いです。\n読み終えた本は最初のページに戻して欲しいです。\n設定で変えられるのかもしれませんが、\n調べるのがおっくう。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 14,
+       "rank_absolute": 14,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14489227742",
+       "title": "iPadOSとiOS",
+       "review_text": "ハード性能の劣るFire HDやAndroidに比べてページ送りが遅すぎる。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 15,
+       "rank_absolute": 15,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:00:00 +00:00",
+       "id": "14488120640",
+       "title": "コピペ機能が実質利用不可",
+       "review_text": "素晴らしいのだが、コピペが出来ないのが残念。\n難解な文章をAIに解説させる時、スクショ→文字認識の工程を経ないといけないのが面倒。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 16,
+       "rank_absolute": 16,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 00:00:00 +00:00",
+       "id": "14486862430",
+       "title": "ログインできない",
+       "review_text": "iPadで kindleアプリにログインできません。\nKindleアプリを開くと、「ログイン・登録」画面が表示され、ログインを選択してAmazonアカウントのメールアドレスを入力しました。すると、「パスワードの再設定が必要です」という画面が表示され、ワンタイムパスワードを送信するボタンが出てきたので、それを押してメールで受け取ったワンタイムパスワードを入力しました。その後、新しいパスワードを入力する欄が出たので、パスワードを入力しました。しかし、次の画面では「何かお探しですか？ 申し訳ございません。入力されたウェブアドレスは、当社のサイトで機能しているページではありません。」と表示され、左上のキャンセルボタンを押すとまた初めに戻ってしまいます。\n\nアプリデータの消去やiPadの再起動など行いましたが、まだ解決できていません。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 17,
+       "rank_absolute": 17,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 00:00:00 +00:00",
+       "id": "14486709646",
+       "title": "不完全なアプリ",
+       "review_text": "なぜかブラウザからじゃないと本が買えない不完全な読書アプリ",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 18,
+       "rank_absolute": 18,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 00:00:00 +00:00",
+       "id": "14485750138",
+       "title": "操作性の改善(笑)",
+       "review_text": "まず、自力でコレクション作らないと本を探しづらい不便さ。\nAndroid版よりは使いやすいけど(それもどうなんだ)不便なまま。\nそして何より、「ホーム」タブが不定期に消えるのマジでやめてほしい。何年このアプリ作ってるんだ。本当に世界的大企業の作るアプリなのか？これが……",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 19,
+       "rank_absolute": 19,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 00:00:00 +00:00",
+       "id": "14483825118",
+       "title": "ライブラリでタイトル並べにした時、",
+       "review_text": "例えば、ADAMASなのにあ行にあったり3×3EYE Sなのにさ行にあったりかと思えば、BORUTOはB行にあったり3×3EYE S鬼籍の闇の契約者や幻獣の森の遭難者は#行にあったりとどういう基準で並べてるのか分かりづらい。英語で登録されてるタイトルならアルファベットの行に日本語で登録されてるタイトル、ひらがなの行にとしっかり並べて欲しい。\nただ森博嗣のS&MシリーズやVシリーズ、Gシリーズなどタイトルじゃなくシリーズ名で並べてくれてるのは纏まって見やすくありがたい。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 20,
+       "rank_absolute": 20,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 00:00:00 +00:00",
+       "id": "14483729351",
+       "title": "文字が",
+       "review_text": "ＰＤＦだから文字が小さいというか、読みにくい。マークとか書き込みとかができないものもあるので、もう少し安く販売してくれたらいいのに。\nでも、携帯で読めるのはありがたいので、活用しています。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 21,
+       "rank_absolute": 21,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 00:00:00 +00:00",
+       "id": "14481251966",
+       "title": "Easy to read!!",
+       "review_text": "Letting start again from\nThe middle of the book makes me easier to read the book",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 22,
+       "rank_absolute": 22,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 00:00:00 +00:00",
+       "id": "14480766141",
+       "title": "求めていた本📕",
+       "review_text": "とても分かりやすい、内容も求めていた本物だった",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 23,
+       "rank_absolute": 23,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14479910838",
+       "title": "本がアプリから購入できない",
+       "review_text": "タイトルの通り",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 24,
+       "rank_absolute": 24,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14479809488",
+       "title": "途中配信しない漫画もある",
+       "review_text": "見てて残念でしかない。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 25,
+       "rank_absolute": 25,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14479576428",
+       "title": "使いづらい",
+       "review_text": "前のバージョンに戻して欲しいぐらい",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 26,
+       "rank_absolute": 26,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14478302700",
+       "title": "本買わせる気ないの？",
+       "review_text": "アプリ起動中に購入した書籍をすぐに反映させるには、いちいちアプリを終了し再起動する必要があります。とても不便なので手動Reload機能つけてください。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 27,
+       "rank_absolute": 27,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14477894398",
+       "title": "読書体験を損なう改悪",
+       "review_text": "最近アプデで新しく購入した本を開いた際、下からにゅっと本の要約が出るようになったのですがそれが何とも邪魔。読み始めようとした時に出鼻をくじかれ楽しいはずの読書体験にまず一発不快な思いを叩き込んでくれます。仕様を決めた人の神経を疑う。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 28,
+       "rank_absolute": 28,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14477482462",
+       "title": "ライブラリの表示に不具合",
+       "review_text": "ライブラリを開くと最初に画面に何も表示されなくなる。下へスクロールしてから先頭へ戻っても同じことが起こる。過去にはこんなことはなかったので、早く直していただきたい。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 29,
+       "rank_absolute": 29,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14476991696",
+       "title": "もっと",
+       "review_text": "安ければ最高！",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 30,
+       "rank_absolute": 30,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14476913366",
+       "title": "最新が表示されない",
+       "review_text": "Kindleを開いても最新の本が左上トップに来ません。過去に開いた本がそのままトップに残っています。何度かアップデートされているようですが、対応いただけていないようです。早急にご対応お願いします。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 31,
+       "rank_absolute": 31,
+       "position": "left",
+       "version": "7.66",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14476755539",
+       "title": "iPadにて使用",
+       "review_text": "最新のアップデートで使いにくくなった",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 32,
+       "rank_absolute": 32,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 00:00:00 +00:00",
+       "id": "14476500328",
+       "title": "なんと！",
+       "review_text": "お安い価格で（個人の見解）、こんなにキュンキュンする物語を、本も持たずに、堪能できるとは！\n嬉しくてたまりません。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 33,
+       "rank_absolute": 33,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-26 00:00:00 +00:00",
+       "id": "14474127252",
+       "title": "直接購入できない",
+       "review_text": "kindleから直接購入できないのが不満です。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 34,
+       "rank_absolute": 34,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-26 00:00:00 +00:00",
+       "id": "14473871814",
+       "title": "生きていて思い当たることばかりです",
+       "review_text": "さすが出口先生",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 35,
+       "rank_absolute": 35,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-26 00:00:00 +00:00",
+       "id": "14473288987",
+       "title": "五つ星",
+       "review_text": "私にとって使い勝手、文字の大きさが👍\nまた時々だが安売りがありがたい。リクエストできたらなお良い。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 36,
+       "rank_absolute": 36,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14472161700",
+       "title": "My Opinion",
+       "review_text": "How’s easy to read.I like it very useful for me why I don’t want to buy every book before read.Thanks for your kindness",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 37,
+       "rank_absolute": 37,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14471950513",
+       "title": ".",
+       "review_text": "管理機能が雑",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 38,
+       "rank_absolute": 38,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14471895714",
+       "title": "完全に削除は危ない上にUIも酷い",
+       "review_text": "今回のアップデートで端末から容易に購入履歴まで消えてしまう〝完全に削除〟が追加されていますが最悪のアップデートです\n端末から削除の下にあるのも並びとしては正しいもののワザと消させてまた買わせようとしているのではと疑いたい悪意を感じます\nせめてオプションで消せるようにして欲しいです\n\n2026/8月追記\nUI改悪が酷いとしか言いようがない\n追加の要望を言っても改悪が起きるだけなので、1年前のバージョンにフォールバックして開発し直して欲しいです",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 39,
+       "rank_absolute": 39,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14471085396",
+       "title": "キーボードで操作したい",
+       "review_text": "Kindle for Mac 利用です。ダブルクリックで拡大表示できますが、カーソル右キーだけでページ送りを最後までできるようにしてほしいです。現状はページが変わるとダブルクリックし直さないといけないです。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 40,
+       "rank_absolute": 40,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14470294500",
+       "title": "購入別に表記して欲しい",
+       "review_text": "購入作品が羅列されますが作品ごとに仕分けして欲しいのと一から順番に並べて欲しいです",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 41,
+       "rank_absolute": 41,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14470206552",
+       "title": "対応してほしいこと(v7.65)",
+       "review_text": "ライブラリ>ダウンロード済みのみ表示、でシリーズを開きいずれかの本を読んで閉じると、なにがきっかけか不明だが「ダウンロードされた本はありません」と一冊も表示されなくなる。いったんシリーズからライブラリに戻り、再度シリーズを開くと表示される\nこれは7.6以前から起きていたこと",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 42,
+       "rank_absolute": 42,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14468934330",
+       "title": "ライブラリにアクセスしづらい",
+       "review_text": "とにかく本を買わせるところに操作性が集中しており 自分のライブラリに戻るのが一手間余計にかかるようになっている。 その辺が面倒である。 Amazonは売り上げを伸ばすことではなく、読書集中に寄与してほしい。あくまで読書アプリでよいではないか。ユーザビリティを考えろ、と実感させられる面倒アプリ。\nまた、時刻も表示可能にしてほしい",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 43,
+       "rank_absolute": 43,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 00:00:00 +00:00",
+       "id": "14468589044",
+       "title": "ユーザビリティがひどい",
+       "review_text": "漫画、小説、その他本など2000冊以上所有しています。電子書籍をAmazonで買ってしまった影響で使っていますが、全くユーザビリティがよくありません。\n・既読表示が邪魔\n一回最後の頁まで進むと既読と表紙に表示されて、わざわざ選択して消さないと消せません。何度も読み返す場合、既読がついているとどこまで読んだかがわからず、毎回指定して消す必要があります。漫画や小説の場合何巻もあるので、全て手動で選択して既読表示を消す必要があります。それなのに、本を開いたときに100％の位置に本があるとまた既読に戻ります。今どの位置に本があるのかを示すパーセント表示のみに変更してほしいです。\n・タブを隠した。\nフッターにあったホームやライブラリなどを選択する項目をわざわざメニューにして隠しました。これにより、ホームに移動したい、他のメニューに移動したいときに2クリック必要になりました。無駄です。\nさらに、iPadの場合、横にすると勝手にメニューが出てきます。邪魔でしかない。なぜこんな設計にしたのか謎。\n・左上にメニューボタンを設定した。\nコレクションを使っている場合、本を閉じてそのままコレクション一覧画面に移動したあと、もう一度戻りたいときがあります。その場合、同じ場所にバツか戻るボタンがなくメニューボタンがあるため、メニューボタンが邪魔です。邪魔にもなるし無駄にしかならないメニューボタンにしたのか謎。戻るボタンは常に同じ場所に設定してほしい。\n\nなんでこんなアプリがこんな評価高いのか疑問",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 44,
+       "rank_absolute": 44,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-24 00:00:00 +00:00",
+       "id": "14467019883",
+       "title": "アプリの操作性が最悪",
+       "review_text": "アップデートのせいで使いにくくなった。信じられない改変で2026年AIが騒がれている時代に作られたアプリとは思えない。どんな判断があったらこんな更新をすることになったのかを考えると恐怖を感じる。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 45,
+       "rank_absolute": 45,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-24 00:00:00 +00:00",
+       "id": "14466793342",
+       "title": "何度も",
+       "review_text": "レビューさせないで",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 46,
+       "rank_absolute": 46,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 00:00:00 +00:00",
+       "id": "14464129104",
+       "title": "支払い方法",
+       "review_text": "AppleカードやGoogleカードじゃアカンか？PayPay使われへんねんけど😡😡😡😡😡😡",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 47,
+       "rank_absolute": 47,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 00:00:00 +00:00",
+       "id": "14463263744",
+       "title": "ボタン配置に悪意を感じる",
+       "review_text": "ダウンロードと完全削除ボタンの配置が相当なストレス。間違って消してしまわないか心配になり読書どころではない。以前の仕様に戻してください。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 48,
+       "rank_absolute": 48,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 00:00:00 +00:00",
+       "id": "14462452710",
+       "title": "非表示機能が無いも同然",
+       "review_text": "非表示にしたいものがあっても出来ない。\n\n趣味で買った本と資料用に買った本の2種類を仕分けたいだけなのに、いちいちコレクション作ってしわけなければいけないのが面倒臭い。\n趣味の本なんてそんな頻繁に読まないし、数もないから非表示にしてたまに見よっかなみたいな使い方が出来ない。\n他社は普通に出来るアプリあるのでそっち使う方がいい。Kindleは本アプリの底辺。",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 49,
+       "rank_absolute": 49,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 00:00:00 +00:00",
+       "id": "14461857941",
+       "title": "最高",
+       "review_text": "本をいつでも読めるから",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      },
+      {
+       "type": "app_store_reviews_search",
+       "rank_group": 50,
+       "rank_absolute": 50,
+       "position": "left",
+       "version": "7.65",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-22 00:00:00 +00:00",
+       "id": "14460488781",
+       "title": "利用システムに慣れない",
+       "review_text": "使い勝手が悪い",
+       "user_profile": {
+        "profile_name": null,
+        "profile_image_url": null
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "google_info": [
+  {
+   "id": "09030710-1009-0419-0000-f2788e128432",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0089 sec.",
+   "cost": 0,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "app_data",
+    "google",
+    "app_info",
+    "task_get",
+    "advanced",
+    "09030710-1009-0419-0000-f2788e128432"
+   ],
+   "data": {
+    "se_type": "app_info",
+    "api": "app_data",
+    "function": "app_info",
+    "se": "google",
+    "app_id": "com.amazon.kindle",
+    "location_code": 2392,
+    "language_code": "ja",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "app_id": "com.amazon.kindle",
+     "se_domain": "play.google.com",
+     "location_code": 2392,
+     "language_code": "ja",
+     "check_url": "https://play.google.com/store/apps/details?id=com.amazon.kindle&hl=ja&gl=jp",
+     "datetime": "2026-09-03 07:10:27 +00:00",
+     "se_results_count": 0,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "google_play_info_organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "app_id": "com.amazon.kindle",
+       "title": "Amazon Kindle: 電子書籍、マンガ、雑誌",
+       "url": "https://play.google.com/store/apps/details?id=com.amazon.kindle&hl=ja&gl=jp",
+       "icon": "https://play-lh.googleusercontent.com/OMOY8Erqgf955efAZgpCJLC9yU8W8WMRgiZSUc4jf653YyV3XwTY2uFQZCY1nz8-8Lb4eZXRCmd4RoWK5q6G2A",
+       "description": "Kindle: 人気の小説やマンガ、雑誌が読める電子書籍リーダー\nAMZN Mobile LLC\n\nKindleアプリがあれば、本、コミック、雑誌を、豊富なセレクションから楽しめます。ここでしか手に入らない、Kindle限定の本や無料マンガ雑誌もご用意。スマートフォンやタブレットで、お気に入りの本をどこへでも持ち運べます。\n\n自分だけの本棚を作ろう\n• 漫画、雑誌、小説、文庫、ビジネス本、洋書などの電子本を、アプリ内で簡単に購入できます。\n•新刊、ベストセラーから無料の青空文庫、無料漫画まで、気になる書籍、まんがを数多く取り揃えています。\n• 少年・青年向けから、少女・女性向けまで、コミックもかさばらずに一気読み。無料コミックも豊富。\n• 気になった作品は購入前に試し読みができます。\n• 人気の雑誌も美しい写真や画像で楽しめます。\n\n快適な読書をサポート\n•フォントや文字サイズ、背景色、行間と余白を好みに合わせて調整できます。\n• 画面の明るさを調節できます。\n•英単語の上に意味が自動的に表示されるWord Wise機能で、英語多読も楽々。\n• 複数のページにまたがる文章の選択や、ハイライト色の変更も簡単。\n• 単語を長押しすると、すぐに意味や訳語を表示できます。\n•Ｘ-Rayに対応した本なら、スマート検索機能で、本の中の重要なトピック、登場人物、場所だけでなく、ウィキペディアからの情報も検索できます。\n• アクセシビリティ機能で、視覚障害を持つ方でもライブラリの操作、読書だけでなく、各機能も簡単に使用できます。\n\nKindleならではの機能\n• Whispersync機能で、ブックマーク、メモ、読書の進捗状況がすべてのKindleリーダーおよびアプリ間で自動的に同期されます。\n\n本の整理\n• コレクション機能を使って、本をカテゴリーなどに分けて整理できます。作成したコレクションはクラウド上で同期されます。\n• 無料のパーソナル・ドキュメントサービスで、PDF、EPUB、その他のドキュメントファイルをKindleに送って読むことができます。\n\n* KindleストアにおけるKindle本、コミックおよび雑誌の品揃えおよび価格は、国により異なります。\n\n本アプリを使用することで、お客様はAmazon.co.jp利用規約(https://www.amazon.co.jp/conditionsofuse)およびプライバシー規約（www.amazon.co.jp/privacy）に同意するものとします。",
+       "reviews_count": 4786005,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.3,
+        "votes_count": 4786005,
+        "rating_max": 5
+       },
+       "price": {
+        "current": 0,
+        "regular": null,
+        "max_value": null,
+        "currency": "JPY",
+        "is_price_range": false,
+        "displayed_price": null
+       },
+       "is_free": true,
+       "main_category": "書籍＆参考書",
+       "installs": "100,000,000+",
+       "installs_count": 486213152,
+       "developer": "Amazon Mobile LLC",
+       "developer_id": "Amazon+Mobile+LLC",
+       "developer_url": "https://play.google.com/store/apps/developer?id=Amazon+Mobile+LLC",
+       "developer_email": "amazon-mobile-development@amazon.com",
+       "developer_address": "410 Terry Ave N\nSeattle, WA 98109-5210\nUnited States",
+       "developer_website": "http://www.amazon.com/kindleapps",
+       "version": null,
+       "minimum_os_version": null,
+       "size": null,
+       "released_date": "2010-06-28 00:00:00 +00:00",
+       "last_update_date": "2026-09-02 00:00:00 +00:00",
+       "update_notes": "操作性の向上とバグの修正",
+       "images": [
+        "https://play-lh.googleusercontent.com/Xmp_TJPvj0pYFY0xDZFEr-OgcawthtETDz5q_Q2zAh6BJ7pe7PZREhYGZWRHNWvVD_4AvluIWu_nCkg6zXhBEQ",
+        "https://play-lh.googleusercontent.com/Wqlb21tsGnhlySK4XvLqQj6mmVahD8PB8gcFVu5b1aIRvB7qYvBI3BI-FpYTr3T-3t_6VloG57wg6BIk2-yv",
+        "https://play-lh.googleusercontent.com/EptZJo229OWZW2Yn8cQrpO8gq_favIZUrtOHwk75q5u8h_reu_J5v3srBg_c7mZeQKN0ahJtXtw-LrJe5dre",
+        "https://play-lh.googleusercontent.com/65I-tOJ1_TOQgXNKdZbVxC-hMqo5h5rN_QvOblO4mIr5WX08Y1U6dByRJUjsrYIIBcPDca4BlrUcHWNVyDXiww",
+        "https://play-lh.googleusercontent.com/JwfQKW-iwVSgQLuebtXAUS9thyjZlypoJOokL8MTKRx8Fn6BFlM84JniONR3FzKK0T4PS-sd31ecFTuaYmG6",
+        "https://play-lh.googleusercontent.com/T7RLM15c_JGJ5Dg1d5FQYckxGTeTLT9JA9zVtCetYULa3up8u5pNEsl8wOQoMppZ58ezBtIooFo2Se9HbGPFHA",
+        "https://play-lh.googleusercontent.com/el_mJgcG1aPwOaoxTYB6xM9QupW2L-N9SPmQSFZBB_7nHf4fkb3q0Iy3nRbfAycnwdHhz2ebbHqZJJbwNLSLKA",
+        "https://play-lh.googleusercontent.com/2YRxDy7WzZXN-QMqh01UYcpjG_L3iYtyiKjMAAPzL4IXX-bdUWlDJR6g-HFxsXNnEXSm_yIvDYH0yT4fI4xsNbo",
+        "https://play-lh.googleusercontent.com/z4Bg1v0nHVoV6eEyWlXzHQLjvYCicvMdeeff7fvlxI3Pbi6BdWB_tdZHWP23-GFNUqgeTVtlsvhQorCV6Wdde-Y",
+        "https://play-lh.googleusercontent.com/6DponE62l5d7zK9AvMo6KmlDEF3QJBeV0SMitg-IjQeR9AurIF42-EBsw7n81yqK_QO1-nI13KfuMbIxhoXKgQ",
+        "https://play-lh.googleusercontent.com/2ZjPzkcFOW7Zm1CtECJdduyFYvJh00QfzpEcCWoBgoWso4ON5SW4Kh5mRgXzvJJ1Hg-J1KHAIFcgvpqi_MfqShI",
+        "https://play-lh.googleusercontent.com/Hbg_wOL6oyySHLdJxsDxV1fcp_JRW8RcfPi8DUSfvltGsGu_IMsFukZHC6Y5xINpdWJAxKBqAEXV8W9QhN5kMrU"
+       ],
+       "videos": null,
+       "similar_apps": [
+        {
+         "app_id": "com.amazon.avod.thirdpartyclient",
+         "title": "Prime Video",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient"
+        },
+        {
+         "app_id": "com.amazon.mShop.android.shopping",
+         "title": "Amazon ショッピングアプリ",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping"
+        },
+        {
+         "app_id": "com.amazon.mp3",
+         "title": "Amazon Music: 音楽やポッドキャスト",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.mp3"
+        },
+        {
+         "app_id": "com.amazon.clouddrive.photos",
+         "title": "Amazon Photos",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.clouddrive.photos"
+        },
+        {
+         "app_id": "com.amazon.storm.lightning.client.aosp",
+         "title": "Amazon Fire TV",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp"
+        },
+        {
+         "app_id": "com.amazon.dee.app",
+         "title": "Amazon Alexa",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.dee.app"
+        },
+        {
+         "app_id": "com.netflix.mediaclient",
+         "title": "Netflix",
+         "url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient"
+        },
+        {
+         "app_id": "journal.notes.planner.starnest",
+         "title": "Journal: メモ帳,ノート, PDFs",
+         "url": "https://play.google.com/store/apps/details?id=journal.notes.planner.starnest"
+        },
+        {
+         "app_id": "com.pinterest",
+         "title": "Pinterest（ピンタレスト）",
+         "url": "https://play.google.com/store/apps/details?id=com.pinterest"
+        },
+        {
+         "app_id": "com.duolingo",
+         "title": "Duolingoで英語学習",
+         "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+        },
+        {
+         "app_id": "org.readera",
+         "title": "ReadEra – pdf、epub、電子書籍リーダー",
+         "url": "https://play.google.com/store/apps/details?id=org.readera"
+        },
+        {
+         "app_id": "com.newreading.goodreels",
+         "title": "GoodShort(グッドショート)-ショートドラマいつでも",
+         "url": "https://play.google.com/store/apps/details?id=com.newreading.goodreels"
+        }
+       ],
+       "more_apps_by_developer": null,
+       "genres": [
+        "書籍＆参考書"
+       ],
+       "tags": [
+        "#1 書籍＆参考書 無料ランキング",
+        "書籍＆参考書"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "google_reviews": [
+  {
+   "id": "09030710-1009-0425-0000-fc45c9062425",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0459 sec.",
+   "cost": 0,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "app_data",
+    "google",
+    "app_reviews",
+    "task_get",
+    "advanced",
+    "09030710-1009-0425-0000-fc45c9062425"
+   ],
+   "data": {
+    "se_type": "app_reviews",
+    "se": "google",
+    "api": "app_data",
+    "function": "app_reviews",
+    "app_id": "com.amazon.kindle",
+    "location_code": 2392,
+    "language_code": "ja",
+    "depth": 150,
+    "sort_by": "newest",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "app_id": "com.amazon.kindle",
+     "type": "reviews",
+     "se_domain": "play.google.com",
+     "location_code": 2392,
+     "language_code": "ja",
+     "check_url": "https://play.google.com/store/apps/details?id=com.amazon.kindle&hl=ja&gl=jp&showAllReviews=true",
+     "datetime": "2026-09-03 07:10:43 +00:00",
+     "title": "Amazon Kindle: 電子書籍、マンガ、雑誌",
+     "rating": {
+      "rating_type": "Max5",
+      "value": 4.3,
+      "votes_count": 4786005,
+      "rating_max": 5
+     },
+     "reviews_count": 4786005,
+     "items_count": 150,
+     "items": [
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 06:51:19 +00:00",
+       "id": "92d4f6f8-87a3-4ef5-8084-4998ff40823f",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ポケットの中で誤動作して勝手に本を購入されます",
+       "user_profile": {
+        "profile_name": "j",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocISgbKR3OsBOcCguQb3pKzTz6pvno6jBThf4O_S8DbtP494Zw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 02:17:42 +00:00",
+       "id": "1e818445-2251-4ece-a38e-6e1b9cb52c5e",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "99円でこれだけClaudeCodeの濃い情報量で分かりやすく書かれており初心者には必須な書籍です。",
+       "user_profile": {
+        "profile_name": "Naoki Ishihara",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLy7Jct76wvqLJ_CbdIVtZhz913fgoHhyzXsDZ_OHv0nadXug=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 13:58:38 +00:00",
+       "id": "88a685bd-9480-4432-a93e-04fe8b028333",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "買った作品がエラーで読めない",
+       "user_profile": {
+        "profile_name": "小川圭子",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLcp6MOQappAeIOk5vfti7q_18UsMyLgbzIHVoSSDK7_cj35g=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 4,
+       "rank_absolute": 4,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 01:46:51 +00:00",
+       "id": "207099a9-8a2c-497f-96ea-68bf000758e8",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "もう少しPrimeユーザーが見れる本を増やしてほしい",
+       "user_profile": {
+        "profile_name": "Takashi Kimura",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJg2Tc6ggxL-3upPoLb_xlOENgwtGPSMkVlcbrlsaedoCPrUg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 5,
+       "rank_absolute": 5,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 17:04:06 +00:00",
+       "id": "4b46c042-fffe-48e1-8d17-3bbb81325dd7",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "今のところ不自由なくです Good！",
+       "user_profile": {
+        "profile_name": "安井歩",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXA7gMwJcnbKz0K5AbdqvEJTxrbXpHFSEPX8zNNp7u91OYHHeoYhA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 6,
+       "rank_absolute": 6,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 13:06:24 +00:00",
+       "id": "fce32017-24e4-4a11-a545-485e951d8e2c",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "Kindleのホーム画面やおすすめに、興味のない特定のジャンルが何度も表示され、非常に不快な思いをしています。本を開くたびに目に入るのが苦痛なので、ユーザー側で特定のジャンルを一切非表示にできる機能を早急に実装してほしいです。",
+       "user_profile": {
+        "profile_name": "るこ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJA2iuabCI2YHdztNtNoxV-GTohZSKWz9SK4JZxcfnWlUplvnc=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 7,
+       "rank_absolute": 7,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 09:25:08 +00:00",
+       "id": "47f8ef06-cdb1-49fe-b89c-771e62906763",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "GALAXY Fold8でカメラ領域を隠す設定をしても見切れないような調整を何卒...どうか何卒よろしくお願いいたします。",
+       "user_profile": {
+        "profile_name": "安藤隆平",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKNNz_XhIClhjG3rLH9V0JDPyvAxgHMXVL_EtLO2iwp1jIt9w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 8,
+       "rank_absolute": 8,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 06:01:33 +00:00",
+       "id": "48e18ed7-a68a-4c66-b249-7194d1065278",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "所持数が多くなってくると少し使いにくい",
+       "user_profile": {
+        "profile_name": "hiro hiro",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLh6_Lkh9PdIvFje3Un1yAcnRnPk5ZDLwWkDY5mMrPZMqohvQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 9,
+       "rank_absolute": 9,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 01:50:17 +00:00",
+       "id": "2b5796c0-cbc6-42f0-b095-af99846d5a03",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "見やすい。私の端末では、 小説で註釈がリンクされるが、それを押下しても註釈の名前が表示されるだけで註釈の内容が表示されない。",
+       "user_profile": {
+        "profile_name": "剣[けん]",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWvatiXjNiPEf11O4OY_CrdpDxEjo8wxfIon63jycM9fdYyb5sKSg"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 10,
+       "rank_absolute": 10,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 17:05:44 +00:00",
+       "id": "2365e06d-4237-447e-9bd9-2538f974476c",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "バク表記が不快 あるときからページを早くめくるたびに紫色の表示が出てきて目障りになってしまっている 基本的な動きは問題ないがページをめくるときの動作など余計なものがあるせいで目障りな表示があるのはどうかと思う 治ると助かります",
+       "user_profile": {
+        "profile_name": "エフシー",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKXmsAQiSqrSOwbmT6zUttrUEgDWb8qZBNLZIhD42JEX4G1mg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 11,
+       "rank_absolute": 11,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 14:00:33 +00:00",
+       "id": "8396b6f2-40e2-47d8-bdf3-b66a19debd32",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "現代社会の課題と四柱推命をミックスさせて展開するストーリーは興味深い。 主人公たちは人の温かさを求めてさまよい、戦う。 ストーリー後半では、バトルと涙の展開があり、読みごたえがある。 ただ欲をいえば、シリアスな展開があるだけに、少し｢寄り道｣が欲しかった。 今の社会に対して、モヤモヤを感じている人は、一度読んでみて欲しい。",
+       "user_profile": {
+        "profile_name": "岡田文",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI9fxhmhOS9XUO6yuxgS69faU0GM_QQeDK5Ca37o_od0YDNVA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 12,
+       "rank_absolute": 12,
+       "position": "left",
+       "version": "8.155.0.100(2.0.98894.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 01:06:24 +00:00",
+       "id": "d025ad81-7318-458e-9ec6-a1523338a8e5",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "少し前のアップデートでライブラリのUIが改悪！ぱっと見でDL済かそうでないかがものすごく分かりにくくなった。お願いだから左右のボタン切り替えだけで判別可能だった以前のデザインに戻して！！",
+       "user_profile": {
+        "profile_name": "吉田将也",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXhOdAgHVAcRDnHFjHfW70GUNejOdGzZPoJCBxNzoaeoqK1vt1N"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 13,
+       "rank_absolute": 13,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 09:05:50 +00:00",
+       "id": "78df01e1-e457-4602-8bfe-e0df43f7f37c",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "世界最高峰のアプリです",
+       "user_profile": {
+        "profile_name": "bbb aaa",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocK7e74oXmNcbBf63ZRg4tSCN_YEGU0sxvciypUaybXUYDWcAg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 14,
+       "rank_absolute": 14,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 02:58:11 +00:00",
+       "id": "42ad8450-cf09-4d1d-b0cf-c1912ad9e539",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "機種変したら購入した本が全く開けない、読めない。カスタマーサポートの方とやり取りしたが結局解決されない。新機種で閲覧する方法を誰か教えてください…(泣)",
+       "user_profile": {
+        "profile_name": "eiko suzuki",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIarm0WlgIj_gDOSzzleSXpXRWUY8O3OZqjtV1snJDte8zjaNUY=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 15,
+       "rank_absolute": 15,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 21:00:36 +00:00",
+       "id": "dd79f319-1d1d-418f-9780-7b1eb06b8ce1",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "「今すぐ購入」が怖すぎる。 誤って「今すぐ購入」をタップしただけで、確認画面もなく購入が確定しました。購入するつもりがなかったのに簡単に決済されてしまうのは不親切だと感じます。 返金についても分かりにくく、非常に残念でした。もうKindleを利用する気になれません。",
+       "user_profile": {
+        "profile_name": "ルイ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW18ApgqTKg2Qecuv94hAzxoY5zq_NfLHtMH9FNOBRIX8wmOFoY"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 16,
+       "rank_absolute": 16,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-26 21:09:45 +00:00",
+       "id": "cf9b3bde-8312-4df1-82ea-35203091444b",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "WindowsアプリとウェブKindleが読書できないほど壊れてるから早く直して？ あっち直さない限りこっちも低評価しとくわ。",
+       "user_profile": {
+        "profile_name": "しろがね",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWJFfjcZRHnAqAonJnMbqVTMeEfZbprs4v7GXjZ1TCekTYTcXGs"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 17,
+       "rank_absolute": 17,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-26 11:20:40 +00:00",
+       "id": "f8f2bd5d-8559-4645-836e-3513e3678ca5",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "まったく問題なし",
+       "user_profile": {
+        "profile_name": "kazu kita",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUNRaQuXVnAMsE84JCgN_-6tTqyqxspTGzuzMPoZL2d-Ct65LEhNQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 18,
+       "rank_absolute": 18,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 09:56:42 +00:00",
+       "id": "180288d5-621a-4c02-a4c6-149dbf3776e0",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "ブラウザからアクセスしなくても書籍が購入できるようになったのはありがたいですが、UIの挙動がおかしいです。 特に、ホーム画面でオススメカテゴリを左右スクロールした後、別カテゴリに移動しようと上下スクロールしようとしても一定時間操作不能になります。 (ブラウザでKindleカテゴリを表示した時の類似の画面では特に問題ないので、恐らくアプリ固有の問題かと) 地味にイライラするので、改善して頂きたいです。",
+       "user_profile": {
+        "profile_name": "Civy Betbook",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLR7ujCmWehYqddaOqyVn711l_94cUkz6JODqDTplwVwjRLKg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 19,
+       "rank_absolute": 19,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 09:55:37 +00:00",
+       "id": "6446597e-c670-440f-a231-464c208cf3d0",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "全ての本とダウンロード済みの本がワンタップで切り替えられる以前の方が便利だった。",
+       "user_profile": {
+        "profile_name": "Y Nagahama",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXksMA0_ftZT-ot9cSI0gxyqrNFsI0z-y3nzqXZIdlMKVVj88Ta"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 20,
+       "rank_absolute": 20,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-24 09:12:04 +00:00",
+       "id": "16e4846c-c959-4da0-ab59-63fe84bb83ca",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "要らない書籍やサンプルを端末から削除としても消えない。アプリアンインストールして再インストールしたが、この仕様はそもそもアプリから簡単に削除できるようになって欲しい。",
+       "user_profile": {
+        "profile_name": "na na",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLyxwgcfIZA7csF6vyEmpSivhcwidYZ31xRWim6adGiAl5oe2I=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 21,
+       "rank_absolute": 21,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-24 07:53:49 +00:00",
+       "id": "fc0385e7-dc3d-4554-988a-a6b3554b3b45",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "アプリ側で画面光量をジャックするのやめてください 読もうとすると目が潰れます",
+       "user_profile": {
+        "profile_name": "ジョン太夫ジョースター",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJhaQMQhUlfC5DMhvn3WktDSfiI5yaz-RO0R-2RNtgtsjVBzQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 22,
+       "rank_absolute": 22,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-24 05:14:31 +00:00",
+       "id": "a9a62271-d8a5-444d-a304-de68adc56b51",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "使いにくい",
+       "user_profile": {
+        "profile_name": "お餅",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJXEYljNQ9GSDV8smAlvG5yWJi23yTV9u4KSi3Bh7mycH_4=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 23,
+       "rank_absolute": 23,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-21 06:50:00 +00:00",
+       "id": "208c9d61-90a0-4b88-96aa-049e3605328a",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "急にお使いの端末でサポートされてませんと表示され起動できなくなった",
+       "user_profile": {
+        "profile_name": "08 sou",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIQgYncu6SBhjugsyvpxPecnp3PW_pfbUUkiRQvEC0oA3vmSQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 24,
+       "rank_absolute": 24,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-21 04:55:41 +00:00",
+       "id": "e69e0c67-46c6-4838-8954-811c56d5b3cb",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "購入済の本が開きません！全てではなく、一つだけ何度開こうとしても落ちます。",
+       "user_profile": {
+        "profile_name": "moon milock",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXKxdItXlJLDsOiKdTbVPSIAJcdLoC1ZbvuyZFCaLxlfwWjhhzOGA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 25,
+       "rank_absolute": 25,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-21 01:07:16 +00:00",
+       "id": "25d46c4e-7516-4fc8-af1c-a21373542c1b",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "操作も難しくなくてアプリで手軽に読めてありがたいです！！",
+       "user_profile": {
+        "profile_name": "辻夏季",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWZtfvLhcfJs_pwVcj-WIptcD2rxGKczbUM0hfP09o2wYLzr8I"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 26,
+       "rank_absolute": 26,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-20 22:45:49 +00:00",
+       "id": "00c69440-36a2-45ff-b326-d5622dff6de3",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "新しい本を開くたびにアシストリーダーをダウンロードし直してます。通信料の無駄なので改善してください",
+       "user_profile": {
+        "profile_name": "SUB HAYASHI",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXBrpIv4YKz4LXwPZC8iZ9MpxkwH9x-Q5XjPjpozMrnTbPtWGo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 27,
+       "rank_absolute": 27,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-20 03:25:41 +00:00",
+       "id": "00c52ea3-b9be-4a36-ad46-bd178aac874c",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "メモやコピペなど、学習に使い込むと使いにくい。",
+       "user_profile": {
+        "profile_name": "Masanori Goto",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWipSSmpSJMjalYWU9dGDJkIjCsLjS2xOiA4gKOWPUcp2z9XGHu"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 28,
+       "rank_absolute": 28,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-19 19:09:19 +00:00",
+       "id": "1fecaa9c-0714-49ef-9577-a1ccc05f4e97",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "pcのアプリもアップデートで使いづらくなったので、タブレットを購入したが、こちらもアップデートで使いづらくなった。慣れの問題ではなく配置や設定の記憶など不便になった。今更他のサービスに移れる量ではない。",
+       "user_profile": {
+        "profile_name": "サンタクルーズ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX89zZ00wj3jdESo0gumaIXbXpPnFF7HJ1CvocMK3-m-apvHfHsWQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 29,
+       "rank_absolute": 29,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-19 14:19:56 +00:00",
+       "id": "f4497f94-0649-45c1-bddb-15b533ff5a1c",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ええやん でもワイは厳しいで",
+       "user_profile": {
+        "profile_name": "西川智貴",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUGLUJLJKdB3gU2Rv58olZJB4MVWTPrGkaGxByUt0KsfBY5UsvN"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 30,
+       "rank_absolute": 30,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-18 03:06:41 +00:00",
+       "id": "8ff7aa17-f2d2-4260-9b7d-198cae21cd25",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "プッシュ通知タップしても、その通知内容が出ずにアプリ画面ホームが表示されるだけ。結局、毎回出る通知はどこで呼び出せるのか不明。",
+       "user_profile": {
+        "profile_name": "としろうbcat",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKJEDvTKLy-h4Dp6ySNWTF6zRjy_aFllGJ3aJT9HFWF7f-i9A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 31,
+       "rank_absolute": 31,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 10:37:48 +00:00",
+       "id": "ed925751-c9dc-4456-9fc9-58a753f26ca5",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "いい時間を与えてくれます。",
+       "user_profile": {
+        "profile_name": "藤川明人",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJsi_7FCUbJtxt16PCCDcRMlMBWD3dfpddGzdM1OvmRs7EkGA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 32,
+       "rank_absolute": 32,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 09:43:28 +00:00",
+       "id": "bf9c2d79-91b7-4de0-ac7f-c3a3d3b36819",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "スライドショー機能が欲しい。",
+       "user_profile": {
+        "profile_name": "五十嵐秀明",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocK03NkP0gM0GMmArmr-cAjLnHZWTIb1OrK4-b98HCptnJXMTA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 33,
+       "rank_absolute": 33,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 09:12:44 +00:00",
+       "id": "d3b97108-1617-48b3-a6e6-9fecaa9713b1",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "昔の本から最新の本まで電子で読めるのは最高。",
+       "user_profile": {
+        "profile_name": "T Knox",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIhiY6I1hhgwTSAhsk9C-LNWIBhpWTGlu6lzg763v0Ij3ZQ4Zs=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 34,
+       "rank_absolute": 34,
+       "position": "left",
+       "version": "8.100.0.100(2.0.13149.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-16 13:32:16 +00:00",
+       "id": "c7d97bdd-eeda-478b-963c-6e8b12f4debf",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "アップデート後にサインアウトされており、サインインしようとすると、デバイス認証のパズルを延々と繰り返させられる。利用不可になるアップデートは予想外",
+       "user_profile": {
+        "profile_name": "E eg",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJmL9MIRICe9xlqKb3h0gDnzjnJByoCZVep3VMKEyvRVT18BQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 35,
+       "rank_absolute": 35,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-16 02:33:16 +00:00",
+       "id": "a40fd660-8686-4a4e-88ad-16c9d2f70200",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "アプリから買えるようになった ライブラリーに追加と同じような位置にあるので 間違えそうだ",
+       "user_profile": {
+        "profile_name": "S Nao",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI_SCUTeXnAgIIVLI1KquYZoPd5R1Bw-9_VMH3EgEE8S4AtFg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 36,
+       "rank_absolute": 36,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-16 01:04:10 +00:00",
+       "id": "98b83d59-2dcb-4c92-87e6-13ddd75211c4",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "購入した本がライブラリから削除できない仕様はいい加減に変えて欲しい。 ぶっちゃけWebブラウザから開いた方がまだマシレベル。",
+       "user_profile": {
+        "profile_name": "元3研",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIYw5AytxkiCst-L1myvJ7_-mqK3i38fArTIPF_DvmpCTLHiYQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 37,
+       "rank_absolute": 37,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-16 00:09:02 +00:00",
+       "id": "788c5693-efcf-4821-bfb5-c873e0e4bded",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "アップデートのたびにライブラリ機能が使いにくくなるのはどうにかして欲しい",
+       "user_profile": {
+        "profile_name": "野呂佳史",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocK2hHkAnuP9_Rggq6Yp7fSyMhdLZIbywm6EMH_3A0hoSMcqVQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 38,
+       "rank_absolute": 38,
+       "position": "left",
+       "version": "8.34.0.100(1.3.228187.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 15:56:05 +00:00",
+       "id": "d0dcc561-05a7-4d82-b714-bfb11b927896",
+       "helpful_count": 59,
+       "title": null,
+       "review_text": "ダウンロードした本としていない本の表示方法が変更され、とても使いにくい。 今まではワンクリックで表示を変更していたのに、わざわざ選択画面から選ばないといけなくなった。 大量に本を購入しており、表示する時の手間が増えると切り替える回数が多い分ストレスになる。 毎回毎回改悪され、仕様変更している人間の劣化が垣間見える。",
+       "user_profile": {
+        "profile_name": "an ger",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocICpmdaR2xFvbPrJ8fkL2gcAHVNZL59ULnSKDmjVZ7MGQ1BqsM=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 39,
+       "rank_absolute": 39,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 13:32:21 +00:00",
+       "id": "2bf8624d-e7a0-4fda-bbb9-8a740c813f74",
+       "helpful_count": 34,
+       "title": null,
+       "review_text": "お気に入りの読書端末(F-02K)で読めなくなりました。紙の書籍とほぼ同じ金額を払わせておいて、一方的に読めなくしてしまうというのは横暴です。F-02Kは2018年発売のまだ比較的新しいタブレットですが、古い端末は非サポートとの事です。まだ使えるアプリが殆どだし、PCであればまだまだバリバリ現役の世代です。大手サービスとしてはユーザーサポートを怠っています。楽天koboはまだAndroid9.0に対応しているようです。 　　そもそもKindleアプリ/Webリーダー自体がPerfect Viewer等の電子書籍アプリと比べると非常に使い勝手が悪く、消去法による選択でしかありません。電子書籍の現状にはかなり不満を抱いています。プラットフォーマーはユーザーから当然の権利を奪い、不便を強いています。価格や品揃えでの差別化が難しい中で、囲い込み戦略が当たり前のものとなっています。",
+       "user_profile": {
+        "profile_name": "あんころ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUsNSrbDRcvlV0LjB24wx4qyfU-pgWVM1Ibt1k3KpImUn8nP88"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 40,
+       "rank_absolute": 40,
+       "position": "left",
+       "version": "8.45.0.100(1.3.246324.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 09:50:05 +00:00",
+       "id": "f1831e59-6646-429d-9023-87e0a35acfe8",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ダウンロード済みかそれ以外で分けられるようにしてほしい",
+       "user_profile": {
+        "profile_name": "アルパカ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW6cM-Kg6GNOnv8jONag3H73XZ-zDa85ky98sOIBAqRc6v2yY4"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 41,
+       "rank_absolute": 41,
+       "position": "left",
+       "version": "8.154.0.100(2.0.95887.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 02:13:58 +00:00",
+       "id": "2b8d5cb4-44e6-4059-aed8-5514ff0538a4",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "安い。",
+       "user_profile": {
+        "profile_name": "野間広",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXRxqmume-Mics0HrMdcUCqiWIU1sF56Jve_SczQ8fWx3J64rE7"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 42,
+       "rank_absolute": 42,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-13 19:55:05 +00:00",
+       "id": "c5e8a93c-4d1e-4a0b-b3f2-34243e8235df",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "今まで紙派だったけど、電子の魅力に圧倒されています！",
+       "user_profile": {
+        "profile_name": "y mywk",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUsFeovTlcnAfp131O1FJ2as55nmNkWphWh_-du3jnxmoxMhHuN"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 43,
+       "rank_absolute": 43,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-13 16:48:35 +00:00",
+       "id": "425cb616-10cb-479d-acab-efd840fcd35f",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "pdfを開けなくしてくれるアプリ？",
+       "user_profile": {
+        "profile_name": "村上直也",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVUsnyIw02F8iyiyT2DEH8a_V7oL6k43V57HjXJzCr_eovgwa8"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 44,
+       "rank_absolute": 44,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-13 12:27:52 +00:00",
+       "id": "1695302d-3d74-485a-ad43-42886bf27379",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "フォントと背景色のバリエーションを増やしてほしいです。フォントはしっぽり明朝のような、紙の本っぽい味のある明朝体を追加してほしいのと、背景色はダークグレーがあったら嬉しいです。",
+       "user_profile": {
+        "profile_name": "Kazuki",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUJbwJ12eFm_WTuYKOJ0C7Dw8xQWnu5QGpoyANvFruwdLoqIOlVTg"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 45,
+       "rank_absolute": 45,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-13 05:15:25 +00:00",
+       "id": "5414952a-1243-4383-9c5a-d1ce45ce68b9",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "定期的にナビゲーションバーが消える。修正するにはアプリを消して再インストールするしかなく、手間がかかる。",
+       "user_profile": {
+        "profile_name": "shin S",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVmbNyPkKsMlNY0wDWYU1kPXx93oigzjxBpmehkk2yVC2AHftZw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 46,
+       "rank_absolute": 46,
+       "position": "left",
+       "version": "8.143.1.0(2.0.69586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 14:17:48 +00:00",
+       "id": "1efe0804-4579-4b6d-98e7-763140984a6c",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "ページがとんで前回のところから読めない。購入しても開けないときがある。もう一回買えだと？",
+       "user_profile": {
+        "profile_name": "たこはちろう",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWFaBogc_pE5rBTm5TQFwqsQOo8r5RtMoaK8wGiEVkkBdY0SZsM"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 47,
+       "rank_absolute": 47,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 11:02:44 +00:00",
+       "id": "80c4abab-0024-4f47-932a-c8abe30205c2",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ラノベもコミックの様に纏めて欲しいです。よろしくお願いいたします。",
+       "user_profile": {
+        "profile_name": "R hatayama",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLfzJgRbhR7cDq1sLzuufyoDiZmn1-sMgQjdYxrhtCtBlfyaA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 48,
+       "rank_absolute": 48,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 10:31:58 +00:00",
+       "id": "53a71f1a-74d4-4303-b34c-1eed89a40924",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "また使いづらくなった。定期的に不必要な仕様変更がされてどんどん使いづらくなってる。",
+       "user_profile": {
+        "profile_name": "mao ya",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXlDiptJW4yoIsCbGwTg2gKalQjpIJvfGqHcPvpQ9eK_NhEiOS0"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 49,
+       "rank_absolute": 49,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 09:37:41 +00:00",
+       "id": "63782f01-1445-49da-941b-38cb9d84f8a1",
+       "helpful_count": 5,
+       "title": null,
+       "review_text": "しかし、絶望的に使いヅライ。 これを開発しているプログラマーとかは自分では一切使ってないのか、またはコスト削減をため、北朝鮮の業者にでも発注しているのでしょうか？ 徹底的に使いヅライ。 客に嫌がらせして利用者を減らしたいとしか思えない。 早めに今の開発担当を解雇しないと、まだまだ改悪が続くと思うとアップデートするのが怖い。",
+       "user_profile": {
+        "profile_name": "Y H",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLWKNBWyHDJe3rveu3GWLjQJwSOPWGq625fPIq_hE-5iylXSg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 50,
+       "rank_absolute": 50,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 06:41:10 +00:00",
+       "id": "244b1a1d-cc72-4c5a-a311-c7492e389bcc",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "めくる時に端に一瞬青いラインがでる。きになりすぎる、、、",
+       "user_profile": {
+        "profile_name": "Shuhei",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKO2KcqPFmjjWKRIfFfZCGj2C6_BWPYSrFEiDxY17-ykctBTpew=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 51,
+       "rank_absolute": 51,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 04:18:10 +00:00",
+       "id": "d881accb-19c5-4f77-a0ee-ecd254aea51b",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "ホーム画面をスクロールしようとすると、少しだけ進むが、その後固まって動かなくなる。 何年も前からこの状態が続いているが、一向に直る気配が無い。 相変わらす、要らないおすすめ本ばかり表示されており、『連続読書記録トラッカー』も、ホーム画面に表示されたり急に消えたりを繰り返している。必要の無い本を表示するなら、読書記録を常にホーム画面で確認できるようにして欲しい。",
+       "user_profile": {
+        "profile_name": "みつばち",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLvRNW2Sbn-XppARV8s0Mx0H77QGfBIOci3t-F9IvB0cQfl5w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 52,
+       "rank_absolute": 52,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 00:13:07 +00:00",
+       "id": "18c14440-09c4-4b94-9073-e96d48a055ce",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "理不尽にAmazon アカウントが閉鎖され、これまで購入した本が読めなくなりました。似たような話は聞いたことがあったけど、自分の身に起きると衝撃です。サービスとして最低です。利用する時は、万一の場合も想定しておくのを推奨します。",
+       "user_profile": {
+        "profile_name": "ken yama",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI3rQQXKUBURWQB7F2I_cacdVGpmCMqurTCUI1OZSCcEewkRw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 53,
+       "rank_absolute": 53,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 05:28:29 +00:00",
+       "id": "b9dcc8fa-73da-4c29-bca7-814a74e2be3a",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "とにかく、読みたい本を探す事が困難。 ソートや検索が不出来。 検索で絞り込める条件が少ないし、条件にした内容は守られてないし。ソートも降順昇順変えられない。 誰も文句言わないのか？",
+       "user_profile": {
+        "profile_name": "kousuke tairabune (fkosu)",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV6nlQ4c9hvdpV62ORmLkcOQacz0w_3NdS0TElgVyZSeAZQb6jA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 54,
+       "rank_absolute": 54,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-10 23:59:14 +00:00",
+       "id": "1609c488-a22c-4b34-a2de-f89c86ce0e8a",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "本当に素敵なお話に感動しました✨ まるでドラマや映画のようなお話ですが、ノンフィクション　涙溢れてきましたぁ〜〜来世では必ず結ばれますように🙏",
+       "user_profile": {
+        "profile_name": "おおくぼじゅんこ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLdNs21N8awlvii_bjj81pn9PCH2GQ7UKs4IhUVR4Dw5QDYuA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 55,
+       "rank_absolute": 55,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 21:59:34 +00:00",
+       "id": "9fe02528-c0a9-4508-95be-d242059752f9",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "もう手放せないです",
+       "user_profile": {
+        "profile_name": "まきりん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJ11pYCeyJ644ZDTmQToiLwRKivx-uVpYjJfZ9-Z8tsJPAQLA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 56,
+       "rank_absolute": 56,
+       "position": "left",
+       "version": "8.37.0.100(1.3.234695.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 21:17:46 +00:00",
+       "id": "ad0ed31c-c2fc-4149-b87b-690411fe9425",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "フォントサイズの設定をもうちょい細かくできないですか？小説を読んでいて、小さくて見づらいからと1段上げるとでかくなりすぎてびっくりです…",
+       "user_profile": {
+        "profile_name": "muneo konno",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWo0TKgYSW1ykDFT4pTNqQPPffe8ZmWkP6RrAwyR5bEuyV5jel2"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 57,
+       "rank_absolute": 57,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 07:49:16 +00:00",
+       "id": "ae89324c-5e99-4aed-8931-7341baa1ff4f",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "アンリミテッドで色んな本を楽しませてもらってる！",
+       "user_profile": {
+        "profile_name": "ハンジャンヨン",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV389WdC1eN96X81KtA3gn_DpBYd2FjqouW2rGuZsoBW3DKwElB"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 58,
+       "rank_absolute": 58,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 07:26:04 +00:00",
+       "id": "e357f668-ad2a-4971-ad8b-6e3d11a88d28",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "以前までできていたはずだが、サンプルを削除できなくて困る。ライブラリで長押ししてもサンプルだけ削除の項目がない。 再インストールしたらサンプルは消えたがアンインストール前に購入してダウンロードしてあった本がダウンロード出来ない。 小説や実用書によくある電子書籍用のレイアウトがどうにも読みづらくて苦手。 黒背景設定時に挿入イラストが明るいまま表示されるのも目がチカチカして嫌。画像の色を反転するかしないか選べたら良いのかもしれない。 スケベな本など隠したい本を隠す機能もほしい。削除・再購入してもらえたら儲かるから放置されるのかな。 ストレスなく本を読めるので電子書籍アプリとしてはまあ、程よい。 並べ替えに出版社順がないのは意味わからない。本買い集めたこと無いんだろうなと思う。それともできない理由がある？ コミックと本がごちゃまぜにソートされるのも不快。実用書と小説がまとまってるのも不便。",
+       "user_profile": {
+        "profile_name": "ヒスイ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLWz51It3OCmZB3Oo52HTkxQePvlRFFDWFts5_V3-1282yZb8U=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 59,
+       "rank_absolute": 59,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 02:31:08 +00:00",
+       "id": "544046ce-3675-4b79-af0e-eeff1e82eec5",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "バージョンが古いから本を読めませんと怒られる。本を購入した時点のバージョンでの利用は永続で保証されるべき。人様の財産を掠め取る悪行。",
+       "user_profile": {
+        "profile_name": "狩巡奈々太郎",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWC9eVoVEeYfYu8U8-dxiXn1DTGQtrTsksNZgyPwEG3hXrvSJS0"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 60,
+       "rank_absolute": 60,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-08 10:36:30 +00:00",
+       "id": "827e270d-db72-4c82-b5a8-6844066dd45e",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ダウンロード失敗でアプリから出られない。スマホ電源スイッチ→強制終了みたいな流れで出た。アンインストール→インストールしてみる",
+       "user_profile": {
+        "profile_name": "筒井健",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKLb5Vjp62N-dPlly0g1cYL5k4weDj7Zhj-PtjThLahk1nZbA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 61,
+       "rank_absolute": 61,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-08 02:28:58 +00:00",
+       "id": "9b4524fd-76f2-4f08-b3c2-fcdefcc25bae",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "機種変更したら、全ての本を開けなくなった。 galaxy flip 8",
+       "user_profile": {
+        "profile_name": "mu mu",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKT5L3X7F8k_iwagO52QQms-0oBBq8KvCVw1TTc611sqgL2ow=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 62,
+       "rank_absolute": 62,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 21:46:57 +00:00",
+       "id": "e1e63f9d-e0a3-4578-9f4e-d70c78ef5358",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "色んな所でマンガを買っているのでAmazonで買った本が何か知りたくて入れたけどすごーく使いにくいです。次が出てたら買いたいけど一目でわからないので押して読んてみないと知ることが出来ません。なるべくAmazonでは買わないほうがいいと思いました",
+       "user_profile": {
+        "profile_name": "いか",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKznBtcB4PkcORjRV3y-EpDVVy4w2KFCGOc4mnJjeFtO_fNPA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 63,
+       "rank_absolute": 63,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-06 23:09:17 +00:00",
+       "id": "19350da3-d658-4906-8ae2-a7a9199733b8",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "使いにくい",
+       "user_profile": {
+        "profile_name": "TOMOYUKI K",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWNPnpCktk_IdeJinSE2rNHMpfEFQkXTao0zmxZyAiNGv_vM2tV"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 64,
+       "rank_absolute": 64,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-06 15:00:33 +00:00",
+       "id": "68c4c305-4389-4723-bf5a-9b7557c45ec4",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "ライブラリが見にくい。 シリーズごとに纏っているものもあれば、バラバラに表示されるものもあって非常に見辛い。本を探すのに手間取る。 もっと直観的な操作ができるようにしてほしい。",
+       "user_profile": {
+        "profile_name": "剛力羅芭蕉",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIc_cj51ixMi2D19T5-dnsWzt1sIUqECG54MKBTRyD50iBWtw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 65,
+       "rank_absolute": 65,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 12:35:27 +00:00",
+       "id": "240f3690-b0c2-483e-9eae-df11718ca345",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "人が夢や希望を抱くのは、いつも現実ではない世界から！魔法の力、思い出しちゃうかもよ！書物の世界へ是非是非！！　のぞぼう:-)　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
+       "user_profile": {
+        "profile_name": "高橋美由紀",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW_huaKqV2mX2-8cebT7IHva270O06HlX27yUSnCwFGbpdDOfmr"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 66,
+       "rank_absolute": 66,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 04:24:22 +00:00",
+       "id": "366e22a9-9cde-4d3a-859f-2a83a63c2229",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ホーム画面がスクロールしづらいです 誤タップばかりでろくに操作できません ストア画面とは明らかに挙動が違います",
+       "user_profile": {
+        "profile_name": "cosmo",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIwPowtxO0NR06WJavjL01bTiCcWrFaaDphccUjxS13Rsyrhw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 67,
+       "rank_absolute": 67,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-04 18:50:26 +00:00",
+       "id": "516d3d6e-81bd-4a7f-b1f8-ba34390feec6",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "ダウンロードした書籍の一括削除ができなくなり困る。戻してほしい。",
+       "user_profile": {
+        "profile_name": "あさぎ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVQoa9pb0EA8Ftmhx0ch0LlY5I8EtxyvEIFOx0RNUvWKle8ty4"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 68,
+       "rank_absolute": 68,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-04 10:18:10 +00:00",
+       "id": "cc618139-3bb4-4c44-ad1a-0d2a34fcfdf5",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "もう少し使いやすくしてほしい。",
+       "user_profile": {
+        "profile_name": "masu ura",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV6ZWX-eYBQ7Ex9-NFGbB_IAFxrkcwfhMokhiZkNpKtfCjBzAM"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 69,
+       "rank_absolute": 69,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-03 17:39:08 +00:00",
+       "id": "6f3b68c3-f669-4cd7-8ef9-dd055c5e2c96",
+       "helpful_count": 6,
+       "title": null,
+       "review_text": "ダウンロードが異常に不安定で遅い。安定した高速回線以外では使い物にならない。",
+       "user_profile": {
+        "profile_name": "Shunichi Arai",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWHHWeysH-C9Bd-hSiotgsPDam1vGPixS3J1rR4lurGJj5AdN7C"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 70,
+       "rank_absolute": 70,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-02 13:12:29 +00:00",
+       "id": "366a1a30-5d34-4dd4-a8f3-a4d93e61d8b7",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "使わない。",
+       "user_profile": {
+        "profile_name": "上田幸世",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocICT9QnMbPC6jQ5ubtwmL2GANTZG15KxCaW5XbhJcrgW_LazA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 71,
+       "rank_absolute": 71,
+       "position": "left",
+       "version": "8.51.0.100(1.3.255890.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-02 09:39:03 +00:00",
+       "id": "f6453860-eedc-47c1-8543-fd3cee4ac675",
+       "helpful_count": 23,
+       "title": null,
+       "review_text": "ポピュラーハイライト、基本をオフに変更してください。 誰かが引いたライン入りの本を読みたい人いますか？ 真っさらな本に自分が引くならまだしも、ダウンロードし直すたびに点線入りの本を読まされ、消し方も分かりにくいためやり方がネット上に上がってる。不要な押し付け、不親切なシステムです。 とはいえ、ここの改善要望はAmazonさんには届かないので書くだけ無駄かもしれません。",
+       "user_profile": {
+        "profile_name": "alice kurousa",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVQEv43k5NMl6MlxC28C5Jf7bMj6HpNdCdSLnRhLronBp3E4_JS"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 72,
+       "rank_absolute": 72,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-02 01:50:40 +00:00",
+       "id": "cdd8d454-1823-40ac-a8a3-974f793eebd8",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "表紙やまた読みたい少し前の部分などに行きたい時に行きにくい。 というかどうやるのか分からない。 文字の大きさの調節がとても親切で良い。 大小しか無いところは不便。",
+       "user_profile": {
+        "profile_name": "あーこちゃん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX_itCDpNflwFDdA8Xl5uSA9ck2p4qzI9IKKuEgXHBJK4L_Gm3C"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 73,
+       "rank_absolute": 73,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-01 06:50:14 +00:00",
+       "id": "2bbd208d-0f98-4c62-b0bf-1d5f1572c0c8",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "絵画や女性の写真集の背景をダークモードで閲覧したいのに、白しか無い 選ぶ権利すら無い 小説も読むが、そちらは融通が利くのに 浮世絵の色彩や女性の肌の色が背景の眩しさによってスポイルされるゴミ仕様 他にも4つの電子書籍アプリを利用しているが、どれも背景をくらい色に設定して写真集を閲覧できる アプリ製作者に芸術や人間の視覚機能を解する者を登用してください",
+       "user_profile": {
+        "profile_name": "熱海ムチウチ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXdYOE2p7XIO-NYUmbGJ21cbCrhFqpWB8MJqasJU97yLa3YN9E"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 74,
+       "rank_absolute": 74,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-01 03:03:18 +00:00",
+       "id": "01d974df-3422-48b1-b6bd-da86f9946d4e",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "ダウンロードした本をまとめて削除できなくなった。 「完全に削除」が誤操作で簡単に押せてしまう。 何故こんな酷いUIにしているんだろう。",
+       "user_profile": {
+        "profile_name": "ludw",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWGynJkviR5OEg04wVTLa-wKe2w_pvt6ALR3Tc8-K8SdIbLKl0dxw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 75,
+       "rank_absolute": 75,
+       "position": "left",
+       "version": "8.153.0.100(2.0.93586.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-31 18:59:40 +00:00",
+       "id": "9f5bd109-34e5-46d1-85e2-7d9b451d4eb2",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "最近のアップデートでゴミみたいなUI になりました 冗談抜きに前の状態に戻してほしい 本当に",
+       "user_profile": {
+        "profile_name": "準基",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKLIHIyiVhfzmUgE-DBWK1rAs2ET8Yb6LCxFu6Tcc59G0AK8A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 76,
+       "rank_absolute": 76,
+       "position": "left",
+       "version": "4.18.0.104",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-31 11:57:56 +00:00",
+       "id": "91d8ec69-5d48-4360-877c-c81b36afa336",
+       "helpful_count": 16,
+       "title": null,
+       "review_text": "買った本が消えるのヤバい。 消えるならもうお金出して買えないから紙の本のみにする。 本は基本あとからまた読んだりしたいのが多いから。 鍵付きの棚も使えるようにして欲しい",
+       "user_profile": {
+        "profile_name": "ck Rodríguez",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKtpwFQWlpZ55o3Jy6rewK26hDRUWnmybC5sfNNDO8gA7PrNhU=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 77,
+       "rank_absolute": 77,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-31 06:07:06 +00:00",
+       "id": "d048078f-4a16-4b2d-afd4-52c00a3001a0",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "スマホ版のライブラリの使い勝手が悪い。 サンプルの消去ができないのは何故か？せめて本編購入したなら無用の長物。 おすすめ編集機能が欲しい。絶対読まなくなったものも中途半端な巻数を延々出されるのはストレス。",
+       "user_profile": {
+        "profile_name": "みしん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJWjXd-uPd3xhUco288nhITDOgqvaN_izEn1cxodsVqBmdqGQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 78,
+       "rank_absolute": 78,
+       "position": "left",
+       "version": "8.106.0.100(2.0.20691.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-31 02:04:43 +00:00",
+       "id": "498e756c-b5ce-4938-b3e8-64bc094a0993",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "使い物にならない！買ったものも読めないし！カスタマーセンターの対応も酷い！もう詐欺アプリ",
+       "user_profile": {
+        "profile_name": "K “しおまねき”",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKMJzgagvWHujtFY13Z4_BZfy7E4CgVJKta6X4xow6TeeVqkfY=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 79,
+       "rank_absolute": 79,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-30 14:08:00 +00:00",
+       "id": "bf84094b-e303-4a87-9952-addad5fb4ec4",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "ライブラリのUIが変わってからかなり使いづらくなった。ダウンロード済みだけを表示するタブを戻してほしい",
+       "user_profile": {
+        "profile_name": "ささき",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXsmcG_Z93rS8vmRugqiFHXscBqp8RJ4uDsan46IAP4EBrKwqLc"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 80,
+       "rank_absolute": 80,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-29 14:43:53 +00:00",
+       "id": "9b571beb-505c-404d-8430-d9652117d91a",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "買った本を非表示にしたいだけなのに、「完全に削除」の項目しか選択できない。 さすがにバグですよね？早く直してください。",
+       "user_profile": {
+        "profile_name": "KURO",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXUX0jc_SfRBmsVXLccPXLxroogQgmqHlfqCIbXMEP6pLX0Em4"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 81,
+       "rank_absolute": 81,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-29 01:41:14 +00:00",
+       "id": "3eba8c47-fb9e-4506-8df8-e3a9856311bc",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "勝手にアプリが本買ってた、パスワードとか無しに本人の意思関係なく勝手にアプリが買うことがあるから怖い",
+       "user_profile": {
+        "profile_name": "モモユズ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWRy2Q1AYTsFMIhhlpg3CZPH6RS2p39U6ZpDYcGWLapQ8f1uaS56g"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 82,
+       "rank_absolute": 82,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-28 22:58:46 +00:00",
+       "id": "8f0fb429-390c-4ffb-bc5a-3f11133ab4f9",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "ダウンロードしたはずの本が消えているのですがものすごく迷惑なのでどうにかしてください",
+       "user_profile": {
+        "profile_name": "星野茜",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjU3xb_uB8IjeSyLfwynDuNx1xuicdOuBOtCAvlQpuspKK6a-3Wi"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 83,
+       "rank_absolute": 83,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-28 14:57:16 +00:00",
+       "id": "c553d354-b7c0-45ab-961b-2641b50d866b",
+       "helpful_count": 19,
+       "title": null,
+       "review_text": "アップデートにより、タブレットのデザインが意図せぬ形に変更された上、設定までリセットされてた。 また、元々、電子書籍のダウンロードはできるが、ストリーミングには対応しておらず、ストレージのやりくりに不便である。さらに、デザイン上、ダウンロードしたデータの削除と購入履歴も含めた完全に削除が隣同士になっており、リスクが非常に高い。アプリのＵＩがなってない。ガックリだ",
+       "user_profile": {
+        "profile_name": "海山水土",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUso6c-fNj3N761kNtEhngtjcuG3oGUNegDCr9HjBuv1jUDrTd3vw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 84,
+       "rank_absolute": 84,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-28 11:49:29 +00:00",
+       "id": "0314bacd-048c-40be-bc4c-a9545db1e373",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "ダウンロードした本をまとめて削除できなくなってる。なんでわざわざ不便に作り替えるの？",
+       "user_profile": {
+        "profile_name": "おな（たにおー）",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVrnv0nTE4BRjvNqsgX_n9vIjL6yeamSSQEwaqjvel6akPYAJp4"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 85,
+       "rank_absolute": 85,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-27 00:58:19 +00:00",
+       "id": "d518307e-a012-41d2-a890-7bef7c4cffef",
+       "helpful_count": 5,
+       "title": null,
+       "review_text": "まだ読み終わってないときに 読んだところから始まるのがいいです。 記憶しておきたい所にマーカーを付けられるのも助かります。 本によっては、文字の大きさが調整できないものがあるので、購入したあとに失敗したぁ。と思うものもあります。 サンプルで確認してから購入するのがオススメです。",
+       "user_profile": {
+        "profile_name": "noriko goto",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXcJUeBZZUqGBGW7l4ZcXQI8u9JmQq7pGuyZ4vARmaYKAMc4GVB"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 86,
+       "rank_absolute": 86,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-27 00:38:13 +00:00",
+       "id": "a7d98d40-852c-4c4d-a5ad-953f947c265c",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "iPadのアプリとAndroidアプリで同期がとれていない",
+       "user_profile": {
+        "profile_name": "Hide Kusu",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLlRNNKq1iQwprwbOSIYr9Pg_QxDZ4TkU5YqwLapRj2mV8ofQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 87,
+       "rank_absolute": 87,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-26 15:46:06 +00:00",
+       "id": "7c55ef9a-a66e-4af2-836e-9643b121282c",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "まとめてダウンロードデータ消せなくなり凄く不便。",
+       "user_profile": {
+        "profile_name": "JOK14",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWCmcXk9ku89UsqKy0vm3v2oOG1v2ZyQJNGdtxUlIf0IyB6wZQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 88,
+       "rank_absolute": 88,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-26 07:41:12 +00:00",
+       "id": "3bee353e-d6a7-408b-915f-518da910600d",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "コミックなどの値段が高過ぎる　楽天や他のとこは誕生日やクリスマスや年始などに割引き券くれるのに、ここはくれないamazonはセコい最悪だ",
+       "user_profile": {
+        "profile_name": "サウザー",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLdhTJk9tKF2sAOzcewkf9vR3alOsSjvaSupYS5X99WMmVbig=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 89,
+       "rank_absolute": 89,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-25 09:56:12 +00:00",
+       "id": "b877d2d2-9b5f-42a3-8ded-7ef7a13a5e90",
+       "helpful_count": 8,
+       "title": null,
+       "review_text": "最近買った本のダウンロードが全然進まないときがあり、本を開いてみるとダウンロードに失敗していて、✘マークを押して複数回やり直すことになって面倒。 それとサンプルをうっかりダウンロードすると全く消せなくなり非常に邪魔。買った本はアプリ内で完全削除できるようにしたのになぜサンプルは完全削除させないのかが理解不能。",
+       "user_profile": {
+        "profile_name": "ナギサ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLMXXyUD0RWeUt9_PAizmcEEMqaIiz4p5ZthEyyEAuaU7N_Hf0c=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 90,
+       "rank_absolute": 90,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-25 09:50:42 +00:00",
+       "id": "849c2ac4-7e6d-4597-a788-4362646eb879",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "アップデートされてライブラリが見にくくなってマジ使いづらい。 操作性退行のアップデート？ だめ、",
+       "user_profile": {
+        "profile_name": "tsukasa konno (つくんこチャンネル)",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWmcKOJV9qgFWcljGILFW3tAk6Lq7aM8AxZv7LoheDMXiUH-G9cnA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 91,
+       "rank_absolute": 91,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-25 05:31:50 +00:00",
+       "id": "a9499588-e358-4dd3-a028-921281d55a8b",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "コミケ独自で直接販売している傾向示す商品が多い。だったらブースエリア外の辺でフリーペーパーブックを各種揃えていますを流行らす",
+       "user_profile": {
+        "profile_name": "あるがまさる",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI4R-gSuaIi8QBwJsdm-yJShOM-1ZF9WGYRdVexFABmRnStXA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 92,
+       "rank_absolute": 92,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-24 13:32:05 +00:00",
+       "id": "352e99c0-af41-4d6a-afe8-dfc1745f7611",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "サンプルがライブラリから消せない場合があります。ハイライトに紫も追加してください。",
+       "user_profile": {
+        "profile_name": "michiyo lamusica",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjU82aOCeXpoHCed8DW_BWbo32fpfXqO7f8Fzz3R4hR1ZPt-NB30Fw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 93,
+       "rank_absolute": 93,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-24 13:08:43 +00:00",
+       "id": "d2ae4a73-46fd-4623-975a-146a4e3ef8b3",
+       "helpful_count": 9,
+       "title": null,
+       "review_text": "いつもお世話になってるので星５。 またまたアップデートで使いづらくなりました。 タブレットだとUIが左側に表示されて使いづらい。→アンインストールすると直ると報告あり。ただしアンインストールするとダウンロードデータはすべて消えます。 そして購入した本をダウンロードできないという最近のレビューもあり。怖くてアンインストールできません！ 不便だけど再ダウンロードできない可能性があるなら今のUIで我慢して使います！",
+       "user_profile": {
+        "profile_name": "晃弘",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIU4MU4R9SLO4T_Rs2Iy2Y_hR3r8p7qO8nZtsZ-Ugv94ImUDQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 94,
+       "rank_absolute": 94,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-24 12:51:32 +00:00",
+       "id": "826ad6a7-bcc0-461f-98db-692cceabda37",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "いろんな意見があると思うけど、私はKindleのない生活は考えられない",
+       "user_profile": {
+        "profile_name": "浦崎将寿",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVFlNoXhyqWxUShpdpTr4BNO7bsk5mo79uRZSYEpQm4zi937r_PVw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 95,
+       "rank_absolute": 95,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-24 00:26:00 +00:00",
+       "id": "8bcbe837-cab8-4d22-9d48-4188e6dc30d7",
+       "helpful_count": 11,
+       "title": null,
+       "review_text": "UIの改悪が多い。 シリーズ長押しからまとめて本を削除することが出来なくなった。 ダウンロード済とそうでないのをボタン一つで切り替えることが出来なくなった",
+       "user_profile": {
+        "profile_name": "Bagaboo",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUe6afueNiOVw-kdAYvocwS6Capi-5k7vbSVgAbD9Xir48ZIdPd"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 96,
+       "rank_absolute": 96,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-23 09:59:05 +00:00",
+       "id": "7a4af704-8f26-4db9-89a6-59f160472757",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "良いんじゃない。",
+       "user_profile": {
+        "profile_name": "久保田大介",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXIfLJ0b46obQ3Z8M-SXT4nxv_sbX12WrV6TIA75GcDyX6IYssaMw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 97,
+       "rank_absolute": 97,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-23 03:01:21 +00:00",
+       "id": "658c5ec9-f0b6-4d34-8eec-01d782b5215a",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "面白く、はまっている。",
+       "user_profile": {
+        "profile_name": "武田安雄",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIq4XNQb7WjcjugQ4WXdxBhFIT8cLipaAIUv4WYliHurAqWxA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 98,
+       "rank_absolute": 98,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-23 02:51:25 +00:00",
+       "id": "fa25c03d-13f7-4f38-9abc-d510c6ec61c8",
+       "helpful_count": 73,
+       "title": null,
+       "review_text": "本を読んでるときに画面を長押しすると最初のページに移動するなどの機能がないからほしいですね 一体いつになったら小説をシリーズで分類してくれるんだ？💢 コレクションで管理してて手間 良いところはポイントがつくことくらいしかない",
+       "user_profile": {
+        "profile_name": "yugo m",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX4ANmMZEn3MIHiNuWqvRYZwa1KoZQB6BxtrIoN1OneQd_rjdeO"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 99,
+       "rank_absolute": 99,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-23 00:07:20 +00:00",
+       "id": "dc285b43-2ee3-4b2b-953b-d387c93c4aed",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "拡大したいところが、すっとできるので良いです。",
+       "user_profile": {
+        "profile_name": "きまたりか",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV5MmPogYi_bDzytaE5kANO4fN3qUdJPx0__WD-yaiClYstauM"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 100,
+       "rank_absolute": 100,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-22 23:35:23 +00:00",
+       "id": "b6c8fa1b-c22e-4844-9b93-469ada737c56",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ライブラリの同期が出来なくなり、本を読めなくなった。再インストールするとアカウントの同期でフリーズ。バージョンアップ直前まで使えてたのに。",
+       "user_profile": {
+        "profile_name": "mobioNX",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKuR1ECLP0Jc-3VCcId9KX-ycwmphQqxlRY6QCh7xhFIagxbQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 101,
+       "rank_absolute": 101,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-22 18:00:49 +00:00",
+       "id": "d32bf915-490e-4365-b552-1b8e7c596e89",
+       "helpful_count": 11,
+       "title": null,
+       "review_text": "ダウンロードした作品の一括選択削除がめんどくさくなったり、作品の完全削除という購入自体を無かったことにする項目が誤操作しやすい位置にある、端末に保存されている本だけ表示する機能がなぜか無くなった等本当に日に日に使いにくくなって辛いです。 結構な量の電子書籍をKindleで買ってしまったので、辛く感じても逃げ場がないのが余計に辛いところです。 もし電子書籍サービスの利用を考えている人はお気をつけ下さい。",
+       "user_profile": {
+        "profile_name": "FLY LOGIC",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUJtPIdMca2KPcyNLD_VOaqCk6q1XhN0KKBj_ONrz0I11_THc8k"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 102,
+       "rank_absolute": 102,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-22 05:56:27 +00:00",
+       "id": "5cac3a24-dd11-4dc9-a57a-3457bc2d583d",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "CMがえげつない。 利用者であるにも関わらず livedoor Blogかなんか読んでると指が触れただけで即Kindleに飛ばされる。 Amazonのなかでも類をみないドクソ 改善の兆しなし。カードの不具合でアマプラも解除できたし、Amazonから抜け出せてすっっっっきり",
+       "user_profile": {
+        "profile_name": "trickor treat",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX1dWl-jK1REpyCa3LitaUSdqG2trl8uS_bWLYWYbjnfx5yx7RA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 103,
+       "rank_absolute": 103,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-22 05:31:53 +00:00",
+       "id": "3a9fb771-d26c-4bc8-9fc8-683ac2c8f05f",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "どんどん使いにくくなる",
+       "user_profile": {
+        "profile_name": "志摩アサギ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjU3nZIYMqS4KFZUssTHonYrrZvTe0EbDOiXVN8Ij2-BpciSI3ql"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 104,
+       "rank_absolute": 104,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-22 05:18:06 +00:00",
+       "id": "c4879d69-f802-4a74-a511-4badd334d981",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "諸般の事情によりアプリから購入できなくなった…と思っていたら、いつのまにか直接購入できるようになっていたのですね。 いくつかの電子書籍アプリを使用していますが、使いやすい方だと思います。",
+       "user_profile": {
+        "profile_name": "shoji y.",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWrYoCbGzbH34ECRge9UyHcj0akX7rZwLCrROpkSbHjaNuFPw6J"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 105,
+       "rank_absolute": 105,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-21 23:39:42 +00:00",
+       "id": "bc3ad5b2-2a02-47c5-8aad-293c78b61176",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "電子書籍が読める事はありがたいのですが、アプリとしては ･読み込みが遅い ･ユーザインタフェースが分かりづらい など、総じて使い辛いです。 アップデートに期待しています。",
+       "user_profile": {
+        "profile_name": "I K",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXFDKkW35xXVOX8S_Fl4j7TGkiXkrMicpiFFObmp3KBgqe_Endzkg"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 106,
+       "rank_absolute": 106,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-21 09:53:19 +00:00",
+       "id": "787e31f0-89f9-45da-89b0-d9a0ca914bbe",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "使いにくい 何なんだこれ 買った本 全部買い戻してくれよ！！",
+       "user_profile": {
+        "profile_name": "hideyuki yoshida",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI_LiSbNWiA8z2TwF3PoEL6fBgu9LNc-1HOF-59Da7_8dveG1Y=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 107,
+       "rank_absolute": 107,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-21 03:20:51 +00:00",
+       "id": "3c24d274-cf7f-438b-830c-0e9939f8239e",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "最近、本を読んでるとページが固まってしまい、ページ送りも何もできなくなってアプリを立ち上げ直すことが多いです。 読んでいるのは主に小説で、ダークモードで見ています。 前はそんなことなかったと思うた佐野ですが、何か変わったんですかね",
+       "user_profile": {
+        "profile_name": "山縣浩明",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXhy0BcW6aQ19cToJZ4XG8Y6ewQwOIwebXKSHZEw2ZGWiojz7Uj"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 108,
+       "rank_absolute": 108,
+       "position": "left",
+       "version": "8.152.1.0(2.0.91177.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-20 13:16:24 +00:00",
+       "id": "2523c155-9947-4c70-9988-836ae4b41bf2",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "ダウンロードした本の一括削除が出来なくなって、面倒くさすぎる。改悪です。",
+       "user_profile": {
+        "profile_name": "K K",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJbU1UEBZbE_N6t9u7JKIqsYGbzP2WGduNCpVaH5S9xb7evzQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 109,
+       "rank_absolute": 109,
+       "position": "left",
+       "version": "8.140.0.100(2.0.63540.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-20 12:28:34 +00:00",
+       "id": "3fa6fb90-9036-4438-a1bf-52bae8be6ec2",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "Android9にして、kindleも最新バージョンにしたのに、購入した本をダウンロードしようとするとサポート終了したとのエラーが出る。エラーメッセージのとおりにアップデートしているのに。",
+       "user_profile": {
+        "profile_name": "Makoto Kishida",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXdDOWwTZSUTvea94KhnMeuxm4InnmTALv5IPZaVjnclJhMy65u"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 110,
+       "rank_absolute": 110,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-20 11:33:55 +00:00",
+       "id": "43734ee5-f26c-4f26-af93-068ee9f258c0",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "電子書籍でKindleが読めるが、定額Unlimitedで読み放題の本の､10冊から読みたい本を選んで、期間を決めて読むやり方もできる。",
+       "user_profile": {
+        "profile_name": "崎村洋介",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVPv0U9V3-dHgR-D_DxBYkGYHpkTMtV6pLv69F6mm68KD8dON4"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 111,
+       "rank_absolute": 111,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-19 23:45:51 +00:00",
+       "id": "2f60b461-1b95-4c9c-950c-9f2015489c83",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "使いにくい。無料でもいらないかな。",
+       "user_profile": {
+        "profile_name": "松下博志",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJxPcHUrv2vAogsBadKOfb_-SZYM2ylkrb4SIL7zTimBqLF1w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 112,
+       "rank_absolute": 112,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-18 08:39:17 +00:00",
+       "id": "59d0c88b-508a-488f-bed2-3bffef33b6bf",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "ダウンロードした本をまとめて削除できないんだけど何故無くした？シリーズ開いて個別に消すのクソ不便なんですが みやすさとか分かりやすさとかどうでもいいけど、容量食うからダウンロードした本を一括で消せるようにしてくれ",
+       "user_profile": {
+        "profile_name": "Riku",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKJuF85d3lHe0A3CvyDkPN505TW7f7-XDzzpqkBnn5qaqz3gqA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 113,
+       "rank_absolute": 113,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-18 02:53:57 +00:00",
+       "id": "1feca809-8194-4408-b9da-e7247d8afcdb",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "本を開いてる時の時計表示を復活させてほしい。 それから「本を完全に削除する」は不要 間違えそうになるのでなくしてほしい",
+       "user_profile": {
+        "profile_name": "ay t",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWmTTAF36jcHwPEFH_BZ2Nwr-8dtXMGMDxTe6L7ab9LkVxqxx3A"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 114,
+       "rank_absolute": 114,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-17 06:36:42 +00:00",
+       "id": "057ecd06-4fe6-44c0-9527-14d32be996bf",
+       "helpful_count": 8,
+       "title": null,
+       "review_text": "画面レイアウトが変わって、ダウンロード済みと購入済みを切り替えるのにひと手間かかるようになってしまった。これは改悪すぎる。",
+       "user_profile": {
+        "profile_name": "恒岡和志",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUHCH2KftRvx83h-eEIf71VZsRlni2--kwL8BmKTQ5OLg1ZfZM"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 115,
+       "rank_absolute": 115,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-17 01:55:56 +00:00",
+       "id": "08e37481-2734-423b-a53f-fda8e156b514",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "何したところで真当にダウンロードできない",
+       "user_profile": {
+        "profile_name": "kuma kiti4126",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJ0vCK98DTeFNIgU358K3wu00VsMAFWKUXKdJddP23cp35cYQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 116,
+       "rank_absolute": 116,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-16 07:39:48 +00:00",
+       "id": "abbd40d3-f685-40ac-8719-3ddc1dd2ca16",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "複数巻ある作品続けて読む際、一度その先の巻を読んでいると、以前読んでいたページの続きになるのを辞めて欲しい。 通巻で読み直しをすると、毎度毎度巻末から巻頭に戻す作業が発生するのは無駄手間。 前巻から続けて読む誘導をしているんだから、普通に巻頭へ飛ばしてくれていい。",
+       "user_profile": {
+        "profile_name": "めじろらいあん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIOvOdCvguuK81z_-R-SjFwwubom1wC9dA-UxSMx6q03r92-A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 117,
+       "rank_absolute": 117,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-16 01:21:10 +00:00",
+       "id": "06757a94-2401-4436-b4d0-1b829dfa8fb5",
+       "helpful_count": 16,
+       "title": null,
+       "review_text": "アップデートされる度に使いづらくなっていく。 ダウンロード済みアイテムの一括削除もできなくなり、読んだ位置の記憶は一定時間経過なのかスライドしか反応しないのかわからないが全然更新されなくなったしで、とにかくワザと使いづらくアップデートしてるとしか思えない。 そのくせ、いつまでも本のグループ化は不具合だらけで、特装版がグループ化されないのはもちろん、通常版もうまくグループ化されない期間がよく生じる。 また古い本もグループ化されないのは、問い合わせたところ、仕様かつ修正予定はないとのこと。だったらもうアップデートしないでほしい、、、改悪しかされないのだから。。。",
+       "user_profile": {
+        "profile_name": "00 roar",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocITPrTvKjIbR13OM2sqdWPTJ3PytqYQp0qp7namuMTUpWsS=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 118,
+       "rank_absolute": 118,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-15 23:23:42 +00:00",
+       "id": "7b56c23e-5dfa-4a75-9a4c-52745f4a2e37",
+       "helpful_count": 18,
+       "title": null,
+       "review_text": "おすすめの読み込みが永遠に終わらず、購入した本がダウンロードできない。 おすすめなんて余計なものは読み込まなくていいから、先にダウンロードさせてほしい。",
+       "user_profile": {
+        "profile_name": "中山智博",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocL6YVgMWO0lX05YiO2tXWwsVQHpdDShPAozhUUG3l2Zo45IDmdI=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 119,
+       "rank_absolute": 119,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-15 17:46:29 +00:00",
+       "id": "716486a2-5652-4321-82ae-643b94bf5a54",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "･アンリミテッドの本が返却できない ･購入した本もDLできない ･おすすめ等も開けない ･ついにはログインもできなくなった 再インストール、端末再起動もだめ いい加減にしてくれ モバイルデータ通信ではログイン、読み込み等可能になった",
+       "user_profile": {
+        "profile_name": "Mam Can",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJZD7FpOwinQdtcS1tTAaCBwWhil0RMDChi79-PUbVCwdpiTA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 120,
+       "rank_absolute": 120,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-15 15:46:19 +00:00",
+       "id": "5c06286d-7332-474a-a445-a6c400f4d109",
+       "helpful_count": 78,
+       "title": null,
+       "review_text": "見たくない本の表紙を長押ししたら非表示になる機能を作って搭載してほしい。 近日配信タイトルのおすすめも不要。 見やすく改善してアップデートして下さい。それと、 月額で課金しているから、もう少し、ベストセラー小説や文庫本、自己啓発本などを無料で読めるようにしてほしい。 期間限定無料や半額で購入などでも嬉しいです。",
+       "user_profile": {
+        "profile_name": "C",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLZX-xa5-VghYec2TA51NTLBkYDLzX_97WNJ0zlZofndNU7EQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 121,
+       "rank_absolute": 121,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-15 09:38:48 +00:00",
+       "id": "84617e98-fcf4-4214-b73e-f7e27cd79def",
+       "helpful_count": 5,
+       "title": null,
+       "review_text": "ダウンロード済のタブがなくなった 操作性が低下しました",
+       "user_profile": {
+        "profile_name": "orz",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLKlavpKoTfDaBmv3tVvIrQCaBx35pIUtI7Jl96x_s8NDNgtnU=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 122,
+       "rank_absolute": 122,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-15 04:15:08 +00:00",
+       "id": "7c18d2cb-88dd-4661-8c7a-322507c2bf95",
+       "helpful_count": 32,
+       "title": null,
+       "review_text": "画面の明るさを強制的に変えるようになって眩しい。しかも調整できる場所が見当たらない。本を読ませる気がないのだろうか……。ライブラリのダウンロード済みの一覧で、シリーズを長押しすればまとめてダウンロード済みファイルが削除できていたのに、いちいちシリーズを開いて一冊ずつ選択しないと削除できなくなった。さらに今度は、ダウンロード済みのタブを消した。大容量の専門端末を買わせるために改悪している？",
+       "user_profile": {
+        "profile_name": "at aa",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocK-JhiK2Z__HUdCR2h7pnTEdgFxd0Z6ddTDdAJi-UX8pYnHAw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 123,
+       "rank_absolute": 123,
+       "position": "left",
+       "version": "8.152.0.100(2.0.89395.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-14 22:07:50 +00:00",
+       "id": "b5cda4ec-af96-42fd-ad04-11d6ef59607f",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "読書のハードル下がった！",
+       "user_profile": {
+        "profile_name": "まつくま",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVIP4TmV_V9bAwXYmK2qXjzrKf7NQh6bjJmEQKwAS76IVLuVNrs"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 124,
+       "rank_absolute": 124,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-14 16:06:31 +00:00",
+       "id": "f0db1815-ed97-44e7-a146-fd1124e553cf",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "明るさがアプリによって自動調整されてしまうのが最悪です。目が痛くて使わなくなりつつあります…",
+       "user_profile": {
+        "profile_name": "なるみ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIGIzthDB7YaOCp1D0xdOmLSGs17UNV9K1bgNg9OuXM7F1MWg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 125,
+       "rank_absolute": 125,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-14 06:17:13 +00:00",
+       "id": "db29ffce-64d7-4754-b17e-47e1a2bba432",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "謎の本が勝手に追加されて消すことも開くことも出来ない。 消そうとするとアプリそのものが強制終了する。 一度アプリそのものをアンインストールして、 再ダウンロードしてもあって邪魔でしかない。",
+       "user_profile": {
+        "profile_name": "アクセル・アルマー",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKtmsLz7A_D35F1ijFb2kEV7ZU8B0QfYa6Pmd0_2UC78qru0w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 126,
+       "rank_absolute": 126,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-14 04:13:10 +00:00",
+       "id": "886550fb-ebb7-4e2b-863a-f02e75750ce4",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "完全削除なんて項目増やしたのは間違いだと思うな。万が一間違えて押してしまったら 最悪な目に合うし。ちょっと不便になったね。",
+       "user_profile": {
+        "profile_name": "The FReeST",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWSMwBpR5cs7Jg500n3Ydn0kG-cWficJ5mRdsitsjX0EpoFtA2T"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 127,
+       "rank_absolute": 127,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-14 04:11:54 +00:00",
+       "id": "bd1fc1f3-5202-47eb-ba2f-91c1d358466b",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "家政とラノベってあんまり同時に出てこないワードで新鮮でした　主人公が完璧で強くてみたいなチートキャラじゃないところが良かったです とてもおもしろかった　続編出るといいな",
+       "user_profile": {
+        "profile_name": "roit1k0ツ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVlig-gQy4tezKQ26J989CwKPqbgs6xqeWn8YNuOQsxJVhggitXeQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 128,
+       "rank_absolute": 128,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-13 13:51:18 +00:00",
+       "id": "457bd898-21ba-4319-a8bd-a9cb810481f0",
+       "helpful_count": 22,
+       "title": null,
+       "review_text": "最近アプリから本を買えるようになりましたが、とても迷惑しています。間違って注文ボタンに触れてしまった事に気づかずにダウンロードされてしまったら返品出来ないのではありませんか？ アカウントの設定でアプリ上での購入の可否を設定できるようにして下さい。",
+       "user_profile": {
+        "profile_name": "さの字",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLsTUwSVkeCnxusT3dbXekqJ4B39d1SHaMZk6s-7v4kwO4U5w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 129,
+       "rank_absolute": 129,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-12 15:30:23 +00:00",
+       "id": "a17c9f4b-9593-4cad-8993-a1c5ea3ae002",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "何度設定を日本語にしても、商品詳細画面を開くと英語になる。読めなくはないが不便。 また、小説で次ページへとめくろうとした際に青い光が出てくるのも不快。",
+       "user_profile": {
+        "profile_name": "曖昧もこもこ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVpy1ju_E7aGAsEDFbvZV8Plm3UFwqhfAgVTD00ZLPUhHkSvbknAA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 130,
+       "rank_absolute": 130,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-12 10:23:22 +00:00",
+       "id": "bbc30081-4537-413c-a5b3-31be7823bfdc",
+       "helpful_count": 33,
+       "title": null,
+       "review_text": "Googleのポリシー改訂に伴いアプリ内で購入出来なくなったのでアンインストールしAmazonから直接インストールしましたが、アップデートでGoogle playにあるバージョンに上書きされます。 もうGoogle playとは関係ないのでそういうのはやめてほしい 頼むからバージョン管理別にしてください甚だ不愉快です ******** R8.７.12追記 Googleポリシー改訂に伴い再度アプリから直接購入可能となったので評価を上げました",
+       "user_profile": {
+        "profile_name": "Kazuya YOSHIMURA",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKiUEWmsLj9iwXNRUW6k1xm1JKY0cSLKhvh206a_LRyneuCng=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 131,
+       "rank_absolute": 131,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-12 08:43:10 +00:00",
+       "id": "7d8204b0-ae5b-40fc-8250-02bffd494261",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "アプリから直接マンガ購入出来るようになって使いやすい。",
+       "user_profile": {
+        "profile_name": "dddi hi",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIG4glcfhVGclJSWi_ZNut-_bibwSZT7nGV0cGwZlDuGpEQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 132,
+       "rank_absolute": 132,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-11 21:17:07 +00:00",
+       "id": "596021c6-8bcd-438b-8c1a-0c278b36b695",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "😄",
+       "user_profile": {
+        "profile_name": "LUIZ SHIZUO AOYAGI",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWAaq1ZEeseTUH1ApPHP2gPj6g3KdXPkv-i-sMABRE_TIzZoI_N"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 133,
+       "rank_absolute": 133,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-11 13:32:14 +00:00",
+       "id": "790065b0-8fef-4dc7-8373-afbd73b07276",
+       "helpful_count": 14,
+       "title": null,
+       "review_text": "なぜGoogleの決済になったのですか！アマゾンのポイント決済で良いじゃないですか！",
+       "user_profile": {
+        "profile_name": "森春樹",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKhAUoCmLdtd95TQo7Qk_yyWr7NxILJUcWiIWajfZ2Rb1SDvQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 134,
+       "rank_absolute": 134,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-11 10:20:41 +00:00",
+       "id": "d41287a5-6081-48fb-8b09-1a52a8efc000",
+       "helpful_count": 30,
+       "title": null,
+       "review_text": "本のデータの削除と、本そのものの削除ボタンが近くにあると言う改悪 （自分のはながらでやっちまってるので素直に買いなおしてますが） 他にもミスで完全削除した人いるのでは……？ 買いなおしで収益狙ってますか？と邪推する配置 それに対する意見、相談もステップが面倒なので、導入する人は気をつけて 同様のレビューも見るけど、意見聞く気はない模様",
+       "user_profile": {
+        "profile_name": "風茉翔",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW-yIXk_YLjUfr7_w5UwusFlHPe4r3tDiXRdqKSLmUN-QZRCLbr"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 135,
+       "rank_absolute": 135,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-11 06:00:45 +00:00",
+       "id": "578eb95a-48f2-4c30-a79b-c3ba5c76e2b6",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "どれも素晴らしい作品ばかり",
+       "user_profile": {
+        "profile_name": "激おこぷんたこ野郎",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLAJOJnaywO9Qg-rKJhcZb78Z5ct4dn8V5AxGINvwd2lWtIRpdt=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 136,
+       "rank_absolute": 136,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-11 00:09:34 +00:00",
+       "id": "3641628d-3c6f-4290-9f1e-0ad358f06e83",
+       "helpful_count": 10,
+       "title": null,
+       "review_text": "一部(というか最近の本はほとんど)スマホの画面幅にあわせて本のサイズが決まるものがある。pdfみたいなもの、画像書籍がこれだ。ゆえにスマホが縦長画面(Galaxy A41 SC-41A)だと、本のサイズ(文字のサイズ)が、むちゃくちゃ小さくなる。拡大すれば読めるが、各行の文字を追うのにも縦書き横書きにあわせて縦横にスクロールしながら読まないといけないので、いまではもうページを開いただけで読みたくなくなる。 もちろん、一部の本は文字データ化されているので、「電子書籍」らしい読書ができるのだが。 中身の薄い本ほどイラストや行間を多用し、そういう本ほど読みにくい。これでは怖くて、有料の本を買いたくならない。kindleが廃れるのも、むべなるかな、である。",
+       "user_profile": {
+        "profile_name": "Ninarous Ninama",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW0m1D4ZIfe5DK6D3vRiN5GN3S4fQkOJBM58XtRFNEgNbu8PNoN"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 137,
+       "rank_absolute": 137,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-10 22:19:00 +00:00",
+       "id": "35a1704b-b0b0-429f-90e5-f96cac73e38f",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "当たりハズレがあるかもしれないです。好みの問題？",
+       "user_profile": {
+        "profile_name": "YURI ABO",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLmHd_qqqAXCdigYQ4netNtRrKp_K-BZpO5ki9PeK7xInBBHA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 138,
+       "rank_absolute": 138,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-10 16:27:09 +00:00",
+       "id": "6a44e3f8-5f5b-4a28-9cf9-eb91de7d071a",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "楽しい読書",
+       "user_profile": {
+        "profile_name": "橋本吉市",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVxBRwYDB9_v2t1XAF_RMFtiqY8RnS_fX65jNHYUqBpFIysedc"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 139,
+       "rank_absolute": 139,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-10 02:03:24 +00:00",
+       "id": "1d111cc9-5ea6-41d1-b76a-11536fd7a3a7",
+       "helpful_count": 11,
+       "title": null,
+       "review_text": "購入した物の権利を放棄させる選択肢を平然と通常メニューに横並びで表示させる近年稀に見るエゴ丸出しの頭の悪いUIに腰が抜けました 次巻が既読だと続きを読むで巻末に飛ぶ仕様、小説のハイライト誤爆など何回フィードバックしても直る気配が微塵もないのでまともに向き合うだけ無駄ですね 新人が5分で考えた仕様を地下室に閉じ込められた言葉の通じない実装担当に身ぶり手ぶりで伝えるような作り方でもしてないとこのシェアの割に何も考えてなさそうなアプリは出てこないのではないかと思います",
+       "user_profile": {
+        "profile_name": "hex",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLEiaL9I1IdCgXctFWyWsYgByfMaCyLhIyaekrOSHOxu9Et0A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 140,
+       "rank_absolute": 140,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-08 14:34:28 +00:00",
+       "id": "1f2701e4-6887-4b04-9b1b-4ba7301e5ded",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "もう少し使いやすくして欲しい。本のジャンルや作者とかで分類やソート出来るようにして欲しい。 Amazonmusicだってアーティストやアルバムで探せたりブラウズ出来るのにね。あと少し古い端末になると動作が重いのをどうにかして欲しい。",
+       "user_profile": {
+        "profile_name": "岡龍之介",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJBvwUgXhGj717yfRq9bd7va65g9tTqK7bGNb_vj_FojDEPDA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 141,
+       "rank_absolute": 141,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-08 14:15:12 +00:00",
+       "id": "2ed3efa7-7882-4603-bed0-daecdadca94b",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ブックマークできない、してもドコにも飛べない。UIもバグって表示されない事が多い。もちろんそのバグが発生したら「最後に読んだページ」は表紙になりますwww喧嘩売ってんのか、金返せや。",
+       "user_profile": {
+        "profile_name": "なら",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIJH6SePTJlY_nzSeFgasIl-0HtXWsVm6Mx1KG5sT0-XQQvlw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 142,
+       "rank_absolute": 142,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-08 03:06:50 +00:00",
+       "id": "5902db22-0c64-4804-a6b1-42e526db8b7a",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "pixel 10 foldにおいて、画面を開いた状態では本体を横に倒さないと見開き表示されないのが不便。 古いバージョンのアプリでは本体を倒さずとも見開き表示ができた。",
+       "user_profile": {
+        "profile_name": "小嶋識喜（ノリ）",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocL4mVWe1zjw1iDFIOgKlx5O1F_jDYzC3XJQyFNctXFbTmLcIyY=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 143,
+       "rank_absolute": 143,
+       "position": "left",
+       "version": "8.150.0.100(2.0.84648.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-07 12:52:50 +00:00",
+       "id": "3b4493a9-44b5-4f73-be60-47f0521d3a07",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "読みやすい 文字数ページ数が少く、内容も濃い",
+       "user_profile": {
+        "profile_name": "R. YND",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUcN9MTeFHKU63eDCWCVZ5d1mdAVaQytIQshDdsBWHnppFvLbs"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 144,
+       "rank_absolute": 144,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-06 01:57:29 +00:00",
+       "id": "af763f7c-3804-478e-b7a0-af2e2f8a0f51",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "意外と読みたかった本が無いのと、アプリから購入できずブラウザからログインする必要があるのが微妙",
+       "user_profile": {
+        "profile_name": "桐生会構成員あさぎ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLKr54ZeRh82Knkd3VecSD1OfmdTZFY9XYC9TsELRfrHQzl2A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 145,
+       "rank_absolute": 145,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-05 02:45:49 +00:00",
+       "id": "38b75491-a858-4720-91e5-916a7f36b63e",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "良いですね",
+       "user_profile": {
+        "profile_name": "The game",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVOD3t5a60WzMQfRPsGZEKLClS4EWoniAcgaAeYNQV8ZTBWSYvtTQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 146,
+       "rank_absolute": 146,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-05 02:44:06 +00:00",
+       "id": "3259b708-65c0-47b1-8a06-a84db8b70096",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "画面タッチ等での拡大機能があれば星5つです。",
+       "user_profile": {
+        "profile_name": "伊川幸治",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW_QLsbEqPdoUKu4Q0y7LSPR3z70h-488jg1GQPqUh_08BjpKsj"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 147,
+       "rank_absolute": 147,
+       "position": "left",
+       "version": "8.151.0.100(2.0.87334.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-04 17:54:11 +00:00",
+       "id": "2a98f30a-e302-43db-bd79-edc39d12b98a",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "明るさ調整てぎない 見ない本の削除のやり方がわからん 折りたたみスマホで見開きにして見る際に横持ちしか対応していない 全体的にUIが使いにくい 総じて使用者のことを考えられていないゴミアプリ",
+       "user_profile": {
+        "profile_name": "and you",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV3n-_MGWLkeUggMGKT5czYYFdI44jdBpyUEe4t7wT_WtJMeQU"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 148,
+       "rank_absolute": 148,
+       "position": "left",
+       "version": "8.150.0.100(2.0.84648.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-04 10:41:07 +00:00",
+       "id": "058fd638-3e5d-47ad-9de2-c4d41297747e",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "どんなに探しても見つかりません。 途中までしか読めないなぜ？",
+       "user_profile": {
+        "profile_name": "ひとみ坂本",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJVryFEBkp6YK5SC0IPc-cBOb-ufTvdzkUEWmt32MQmYGwctg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 149,
+       "rank_absolute": 149,
+       "position": "left",
+       "version": "8.150.0.100(2.0.84648.0)",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-04 10:37:30 +00:00",
+       "id": "da15a557-f2e8-49ea-90dc-da632f64dac3",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "非常に使いやすく読み放題の冊数も豊富なため☆5つです",
+       "user_profile": {
+        "profile_name": "荒木友祐",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIrScOVo5QsGQCwhRh-sXTQ7f2tUl0oGxhzukqWxohgBmgpvw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 150,
+       "rank_absolute": 150,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-07-03 18:17:24 +00:00",
+       "id": "9daf8513-3ca5-4269-a480-cbf3acef54e3",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "シリーズ表示に問題",
+       "user_profile": {
+        "profile_name": "tsune5555",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjU0qoU-TQ68bUUSFKCTpNXweupA_AeIqsJpf9OiaH-u2b4Sb_TEkA"
+       },
+       "responses": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

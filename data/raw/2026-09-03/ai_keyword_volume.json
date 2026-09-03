@@ -1,0 +1,6480 @@
+{
+ "jp_supported": true,
+ "result": [
+  {
+   "location_code": 2392,
+   "language_code": "ja",
+   "items_count": 98,
+   "items": [
+    {
+     "keyword": "amazon kindle",
+     "ai_search_volume": 289,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 289
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 323
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 342
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 491
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 483
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 417
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 440
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 483
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 415
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 380
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 318
+      }
+     ]
+    },
+    {
+     "keyword": "bigme",
+     "ai_search_volume": 32,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 32
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 38
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 36
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 18
+      }
+     ]
+    },
+    {
+     "keyword": "booklive",
+     "ai_search_volume": 32,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 32
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 37
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 42
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 47
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 46
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 47
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 51
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 53
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 58
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 55
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 58
+      }
+     ]
+    },
+    {
+     "keyword": "boox",
+     "ai_search_volume": 66,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 66
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 77
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 63
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 76
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 64
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 81
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 83
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 109
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 88
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 68
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 44
+      }
+     ]
+    },
+    {
+     "keyword": "boox go",
+     "ai_search_volume": 10,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "boox palma",
+     "ai_search_volume": 11,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 11
+      }
+     ]
+    },
+    {
+     "keyword": "dmm ブックス",
+     "ai_search_volume": 50,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 65
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 64
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 108
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 81
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 57
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 73
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 60
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 60
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 58
+      }
+     ]
+    },
+    {
+     "keyword": "e-ink タブレット",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "ebookjapan",
+     "ai_search_volume": 125,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 125
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 167
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 168
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 219
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 199
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 229
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 207
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 262
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 277
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 270
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 289
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 298
+      }
+     ]
+    },
+    {
+     "keyword": "honto",
+     "ai_search_volume": 232,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 232
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 239
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 211
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 247
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 258
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 273
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 351
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 389
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 463
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 388
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 419
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 405
+      }
+     ]
+    },
+    {
+     "keyword": "ipad mini 読書",
+     "ai_search_volume": 3,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle",
+     "ai_search_volume": 4109,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4109
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4727
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 5146
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 6240
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6036
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 6180
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 5736
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 6122
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 5916
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 5214
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4973
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 4896
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 2026",
+     "ai_search_volume": 5,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle colorsoft",
+     "ai_search_volume": 14,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 9
+      }
+     ]
+    },
+    {
+     "keyword": "kindle oasis",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 24
+      }
+     ]
+    },
+    {
+     "keyword": "kindle paperwhite",
+     "ai_search_volume": 65,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 65
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 77
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 81
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 82
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 68
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 84
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 89
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 77
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 58
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 59
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 70
+      }
+     ]
+    },
+    {
+     "keyword": "kindle paperwhite シグニチャー",
+     "ai_search_volume": 3,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 6
+      }
+     ]
+    },
+    {
+     "keyword": "kindle paperwhite 第12世代",
+     "ai_search_volume": 3,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1
+      }
+     ]
+    },
+    {
+     "keyword": "kindle pc",
+     "ai_search_volume": 90,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 86
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 83
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 69
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 85
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 68
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 86
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 86
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 101
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 70
+      }
+     ]
+    },
+    {
+     "keyword": "kindle pdf",
+     "ai_search_volume": 79,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 79
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 101
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 165
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 171
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 171
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 114
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 112
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 103
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 91
+      }
+     ]
+    },
+    {
+     "keyword": "kindle scribe",
+     "ai_search_volume": 23,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 6
+      }
+     ]
+    },
+    {
+     "keyword": "kindle scribe colorsoft",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle unlimited",
+     "ai_search_volume": 467,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 467
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 497
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 568
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 711
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 749
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 799
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 762
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 818
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 714
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 628
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 588
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 637
+      }
+     ]
+    },
+    {
+     "keyword": "kindle unlimited おすすめ",
+     "ai_search_volume": 28,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 62
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 45
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 42
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "kindle unlimited キャンペーン",
+     "ai_search_volume": 24,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 36
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 46
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 43
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 37
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 27
+      }
+     ]
+    },
+    {
+     "keyword": "kindle unlimited 料金",
+     "ai_search_volume": 19,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 36
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 41
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 38
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 39
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 48
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 48
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 43
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 31
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 35
+      }
+     ]
+    },
+    {
+     "keyword": "kindle unlimited 解約",
+     "ai_search_volume": 147,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 147
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 143
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 177
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 190
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 183
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 149
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 135
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 137
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 150
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 139
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 139
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 134
+      }
+     ]
+    },
+    {
+     "keyword": "kindle おすすめ",
+     "ai_search_volume": 102,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 102
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 102
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 80
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 75
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 112
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 89
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 77
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 42
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 37
+      }
+     ]
+    },
+    {
+     "keyword": "kindle どこで買う",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "kindle アプリ",
+     "ai_search_volume": 194,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 194
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 228
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 248
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 281
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 244
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 255
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 253
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 283
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 291
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 244
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 249
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 230
+      }
+     ]
+    },
+    {
+     "keyword": "kindle キッズモデル",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "kindle セール",
+     "ai_search_volume": 97,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 97
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 113
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 137
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 134
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 89
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 79
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 60
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 35
+      }
+     ]
+    },
+    {
+     "keyword": "kindle バッテリー",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 4
+      }
+     ]
+    },
+    {
+     "keyword": "kindle ビックカメラ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle ブラックフライデー",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle プライムデー",
+     "ai_search_volume": 3,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "kindle ヤマダ電機",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle ヨドバシ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 中古",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 使い方",
+     "ai_search_volume": 26,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 32
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 21
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 価格",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 27
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 値上げ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 値段",
+     "ai_search_volume": 5,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 初期化",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 割引",
+     "ai_search_volume": 13,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 42
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 39
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 21
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 安く買う",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 38
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 13
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 実機",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 家電量販店",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 広告なし",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 4
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 店舗",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 店頭",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 故障",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 新型",
+     "ai_search_volume": 5,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 日替わりセール",
+     "ai_search_volume": 14,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 最新",
+     "ai_search_volume": 24,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 8
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 本 セール",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 楽天",
+     "ai_search_volume": 53,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 53
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 86
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 115
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 137
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 109
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 97
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 80
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 80
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 91
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 61
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 比較",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 漫画",
+     "ai_search_volume": 178,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 178
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 181
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 151
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 178
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 137
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 127
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 136
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 137
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 112
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 104
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 無印",
+     "ai_search_volume": 10,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 無料",
+     "ai_search_volume": 375,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 375
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 428
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 445
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 578
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 526
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 629
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 570
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 721
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 665
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 575
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 533
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 574
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 端末",
+     "ai_search_volume": 106,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 106
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 117
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 167
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 164
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 184
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 185
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 184
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 189
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 159
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 168
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 第11世代",
+     "ai_search_volume": 11,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 14
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 自炊",
+     "ai_search_volume": 13,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 選び方",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kindle 防水",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 12
+      }
+     ]
+    },
+    {
+     "keyword": "kobo",
+     "ai_search_volume": 201,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 201
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 270
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 329
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 496
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 502
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 569
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 506
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 527
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 476
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 396
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 423
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 401
+      }
+     ]
+    },
+    {
+     "keyword": "kobo clara",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1
+      }
+     ]
+    },
+    {
+     "keyword": "kobo elipsa",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kobo kindle 比較",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "kobo libra colour",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 4
+      }
+     ]
+    },
+    {
+     "keyword": "line マンガ",
+     "ai_search_volume": 1099,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1099
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1120
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1143
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1700
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1875
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2109
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1914
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 1958
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 1917
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1764
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 1569
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1402
+      }
+     ]
+    },
+    {
+     "keyword": "meebook",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "onyx boox",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "prime reading",
+     "ai_search_volume": 24,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 38
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 37
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 47
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 53
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 48
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 47
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 54
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 58
+      }
+     ]
+    },
+    {
+     "keyword": "quaderno",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 13
+      }
+     ]
+    },
+    {
+     "keyword": "remarkable",
+     "ai_search_volume": 35,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 35
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 36
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 49
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 44
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 38
+      }
+     ]
+    },
+    {
+     "keyword": "supernote",
+     "ai_search_volume": 10,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 6
+      }
+     ]
+    },
+    {
+     "keyword": "キンドル",
+     "ai_search_volume": 40,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 57
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 220
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 263
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 354
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 470
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 597
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 626
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 492
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 473
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 430
+      }
+     ]
+    },
+    {
+     "keyword": "コミックシーモア",
+     "ai_search_volume": 914,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 914
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1097
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1334
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1866
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1740
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2043
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1955
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2388
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2223
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1939
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 1551
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1662
+      }
+     ]
+    },
+    {
+     "keyword": "ピッコマ",
+     "ai_search_volume": 903,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 903
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1319
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1402
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1949
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1616
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1685
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1403
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 1472
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1091
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 953
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1038
+      }
+     ]
+    },
+    {
+     "keyword": "楽天kobo",
+     "ai_search_volume": 133,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 133
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 198
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 263
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 429
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 433
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 472
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 385
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 396
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 362
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 314
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 349
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 322
+      }
+     ]
+    },
+    {
+     "keyword": "読書 タブレット",
+     "ai_search_volume": 8,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 21
+      }
+     ]
+    },
+    {
+     "keyword": "電子ペーパー",
+     "ai_search_volume": 95,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 95
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 115
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 104
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 125
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 112
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 131
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 115
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 121
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 117
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 120
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 103
+      }
+     ]
+    },
+    {
+     "keyword": "電子ペーパー タブレット",
+     "ai_search_volume": 6,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍",
+     "ai_search_volume": 1355,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1355
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1526
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1669
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 2122
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1912
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2239
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 2048
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2407
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2257
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1978
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 1908
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2032
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍 おすすめ",
+     "ai_search_volume": 106,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 106
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 109
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 123
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 182
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 154
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 214
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 195
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 232
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 197
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 159
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 179
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 201
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍 ストア 比較",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍 タブレット",
+     "ai_search_volume": 13,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 43
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 78
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 71
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 82
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 64
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 67
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 45
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 56
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 58
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍 メリット",
+     "ai_search_volume": 45,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 45
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 36
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 35
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 32
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 38
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍 端末",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍リーダー",
+     "ai_search_volume": 54,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 54
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 85
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 98
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 120
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 108
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 111
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 80
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 76
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 68
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 88
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍リーダー おすすめ",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍リーダー カラー",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 4
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍リーダー マンガ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍リーダー 手書き",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍リーダー 比較",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "電子書籍リーダー 防水",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
