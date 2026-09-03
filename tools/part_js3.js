@@ -41,7 +41,7 @@ RENDER.v4 = () => {
   <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>AIでの語られ方 — ${AI.queries.length}本 × 6面 ＝ ${AI.n_cells}セル（実測 ${esc(AI.date)}）</h3>${tagOf('live')}<span class="sub">DataForSEO ・ 実費 $${fmt((AI.api_cost || {}).usd, 2)}</span><span class="hb" onclick="help('idx')">?</span></div>
     <div class="kpi">
       <div class="k hero orange"><div class="l">言及率（カテゴリ質問 ${AI.expect_cells}セル）</div><div class="v"><span data-cu="${avgM}" data-d="0">0</span><small>%</small></div><div class="d">Kindleの名前が回答本文に出た率（6面平均）</div></div>
-      <div class="k cyan"><div class="l">第一想起率</div><div class="v"><span data-cu="${kf.rate || 0}" data-d="0">0</span><small>%</small></div><div class="d">最初に挙がるブランドがKindle（1位 ${first ? esc(first.label) : '—'}）</div></div>
+      <div class="k cyan"><div class="l">第一想起率</div><div class="v"><span data-cu="${avgF}" data-d="0">0</span><small>%</small></div><div class="d">Kindle言及回答のうち最初に挙がった率（6面平均）。回答の1位の内訳では ${pct(kf.rate, 0)}（${first ? esc(first.label) : '—'}が1位）</div></div>
       <div class="k lime"><div class="l">自社（Amazon）引用率</div><div class="v"><span data-cu="${avgO}" data-d="0">0</span><small>%</small></div><div class="d">出典リンクのうち amazon.co.jp 等の比率。残りは第三者</div></div>
       <div class="k violet"><div class="l">平均引用数 / 回答</div><div class="v"><span data-cu="${avgC}" data-d="1">0</span><small>本</small></div><div class="d">露出機会（G1）。面ごとの差は下表</div></div>
       <div class="k rose"><div class="l">Kindle文の極性</div><div class="v"><span style="color:#8FF0C9" data-cu="${(pol.pos || 0) / ptot * 100}" data-d="0">0</span><small>%好意</small> <span style="color:#FDA4AF" data-cu="${(pol.neg || 0) / ptot * 100}" data-d="0">0</span><small>%懸念</small></div><div class="d">Kindleに触れた文 ${fmt(ptot)}文の辞書判定</div></div>
@@ -160,7 +160,7 @@ RENDER.v6 = () => {
   const win = rows.slice().sort((a, b) => a.negShare - b.negShare).slice(0, 6);
   const lose = rows.slice().sort((a, b) => b.negShare - a.negShare).slice(0, 6);
   return `<div class="g">
-  <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>AIの回答には「ブランドの配置図」が表れる</h3>${tagOf('live')}<span class="sub">横＝語られ方の極性（懸念←→好意）／縦＝第一想起率／大きさ＝言及量</span><span class="hb" onclick="help('posmap')">?</span></div>
+  <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>AIの回答には「ブランドの配置図」が表れる</h3>${tagOf('live')}<span class="sub">横＝好意率（懸念←→好意）／縦＝第一想起率／大きさ＝言及量</span><span class="hb" onclick="help('posmap')">?</span></div>
     ${bubbleMap(pm)}</div>
   <div class="card s8 rv"><div class="ct"><h3>テーマ × ブランド 勝敗マトリクス</h3>${tagOf('live')}<span class="sub">セル＝そのテーマでブランドが主語の文の数。色＝極性（緑＝好意、赤＝懸念）</span></div>${matrixHtml(themes, cols)}</div>
   <div class="card s4 rv"><div class="ct"><h3>強みテーマ / 懸念テーマ（Kindle）</h3>${tagOf('live')}<span class="sub">懸念率＝懸念文÷(好意+懸念)</span></div>
@@ -173,37 +173,76 @@ RENDER.v6 = () => {
 };
 function bubbleMap(pm){
   const w = 900, h = 380, pl = 60, pr = 120, pt = 26, pb = 46; const maxM = Math.max(1, ...pm.map(b => b.mentions));
+  // 横軸は好意率＝好意文÷(好意+懸念)。全ブランドが好意寄りに固まるため、データ範囲に合わせて拡大する
+  const favs = pm.map(b => (b.pos + b.neg) ? b.pos / (b.pos + b.neg) * 100 : 50);
+  let lo = Math.min(...favs), hi = Math.max(...favs);
+  if(hi - lo < 12){ const c = (lo + hi) / 2; lo = c - 6; hi = c + 6; }
+  const pad = (hi - lo) * 0.22; lo = Math.max(0, lo - pad); hi = Math.min(100, hi + pad);
+  const X = v => pl + (w - pl - pr) * (v - lo) / (hi - lo || 1);
   const nodes = pm.map((b, i) => {
-    const tot = (b.pos + b.neg) || 1, s = (b.pos - b.neg) / tot;
+    const fav = favs[i];
     const r = 14 + 44 * Math.sqrt(b.mentions / maxM);
     const rate = b.mentions ? b.first / b.mentions * 100 : 0;
-    return {...b, r, i, x: pl + (w - pl - pr) * (s + 1) / 2, y: pt + (h - pt - pb) * (1 - rate / 100),
-            x0: pl + (w - pl - pr) * (s + 1) / 2, y0: pt + (h - pt - pb) * (1 - rate / 100)};
+    return {...b, r, i, fav, x: X(fav), y: pt + (h - pt - pb) * (1 - rate / 100),
+            x0: X(fav), y0: pt + (h - pt - pb) * (1 - rate / 100)};
   });
   // 重なり回避（正しい位置から離れすぎないよう毎回引き戻す）
-  for(let it = 0; it < 220; it++){
+  for(let it = 0; it < 420; it++){
     for(let a = 0; a < nodes.length; a++) for(let b = a + 1; b < nodes.length; b++){
       const A = nodes[a], B = nodes[b]; let dx = B.x - A.x, dy = B.y - A.y;
-      let d = Math.hypot(dx, dy) || 0.01; const need = A.r + B.r + 12;
+      let d = Math.hypot(dx, dy) || 0.01; const need = A.r + B.r + 16;
       if(d < need){ const push = (need - d) / 2; dx /= d; dy /= d; A.x -= dx * push; A.y -= dy * push; B.x += dx * push; B.y += dy * push; }
     }
     nodes.forEach(n => { n.x += (n.x0 - n.x) * 0.06; n.y += (n.y0 - n.y) * 0.06;
-      n.x = Math.max(pl + n.r, Math.min(w - pr + 40 - n.r, n.x));
+      n.x = Math.max(pl + n.r, Math.min(w - pr + 8 - n.r, n.x));
       n.y = Math.max(pt + n.r, Math.min(h - pb - n.r, n.y)); });
   }
-  let g = `<svg viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" style="display:block">`;
-  g += `<line class="gl" x1="${(pl + w - pr) / 2}" x2="${(pl + w - pr) / 2}" y1="${pt}" y2="${h - pb}"/><line class="gl" x1="${pl}" x2="${w - pr}" y1="${(pt + h - pb) / 2}" y2="${(pt + h - pb) / 2}"/>`;
-  g += `<text class="ax" x="${pl}" y="${h - 14}">← 懸念寄りに語られる</text><text class="ax" x="${w - pr}" y="${h - 14}" text-anchor="end">好意的に語られる →</text><text class="ax" x="${pl - 8}" y="${pt + 4}" text-anchor="end">第一想起↑</text><text class="ax" x="${pl - 8}" y="${h - pb}" text-anchor="end">↓低い</text>`;
+  let g = `<svg viewBox="0 0 ${w} ${h}" width="100%" preserveAspectRatio="xMidYMid meet" style="display:block;height:auto">`;
+  const step = (hi - lo) > 40 ? 10 : (hi - lo) > 16 ? 5 : 2;
+  for(let v = Math.ceil(lo / step) * step; v <= hi; v += step){ const xx = X(v); g += `<line class="gl" x1="${xx.toFixed(1)}" x2="${xx.toFixed(1)}" y1="${pt}" y2="${h - pb}"/><text class="ax" x="${xx.toFixed(1)}" y="${h - pb + 14}" text-anchor="middle">${v}%</text>`; }
+  [25, 50, 75].forEach(v => { const yy = pt + (h - pt - pb) * (1 - v / 100); g += `<line class="gl" x1="${pl}" x2="${w - pr}" y1="${yy}" y2="${yy}"/><text class="ax" x="${pl - 8}" y="${(yy + 3).toFixed(1)}" text-anchor="end">${v}%</text>`; });
+  g += `<text class="ax" x="${pl}" y="${h - 14}">← 懸念寄り　好意率（好意文 ÷ 好意+懸念）　好意的 →</text><text class="ax" x="${pl - 8}" y="${pt + 4}" text-anchor="end">第一想起率↑</text>`;
+  const LBL = [];
   nodes.sort((a, b) => b.r - a.r).forEach((b, i) => {
     const col = BRAND_COL[b.id] || CAT[i % 6];
-    const tip = esc(`<b>${esc(b.label)}</b><br>言及 ${b.mentions}回（カテゴリ質問の${pct(b.share, 0)}）<br>第一想起 ${b.first}回（言及の${pct(b.mentions ? b.first / b.mentions * 100 : 0, 0)}）<br>好意 ${b.pos}文／懸念 ${b.neg}文<br>主なテーマ: ${b.top_themes.map(themeLabel).join('・')}`);
+    const tip = esc(`<b>${esc(b.label)}</b><br>言及 ${b.mentions}回（カテゴリ質問の${pct(b.share, 0)}）<br>第一想起 ${b.first}回（言及の${pct(b.mentions ? b.first / b.mentions * 100 : 0, 0)}）<br>好意 ${b.pos}文／懸念 ${b.neg}文（好意率 ${pct(b.fav, 0)}）<br>主なテーマ: ${b.top_themes.map(themeLabel).join('・')}`);
     const small = b.r < 26;
     g += `<g class="bubble" data-tip="${tip}"><circle cx="${b.x.toFixed(1)}" cy="${b.y.toFixed(1)}" r="${b.r.toFixed(1)}" fill="${col}" fill-opacity=".24" stroke="${col}" stroke-width="2" style="filter:drop-shadow(0 0 12px ${col})"/>`;
-    g += small
-      ? `<text x="${(b.x + b.r + 6).toFixed(1)}" y="${(b.y + 4).toFixed(1)}" style="font-size:11px;font-weight:700;fill:#EAF1FB">${esc(b.label)}</text></g>`
-      : `<text x="${b.x.toFixed(1)}" y="${(b.y + 4).toFixed(1)}" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#fff">${esc(b.label)}</text></g>`;
+    if(!small){ g += `<text x="${b.x.toFixed(1)}" y="${(b.y + 4).toFixed(1)}" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#fff">${esc(b.label)}</text></g>`; return; }
+    // 小さい円は外に出す。候補位置ごとに「はみ出し＋円やラベルとの重なり面積」を採点し、最小の位置に置く
+    const tw = b.label.length * 6.6, R = b.r;
+    const cand = [{ax: 'start', tx: b.x + R + 6, ty: b.y + 4}, {ax: 'end', tx: b.x - R - 6, ty: b.y + 4},
+                  {ax: 'middle', tx: b.x, ty: b.y - R - 7}, {ax: 'middle', tx: b.x, ty: b.y + R + 15},
+                  {ax: 'start', tx: b.x + R * 0.7 + 4, ty: b.y - R - 7}, {ax: 'end', tx: b.x - R * 0.7 - 4, ty: b.y - R - 7},
+                  {ax: 'start', tx: b.x + R * 0.7 + 4, ty: b.y + R + 15}, {ax: 'end', tx: b.x - R * 0.7 - 4, ty: b.y + R + 15},
+                  {ax: 'middle', tx: b.x, ty: b.y - R - 22}, {ax: 'middle', tx: b.x, ty: b.y + R + 30}];
+    const boxOf = c => { const x0 = c.ax === 'start' ? c.tx : c.ax === 'end' ? c.tx - tw : c.tx - tw / 2; return {x0, x1: x0 + tw, y0: c.ty - 9, y1: c.ty + 3}; };
+    const ov = (a, o) => Math.max(0, Math.min(a.x1, o.x1) - Math.max(a.x0, o.x0)) * Math.max(0, Math.min(a.y1, o.y1) - Math.max(a.y0, o.y0));
+    let put = cand[0], best = Infinity, putBox = boxOf(cand[0]);
+    cand.forEach(c => {
+      const bx = boxOf(c);
+      let pen = Math.max(0, bx.x1 - (w - 4)) * 40 + Math.max(0, (pl - 30) - bx.x0) * 40 + Math.max(0, 4 - bx.y0) * 40 + Math.max(0, bx.y1 - (h - pb - 2)) * 40;
+      nodes.forEach(n => { if(n !== b) pen += ov(bx, {x0: n.x - n.r, x1: n.x + n.r, y0: n.y - n.r, y1: n.y + n.r}); });
+      LBL.forEach(o => { pen += ov(bx, o) * 2; });
+      if(pen < best){ best = pen; put = c; putBox = bx; }
+    });
+    // それでも重なる場合は右余白にラベルを退避し、引き出し線でつなぐ
+    let lead = null;
+    if(best > 120){
+      const gx = w - pr + 22; let gy = Math.max(pt + 12, Math.min(h - pb - 6, b.y + 4));
+      for(let k = 0; k < 40; k++){
+        const bx = {x0: gx, x1: gx + tw, y0: gy - 9, y1: gy + 3};
+        const onC = nodes.some(n => bx.x1 > n.x - n.r && bx.x0 < n.x + n.r && bx.y1 > n.y - n.r && bx.y0 < n.y + n.r);
+        if(!onC && !LBL.some(o => bx.y1 > o.y0 - 3 && bx.y0 < o.y1 + 3 && bx.x1 > o.x0 - 3 && bx.x0 < o.x1 + 3)){ put = {ax: 'start', tx: gx, ty: gy}; putBox = bx; lead = {x1: b.x + b.r + 2, y1: b.y, x2: gx - 4, y2: gy - 3}; break; }
+        gy += (k % 2 ? 1 : -1) * 15 * Math.ceil((k + 1) / 2);
+        gy = Math.max(pt + 12, Math.min(h - pb - 6, gy));
+      }
+    }
+    LBL.push(putBox);
+    if(lead) g += `<line x1="${lead.x1.toFixed(1)}" y1="${lead.y1.toFixed(1)}" x2="${lead.x2.toFixed(1)}" y2="${lead.y2.toFixed(1)}" stroke="#3A4A63" stroke-width="1"/>`;
+    g += `<text x="${put.tx.toFixed(1)}" y="${put.ty.toFixed(1)}" text-anchor="${put.ax}" style="font-size:11px;font-weight:700;fill:#EAF1FB;paint-order:stroke;stroke:#0B0F1A;stroke-width:2.5px">${esc(b.label)}</text></g>`;
   });
-  return g + `</svg><div class="note">円の大きさ＝言及量。<b>Kindleは右上（好意的・第一想起が高い）</b>に単独で位置し、楽天Kobo・BOOXは好意度は近いが第一想起で下。iPad・Fireは「読書専用ではない」文脈で挙がるため位置が異なります。</div>`;
+  return g + `</svg><div class="note">円の大きさ＝言及量。横軸は<b>好意率</b>（全ブランドが好意寄りのため、差が見えるよう目盛を実データ範囲に拡大しています）。<b>Kindleは右上（好意的・第一想起が高い）</b>に単独で位置し、楽天Kobo・BOOXは好意度は近いが第一想起で下。iPad・Fireは「読書専用ではない」文脈で挙がるため位置が異なります。</div>`;
 }
 function matrixHtml(themes, cols){
   let h = `<div class="mx" style="grid-template-columns:140px repeat(${cols.length},minmax(60px,1fr))"><div class="h"></div>${cols.map(c => `<div class="h" style="color:${BRAND_COL[c]}">${esc(brandLabel(c))}</div>`).join('')}`;
@@ -247,7 +286,7 @@ function scatterDom(dm){
   const rows = dm.slice(0, 30); const maxN = Math.max(1, ...rows.map(d => d.n));
   const x = d => pl + (w - pl - pr) * d.n / maxN, y = d => pt + (h - pt - pb) * (1 - (d.reco_rate || 0) / 100);
   const rad = d => 5 + 8 * Math.sqrt(d.n / maxN);
-  let g = `<svg viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" style="display:block">`;
+  let g = `<svg viewBox="0 0 ${w} ${h}" width="100%" preserveAspectRatio="xMidYMid meet" style="display:block;height:auto">`;
   [0, 25, 50, 75, 100].forEach(v => { const yy = pt + (h - pt - pb) * (1 - v / 100); g += `<line class="gl" x1="${pl}" x2="${w - pr}" y1="${yy}" y2="${yy}"/><text class="ax" x="${pl - 6}" y="${yy + 3}" text-anchor="end">${v}%</text>`; });
   g += `<text class="ax" x="${w - pr}" y="${h - 10}" text-anchor="end">引用回数 →</text><text class="ax" x="${pl}" y="${h - 10}">推薦転換率↑</text>`;
   rows.forEach(d => { const col = BUCKET_COL[d.bucket] || '#64748B'; g += `<g data-tip="${esc(`<b>${esc(d.host)}</b><br>引用 ${d.n}回・推薦転換率 ${pct(d.reco_rate, 0)}`)}"><circle cx="${x(d)}" cy="${y(d)}" r="${rad(d)}" fill="${col}" fill-opacity=".5" stroke="${col}" stroke-width="1.5"/></g>`; });
