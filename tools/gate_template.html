@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Kindle 語られ方ボード — 認証</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=JetBrains+Mono:wght@600;800&display=swap" media="print" onload="this.media='all'">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23070B14'/><rect x='24' y='16' width='52' height='68' rx='8' fill='none' stroke='%23FF9900' stroke-width='6'/><path d='M36 34h28M36 48h28M36 62h18' stroke='%2322D3EE' stroke-width='5' stroke-linecap='round'/></svg>">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{overflow-x:hidden;max-width:100%}
+@media(max-width:900px){input{font-size:16px!important}}
+body{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(900px 600px at 20% -10%,rgba(255,153,0,.22),transparent 60%),radial-gradient(800px 600px at 100% 100%,rgba(34,211,238,.16),transparent 60%),#070B14;color:#EAF1FB;font-family:'BIZ UDGothic','BIZ UDPGothic','Hiragino Sans',Meiryo,sans-serif}
+.grid{position:fixed;inset:0;background-image:linear-gradient(rgba(120,150,210,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(120,150,210,.07) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse at 50% 30%,#000 10%,transparent 70%);pointer-events:none}
+.card{position:relative;width:100%;max-width:410px;background:linear-gradient(160deg,rgba(20,28,48,.92),rgba(10,14,26,.95));border:1px solid rgba(120,150,210,.25);border-radius:20px;padding:34px 30px 26px;box-shadow:0 40px 100px rgba(0,0,0,.6),0 0 60px rgba(255,153,0,.08);backdrop-filter:blur(14px)}
+.card:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;border-radius:20px 20px 0 0;background:linear-gradient(90deg,#FF9900,#FFD166 50%,#22D3EE)}
+.mk{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;margin-bottom:16px;border:1.5px solid rgba(255,153,0,.7);box-shadow:0 0 30px rgba(255,153,0,.3);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 20px rgba(255,153,0,.25)}50%{box-shadow:0 0 50px rgba(255,153,0,.55)}}
+h1{font-size:21px;letter-spacing:.04em}h1 span{background:linear-gradient(92deg,#FF9900,#FFD166 45%,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:11px;color:#6C7A94;letter-spacing:.18em;margin:4px 0 22px;font-family:'JetBrains Mono',monospace}
+label{display:block;font-size:11px;color:#A9B7CF;margin:14px 0 6px;font-weight:700;letter-spacing:.04em}
+input{width:100%;background:#0B1322;border:1px solid rgba(120,150,210,.3);color:#EAF1FB;font-family:inherit;font-size:14px;padding:12px 14px;border-radius:10px;outline:none;transition:.15s}
+input:focus{border-color:#FF9900;box-shadow:0 0 0 3px rgba(255,153,0,.18)}
+button{width:100%;margin-top:22px;background:linear-gradient(135deg,#FF9900,#E8891D);color:#1a0d00;border:none;font-family:inherit;font-weight:800;font-size:14px;letter-spacing:.06em;padding:13px;border-radius:10px;cursor:pointer;transition:.15s;box-shadow:0 10px 30px rgba(255,153,0,.25)}
+button:hover{filter:brightness(1.08)}button:disabled{opacity:.6;cursor:wait}
+.err{color:#FB7185;font-size:12px;margin-top:14px;min-height:16px;text-align:center}
+.ft{font-size:10px;color:#6C7A94;text-align:center;margin-top:20px;line-height:1.7}
+.ft a{color:#FFB84D;text-decoration:none}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid rgba(26,13,0,.35);border-top-color:#1a0d00;border-radius:50%;vertical-align:-2px;margin-right:7px;animation:sp .7s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div class="grid"></div>
+<div class="card">
+  <div class="mk"><svg width="30" height="30" viewBox="0 0 100 100" fill="none"><rect x="24" y="16" width="52" height="68" rx="8" stroke="#FF9900" stroke-width="7"/><path d="M36 34h28M36 48h28M36 62h18" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/></svg></div>
+  <h1>Kindle <span>語られ方ボード</span></h1>
+  <div class="sub">KINDLE × VOICE × AI</div>
+  <form id="f" autocomplete="off">
+    <label for="u">ID</label>
+    <input id="u" type="text" autocomplete="username" spellcheck="false" autocapitalize="none">
+    <label for="p">パスワード</label>
+    <input id="p" type="password" autocomplete="current-password">
+    <button id="b" type="submit">ログイン</button>
+    <div class="err" id="e"></div>
+  </form>
+  <div class="ft">関係者専用。データは端末内で復号されます（サーバーに平文は置いていません）。<br>不明な場合は管理者（<a href="mailto:nakai@slashslash.jp">nakai@slashslash.jp</a>）へ。</div>
+</div>
+<script>
+const BLOB="__BLOB__";
+const ITER=200000;
+function b64d(s){const bin=atob(s);const a=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)a[i]=bin.charCodeAt(i);return a;}
+async function decrypt(u,p){
+ const data=b64d(BLOB);
+ const salt=data.slice(0,16), iv=data.slice(16,28), ct=data.slice(28);
+ const enc=new TextEncoder();
+ const km=await crypto.subtle.importKey('raw',enc.encode(u+':'+p),{name:'PBKDF2'},false,['deriveKey']);
+ const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:ITER,hash:'SHA-256'},km,{name:'AES-GCM',length:256},false,['decrypt']);
+ const plain=await crypto.subtle.decrypt({name:'AES-GCM',iv},key,ct);
+ const ds=new DecompressionStream('gzip');
+ const stream=new Blob([plain]).stream().pipeThrough(ds);
+ return await new Response(stream).text();
+}
+const f=document.getElementById('f'),e=document.getElementById('e'),b=document.getElementById('b');
+f.addEventListener('submit',async ev=>{
+ ev.preventDefault();
+ const u=document.getElementById('u').value.trim(), p=document.getElementById('p').value;
+ if(!u||!p){e.textContent='IDとパスワードを入力してください';return;}
+ b.disabled=true;b.innerHTML='<span class="spin"></span>復号中…';e.textContent='';
+ try{
+   const html=await decrypt(u,p);
+   if(html.indexOf('KINDLE_BOARD')===-1) throw new Error('bad');
+   document.open();document.write(html);document.close();
+ }catch(err){
+   e.textContent='IDまたはパスワードが正しくありません';
+   b.disabled=false;b.textContent='ログイン';
+ }
+});
+document.getElementById('u').focus();
+</script>
+</body>
+</html>
