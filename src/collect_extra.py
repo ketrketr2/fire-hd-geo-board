@@ -198,13 +198,31 @@ def ai_keyword_volume():
 
 
 def llm_mentions():
+    """LLM Mentions。targetの受け口が版によって違うため、通る形を順に試して最初に成功したものを使う。
+
+    2026-09-03の実測エラー: 40501 "Exactly one of 'domain' or 'keyword' must be provided"
+    → keyword_entity で包まず keyword / domain を直に渡す形を先に試す。
+    """
     ok = _jp_supported("ai_optimization/llm_mentions/locations_and_languages", "google")
     if not ok:
         return {"jp_supported": False}
-    t = dfs.post("ai_optimization/llm_mentions/search_mentions/live",
-                 [{"target": [{"keyword_entity": {"keyword": "kindle", "search_filter": "include", "search_scope": "answer"}}],
-                   "location_code": 2392, "language_code": "ja", "platform": "google", "limit": 100}])
-    return {"jp_supported": True, "result": t.get("result")}
+    base = {"location_code": 2392, "language_code": "ja", "platform": "google", "limit": 100}
+    shapes = [
+        ("keyword_list", {"target": [{"keyword": "kindle", "search_filter": "include", "search_scope": "answer"}]}),
+        ("keyword_flat", {"target": {"keyword": "kindle", "search_filter": "include", "search_scope": "answer"}}),
+        ("keyword_only", {"keyword": "kindle"}),
+        ("domain_list", {"target": [{"domain": "amazon.co.jp", "search_filter": "include", "search_scope": "answer"}]}),
+        ("domain_only", {"domain": "amazon.co.jp"}),
+    ]
+    tried = []
+    for name, payload in shapes:
+        try:
+            t = dfs.post("ai_optimization/llm_mentions/search_mentions/live", [{**base, **payload}])
+            return {"jp_supported": True, "shape": name, "tried": tried, "result": t.get("result")}
+        except Exception as e:  # noqa: BLE001
+            tried.append({"shape": name, "error": str(e)[:200]})
+            print(f"    llm_mentions shape={name} 不可: {str(e)[:120]}", flush=True)
+    return {"jp_supported": True, "shape": None, "tried": tried, "result": None}
 
 
 # ---- 11 ChatGPT 実画面 ----
