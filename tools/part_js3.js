@@ -12,9 +12,8 @@ const MODEL_LABEL = {kindle_basic: 'Kindle 無印', paperwhite: 'Paperwhite', co
 function aiWait(title){
   return `<div class="g">
   <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>${esc(title)}</h3>${tagOf('wait')}<span class="sub">DataForSEO 初回ラウンド待ち</span><span class="hb" onclick="help('idx')">?</span></div>
-    <div class="row" style="align-items:flex-start;gap:18px;flex-wrap:wrap">
-      <div style="flex:1 1 320px"><div class="empty"><b>AI6面 × 実クエリ ${AI.queries.length}本 ＝ ${AI.queries.length * (AI.faces || []).length} セルを計測します</b>ChatGPT（gpt-5・Web検索）／Gemini 2.5 Flash／Claude／Perplexity／Google AI Overview／AIモード。回答全文・引用URL・ファンアウト（AIが裏で投げた検索語）を全件保存し、このビューに実物を表示します。<div style="margin-top:10px"><button class="btn" onclick="go('v8')">Secrets登録 → 初回ラウンド起動の手順</button></div></div></div>
-      <div style="flex:1 1 320px">${stepperHtml()}</div></div></div>
+    <div class="empty" style="text-align:left"><b>AI6面 × 実クエリ ${AI.queries.length}本 ＝ ${AI.queries.length * (AI.faces || []).length} セルを計測します</b>ChatGPT（gpt-5・Web検索）／Gemini 2.5 Flash／Claude／Perplexity／Google AI Overview／AIモード。回答全文・引用URL・ファンアウト（AIが裏で投げた検索語）を全件保存し、このビューに実物を表示します。<div style="margin-top:10px"><button class="btn" onclick="go('v8')">Secrets登録 → 初回ラウンド起動の手順</button></div></div>
+    <div style="margin-top:14px">${stepperHtml()}</div></div>
   <div class="card s12 rv"><div class="ct"><h3>計測する実クエリ（レジストリ v1・${AI.queries.length}本）</h3>${tagOf('live')}<span class="sub">IDは固定（時系列を壊さない）</span></div>${queryRegistryTable()}</div>
   </div>`;
 }

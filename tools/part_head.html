@@ -262,7 +262,7 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;border:1px solid rgba(255,153,0,.5);background:rgba(255,153,0,.12);color:#FFD166;font-size:12px;cursor:pointer;font-weight:700}
 .btn:hover{background:rgba(255,153,0,.22)}
 .btn.ghost{border-color:var(--line2);background:transparent;color:var(--ink2)}
-.stepper{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}
+.stepper{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
 .step{background:rgba(10,14,26,.6);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:11px;position:relative}
 .step .n{font-family:var(--mono);font-size:10px;color:#FFD166;letter-spacing:.14em}
 .step b{display:block;font-size:12px;margin:3px 0}
@@ -272,14 +272,16 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 @media(max-width:1100px){.s3{grid-column:span 6}.s4{grid-column:span 6}.s5{grid-column:span 12}.s7{grid-column:span 12}.s8{grid-column:span 12}.s9{grid-column:span 12}.qx{grid-template-columns:1fr}.qlist{max-height:360px}.stepper{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:900px){
   #app{grid-template-columns:1fr}
-  #nav{position:fixed;left:0;right:0;bottom:0;top:auto;height:auto;flex-direction:row;overflow-x:auto;padding:8px;gap:4px;border-right:0;border-top:1px solid var(--line);z-index:20}
+  #nav{position:fixed;left:0;right:0;bottom:0;top:auto;height:auto;flex-direction:row;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:7px 8px;gap:5px;border-right:0;border-top:1px solid var(--line);z-index:20;-webkit-overflow-scrolling:touch}
+  #navlist{display:flex;flex-direction:row;gap:5px}
   .brand,.nsec,.nfoot,.nb kbd,.nb .dot{display:none}
-  .nb{flex:none;padding:8px 10px;font-size:12px}
-  #main{padding:14px 12px 120px}
+  .nb{width:auto;flex:0 0 auto;white-space:nowrap;padding:7px 11px;font-size:12px;border-radius:10px;background:rgba(120,150,210,.06)}
+  .nb .ic{width:20px;height:20px;font-size:11px}
+  #main{padding:14px 12px 140px}
   #top h1{font-size:18px}
   .s3,.s4,.s6{grid-column:span 12}
   .pillars{grid-template-columns:1fr}
-  #ticker{left:0;bottom:54px}
+  #ticker{left:0;bottom:52px;height:34px}
   .hbar{grid-template-columns:110px 1fr 60px}
   .stepper{grid-template-columns:repeat(2,minmax(0,1fr))}
   .k .v{font-size:24px}.k.hero .v{font-size:30px}
