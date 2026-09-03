@@ -1,0 +1,30 @@
+name: probe
+
+# 疎通確認: 認証・残高（無料）→ AI6面 各1呼 → 付帯エンドポイント各1呼。合計$2上限。
+# 認証が通らない場合はここで止まり、課金呼び出しは行わない。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kindle-geo
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Probe（Secretsの値はログに出しません）
+        env:
+          DATAFORSEO_LOGIN:    ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: python src/probe.py
