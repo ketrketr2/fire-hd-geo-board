@@ -72,6 +72,7 @@ RENDER.v3 = () => {
   ${yt ? ytBlock(yt) : `<div class="card s6 rv wait"><div class="ct"><h3>YouTube で語られるKindle</h3>${tagOf('wait')}<span class="sub">AI引用の第1位ソースはYouTube</span></div>${waitBox('「Kindle おすすめ」「Kindle Kobo 比較」など5語の上位20本・再生数を取得します', '初回ラウンドで反映（DataForSEO YouTube SERP）')}</div>`}
   ${apps ? appBlock(apps) : `<div class="card s6 rv wait"><div class="ct"><h3>アプリレビュー（最新）</h3>${tagOf('wait')}</div>${waitBox('App Store 最新50件・Google Play 最新150件の星と本文を取得します', '初回ラウンドで反映（DataForSEO App Data）')}</div>`}
   ${am ? amazonBlock(am, prods) : `<div class="card s12 rv wait"><div class="ct"><h3>Amazon.co.jp 検索結果（kindle / 電子書籍リーダー / kobo）</h3>${tagOf('wait')}</div>${waitBox('順位・価格・星・レビュー数・先月の購入数（bought_past_month）・ベストセラー／Amazon\'s Choice を取得します', '初回ラウンドで反映（DataForSEO Merchant Amazon）')}</div>`}
+  ${ytManualBlock()}
   ${shelfBlock()}
   ${kakakuBlock()}
   ${ca ? caBlock(ca) : ''}
@@ -169,4 +170,24 @@ function kakakuBlock(){
         <div class="note"><b>打ち手</b>：①価格.comへの製品登録（メーカー登録の可否確認）②登録できない場合は、比較記事・レビューサイト側で「Kindleを含む比較表」を増やす（V9-01/02）。効果は「電子書籍リーダー 比較」系クエリでの自社・第三者引用率で測る。</div>
       </div></div>
     <div class="src">出典: <a href="${esc(k.source_url)}" target="_blank" rel="noopener">${esc(k.source)}</a>（${esc(k.measured_at)} 取得）／${esc(k.note)}</div></div>`;
+}
+
+function ytManualBlock(){
+  const y = D.yt_manual; if(!y) return '';
+  const all = (y.queries || []).flatMap(q => q.items.map(i => ({...i, q: q.q})));
+  const uniq = []; const seen = new Set();
+  all.forEach(i => { if(!seen.has(i.id)){ seen.add(i.id); uniq.push(i); } });
+  const official = uniq.filter(i => i.official).length;
+  const chs = {}; uniq.forEach(i => { chs[i.ch] = (chs[i.ch] || 0) + 1; });
+  const topCh = Object.entries(chs).sort((a, b) => b[1] - a[1])[0];
+  return `<div class="card s12 rv"><div class="ct"><h3>YouTube の上位動画 — <span class="hl">AI引用ソースの第1位はYouTube</span>（資料p32）</h3>${tagOf('live')}<span class="sub">${esc(y.measured_at)}・関連度順・Chromeで実測</span><span class="hb" onclick="help('yt')">?</span></div>
+    <div class="kpi" style="margin-bottom:12px">
+      <div class="k hero rose"><div class="l">上位動画のうち Amazon公式</div><div class="v"><span data-cu="${official}">0</span><small>/${uniq.length}本</small></div><div class="d">「Kindle おすすめ」「電子書籍リーダー 比較」「Kindle Kobo 比較」の上位は<b>すべて第三者</b>。AIが読む一次情報を他人が書いている</div></div>
+      <div class="k orange"><div class="l">最も多く上位に出るチャンネル</div><div class="v" style="font-size:17px">${esc(topCh ? topCh[0] : '—')}</div><div class="d">3クエリ中 ${topCh ? topCh[1] : 0} 本で上位。ここが実質の「カテゴリの語り手」</div></div>
+      <div class="k cyan"><div class="l">最大リーチ動画</div><div class="v" style="font-size:17px">26万回</div><div class="d">「KindleとKoboどっちがいいの？」（5年前）— 古い比較が今も上位に残る</div></div>
+      <div class="k violet"><div class="l">狙うべき状態</div><div class="v" style="font-size:17px">字幕・章立て</div><div class="d">AIが読むのは音声でなく<b>書き起こし</b>。価格・型番・比較表を説明欄と字幕に置く（V9-02）</div></div>
+    </div>
+    ${(y.queries || []).map(q => `<div style="margin-bottom:10px"><div class="muted" style="font-size:11px;margin-bottom:4px">検索語: <b style="color:#9BEBF7">${esc(q.q)}</b></div>
+      <div class="flex">${q.items.map(i => `<a class="qi" style="flex:1 1 300px;display:block" href="https://www.youtube.com/watch?v=${esc(i.id)}" target="_blank" rel="noopener"><div class="id">${i.rank}位 ・ ${esc(i.ch)} ・ <b style="color:#FDA4AF">${esc(i.views)}視聴</b> ・ ${esc(i.when)}</div><div class="tx" style="color:var(--ink)">${esc(i.title)}</div></a>`).join('')}</div></div>`).join('')}
+    <div class="src">出典: ${(y.queries || []).map(q => `<a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.q)}</a>`).join('／')}（${esc(y.measured_at)} 取得）／${esc(y.note)}</div></div>`;
 }

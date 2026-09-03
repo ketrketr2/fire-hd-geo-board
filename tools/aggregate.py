@@ -479,7 +479,8 @@ def status_block(ai: dict, extras: dict, trends: dict | None) -> list[dict]:
         {"id": "kakaku", "label": "比較サイトの棚（価格.com）", "state": "live", "src": "価格.com 人気売れ筋ランキング", "how": "週次でChrome実測"},
         {"id": "amazon", "label": "Amazon.co.jp 検索結果・レビュー（API自動化）", "state": "live" if ex.get("amazon_serp") else "wait", "src": "DataForSEO Merchant", "how": "毎ラウンド自動更新"},
         {"id": "apps", "label": "Kindleアプリ評価（App Store / Google Play）", "state": "live" if ex.get("apps") else "wait", "src": "DataForSEO App Data", "how": "毎ラウンド自動更新"},
-        {"id": "youtube", "label": "YouTube 語られ方", "state": "live" if ex.get("youtube") else "wait", "src": "DataForSEO YouTube SERP", "how": "毎ラウンド自動更新"},
+        {"id": "yt_manual", "label": "YouTube 上位動画（3クエリ）", "state": "live", "src": "YouTube 検索結果をChromeで実測", "how": "DataForSEO YouTube SERP 接続後は自動更新に切替"},
+        {"id": "youtube", "label": "YouTube 語られ方（API自動化・全5クエリ）", "state": "live" if ex.get("youtube") else "wait", "src": "DataForSEO YouTube SERP", "how": "毎ラウンド自動更新"},
         {"id": "news", "label": "ニュース", "state": "live", "src": "報道リンク集 + DataForSEO News", "how": "毎ラウンド自動更新"},
         {"id": "sns", "label": "X / Instagram / TikTok の言及量", "state": "teaser", "src": "SNS管理者アカウント（X API 等）", "how": "APIキー登録で解放（工事中）"},
         {"id": "ga", "label": "Amazon.co.jp 商品ページ流入（AI経由）", "state": "teaser", "src": "社内アクセス解析", "how": "参照元（chatgpt.com / gemini / perplexity）別の流入CSVを配置"},
@@ -495,13 +496,14 @@ def main() -> None:
     extras = extras_block()
     shelf = read_json(DATA / "amazon_shelf.json")
     kakaku = read_json(DATA / "kakaku.json")
+    yt_manual = read_json(DATA / "youtube.json")
     board = {
         "meta": {"built_at": now_jst(), "brand": "Kindle", "owner": load("settings")["site"]["owner"],
                  "measured_at": ai.get("date"), "facts_as_of": fb["as_of"], "marker": "KINDLE_BOARD"},
         "status": status_block(ai, extras, trends),
         "facts": facts, "ebook_series": fb["ebook_series"], "news_curated": fb["news"],
         "lineup": lineup_block(facts), "competitors": competitor_block(facts),
-        "sales": sales_sample(), "trends": trends, "ai": ai, "extras": extras, "shelf": shelf, "kakaku": kakaku,
+        "sales": sales_sample(), "trends": trends, "ai": ai, "extras": extras, "shelf": shelf, "kakaku": kakaku, "yt_manual": yt_manual,
     }
     write_json(ROOT / "tools" / "board_data.json", board, compact=True)
     size = (ROOT / "tools" / "board_data.json").stat().st_size
