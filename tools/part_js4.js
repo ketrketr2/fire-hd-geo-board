@@ -21,7 +21,7 @@ RENDER.v8 = () => {
       <li>Actions ＞ publish を実行 → 集計が <b>sample=false</b> で再生成し、SAMPLEリボンが消える</li></ol>
     <div class="note">個人情報は不要（集計値のみ）。ファイルはゲート付きページにしか載らず、リポジトリは非公開化も可能。</div></div>
   <div class="card s6 rv"><div class="ct"><h3>計測パイプライン（週次自動）</h3>${tagOf('live')}</div>
-    <div class="stepper" style="grid-template-columns:repeat(4,minmax(0,1fr))">${[['①', '計測', 'AI6面×42本 + Amazon/アプリ/YouTube/ニュース/需要'], ['②', '保存', '回答全文・引用・ファンアウトを snapshots/ に'], ['③', '集計', 'aggregate.py → board_data.json'], ['④', '検証', 'playwright: 全ビュー×2幅・エラー0'], ['⑤', '暗号化', 'AES-256-GCM（PBKDF2 20万回）'], ['⑥', '復号検証', '誤PW→拒否／正PW→描画'], ['⑦', '公開', 'GitHub Pages（noindex）'], ['⑧', '通知', '差分をSlack/メール（設定で）']].map(s => `<div class="step done"><div class="n">${s[0]}</div><b>${esc(s[1])}</b><span class="muted">${esc(s[2])}</span></div>`).join('')}</div>
+    <div class="stepper" style="grid-template-columns:repeat(4,minmax(0,1fr))">${[['①', '計測', 'AI6面×42本 + Amazon/アプリ/YouTube/ニュース/需要'], ['②', '保存', '回答全文・引用・ファンアウトを snapshots/ に'], ['③', '集計', 'aggregate.py → board_data.json'], ['④', '検証', 'playwright: 全ビュー×2幅・エラー0'], ['⑤', '公開', 'GitHub Pages（認証なし・noindex）'], ['⑥', '差分', '前回スナップショットとの比較'], ['⑦', '定点観測', '毎週月曜 07:10 JST に自動実行'], ['⑧', '通知', '差分をSlack/メール（設定で）']].map(s => `<div class="step done"><div class="n">${s[0]}</div><b>${esc(s[1])}</b><span class="muted">${esc(s[2])}</span></div>`).join('')}</div>
     <div class="note">1周の実費 ≒ $10〜20（DataForSEO）。毎週月曜 07:10 JST の cron は初回検品後に有効化。</div></div>
   </div>`;
 };
