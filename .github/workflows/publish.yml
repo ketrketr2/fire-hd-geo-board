@@ -45,6 +45,9 @@ jobs:
           fi
           python tools/encrypt.py
           node tools/verify_gate.js
+          mkdir -p docs
+          touch docs/.nojekyll
+          printf 'User-agent: *\nDisallow: /\n' > docs/robots.txt
           mv index_new.html docs/index.html
           rm -f s_board.png s_gate_after.png plain.html
       - name: コミット
