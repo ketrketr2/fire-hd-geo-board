@@ -1,0 +1,305 @@
+2026-09-03 round 取得率 0.0%（0/252）
+面別: {}
+実費 {'usd': 0.0, 'calls': 0}
+
+k001/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k001/aio: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    
+k001/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k001/chatgpt: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k002/gemini: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k002/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k001/gemini: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k001/claude: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k002/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k002/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k002/aio: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k003/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k003/chatgpt: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k003/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k002/aimode: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k003/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k003/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k003/aio: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    
+k004/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k004/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k004/gemini: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k004/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k004/aio: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k004/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k005/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k005/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k005/claude: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k005/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k005/aio: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    
+k005/aimode: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k006/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k006/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k006/perplexity: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 
+k006/claude: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k006/aio: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k007/chatgpt: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k007/gemini: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k006/aimode: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k007/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k007/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k007/aio: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    
+k007/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k008/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k008/perplexity: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 
+k008/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k008/aio: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k008/claude: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k008/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k009/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k009/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k009/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k009/perplexity: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 
+k009/aio: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    
+k010/chatgpt: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k009/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k010/gemini: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k010/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k010/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k010/aio: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k011/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k010/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k011/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k011/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k011/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k011/aio: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    
+k011/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k012/chatgpt: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+
+k012/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k012/claude: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k012/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k012/aio: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+    
+k012/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k013/chatgpt: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k013/gemini: RuntimeError: HTTP 401 {
+    "version": "0.1.20260902",
+    "status_code": 40100,
+    "status_message": "You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 0,
+ 
+k013/claude: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k013/perplexity: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k013/aio: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k013/aimode: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k014/chatgpt: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
+k014/gemini: RuntimeError: HTTP 401 {"version":"0.1.20260902","status_code":40100,"status_message":"You are not authorized to access this resource. See your login details here: https:\/\/app.dataforseo.com\/api-access .","time":"0 sec.","cost":0,"tasks_count":0,"tasks_error":0,"tasks":null}
