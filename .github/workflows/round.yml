@@ -1,6 +1,6 @@
 name: round
 
-# 週次ラウンド: AI6面計測 → 付帯収集 → 集計 → ビルド → playwright検証 → 暗号化 → 復号検証 → docs/公開 → コミット。
+# 週次ラウンド: AI6面計測 → 付帯収集 → 集計 → ビルド → playwright検証 → docs/公開 → コミット。
 # 定常cron: 毎週月曜 07:10 JST（= 日曜 22:10 UTC）。2026-09-03のラウンド#2成功（$8.44/252セル）を受けて有効化。
 on:
   workflow_dispatch:
@@ -96,24 +96,15 @@ jobs:
           python tools/build.py
           node tools/verify.js
 
-      - name: 暗号化 → 復号検証 → 公開（KINDLE_GATE_KEY が未登録なら公開はスキップ）
+      - name: 公開（認証ゲートなし・noindex）
         if: ${{ hashFiles('tools/build.py') != '' }}
-        env:
-          KINDLE_GATE_KEY: ${{ secrets.KINDLE_GATE_KEY }}
-          PW_CHROME: ""
         run: |
           set -e
-          if [ -z "$KINDLE_GATE_KEY" ]; then
-            echo "::warning::KINDLE_GATE_KEY 未登録のため docs/index.html は更新しません（データのみコミット）"
-            exit 0
-          fi
-          python tools/encrypt.py
-          node tools/verify_gate.js
           mkdir -p docs
           touch docs/.nojekyll
           printf 'User-agent: *\nDisallow: /\n' > docs/robots.txt
-          mv index_new.html docs/index.html
-          rm -f s_board.png s_gate_after.png plain.html
+          cp plain.html docs/index.html
+          rm -f s_*.png plain.html index_new.html
 
       - name: コミット（存在するパスだけを個別に add）
         if: ${{ always() }}

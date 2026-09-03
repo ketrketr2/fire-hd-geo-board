@@ -1,6 +1,6 @@
 name: publish
 
-# 再計測なしの公開のみ: 既存snapshot → 集計 → ビルド → 検証 → 暗号化 → 復号検証 → docs/公開。
+# 再計測なしの公開のみ: 既存snapshot → 集計 → ビルド → 検証 → docs/公開（認証ゲートなし・noindex）。
 on:
   workflow_dispatch:
 
@@ -31,25 +31,18 @@ jobs:
         run: |
           npm i -D playwright
           npx playwright install --with-deps chromium
-      - name: ビルド → 検証 → 暗号化 → 復号検証 → 公開
+      - name: ビルド → 検証 → 公開（ERRORS none まで公開しない）
         env:
-          KINDLE_GATE_KEY: ${{ secrets.KINDLE_GATE_KEY }}
           PW_CHROME: ""
         run: |
           set -e
           python tools/build.py
           node tools/verify.js
-          if [ -z "$KINDLE_GATE_KEY" ]; then
-            echo "::error::KINDLE_GATE_KEY 未登録（Settings > Secrets > Actions に 'id:pw' 形式で登録）"
-            exit 1
-          fi
-          python tools/encrypt.py
-          node tools/verify_gate.js
           mkdir -p docs
           touch docs/.nojekyll
           printf 'User-agent: *\nDisallow: /\n' > docs/robots.txt
-          mv index_new.html docs/index.html
-          rm -f s_board.png s_gate_after.png plain.html
+          cp plain.html docs/index.html
+          rm -f s_*.png plain.html index_new.html
       - name: コミット
         run: |
           git config user.name  "kindle-geo-bot"
