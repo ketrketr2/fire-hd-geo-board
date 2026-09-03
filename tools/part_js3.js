@@ -106,9 +106,19 @@ function selectQ(id){ QSEL = id; $$('.qi').forEach(e => e.classList.toggle('on',
 function selectF(f){ FSEL = f; const p = $('#qpanel'); if(p){ p.innerHTML = qPanel(); bindTips(p); } }
 function highlight(text){
   const al = [['kindle', /(kindle|キンドル|paperwhite|ペーパーホワイト|colorsoft|カラーソフト|scribe|スクライブ)/gi], ['kobo', /(kobo|コボ|clara|libra|elipsa)/gi], ['boox', /(boox|onyx|palma|note air)/gi], ['ipad', /(ipad|アイパッド)/gi], ['other', /(remarkable|supernote|bigme|meebook|pocketbook|quaderno)/gi]];
-  let out = esc(text);
-  al.forEach(([k, re]) => { out = out.replace(re, m => `<mark class="${k}">${m}</mark>`); });
-  return out;
+  const mark = seg => { let o = esc(seg); al.forEach(([k, re]) => { o = o.replace(re, m => `<mark class="${k}">${m}</mark>`); }); return o; };
+  // URL部分はハイライトせず、リンクにする（回答本文そのものは書き換えない）
+  const out = [];
+  const re = /https?:\/\/[^\s()<>「」【】、。]+/g;
+  let last = 0, m;
+  while((m = re.exec(text)) !== null){
+    out.push(mark(text.slice(last, m.index)));
+    const u = m[0];
+    out.push(`<a href="${esc(u)}" target="_blank" rel="noopener" style="color:#7FB4FF;word-break:break-all">${esc(short(u, 60))}</a>`);
+    last = m.index + u.length;
+  }
+  out.push(mark(text.slice(last)));
+  return out.join('');
 }
 function qPanel(){
   const q = Q_BY_ID[QSEL]; if(!q) return '<div class="empty">クエリを選択してください</div>';
@@ -134,32 +144,66 @@ RENDER.v6 = () => {
   const pm = AI.posmap || [];
   const themes = Object.entries(AI.theme_tot || {}).sort((a, b) => b[1] - a[1]).slice(0, 14).map(x => x[0]);
   const cols = ['kindle', 'kobo', 'boox', 'ipad'];
-  const win = [], lose = [];
-  themes.forEach(t => { const row = AI.matrix[t] || {}; const k = row.kindle || {pos: 0, neg: 0, n: 0}; const rivals = cols.slice(1).map(b => row[b] || {pos: 0, neg: 0, n: 0});
-    const kScore = k.n ? (k.pos - k.neg) / k.n : null; const rBest = Math.max(...rivals.map(r => r.n ? (r.pos - r.neg) / r.n : -9));
-    if(k.n >= 3 && kScore !== null && kScore >= 0.2 && kScore >= rBest) win.push([t, k]); if(k.n >= 2 && kScore !== null && (kScore < 0 || (rBest > kScore + 0.3))) lose.push([t, k]); });
+  // Kindle自身の好意/懸念バランスをテーマ別に見る（母数が違うブランド同士の比率比較は誤読を生むため避ける）
+  const rows = [];
+  themes.forEach(t => {
+    const row = AI.matrix[t] || {}; const k = row.kindle;
+    if(!k) return;
+    const tot = (k.pos || 0) + (k.neg || 0);
+    if(tot < 10) return;
+    const rivals = ['kobo', 'boox', 'ipad'].map(b => row[b]).filter(Boolean);
+    const rTot = rivals.reduce((a, r) => a + (r.pos || 0) + (r.neg || 0), 0);
+    const rNeg = rivals.reduce((a, r) => a + (r.neg || 0), 0);
+    rows.push({t, pos: k.pos || 0, neg: k.neg || 0, tot, negShare: (k.neg || 0) / tot * 100,
+               rivalNegShare: rTot >= 10 ? rNeg / rTot * 100 : null, vol: k.n || tot});
+  });
+  const win = rows.slice().sort((a, b) => a.negShare - b.negShare).slice(0, 6);
+  const lose = rows.slice().sort((a, b) => b.negShare - a.negShare).slice(0, 6);
   return `<div class="g">
   <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>AIの回答には「ブランドの配置図」が表れる</h3>${tagOf('live')}<span class="sub">横＝語られ方の極性（懸念←→好意）／縦＝第一想起率／大きさ＝言及量</span><span class="hb" onclick="help('posmap')">?</span></div>
     ${bubbleMap(pm)}</div>
   <div class="card s8 rv"><div class="ct"><h3>テーマ × ブランド 勝敗マトリクス</h3>${tagOf('live')}<span class="sub">セル＝そのテーマでブランドが主語の文の数。色＝極性（緑＝好意、赤＝懸念）</span></div>${matrixHtml(themes, cols)}</div>
-  <div class="card s4 rv"><div class="ct"><h3>勝ちテーマ / 負けテーマ（Kindle）</h3>${tagOf('live')}</div>
-    <div class="muted" style="font-size:11px;margin-bottom:4px">好意的に語られる</div>${win.length ? win.slice(0, 6).map(([t, k]) => `<div class="row" style="justify-content:space-between;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)"><span>✓ ${esc(themeLabel(t))}</span><b class="mono" style="color:#8FF0C9">+${k.pos}/−${k.neg}</b></div>`).join('') : '<div class="muted" style="font-size:12px">該当なし</div>'}
-    <div class="muted" style="font-size:11px;margin:12px 0 4px">懸念・競合優位</div>${lose.length ? lose.slice(0, 6).map(([t, k]) => `<div class="row" style="justify-content:space-between;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)"><span>▲ ${esc(themeLabel(t))}</span><b class="mono" style="color:#FDA4AF">+${k.pos}/−${k.neg}</b></div>`).join('') : '<div class="muted" style="font-size:12px">該当なし</div>'}
-    <div class="note">勝ちテーマは「AIが既に語ってくれる強み」→ 公式FAQに数値を載せて引用を取りに行く。負けテーマは第三者媒体で語られ方を変える対象（資料p41-42）。</div></div>
+  <div class="card s4 rv"><div class="ct"><h3>強みテーマ / 懸念テーマ（Kindle）</h3>${tagOf('live')}<span class="sub">懸念率＝懸念文÷(好意+懸念)</span></div>
+    <div class="muted" style="font-size:11px;margin-bottom:4px">好意で語られる（懸念率が低い）</div>${win.length ? win.map(r => `<div class="row" style="justify-content:space-between;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)"><span>✓ ${esc(themeLabel(r.t))}</span><span><b class="mono" style="color:#8FF0C9">懸念 ${pct(r.negShare, 0)}</b> <span class="muted">+${r.pos}/−${r.neg}</span></span></div>`).join('') : '<div class="muted" style="font-size:12px">該当なし</div>'}
+    <div class="muted" style="font-size:11px;margin:12px 0 4px">懸念が相対的に多い</div>${lose.length ? lose.map(r => `<div class="row" style="justify-content:space-between;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)"><span>▲ ${esc(themeLabel(r.t))}</span><span><b class="mono" style="color:#FDA4AF">懸念 ${pct(r.negShare, 0)}</b> <span class="muted">+${r.pos}/−${r.neg}${isNum(r.rivalNegShare) ? ' ／競合 ' + pct(r.rivalNegShare, 0) : ''}</span></span></div>`).join('') : '<div class="muted" style="font-size:12px">該当なし</div>'}
+    <div class="note">Kindleは言及量が多いぶん好意も懸念も溜まります。ブランド間の比率を直接比べると母数差で誤読するため、<b>Kindle自身のテーマ別バランス</b>を見ます。懸念率の高いテーマが、第三者媒体で語られ方を変えにいく対象（資料p41-42）。</div></div>
   <div class="card s6 rv"><div class="ct"><h3>ペルソナ文脈でのKindle言及</h3>${tagOf('live')}<span class="sub">Kindleが登場した文のペルソナ語</span></div>${hbars(Object.entries(AI.personas || {}).map(([p, n], i) => ({name: (AI.persona_label || {})[p] || p, v: n, color: CAT[i % 6]})), {})}</div>
   <div class="card s6 rv"><div class="ct"><h3>ブランド別 主語テーマ トップ3</h3>${tagOf('live')}</div>${pm.map(b => `<div class="row" style="align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--line)"><b style="color:${BRAND_COL[b.id] || '#c98500'};min-width:90px">${esc(b.label)}</b><span style="font-size:12px;color:var(--ink2)">${b.top_themes.map(themeLabel).join(' ／ ') || '—'}<span class="muted"> ・ 言及${b.mentions}回 ・ 第一想起${b.first}回 ・ 好意${b.pos}文／懸念${b.neg}文</span></span></div>`).join('')}</div>
   </div>`;
 };
 function bubbleMap(pm){
-  const w = 900, h = 360, pl = 50, pr = 30, pt = 20, pb = 40; const maxM = Math.max(1, ...pm.map(b => b.mentions));
-  const x = b => { const tot = (b.pos + b.neg) || 1; const s = (b.pos - b.neg) / tot; return pl + (w - pl - pr) * (s + 1) / 2; };
-  const y = b => { const r = b.mentions ? b.first / b.mentions * 100 : 0; return pt + (h - pt - pb) * (1 - r / 100); };
+  const w = 900, h = 380, pl = 60, pr = 120, pt = 26, pb = 46; const maxM = Math.max(1, ...pm.map(b => b.mentions));
+  const nodes = pm.map((b, i) => {
+    const tot = (b.pos + b.neg) || 1, s = (b.pos - b.neg) / tot;
+    const r = 14 + 44 * Math.sqrt(b.mentions / maxM);
+    const rate = b.mentions ? b.first / b.mentions * 100 : 0;
+    return {...b, r, i, x: pl + (w - pl - pr) * (s + 1) / 2, y: pt + (h - pt - pb) * (1 - rate / 100),
+            x0: pl + (w - pl - pr) * (s + 1) / 2, y0: pt + (h - pt - pb) * (1 - rate / 100)};
+  });
+  // 重なり回避（正しい位置から離れすぎないよう毎回引き戻す）
+  for(let it = 0; it < 220; it++){
+    for(let a = 0; a < nodes.length; a++) for(let b = a + 1; b < nodes.length; b++){
+      const A = nodes[a], B = nodes[b]; let dx = B.x - A.x, dy = B.y - A.y;
+      let d = Math.hypot(dx, dy) || 0.01; const need = A.r + B.r + 12;
+      if(d < need){ const push = (need - d) / 2; dx /= d; dy /= d; A.x -= dx * push; A.y -= dy * push; B.x += dx * push; B.y += dy * push; }
+    }
+    nodes.forEach(n => { n.x += (n.x0 - n.x) * 0.06; n.y += (n.y0 - n.y) * 0.06;
+      n.x = Math.max(pl + n.r, Math.min(w - pr + 40 - n.r, n.x));
+      n.y = Math.max(pt + n.r, Math.min(h - pb - n.r, n.y)); });
+  }
   let g = `<svg viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" style="display:block">`;
   g += `<line class="gl" x1="${(pl + w - pr) / 2}" x2="${(pl + w - pr) / 2}" y1="${pt}" y2="${h - pb}"/><line class="gl" x1="${pl}" x2="${w - pr}" y1="${(pt + h - pb) / 2}" y2="${(pt + h - pb) / 2}"/>`;
-  g += `<text class="ax" x="${pl}" y="${h - 12}">← 懸念寄りに語られる</text><text class="ax" x="${w - pr}" y="${h - 12}" text-anchor="end">好意的に語られる →</text><text class="ax" x="${pl - 6}" y="${pt + 8}" text-anchor="end">第一想起↑</text>`;
-  pm.forEach((b, i) => { const r = 14 + 46 * Math.sqrt(b.mentions / maxM), cx = x(b), cy = y(b), col = BRAND_COL[b.id] || CAT[i % 6];
-    g += `<g class="bubble" data-tip="${esc(`<b>${esc(b.label)}</b><br>言及 ${b.mentions}回（${pct(b.share, 0)}のカテゴリ質問）<br>第一想起 ${b.first}回<br>好意 ${b.pos}文／懸念 ${b.neg}文<br>主なテーマ: ${b.top_themes.map(themeLabel).join('・')}`)}"><circle cx="${cx}" cy="${cy}" r="${r}" fill="${col}" fill-opacity=".22" stroke="${col}" stroke-width="2" style="filter:drop-shadow(0 0 12px ${col})"><animate attributeName="r" values="${r};${r * 1.06};${r}" dur="${3 + i * .4}s" repeatCount="indefinite"/></circle><text x="${cx}" y="${cy + 4}" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#fff">${esc(b.label)}</text>${b.top_themes.slice(0, 2).map((t, j) => `<text x="${cx + r + 6}" y="${cy - 6 + j * 14}" style="font-size:10px;fill:#A9B7CF">${esc(themeLabel(t))}</text>`).join('')}</g>`; });
-  return g + `</svg>`;
+  g += `<text class="ax" x="${pl}" y="${h - 14}">← 懸念寄りに語られる</text><text class="ax" x="${w - pr}" y="${h - 14}" text-anchor="end">好意的に語られる →</text><text class="ax" x="${pl - 8}" y="${pt + 4}" text-anchor="end">第一想起↑</text><text class="ax" x="${pl - 8}" y="${h - pb}" text-anchor="end">↓低い</text>`;
+  nodes.sort((a, b) => b.r - a.r).forEach((b, i) => {
+    const col = BRAND_COL[b.id] || CAT[i % 6];
+    const tip = esc(`<b>${esc(b.label)}</b><br>言及 ${b.mentions}回（カテゴリ質問の${pct(b.share, 0)}）<br>第一想起 ${b.first}回（言及の${pct(b.mentions ? b.first / b.mentions * 100 : 0, 0)}）<br>好意 ${b.pos}文／懸念 ${b.neg}文<br>主なテーマ: ${b.top_themes.map(themeLabel).join('・')}`);
+    const small = b.r < 26;
+    g += `<g class="bubble" data-tip="${tip}"><circle cx="${b.x.toFixed(1)}" cy="${b.y.toFixed(1)}" r="${b.r.toFixed(1)}" fill="${col}" fill-opacity=".24" stroke="${col}" stroke-width="2" style="filter:drop-shadow(0 0 12px ${col})"/>`;
+    g += small
+      ? `<text x="${(b.x + b.r + 6).toFixed(1)}" y="${(b.y + 4).toFixed(1)}" style="font-size:11px;font-weight:700;fill:#EAF1FB">${esc(b.label)}</text></g>`
+      : `<text x="${b.x.toFixed(1)}" y="${(b.y + 4).toFixed(1)}" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#fff">${esc(b.label)}</text></g>`;
+  });
+  return g + `</svg><div class="note">円の大きさ＝言及量。<b>Kindleは右上（好意的・第一想起が高い）</b>に単独で位置し、楽天Kobo・BOOXは好意度は近いが第一想起で下。iPad・Fireは「読書専用ではない」文脈で挙がるため位置が異なります。</div>`;
 }
 function matrixHtml(themes, cols){
   let h = `<div class="mx" style="grid-template-columns:140px repeat(${cols.length},minmax(60px,1fr))"><div class="h"></div>${cols.map(c => `<div class="h" style="color:${BRAND_COL[c]}">${esc(brandLabel(c))}</div>`).join('')}`;
@@ -199,12 +243,42 @@ function domRows(){
 }
 function sortDom(col){ if(typeof col === 'number') col = ['host', 'bucket', 'n', 'share', 'reco', 'reco_rate'][col] || 'n'; if(DOMSORT.col === col) DOMSORT.dir *= -1; else DOMSORT = {col, dir: col === 'host' || col === 'bucket' ? 1 : -1}; const tb = $('#domtb'); if(tb) tb.innerHTML = domRows(); }
 function scatterDom(dm){
-  const w = 620, h = 260, pl = 46, pr = 20, pt = 16, pb = 34; const rows = dm.slice(0, 30); const maxN = Math.max(1, ...rows.map(d => d.n));
+  const w = 620, h = 268, pl = 46, pr = 16, pt = 18, pb = 34;
+  const rows = dm.slice(0, 30); const maxN = Math.max(1, ...rows.map(d => d.n));
   const x = d => pl + (w - pl - pr) * d.n / maxN, y = d => pt + (h - pt - pb) * (1 - (d.reco_rate || 0) / 100);
+  const rad = d => 5 + 8 * Math.sqrt(d.n / maxN);
   let g = `<svg viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" style="display:block">`;
   [0, 25, 50, 75, 100].forEach(v => { const yy = pt + (h - pt - pb) * (1 - v / 100); g += `<line class="gl" x1="${pl}" x2="${w - pr}" y1="${yy}" y2="${yy}"/><text class="ax" x="${pl - 6}" y="${yy + 3}" text-anchor="end">${v}%</text>`; });
   g += `<text class="ax" x="${w - pr}" y="${h - 10}" text-anchor="end">引用回数 →</text><text class="ax" x="${pl}" y="${h - 10}">推薦転換率↑</text>`;
-  rows.forEach((d, i) => { const col = BUCKET_COL[d.bucket] || '#64748B'; g += `<g data-tip="${esc(`<b>${esc(d.host)}</b><br>引用 ${d.n}回・推薦転換率 ${pct(d.reco_rate, 0)}`)}"><circle cx="${x(d)}" cy="${y(d)}" r="${6 + 8 * Math.sqrt(d.n / maxN)}" fill="${col}" fill-opacity=".5" stroke="${col}" stroke-width="1.5"/>${i < 10 ? `<text x="${x(d) + 10}" y="${y(d) + 4}" style="font-size:10px;fill:#C5D3EA">${esc(short(d.host, 22))}</text>` : ''}</g>`; });
+  rows.forEach(d => { const col = BUCKET_COL[d.bucket] || '#64748B'; g += `<g data-tip="${esc(`<b>${esc(d.host)}</b><br>引用 ${d.n}回・推薦転換率 ${pct(d.reco_rate, 0)}`)}"><circle cx="${x(d)}" cy="${y(d)}" r="${rad(d)}" fill="${col}" fill-opacity=".5" stroke="${col}" stroke-width="1.5"/></g>`; });
+  // ラベルは重なりを避けて置ける分だけ置く（引用回数の多い順＋転換率の高い順を候補にする）
+  const byN = rows.slice(0, 8);
+  const byR = rows.filter(d => d.n >= 3).sort((a, b) => (b.reco_rate || 0) - (a.reco_rate || 0)).slice(0, 4);
+  const cand = []; byN.concat(byR).forEach(d => { if(!cand.includes(d)) cand.push(d); });
+  const boxes = [];
+  const circ = rows.map(d => ({d, x0: x(d) - rad(d), x1: x(d) + rad(d), y0: y(d) - rad(d), y1: y(d) + rad(d)}));
+  const hit = (b, o, mx, my) => b.x1 > o.x0 - mx && b.x0 < o.x1 + mx && b.y1 > o.y0 - my && b.y0 < o.y1 + my;
+  const free = (b, self) => b.x0 >= pl - 2 && b.x1 <= w - 4 && b.y0 >= 4 && b.y1 <= h - pb + 6
+    && !boxes.some(o => hit(b, o, 3, 2)) && !circ.some(c => c.d !== self && hit(b, c, 1, 1));
+  cand.forEach(d => {
+    const t = short(d.host, 20), tw = t.length * 5.4, r = rad(d), cx = x(d), cy = y(d);
+    const spots = [
+      {ax: 'start', tx: cx + r + 5, ty: cy + 3.5}, {ax: 'end', tx: cx - r - 5, ty: cy + 3.5},
+      {ax: 'middle', tx: cx, ty: cy - r - 5}, {ax: 'middle', tx: cx, ty: cy + r + 11},
+      {ax: 'start', tx: cx + r + 4, ty: cy - r - 3}, {ax: 'end', tx: cx - r - 4, ty: cy - r - 3},
+      {ax: 'start', tx: cx + r + 4, ty: cy + r + 10}, {ax: 'end', tx: cx - r - 4, ty: cy + r + 10}];
+    // 近くに置けない密集点は、少し離した位置に引き出し線付きで置く
+    [26, 46, 68].forEach(dx => spots.push({ax: 'start', tx: cx + r + dx, ty: cy + 3.5, lead: 1}, {ax: 'end', tx: cx - r - dx, ty: cy + 3.5, lead: 1}));
+    for(const s of spots){
+      const x0 = s.ax === 'start' ? s.tx : s.ax === 'end' ? s.tx - tw : s.tx - tw / 2;
+      const b = {x0, x1: x0 + tw, y0: s.ty - 8, y1: s.ty + 2};
+      if(!free(b, d)) continue;
+      boxes.push(b);
+      if(s.lead) g += `<line x1="${(s.ax === 'start' ? cx + r + 2 : cx - r - 2).toFixed(1)}" y1="${cy.toFixed(1)}" x2="${(s.ax === 'start' ? x0 - 3 : x0 + tw + 3).toFixed(1)}" y2="${(s.ty - 3).toFixed(1)}" stroke="#3A4A63" stroke-width="1"/>`;
+      g += `<text x="${s.tx.toFixed(1)}" y="${s.ty.toFixed(1)}" text-anchor="${s.ax}" style="font-size:10px;fill:#C5D3EA;paint-order:stroke;stroke:#0B0F1A;stroke-width:2.5px">${esc(t)}</text>`;
+      break;
+    }
+  });
   return g + `</svg>`;
 }
 function organicTop(){
