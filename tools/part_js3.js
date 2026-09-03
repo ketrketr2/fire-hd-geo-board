@@ -146,7 +146,8 @@ RENDER.v6 = () => {
   const cols = ['kindle', 'kobo', 'boox', 'ipad'];
   // Kindle自身の好意/懸念バランスをテーマ別に見る（母数が違うブランド同士の比率比較は誤読を生むため避ける）
   const rows = [];
-  themes.forEach(t => {
+  // 勝敗リストはマトリクス表示（上位14テーマ）に限定せず、全テーマから拾う（件数の少ないテーマに強い懸念が隠れるため）
+  Object.keys(AI.matrix || {}).forEach(t => {
     const row = AI.matrix[t] || {}; const k = row.kindle;
     if(!k) return;
     const tot = (k.pos || 0) + (k.neg || 0);

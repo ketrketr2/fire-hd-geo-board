@@ -32,20 +32,22 @@ RENDER.v9 = () => {
   const avgO = avgOf((AI.faces || []).map(f => (pf[f.id] || {}).owned_cite_share));
   const bk = AI.buckets || []; const video = (bk.find(b => b.id === 'video') || {}).share, ugc = (bk.find(b => b.id === 'ugc') || {}).share, aff = (bk.find(b => b.id === 'affiliate') || {}).share;
   const kf = (AI.first_rank || []).find(x => x.id === 'kindle') || {}; const rival = (AI.first_rank || []).find(x => x.id !== 'kindle') || {};
+  const cr = m ? concernRows() : []; const cTop = cr[0] || {}; const cLock = cr.find(r => r.t === 'lockin' || r.t === 'lock_in' || themeLabel(r.t).indexOf('囲い込み') === 0);
   const moves = [
     {n: '01', t: '第三者媒体の「語られ方」を変える', s: m ? `引用の${pct(100 - (avgO || 0), 0)}が第三者。動画${pct(video, 0)}・UGC${pct(ugc, 0)}・アフィリ${pct(aff, 0)}` : '資料p31: AIの材料は7〜9割が第三者', d: '推薦転換率の高い媒体（V7の右上）に、比較記事・レビュー・一次データ提供でリード文言及を取りに行く。リード文言及は本文中の1.39倍・リンクのみの3倍効く（p33）。', kpi: 'Kindle第一想起率／推薦転換率25%以上の媒体数', tag: 'オフサイト'},
     {n: '02', t: 'YouTubeを「AIが読む一次情報」に', s: 'AI引用の第1位ソースはYouTube（日本でも1位・p32）', d: '公式・量販店・レビュアー動画に字幕・チャプター・説明文（価格・型番・比較表）を整備。「Kindle おすすめ 2026」「Kindle Kobo 比較」の上位動画を狙う。', kpi: 'YouTube上位20本のうち公式/協力動画の本数', tag: 'オフサイト'},
     {n: '03', t: '公式ページを「1問1答・結論ファースト」に', s: m ? `自社（Amazon）引用率 ${pct(avgO, 0)}` : '資料p35: 引用される公式の型', d: 'モデル比較・選び方・防水/カラー/手書きの各質問に1URLで答える。価格・重量・ppi・バッテリーを本文HTML（表）に。PDF・画像内の情報は読まれない。', kpi: 'A/B族クエリでの自社引用率', tag: 'オンサイト'},
     {n: '04', t: 'ファンアウト語で検索上位を押さえる', s: m ? `ファンアウト上位: ${(AI.fanout_top || []).slice(0, 3).map(x => x[0]).join(' / ') || '—'}` : 'AIは1質問を数十の検索に分解（p25）', d: 'V4のファンアウト語・V2の需要KWで、自社ページの検索順位を週次で追う。上位のページほどAIにも引用される（p36）。圏外の語は第三者媒体で補う。', kpi: 'ファンアウト語の自社Top10率', tag: 'SEO×GEO'},
-    {n: '05', t: '「解約・囲い込み」文脈への先回り', s: '関連検索上位に「kindle 解約」「kindle unlimited 解約」（V2）', d: '解約手順・DRMフリー本のEPUB/PDFダウンロード・他端末での閲覧を公式FAQで明快に。ネガ検証クエリ（H族）でのAIの説明を正確にする（情報正確性KPI）。', kpi: 'H族の懸念文比率／誤情報件数', tag: 'コンテンツ'},
+    {n: '05', t: '「解約・囲い込み」文脈への先回り', s: m && cLock ? `囲い込み・汎用性の懸念率 ${pct(cLock.share, 0)}（好意${cLock.pos}／懸念${cLock.neg}文）・関連検索上位に「kindle 解約」` : '関連検索上位に「kindle 解約」「kindle unlimited 解約」（V2）', d: '解約手順・DRMフリー本のEPUB/PDFダウンロード・他端末での閲覧を公式FAQで明快に。ネガ検証クエリ（H族）でのAIの説明を正確にする（情報正確性KPI）。', kpi: 'H族の懸念文比率／誤情報件数', tag: 'コンテンツ'},
     {n: '06', t: '量販店チャネルをAI上でも可視化', s: '取扱6社・ヨドバシ不在・価格.com未登録', d: '「どこで買う」質問でAmazonのみが挙がる状態なら、量販店の商品ページ（価格・在庫・実機展示）を整え、店頭体験の記事化（第三者）を仕込む。価格.com登録は比較の場に戻る最短手。', kpi: 'P族での量販店言及率', tag: 'チャネル'},
     {n: '07', t: 'セール文脈の一次情報を公式発で', s: '需要の山はPD・BF・年末年始・新生活・サマー（V1/V2）', d: 'セール日程・価格の一次情報をプレスリリース＋公式ページで先出しし、まとめ記事の引用元を公式にする。「Kindle セール いつ」でのAI回答の出典を追う。', kpi: 'セール系クエリの自社引用率', tag: '一次情報'},
-    {n: '08', t: 'マルチターン（会話が進んだ後）を測る', s: '5ターン後の残存は最大49%〜1%（p38）', d: '「おすすめは？」→「予算2万円なら？」→「マンガ中心なら？」と会話を重ねた時にKindleが残るかを次フェーズで計測（登録クエリに会話チェーンを追加）。', kpi: '5ターン残存率', tag: '次フェーズ'},
+    {n: '08', t: '不具合・サポートの語られ方を修復する', s: m && cTop.t ? `懸念率トップは「${esc(themeLabel(cTop.t))}」${pct(cTop.share, 0)}（好意${cTop.pos}／懸念${cTop.neg}文）` : 'マンガ表示バグの半年放置・旧13機種の接続終了（V3）', d: '不具合の修正履歴・サポート期限・旧機種の移行手段を、公式に1問1答で置いて第三者記事の引用元にする。AIは「直った」より「放置された」文を拾いやすいため、修正済みの一次情報を出し続けることが唯一の打ち手。', kpi: '故障・サポート文の懸念率／修正告知の引用数', tag: 'コンテンツ'},
+    {n: '09', t: 'マルチターン（会話が進んだ後）を測る', s: '5ターン後の残存は最大49%〜1%（p38）', d: '「おすすめは？」→「予算2万円なら？」→「マンガ中心なら？」と会話を重ねた時にKindleが残るかを次フェーズで計測（登録クエリに会話チェーンを追加）。', kpi: '5ターン残存率', tag: '次フェーズ'},
   ];
   return `<div class="g">
-  <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>GEO打ち手 — データから逆算した8手（資料の3系統：オンサイト／コンテンツ／オフサイト）</h3>${tagOf(m ? 'live' : 'wait')}<span class="sub">${m ? '実測 ' + esc(AI.date) + ' に基づく' : '初回計測後に数値が入り、優先順位が確定'}</span><span class="hb" onclick="help('moves')">?</span></div>
+  <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>GEO打ち手 — データから逆算した9手（資料の3系統：オンサイト／コンテンツ／オフサイト）</h3>${tagOf(m ? 'live' : 'wait')}<span class="sub">${m ? '実測 ' + esc(AI.date) + ' に基づく' : '初回計測後に数値が入り、優先順位が確定'}</span><span class="hb" onclick="help('moves')">?</span></div>
     <div class="kpi">
-      <div class="k orange"><div class="l">現在の第一想起</div><div class="v">${m ? `<span data-cu="${kf.rate || 0}" data-d="0">0</span><small>%</small>` : '<span style="font-size:16px;color:var(--ink3)">計測待ち</span>'}</div><div class="d">${m ? `対抗 ${esc(rival.label || '—')} ${pct(rival.rate, 0)}` : 'カテゴリ質問でKindleが最初に出る率'}</div></div>
+      <div class="k orange"><div class="l">第一想起シェア（回答の1位）</div><div class="v">${m ? `<span data-cu="${kf.rate || 0}" data-d="0">0</span><small>%</small>` : '<span style="font-size:16px;color:var(--ink3)">計測待ち</span>'}</div><div class="d">${m ? `対抗 ${esc(rival.label || '—')} ${pct(rival.rate, 0)}` : 'カテゴリ質問でKindleが最初に出る率'}</div></div>
       <div class="k cyan"><div class="l">目標（次四半期）</div><div class="v">${m && isNum(kf.rate) ? `<span data-cu="${Math.min(95, Math.round(kf.rate + 10))}">0</span><small>%</small>` : '<span style="font-size:16px;color:var(--ink3)">+10pt</span>'}</div><div class="d">第一想起 +10pt／自社引用率 +5pt／H族懸念文 −20%</div></div>
       <div class="k violet"><div class="l">最優先の面</div><div class="v" style="font-size:18px">${m ? esc((AI.faces || []).map(f => [f.label, (pf[f.id] || {}).mention_rate]).filter(x => isNum(x[1])).sort((a, b) => a[1] - b[1])[0][0]) : '—'}</div><div class="d">言及率が最も低い面から着手</div></div>
       <div class="k lime"><div class="l">今週の打ち手</div><div class="v" style="font-size:18px">01・02・03</div><div class="d">第三者媒体／YouTube／公式1問1答</div></div>

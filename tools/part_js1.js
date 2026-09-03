@@ -250,7 +250,7 @@ RENDER.v0 = () => {
     ${AI.measured ? faceRadar() : waitBox('AI6面の言及率・第一想起・自社引用率をレーダーで表示します', '計測は ChatGPT(gpt-5) / Gemini 2.5 / Claude / Perplexity / Google AI Overview / AIモード。1周 ≒ $10。')}
   </div>
   <div class="card s12 rv"><div class="ct"><h3>今週の発見（すべて実測・出典リンク付き）</h3>${tagOf('live')}<span class="sub">クリックすると根拠のビューへ</span></div>
-    <div class="flex">${findings().map(f => `<div class="pl" onclick="go('${f.v}')" style="flex:1 1 300px"><span class="arrow">→</span><div class="n">${esc(f.tag)}</div><div class="t" style="font-size:15px">${f.t}</div><div class="m">${f.d}</div></div>`).join('')}</div></div>
+    <div class="flex">${findings().map(f => `<div class="pl" onclick="go('${f.v}')" style="flex:1 1 300px;max-width:520px"><span class="arrow">→</span><div class="n">${esc(f.tag)}</div><div class="t" style="font-size:15px">${f.t}</div><div class="m">${f.d}</div></div>`).join('')}</div></div>
 
   <div class="card s12 rv"><div class="ct"><h3>直近のニュース・トピック（2026年）</h3>${tagOf('live')}<span class="sub">報道から抽出・全件リンク付き</span></div>
     <div class="flex">${(D.news_curated || []).slice().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 8).map(n => `<a class="qi" style="flex:1 1 280px;display:block" href="${esc(n.url)}" target="_blank" rel="noopener"><div class="id">${esc(n.date)} ・ ${esc(n.media)} <span class="fam" style="border-color:${n.tone === 'neg' ? 'rgba(248,113,113,.6)' : n.tone === 'pos' ? 'rgba(52,211,153,.6)' : 'var(--line2)'}">${esc(n.tag)}</span></div><div class="tx" style="color:var(--ink)">${esc(n.title)}</div></a>`).join('')}</div></div>
@@ -336,9 +336,33 @@ RENDER.v1 = () => {
   </div>`;
 };
 
+// テーマ別の懸念率（Kindle自身の好意/懸念のみ・母数10文未満は除外）。V0の発見とV9の打ち手で共用
+function concernRows(){
+  const out = [];
+  Object.keys(AI.matrix || {}).forEach(t => { const k = (AI.matrix[t] || {}).kindle; if(!k) return;
+    const tot = (k.pos || 0) + (k.neg || 0); if(tot < 10) return;
+    out.push({t, pos: k.pos || 0, neg: k.neg || 0, tot, share: (k.neg || 0) / tot * 100}); });
+  return out.sort((a, b) => b.share - a.share);
+}
 function findings(){
   const k = D.kakaku, sh = D.shelf, T = D.trends || {};
   const out = [];
+  if(AI.measured){
+    const pf = AI.per_face || {}, fs = (AI.faces || []).filter(f => isNum((pf[f.id] || {}).first_rate));
+    const worst = fs.slice().sort((a, b) => (pf[a.id].first_rate) - (pf[b.id].first_rate))[0];
+    if(worst){ const others = fs.filter(f => f.id !== worst.id).map(f => pf[f.id].first_rate);
+      out.push({v: 'v4', tag: 'AI / 穴', t: `${esc(worst.label)}だけ第一想起 <b style="color:#FDA4AF">${pct(pf[worst.id].first_rate, 0)}</b>`,
+                d: `他5面は${pct(Math.min(...others), 0)}〜${pct(Math.max(...others), 0)}。利用者数が最も多い面で最初に名前が出ていない`}); }
+    const own = (((AI.buckets || []).find(b => b.id === 'owned')) || {}).share;
+    if(isNum(own)) out.push({v: 'v7', tag: 'AI / 材料', t: `AIが見ている出典の <b style="color:#FFD166">${pct(100 - own, 0)}が第三者</b>`,
+      d: `自社（amazon.co.jp / aboutamazon.jp）は${pct(own, 0)}。公式サイトの改修だけでは語られ方は動かない（資料p31）`});
+    const worstT = concernRows()[0];
+    if(worstT) out.push({v: 'v6', tag: 'AI / 語られ方', t: `懸念が最も多いテーマは <b style="color:#FDA4AF">${esc(themeLabel(worstT.t))}</b>`,
+      d: `Kindleを主語にした文の${pct(worstT.share, 0)}が懸念（好意${worstT.pos}文／懸念${worstT.neg}文）。軽さ・防水・目に優しさは懸念ほぼ0で、弱点はハード性能ではない`});
+    const d0 = (AI.domains || [])[0];
+    if(d0) out.push({v: 'v7', tag: 'AI / 重点媒体', t: `引用1位は <b style="color:#8FF0C9">${esc(d0.host)}</b>（${d0.n}回）`,
+      d: `公式より第三者ブログ・UGCが材料。上位はnote・YouTube・Reddit・my-best。ここでの語られ方がAIの答えになる`});
+  }
   if(sh){ const kin = (sh.items || []).filter(i => i.brand === 'kindle');
     out.push({v: 'v3', tag: '棚 / Amazon', t: `ベストセラー10位内に <b style="color:#FFD166">Kindleが5枠</b>`, d: `1位 Paperwhite・2位 PWシグニチャー・4位 Colorsoft・6位 無印・7位 Colorsoft SE。Amazonの棚は取れている（${esc(sh.measured_at)} 実測）`});
     out.push({v: 'v3', tag: '満足度 / 弱点', t: `カラー機の★が競合に <b style="color:#FDA4AF">0.9pt 負け</b>`, d: `Kobo Libra Colour ★4.7 に対し Kindle Colorsoft シグニチャー ★3.8。カラー体験の評価が伸びていない`}); }
