@@ -1,0 +1,27 @@
+{
+ "measured_at": "2026-09-03",
+ "source": "YouTube 検索結果（関連度順）をChromeで実測",
+ "note": "AI引用の第1位ソースはYouTube（電通デジタル資料 p32）。日本語主要3クエリの上位動画を採録。視聴回数はYouTube表示のまま。",
+ "queries": [
+  {"q": "Kindle おすすめ 2026", "url": "https://www.youtube.com/results?search_query=Kindle+おすすめ+2026",
+   "items": [
+    {"rank": 1, "title": "【2026年版】Kindle端末のおすすめはどれ？全モデル実機で比較して選び方を徹底解説！", "ch": "電子書籍ターミナル | アーク", "views": "6.9万回", "when": "9か月前", "id": "G-48QDQ7j2Q", "official": false},
+    {"rank": 2, "title": "【電子書籍派はマストバイ！】最強の電子書籍リーダー！Kindleシリーズ4機種を比較レビューしてみた！", "ch": "ずんだ文芸部", "views": "3.8万回", "when": "1か月前", "id": "oBHEx-vKz2Q", "official": false},
+    {"rank": 3, "title": "【2026年版】電子書籍リーダーおすすめランキング！全11台を徹底比較！", "ch": "電子書籍ターミナル | アーク", "views": "4.8万回", "when": "7か月前", "id": "9KSx-bjG4Tw", "official": false},
+    {"rank": 4, "title": "Kindle Unlimited おすすめ本10選【2026年8月版】", "ch": "運ん読チャンネル", "views": "4,454回", "when": "3週間前", "id": "mE6tfB5QbMc", "official": false}
+   ]},
+  {"q": "電子書籍リーダー おすすめ 比較", "url": "https://www.youtube.com/results?search_query=電子書籍リーダー+おすすめ+比較",
+   "items": [
+    {"rank": 1, "title": "【2026年版】電子書籍リーダーおすすめランキング！全11台を徹底比較！", "ch": "電子書籍ターミナル | アーク", "views": "4.8万回", "when": "7か月前", "id": "9KSx-bjG4Tw", "official": false},
+    {"rank": 2, "title": "【電子書籍派はマストバイ！】最強の電子書籍リーダー！Kindleシリーズ4機種を比較レビューしてみた！", "ch": "ずんだ文芸部", "views": "3.8万回", "when": "1か月前", "id": "oBHEx-vKz2Q", "official": false},
+    {"rank": 3, "title": "【2026年版】Kindle端末のおすすめはどれ？全モデル実機で比較して選び方を徹底解説！", "ch": "電子書籍ターミナル | アーク", "views": "6.9万回", "when": "9か月前", "id": "G-48QDQ7j2Q", "official": false}
+   ]},
+  {"q": "Kindle Kobo 比較", "url": "https://www.youtube.com/results?search_query=Kindle+Kobo+比較",
+   "items": [
+    {"rank": 1, "title": "KindleとKoboの違いを7項目で徹底比較！ジャンル別に最適な電子書籍ストアを紹介！", "ch": "電子書籍ターミナル | アーク", "views": "2.1万回", "when": "1年前", "id": "flDLDJTiWuc", "official": false},
+    {"rank": 2, "title": "KindleとKoboどっちがいいの？【電子書籍サービス/リーダー端末比較】", "ch": "Rebecca Miyama / ミヤマレベッカ", "views": "26万回", "when": "5年前", "id": "8P-60HJmoTA", "official": false},
+    {"rank": 3, "title": "【2026年】KindleとKobo、両方買って比較した結果…意外な「1位」が決まりました。電子書籍リーダーおすすめTOP5", "ch": "いいもの発見", "views": "4,680回", "when": "7か月前", "id": "ee_MnqGU7r4", "official": false},
+    {"rank": 4, "title": "【2026年版】電子書籍リーダーおすすめランキング！全11台を徹底比較！", "ch": "電子書籍ターミナル | アーク", "views": "4.8万回", "when": "7か月前", "id": "9KSx-bjG4Tw", "official": false}
+   ]}
+ ]
+}
