@@ -1,0 +1,77 @@
+# ============================================================
+#  Kindle GEOボード 設定（全閾値・面・予算はここで管理。コードは触らない）
+# ============================================================
+site:
+  title: "Kindle 語られ方ボード"
+  brand: "Kindle"
+  owner: "Amazon Kindle 国内販売（Amazon.co.jp）"
+  market: "Japan"
+  language: "ja"
+  timezone: "Asia/Tokyo"
+  gate_marker: "KINDLE_BOARD"
+
+# ---- 計測するAI面（6面）----
+# chatgpt/gemini/aio/aimode は御殿場・トヨタ案件で1,700呼以上検証済みの仕様。
+# claude/perplexity は本案件で追加（モデル名は実行時に models エンドポイントで解決）。
+surfaces:
+  - id: chatgpt
+    label: "ChatGPT"
+    provider: dataforseo
+    model: "gpt-5"
+    enabled: true
+    max_tokens: 4096          # gpt-5は推論モデル。小さいと推論だけで使い切る
+    system_message: "最新の情報をウェブで確認したうえで、参照した出典を必ず示して日本語で回答してください。"
+  - id: gemini
+    label: "Gemini"
+    provider: dataforseo
+    model: "gemini-2.5-flash"
+    enabled: true
+    max_tokens: 2048
+  - id: claude
+    label: "Claude"
+    provider: dataforseo
+    model: "claude-sonnet-4-0"   # models エンドポイントに無ければ sonnet を含む最初のモデルへ
+    enabled: true
+    max_tokens: 2048
+    system_message: "最新の情報をウェブで確認したうえで、参照した出典を必ず示して日本語で回答してください。"
+  - id: perplexity
+    label: "Perplexity"
+    provider: dataforseo
+    model: "sonar-pro"           # models エンドポイントに無ければ sonar を含む最初のモデルへ
+    enabled: true
+    max_tokens: 2048
+  - id: aio
+    label: "AI Overview"
+    provider: serp               # organic + load_async_ai_overview
+    enabled: true
+  - id: aimode
+    label: "AIモード"
+    provider: serp               # serp/google/ai_mode
+    enabled: true
+
+serp:
+  location_code: 2392            # Japan
+  language_code: "ja"
+
+amazon:
+  location_code: 2392
+  language_code: "ja_JP"
+  se_domain: "amazon.co.jp"
+  search_keywords: ["kindle", "電子書籍リーダー", "kindle paperwhite", "kobo 電子書籍リーダー", "電子ペーパー タブレット"]
+  max_asin_lookups: 10
+
+apps:
+  apple_app_id: "302584613"      # Amazon Kindle（App Store 日本）
+  google_app_id: "com.amazon.kindle"
+
+youtube_keywords: ["Kindle おすすめ", "Kindle Paperwhite レビュー", "Kindle Kobo 比較", "電子書籍リーダー おすすめ 2026", "Kindle Scribe Colorsoft"]
+news_keywords: ["Kindle", "電子書籍リーダー", "楽天Kobo"]
+content_keywords: ["kindle", "キンドル", "kobo", "電子書籍リーダー"]
+scraper_prompt_ids: ["k001", "k002", "k006", "k009", "k019", "k027", "k033", "k038"]
+
+sampling:
+  runs_per_prompt: 1
+
+budget:
+  round_usd_max: 15              # AI6面ラウンドの支払上限
+  extra_usd_max: 6               # 付帯収集（Amazon/アプリ/YouTube/ニュース/需要）の上限

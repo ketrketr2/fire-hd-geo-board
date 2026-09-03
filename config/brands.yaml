@@ -1,0 +1,118 @@
+# ブランド辞書（回答本文からの検出用）。照合は NFKC + casefold 正規化後に「長い順」で行う。
+# aliases … ヒットさせる語 / guards … 先にマスクして誤検出を防ぐ語（他ブランドのaliasを壊さないよう最小限）
+self:
+  id: kindle
+  label: "Kindle"
+  aliases: ["kindle", "キンドル", "paperwhite", "ペーパーホワイト", "colorsoft", "カラーソフト", "kindle scribe", "スクライブ"]
+  guards: []
+  models:                       # 端末名の言及（モデル別の語られ量）
+    kindle_basic: ["kindle（第", "kindle 第", "kindle 無印", "無印kindle", "無印 kindle", "エントリーモデル", "kindle 16gb", "ベーシックモデル"]
+    paperwhite: ["paperwhite", "ペーパーホワイト"]
+    colorsoft: ["colorsoft", "カラーソフト"]
+    scribe: ["scribe", "スクライブ"]
+    kids: ["キッズモデル", "kids"]
+    unlimited: ["unlimited", "アンリミテッド", "読み放題"]
+    app: ["kindleアプリ", "kindle アプリ", "kindle for", "アプリ版"]
+tier1:
+  - id: kobo
+    label: "楽天Kobo"
+    aliases: ["kobo", "コボ", "楽天kobo", "clara", "libra", "elipsa"]
+    guards: []
+  - id: boox
+    label: "BOOX"
+    aliases: ["boox", "onyx", "palma", "note air", "ブークス"]
+    guards: []
+  - id: ipad
+    label: "iPad"
+    aliases: ["ipad", "アイパッド"]
+    guards: []
+tier2:
+  - id: remarkable
+    label: "reMarkable"
+    aliases: ["remarkable"]
+    guards: []
+  - id: bigme
+    label: "Bigme"
+    aliases: ["bigme", "hibreak"]
+    guards: []
+  - id: meebook
+    label: "Meebook"
+    aliases: ["meebook"]
+    guards: []
+  - id: pocketbook
+    label: "PocketBook"
+    aliases: ["pocketbook"]
+    guards: []
+  - id: supernote
+    label: "Supernote"
+    aliases: ["supernote"]
+    guards: []
+  - id: fire
+    label: "Fireタブレット"
+    aliases: ["fire hd", "fireタブレット", "fire タブレット", "fire max", "amazon fire"]
+    guards: ["kindle fire"]
+  - id: quaderno
+    label: "QUADERNO"
+    aliases: ["quaderno", "クアデルノ"]
+    guards: []
+  - id: sony
+    label: "Sony Reader"
+    aliases: ["sony reader", "prs-t", "prs-6"]
+    guards: []
+  - id: matepad
+    label: "MatePad Paper"
+    aliases: ["matepad paper"]
+    guards: []
+
+# 購入チャネルの言及（AIが「どこで買え」と言っているか）
+stores:
+  amazon:   { label: "Amazon.co.jp", aliases: ["amazon", "アマゾン"], own: true }
+  rakuten:  { label: "楽天", aliases: ["楽天ブックス", "楽天市場", "rakuten"] }
+  yodobashi: { label: "ヨドバシ", aliases: ["ヨドバシ"] }
+  bic:      { label: "ビックカメラ", aliases: ["ビックカメラ", "ビック"] }
+  yamada:   { label: "ヤマダ", aliases: ["ヤマダ"] }
+  ks:       { label: "ケーズデンキ", aliases: ["ケーズ"] }
+  edion:    { label: "エディオン", aliases: ["エディオン"] }
+  joshin:   { label: "ジョーシン", aliases: ["ジョーシン", "joshin", "上新"] }
+  kojima:   { label: "コジマ", aliases: ["コジマ"] }
+  nojima:   { label: "ノジマ", aliases: ["ノジマ"] }
+  used:     { label: "中古・フリマ", aliases: ["メルカリ", "中古", "ハードオフ", "フリマ", "ヤフオク", "リユース"] }
+  costco:   { label: "コストコ", aliases: ["コストコ"] }
+  retail_generic: { label: "家電量販店（総称）", aliases: ["家電量販店", "量販店", "実店舗", "店頭"] }
+
+# テーマ辞書（文単位の共起で勝敗マトリクスを作る）
+themes:
+  eye:        { label: "目に優しい", words: ["目に優し", "目が疲れ", "e ink", "eインク", "e-ink", "電子ペーパー", "ブルーライト", "紙のよう", "紙に近い"] }
+  battery:    { label: "バッテリー", words: ["バッテリー", "電池", "充電", "週間持"] }
+  waterproof: { label: "防水", words: ["防水", "お風呂", "風呂", "ipx8", "プール"] }
+  light:      { label: "軽さ・携帯性", words: ["軽い", "軽量", "軽さ", "片手", "持ち運び", "携帯性", "グラム", "コンパクト"] }
+  price:      { label: "価格・コスパ", words: ["価格", "値段", "安い", "高価", "高め", "コスパ", "割安", "割高", "セール", "割引", "お得", "円", "値上げ", "値下げ", "予算"] }
+  color:      { label: "カラー・マンガ", words: ["カラー", "マンガ", "漫画", "コミック", "雑誌", "色"] }
+  writing:    { label: "手書き・ノート", words: ["手書き", "ペン", "ノート", "メモ", "書き込"] }
+  store:      { label: "品揃え・ストア", words: ["品揃え", "ストア", "ラインナップ", "蔵書", "冊", "取り扱い", "タイトル数"] }
+  unlimited:  { label: "読み放題", words: ["unlimited", "読み放題", "サブスク", "定額"] }
+  lockin:     { label: "囲い込み・汎用性", words: ["囲い込み", "他のストア", "汎用性", "epub", "drm", "自炊", "pdf", "縛ら", "専用", "閉じた", "ロックイン"] }
+  speed:      { label: "動作・レスポンス", words: ["動作", "サクサク", "もっさり", "遅い", "反応", "リフレッシュ", "ページ送り", "残像", "処理速度"] }
+  ads:        { label: "広告", words: ["広告"] }
+  kids:       { label: "子ども・学習", words: ["子ども", "子供", "キッズ", "学習", "お子"] }
+  android:    { label: "Android・自由度", words: ["android", "アプリを入れ", "自由度", "google play", "汎用"] }
+  size:       { label: "画面サイズ", words: ["画面", "インチ", "型", "大画面", "小さ", "大き"] }
+  support:    { label: "故障・サポート", words: ["故障", "保証", "サポート", "修理", "壊れ", "不具合", "バグ"] }
+  resolution: { label: "解像度・見やすさ", words: ["解像度", "ppi", "鮮明", "見やすい", "くっきり", "文字が"] }
+  ecosystem:  { label: "エコシステム・連携", words: ["連携", "同期", "エコシステム", "prime", "プライム", "ポイント"] }
+
+personas:
+  senior:   { label: "シニア・老眼", words: ["シニア", "高齢", "老眼", "文字を大き", "親に", "60代", "70代"] }
+  kids:     { label: "子ども", words: ["子ども", "子供", "小学生", "中学生", "キッズ", "お子"] }
+  commuter: { label: "通勤・ビジネス", words: ["通勤", "電車", "ビジネス", "出張", "移動中", "満員"] }
+  manga:    { label: "マンガ読者", words: ["マンガ", "漫画", "コミック"] }
+  academic: { label: "論文・技術書", words: ["論文", "技術書", "pdf", "参考書", "専門書", "勉強", "学習"] }
+  bath:     { label: "風呂読書", words: ["風呂", "お風呂", "湯船", "プール"] }
+  traveler: { label: "旅行・海外", words: ["旅行", "海外", "飛行機", "出張"] }
+  novel:    { label: "活字・小説", words: ["活字", "小説", "文庫", "ビジネス書", "読書家", "多読"] }
+  gift:     { label: "プレゼント", words: ["プレゼント", "ギフト", "贈り"] }
+  switcher: { label: "スマホ・紙からの移行", words: ["スマホで", "紙の本", "移行", "乗り換え", "紙派"] }
+
+sentiment:
+  positive: ["おすすめ", "最適", "優れ", "良い", "よい", "快適", "便利", "満足", "人気", "定番", "魅力", "強み", "高評価", "安心", "最強", "最良", "十分", "コスパが良", "ベスト", "鉄板", "王道", "向いて", "メリット", "長所", "選ばれ", "使いやすい", "読みやすい", "軽い", "手頃", "優し", "疲れにくい", "安定", "充実", "豊富", "圧倒的", "No.1", "一番"]
+  negative: ["デメリット", "欠点", "弱点", "割高", "高すぎ", "不便", "遅い", "もっさり", "不満", "注意", "制限", "できない", "非対応", "縛り", "劣る", "微妙", "残念", "故障", "バグ", "不具合", "後悔", "面倒", "使いにくい", "読みにくい", "重い", "不安", "リスク", "囲い込み", "限定的"]

@@ -1,0 +1,74 @@
+# 引用元ドメインの分類（自社 / 競合 / 小売 / UGC / 動画 / 報道 / リファレンス / メディア）
+owned_domains:
+  - amazon.co.jp
+  - amazon.com
+  - aboutamazon.jp
+  - aboutamazon.com
+  - press.aboutamazon.com
+  - amazon.jobs
+  - amazon-press.jp
+competitor_domains:
+  - rakuten.co.jp
+  - books.rakuten.co.jp
+  - kobo.com
+  - rakuten.com
+  - boox.com
+  - onyx-international.com
+  - sktnetshop.com
+  - remarkable.com
+  - supernote.com
+  - bigme.com
+  - meebook.com
+  - pocketbook.ch
+  - apple.com
+  - piccoma.com
+  - manga.line.me
+  - cmoa.jp
+  - booklive.jp
+  - ebookjapan.yahoo.co.jp
+  - honto.jp
+  - book.dmm.com
+retail_domains:
+  - biccamera.com
+  - yodobashi.com
+  - yamada-denkiweb.com
+  - ksdenki.com
+  - edion.com
+  - joshinweb.jp
+  - kojima.net
+  - nojima.co.jp
+  - kakaku.com
+  - mercari.com
+  - yahoo.co.jp
+  - shopping.yahoo.co.jp
+reference_domains:
+  - wikipedia.org
+  - wikiwand.com
+press_domains:
+  - prtimes.jp
+  - atpress.ne.jp
+  - kyodonewsprwire.jp
+platforms:
+  - { id: youtube, bucket: video, domains: [youtube.com, youtu.be] }
+  - { id: x, bucket: ugc, domains: [x.com, twitter.com] }
+  - { id: note, bucket: ugc, domains: [note.com] }
+  - { id: hatena, bucket: ugc, domains: [hatena.ne.jp, hatenablog.com, hatenablog.jp, hateblo.jp] }
+  - { id: reddit, bucket: ugc, domains: [reddit.com] }
+  - { id: qiita, bucket: ugc, domains: [qiita.com, zenn.dev] }
+  - { id: ameba, bucket: ugc, domains: [ameblo.jp] }
+  - { id: chiebukuro, bucket: ugc, domains: [chiebukuro.yahoo.co.jp, detail.chiebukuro.yahoo.co.jp] }
+  - { id: instagram, bucket: ugc, domains: [instagram.com] }
+  - { id: tiktok, bucket: ugc, domains: [tiktok.com] }
+  - { id: mybest, bucket: affiliate, domains: [my-best.com, mybest.com] }
+  - { id: sakidori, bucket: affiliate, domains: [sakidori.co, osusume.mynavi.jp, kurashi-no.jp, heim.jp, rentio.jp, rank-king.jp, 360life.shinyusha.co.jp] }
+noise_patterns:
+  - "google.com/search"
+  - "google.com/searchviewer"
+  - "google.com/maps"
+  - "google.co.jp/search"
+  - "vertexaisearch.cloud.google.com"
+  - "grounding-api-redirect"
+  - "google.com/goto"
+  - "bing.com/search"
+  - "duckduckgo.com"
+  - "javascript:"
