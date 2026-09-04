@@ -1,0 +1,1619 @@
+{
+ "brands_12m": [
+  {
+   "keywords": [
+    "Kindle",
+    "Kobo",
+    "BOOX",
+    "電子書籍リーダー",
+    "Kindle Unlimited"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&geo=JP&date=today%2012-m&q=Kindle,Kobo,BOOX,%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC,Kindle%20Unlimited",
+   "datetime": "2026-09-04 03:01:47 +00:00",
+   "items_count": 1,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_graph",
+     "title": null,
+     "keywords": [
+      "Kindle",
+      "Kobo",
+      "BOOX",
+      "電子書籍リーダー",
+      "Kindle Unlimited"
+     ],
+     "data": [
+      {
+       "date_from": "2025-08-31",
+       "date_to": "2025-09-06",
+       "timestamp": 1756598400,
+       "missing_data": false,
+       "values": [
+        74,
+        9,
+        1,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-09-07",
+       "date_to": "2025-09-13",
+       "timestamp": 1757203200,
+       "missing_data": false,
+       "values": [
+        64,
+        8,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2025-09-14",
+       "date_to": "2025-09-20",
+       "timestamp": 1757808000,
+       "missing_data": false,
+       "values": [
+        67,
+        9,
+        2,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2025-09-21",
+       "date_to": "2025-09-27",
+       "timestamp": 1758412800,
+       "missing_data": false,
+       "values": [
+        66,
+        8,
+        1,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2025-09-28",
+       "date_to": "2025-10-04",
+       "timestamp": 1759017600,
+       "missing_data": false,
+       "values": [
+        71,
+        9,
+        2,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2025-10-05",
+       "date_to": "2025-10-11",
+       "timestamp": 1759622400,
+       "missing_data": false,
+       "values": [
+        85,
+        9,
+        2,
+        1,
+        9
+       ]
+      },
+      {
+       "date_from": "2025-10-12",
+       "date_to": "2025-10-18",
+       "timestamp": 1760227200,
+       "missing_data": false,
+       "values": [
+        67,
+        10,
+        1,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-10-19",
+       "date_to": "2025-10-25",
+       "timestamp": 1760832000,
+       "missing_data": false,
+       "values": [
+        58,
+        8,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2025-10-26",
+       "date_to": "2025-11-01",
+       "timestamp": 1761436800,
+       "missing_data": false,
+       "values": [
+        62,
+        8,
+        3,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-11-02",
+       "date_to": "2025-11-08",
+       "timestamp": 1762041600,
+       "missing_data": false,
+       "values": [
+        64,
+        9,
+        3,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2025-11-09",
+       "date_to": "2025-11-15",
+       "timestamp": 1762646400,
+       "missing_data": false,
+       "values": [
+        69,
+        9,
+        3,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-11-16",
+       "date_to": "2025-11-22",
+       "timestamp": 1763251200,
+       "missing_data": false,
+       "values": [
+        78,
+        10,
+        3,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2025-11-23",
+       "date_to": "2025-11-29",
+       "timestamp": 1763856000,
+       "missing_data": false,
+       "values": [
+        100,
+        10,
+        3,
+        1,
+        10
+       ]
+      },
+      {
+       "date_from": "2025-11-30",
+       "date_to": "2025-12-06",
+       "timestamp": 1764460800,
+       "missing_data": false,
+       "values": [
+        88,
+        11,
+        2,
+        1,
+        9
+       ]
+      },
+      {
+       "date_from": "2025-12-07",
+       "date_to": "2025-12-13",
+       "timestamp": 1765065600,
+       "missing_data": false,
+       "values": [
+        74,
+        9,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-12-14",
+       "date_to": "2025-12-20",
+       "timestamp": 1765670400,
+       "missing_data": false,
+       "values": [
+        88,
+        10,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-12-21",
+       "date_to": "2025-12-27",
+       "timestamp": 1766275200,
+       "missing_data": false,
+       "values": [
+        78,
+        10,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-12-28",
+       "date_to": "2026-01-03",
+       "timestamp": 1766880000,
+       "missing_data": false,
+       "values": [
+        96,
+        10,
+        2,
+        1,
+        11
+       ]
+      },
+      {
+       "date_from": "2026-01-04",
+       "date_to": "2026-01-10",
+       "timestamp": 1767484800,
+       "missing_data": false,
+       "values": [
+        92,
+        9,
+        2,
+        1,
+        9
+       ]
+      },
+      {
+       "date_from": "2026-01-11",
+       "date_to": "2026-01-17",
+       "timestamp": 1768089600,
+       "missing_data": false,
+       "values": [
+        84,
+        10,
+        2,
+        0,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-01-18",
+       "date_to": "2026-01-24",
+       "timestamp": 1768694400,
+       "missing_data": false,
+       "values": [
+        75,
+        9,
+        2,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-01-25",
+       "date_to": "2026-01-31",
+       "timestamp": 1769299200,
+       "missing_data": false,
+       "values": [
+        71,
+        9,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-02-01",
+       "date_to": "2026-02-07",
+       "timestamp": 1769904000,
+       "missing_data": false,
+       "values": [
+        72,
+        10,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-02-08",
+       "date_to": "2026-02-14",
+       "timestamp": 1770508800,
+       "missing_data": false,
+       "values": [
+        69,
+        9,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-02-15",
+       "date_to": "2026-02-21",
+       "timestamp": 1771113600,
+       "missing_data": false,
+       "values": [
+        67,
+        9,
+        2,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-02-22",
+       "date_to": "2026-02-28",
+       "timestamp": 1771718400,
+       "missing_data": false,
+       "values": [
+        67,
+        8,
+        2,
+        0,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-03-01",
+       "date_to": "2026-03-07",
+       "timestamp": 1772323200,
+       "missing_data": false,
+       "values": [
+        75,
+        9,
+        2,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-03-08",
+       "date_to": "2026-03-14",
+       "timestamp": 1772928000,
+       "missing_data": false,
+       "values": [
+        71,
+        10,
+        3,
+        0,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-03-15",
+       "date_to": "2026-03-21",
+       "timestamp": 1773532800,
+       "missing_data": false,
+       "values": [
+        65,
+        10,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-03-22",
+       "date_to": "2026-03-28",
+       "timestamp": 1774137600,
+       "missing_data": false,
+       "values": [
+        66,
+        8,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-03-29",
+       "date_to": "2026-04-04",
+       "timestamp": 1774742400,
+       "missing_data": false,
+       "values": [
+        73,
+        9,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-04-05",
+       "date_to": "2026-04-11",
+       "timestamp": 1775347200,
+       "missing_data": false,
+       "values": [
+        73,
+        10,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-04-12",
+       "date_to": "2026-04-18",
+       "timestamp": 1775952000,
+       "missing_data": false,
+       "values": [
+        68,
+        9,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-04-19",
+       "date_to": "2026-04-25",
+       "timestamp": 1776556800,
+       "missing_data": false,
+       "values": [
+        65,
+        9,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-04-26",
+       "date_to": "2026-05-02",
+       "timestamp": 1777161600,
+       "missing_data": false,
+       "values": [
+        79,
+        9,
+        2,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-05-03",
+       "date_to": "2026-05-09",
+       "timestamp": 1777766400,
+       "missing_data": false,
+       "values": [
+        84,
+        9,
+        3,
+        1,
+        9
+       ]
+      },
+      {
+       "date_from": "2026-05-10",
+       "date_to": "2026-05-16",
+       "timestamp": 1778371200,
+       "missing_data": false,
+       "values": [
+        72,
+        10,
+        3,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-05-17",
+       "date_to": "2026-05-23",
+       "timestamp": 1778976000,
+       "missing_data": false,
+       "values": [
+        68,
+        9,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-05-24",
+       "date_to": "2026-05-30",
+       "timestamp": 1779580800,
+       "missing_data": false,
+       "values": [
+        70,
+        8,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-05-31",
+       "date_to": "2026-06-06",
+       "timestamp": 1780185600,
+       "missing_data": false,
+       "values": [
+        73,
+        9,
+        2,
+        0,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-06-07",
+       "date_to": "2026-06-13",
+       "timestamp": 1780790400,
+       "missing_data": false,
+       "values": [
+        70,
+        9,
+        3,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-06-14",
+       "date_to": "2026-06-20",
+       "timestamp": 1781395200,
+       "missing_data": false,
+       "values": [
+        72,
+        8,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-06-21",
+       "date_to": "2026-06-27",
+       "timestamp": 1782000000,
+       "missing_data": false,
+       "values": [
+        80,
+        8,
+        3,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-06-28",
+       "date_to": "2026-07-04",
+       "timestamp": 1782604800,
+       "missing_data": false,
+       "values": [
+        79,
+        8,
+        3,
+        2,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-07-05",
+       "date_to": "2026-07-11",
+       "timestamp": 1783209600,
+       "missing_data": false,
+       "values": [
+        93,
+        10,
+        3,
+        1,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-07-12",
+       "date_to": "2026-07-18",
+       "timestamp": 1783814400,
+       "missing_data": false,
+       "values": [
+        81,
+        8,
+        2,
+        1,
+        7
+       ]
+      },
+      {
+       "date_from": "2026-07-19",
+       "date_to": "2026-07-25",
+       "timestamp": 1784419200,
+       "missing_data": false,
+       "values": [
+        60,
+        8,
+        1,
+        1,
+        5
+       ]
+      },
+      {
+       "date_from": "2026-07-26",
+       "date_to": "2026-08-01",
+       "timestamp": 1785024000,
+       "missing_data": false,
+       "values": [
+        59,
+        8,
+        3,
+        1,
+        5
+       ]
+      },
+      {
+       "date_from": "2026-08-02",
+       "date_to": "2026-08-08",
+       "timestamp": 1785628800,
+       "missing_data": false,
+       "values": [
+        67,
+        9,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-08-09",
+       "date_to": "2026-08-15",
+       "timestamp": 1786233600,
+       "missing_data": false,
+       "values": [
+        77,
+        9,
+        2,
+        1,
+        6
+       ]
+      },
+      {
+       "date_from": "2026-08-16",
+       "date_to": "2026-08-22",
+       "timestamp": 1786838400,
+       "missing_data": false,
+       "values": [
+        72,
+        8,
+        2,
+        1,
+        5
+       ]
+      },
+      {
+       "date_from": "2026-08-23",
+       "date_to": "2026-08-29",
+       "timestamp": 1787443200,
+       "missing_data": false,
+       "values": [
+        68,
+        8,
+        1,
+        1,
+        5
+       ]
+      },
+      {
+       "date_from": "2026-08-30",
+       "date_to": "2026-09-04",
+       "timestamp": 1788048000,
+       "missing_data": true,
+       "values": [
+        69,
+        7,
+        1,
+        1,
+        5
+       ]
+      }
+     ],
+     "averages": [
+      73,
+      9,
+      2,
+      1,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "self_queries": [
+  {
+   "keywords": [
+    "Kindle"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&geo=JP&date=today%2012-m&q=Kindle",
+   "datetime": "2026-09-04 03:01:57 +00:00",
+   "items_count": 2,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_topics_list",
+     "title": null,
+     "keywords": [
+      "Kindle"
+     ],
+     "data": {
+      "top": [
+       {
+        "topic_id": "/m/03d068f",
+        "topic_title": "Amazon Kindle",
+        "topic_type": "コンピュータ",
+        "value": 100
+       },
+       {
+        "topic_id": "/m/0mgkg",
+        "topic_title": "Amazon.com",
+        "topic_type": "企業",
+        "value": 14
+       },
+       {
+        "topic_id": "/g/11byd0pcqh",
+        "topic_title": "Amazon Hub Counter",
+        "topic_type": "トピック",
+        "value": 14
+       },
+       {
+        "topic_id": "/g/11cm12hhlm",
+        "topic_title": "Amazon",
+        "topic_type": "トピック",
+        "value": 13
+       },
+       {
+        "topic_id": "/g/11sgv5bby8",
+        "topic_title": "Kindle Unlimited",
+        "topic_type": "トピック",
+        "value": 9
+       },
+       {
+        "topic_id": "/m/0bt_c3",
+        "topic_title": "本",
+        "topic_type": "トピック",
+        "value": 9
+       },
+       {
+        "topic_id": "/m/01bcv7",
+        "topic_title": "電子書籍",
+        "topic_type": "製本",
+        "value": 2
+       },
+       {
+        "topic_id": "/g/12lnhht6m",
+        "topic_title": "Amazon Kindle Paperwhite",
+        "topic_type": "電子書籍リーダーケース",
+        "value": 2
+       },
+       {
+        "topic_id": "/m/0hz28",
+        "topic_title": "出版",
+        "topic_type": "トピック",
+        "value": 1
+       },
+       {
+        "topic_id": "/g/12ckhq9wr",
+        "topic_title": "Kindle ダイレクト・パブリッシング",
+        "topic_type": "トピック",
+        "value": 1
+       },
+       {
+        "topic_id": "/m/04yclrg",
+        "topic_title": "読書",
+        "topic_type": "トピック",
+        "value": 1
+       },
+       {
+        "topic_id": "/m/01l0h6",
+        "topic_title": "端末",
+        "topic_type": "周辺機器",
+        "value": 1
+       },
+       {
+        "topic_id": "/m/0bh9flk",
+        "topic_title": "タブレット",
+        "topic_type": "コンピュータ",
+        "value": 1
+       }
+      ],
+      "rising": [
+       {
+        "topic_id": "/g/12ckhq9wr",
+        "topic_title": "Kindle ダイレクト・パブリッシング",
+        "topic_type": "トピック",
+        "value": 70
+       }
+      ]
+     }
+    },
+    {
+     "position": 2,
+     "type": "google_trends_queries_list",
+     "title": null,
+     "keywords": [
+      "Kindle"
+     ],
+     "data": {
+      "top": [
+       {
+        "query": "kindle amazon",
+        "value": 100
+       },
+       {
+        "query": "kindle unlimited",
+        "value": 73
+       },
+       {
+        "query": "kindle セール",
+        "value": 56
+       },
+       {
+        "query": "kindle 漫画",
+        "value": 33
+       },
+       {
+        "query": "アマゾン kindle",
+        "value": 25
+       },
+       {
+        "query": "kindle 解約",
+        "value": 19
+       },
+       {
+        "query": "kindle アプリ",
+        "value": 18
+       },
+       {
+        "query": "kindle pdf",
+        "value": 17
+       },
+       {
+        "query": "kindle 書籍",
+        "value": 17
+       },
+       {
+        "query": "kindle pc",
+        "value": 16
+       },
+       {
+        "query": "kindle 無料",
+        "value": 16
+       },
+       {
+        "query": "kindle おすすめ",
+        "value": 15
+       },
+       {
+        "query": "kindle paperwhite",
+        "value": 15
+       },
+       {
+        "query": "kindle 日替わり",
+        "value": 14
+       },
+       {
+        "query": "電子 書籍",
+        "value": 13
+       },
+       {
+        "query": "kindle ストア",
+        "value": 13
+       },
+       {
+        "query": "kindle 電子 書籍",
+        "value": 13
+       },
+       {
+        "query": "kindle 購入",
+        "value": 11
+       },
+       {
+        "query": "kindle アンリミテッド",
+        "value": 10
+       },
+       {
+        "query": "amazon kindle unlimited",
+        "value": 10
+       },
+       {
+        "query": "kindle unlimited 解約",
+        "value": 10
+       },
+       {
+        "query": "kindle 削除",
+        "value": 9
+       },
+       {
+        "query": "kindle ダウンロード",
+        "value": 9
+       },
+       {
+        "query": "kindle web",
+        "value": 9
+       },
+       {
+        "query": "kindle 端末",
+        "value": 8
+       }
+      ],
+      "rising": [
+       {
+        "query": "麻倉 瑞季 kindle",
+        "value": 3900
+       },
+       {
+        "query": "小日向 結衣 kindle",
+        "value": 3550
+       },
+       {
+        "query": "kindle scribe colorsoft",
+        "value": 2950
+       },
+       {
+        "query": "microsoft store",
+        "value": 1850
+       },
+       {
+        "query": "いとこ の お 姉ちゃん に 甘え ちゃう",
+        "value": 1550
+       },
+       {
+        "query": "いとこ の お 姉ちゃん に 甘え ちゃう kindle",
+        "value": 1550
+       },
+       {
+        "query": "紅羽 祐美 kindle",
+        "value": 1250
+       },
+       {
+        "query": "紫 堂 るい kindle",
+        "value": 1000
+       },
+       {
+        "query": "紫 堂 るい",
+        "value": 900
+       },
+       {
+        "query": "博 多彩 葉 kindle",
+        "value": 550
+       },
+       {
+        "query": "似鳥 沙也加",
+        "value": 500
+       },
+       {
+        "query": "似鳥 沙也加 kindle",
+        "value": 450
+       },
+       {
+        "query": "amazon kindle colorsoft",
+        "value": 350
+       },
+       {
+        "query": "みい ちゃんと 山田 さん",
+        "value": 350
+       },
+       {
+        "query": "みい ちゃんと 山田 さん kindle",
+        "value": 350
+       },
+       {
+        "query": "恋し て キス し て 死神 ガール kindle",
+        "value": 300
+       },
+       {
+        "query": "kindle 完全 に 削除",
+        "value": 250
+       },
+       {
+        "query": "チェンソー マン kindle",
+        "value": 200
+       },
+       {
+        "query": "kindle app",
+        "value": 150
+       },
+       {
+        "query": "kindle for windows",
+        "value": 150
+       },
+       {
+        "query": "amazon kindle paperwhite",
+        "value": 140
+       },
+       {
+        "query": "kindle create",
+        "value": 130
+       },
+       {
+        "query": "kindle direct publishing",
+        "value": 120
+       },
+       {
+        "query": "kindle kdp",
+        "value": 120
+       },
+       {
+        "query": "kindle colorsoft レビュー",
+        "value": 110
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube_12m": [
+  {
+   "keywords": [
+    "Kindle",
+    "Kobo"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&gprop=youtube&geo=JP&date=today%2012-m&q=Kindle,Kobo",
+   "datetime": "2026-09-04 03:02:18 +00:00",
+   "items_count": 1,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_graph",
+     "title": null,
+     "keywords": [
+      "Kindle",
+      "Kobo"
+     ],
+     "data": [
+      {
+       "date_from": "2025-08-31",
+       "date_to": "2025-09-06",
+       "timestamp": 1756598400,
+       "missing_data": false,
+       "values": [
+        37,
+        17
+       ]
+      },
+      {
+       "date_from": "2025-09-07",
+       "date_to": "2025-09-13",
+       "timestamp": 1757203200,
+       "missing_data": false,
+       "values": [
+        39,
+        21
+       ]
+      },
+      {
+       "date_from": "2025-09-14",
+       "date_to": "2025-09-20",
+       "timestamp": 1757808000,
+       "missing_data": false,
+       "values": [
+        39,
+        18
+       ]
+      },
+      {
+       "date_from": "2025-09-21",
+       "date_to": "2025-09-27",
+       "timestamp": 1758412800,
+       "missing_data": false,
+       "values": [
+        33,
+        21
+       ]
+      },
+      {
+       "date_from": "2025-09-28",
+       "date_to": "2025-10-04",
+       "timestamp": 1759017600,
+       "missing_data": false,
+       "values": [
+        57,
+        22
+       ]
+      },
+      {
+       "date_from": "2025-10-05",
+       "date_to": "2025-10-11",
+       "timestamp": 1759622400,
+       "missing_data": false,
+       "values": [
+        80,
+        19
+       ]
+      },
+      {
+       "date_from": "2025-10-12",
+       "date_to": "2025-10-18",
+       "timestamp": 1760227200,
+       "missing_data": false,
+       "values": [
+        51,
+        16
+       ]
+      },
+      {
+       "date_from": "2025-10-19",
+       "date_to": "2025-10-25",
+       "timestamp": 1760832000,
+       "missing_data": false,
+       "values": [
+        42,
+        17
+       ]
+      },
+      {
+       "date_from": "2025-10-26",
+       "date_to": "2025-11-01",
+       "timestamp": 1761436800,
+       "missing_data": false,
+       "values": [
+        42,
+        13
+       ]
+      },
+      {
+       "date_from": "2025-11-02",
+       "date_to": "2025-11-08",
+       "timestamp": 1762041600,
+       "missing_data": false,
+       "values": [
+        43,
+        17
+       ]
+      },
+      {
+       "date_from": "2025-11-09",
+       "date_to": "2025-11-15",
+       "timestamp": 1762646400,
+       "missing_data": false,
+       "values": [
+        38,
+        16
+       ]
+      },
+      {
+       "date_from": "2025-11-16",
+       "date_to": "2025-11-22",
+       "timestamp": 1763251200,
+       "missing_data": false,
+       "values": [
+        70,
+        12
+       ]
+      },
+      {
+       "date_from": "2025-11-23",
+       "date_to": "2025-11-29",
+       "timestamp": 1763856000,
+       "missing_data": false,
+       "values": [
+        100,
+        12
+       ]
+      },
+      {
+       "date_from": "2025-11-30",
+       "date_to": "2025-12-06",
+       "timestamp": 1764460800,
+       "missing_data": false,
+       "values": [
+        63,
+        12
+       ]
+      },
+      {
+       "date_from": "2025-12-07",
+       "date_to": "2025-12-13",
+       "timestamp": 1765065600,
+       "missing_data": false,
+       "values": [
+        49,
+        19
+       ]
+      },
+      {
+       "date_from": "2025-12-14",
+       "date_to": "2025-12-20",
+       "timestamp": 1765670400,
+       "missing_data": false,
+       "values": [
+        39,
+        21
+       ]
+      },
+      {
+       "date_from": "2025-12-21",
+       "date_to": "2025-12-27",
+       "timestamp": 1766275200,
+       "missing_data": false,
+       "values": [
+        37,
+        15
+       ]
+      },
+      {
+       "date_from": "2025-12-28",
+       "date_to": "2026-01-03",
+       "timestamp": 1766880000,
+       "missing_data": false,
+       "values": [
+        46,
+        15
+       ]
+      },
+      {
+       "date_from": "2026-01-04",
+       "date_to": "2026-01-10",
+       "timestamp": 1767484800,
+       "missing_data": false,
+       "values": [
+        51,
+        14
+       ]
+      },
+      {
+       "date_from": "2026-01-11",
+       "date_to": "2026-01-17",
+       "timestamp": 1768089600,
+       "missing_data": false,
+       "values": [
+        45,
+        16
+       ]
+      },
+      {
+       "date_from": "2026-01-18",
+       "date_to": "2026-01-24",
+       "timestamp": 1768694400,
+       "missing_data": false,
+       "values": [
+        40,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-01-25",
+       "date_to": "2026-01-31",
+       "timestamp": 1769299200,
+       "missing_data": false,
+       "values": [
+        46,
+        17
+       ]
+      },
+      {
+       "date_from": "2026-02-01",
+       "date_to": "2026-02-07",
+       "timestamp": 1769904000,
+       "missing_data": false,
+       "values": [
+        48,
+        9
+       ]
+      },
+      {
+       "date_from": "2026-02-08",
+       "date_to": "2026-02-14",
+       "timestamp": 1770508800,
+       "missing_data": false,
+       "values": [
+        37,
+        10
+       ]
+      },
+      {
+       "date_from": "2026-02-15",
+       "date_to": "2026-02-21",
+       "timestamp": 1771113600,
+       "missing_data": false,
+       "values": [
+        45,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-02-22",
+       "date_to": "2026-02-28",
+       "timestamp": 1771718400,
+       "missing_data": false,
+       "values": [
+        29,
+        15
+       ]
+      },
+      {
+       "date_from": "2026-03-01",
+       "date_to": "2026-03-07",
+       "timestamp": 1772323200,
+       "missing_data": false,
+       "values": [
+        56,
+        15
+       ]
+      },
+      {
+       "date_from": "2026-03-08",
+       "date_to": "2026-03-14",
+       "timestamp": 1772928000,
+       "missing_data": false,
+       "values": [
+        41,
+        13
+       ]
+      },
+      {
+       "date_from": "2026-03-15",
+       "date_to": "2026-03-21",
+       "timestamp": 1773532800,
+       "missing_data": false,
+       "values": [
+        40,
+        15
+       ]
+      },
+      {
+       "date_from": "2026-03-22",
+       "date_to": "2026-03-28",
+       "timestamp": 1774137600,
+       "missing_data": false,
+       "values": [
+        34,
+        17
+       ]
+      },
+      {
+       "date_from": "2026-03-29",
+       "date_to": "2026-04-04",
+       "timestamp": 1774742400,
+       "missing_data": false,
+       "values": [
+        39,
+        16
+       ]
+      },
+      {
+       "date_from": "2026-04-05",
+       "date_to": "2026-04-11",
+       "timestamp": 1775347200,
+       "missing_data": false,
+       "values": [
+        39,
+        17
+       ]
+      },
+      {
+       "date_from": "2026-04-12",
+       "date_to": "2026-04-18",
+       "timestamp": 1775952000,
+       "missing_data": false,
+       "values": [
+        30,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-04-19",
+       "date_to": "2026-04-25",
+       "timestamp": 1776556800,
+       "missing_data": false,
+       "values": [
+        36,
+        22
+       ]
+      },
+      {
+       "date_from": "2026-04-26",
+       "date_to": "2026-05-02",
+       "timestamp": 1777161600,
+       "missing_data": false,
+       "values": [
+        41,
+        17
+       ]
+      },
+      {
+       "date_from": "2026-05-03",
+       "date_to": "2026-05-09",
+       "timestamp": 1777766400,
+       "missing_data": false,
+       "values": [
+        35,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-05-10",
+       "date_to": "2026-05-16",
+       "timestamp": 1778371200,
+       "missing_data": false,
+       "values": [
+        39,
+        11
+       ]
+      },
+      {
+       "date_from": "2026-05-17",
+       "date_to": "2026-05-23",
+       "timestamp": 1778976000,
+       "missing_data": false,
+       "values": [
+        40,
+        14
+       ]
+      },
+      {
+       "date_from": "2026-05-24",
+       "date_to": "2026-05-30",
+       "timestamp": 1779580800,
+       "missing_data": false,
+       "values": [
+        30,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-05-31",
+       "date_to": "2026-06-06",
+       "timestamp": 1780185600,
+       "missing_data": false,
+       "values": [
+        39,
+        15
+       ]
+      },
+      {
+       "date_from": "2026-06-07",
+       "date_to": "2026-06-13",
+       "timestamp": 1780790400,
+       "missing_data": false,
+       "values": [
+        44,
+        13
+       ]
+      },
+      {
+       "date_from": "2026-06-14",
+       "date_to": "2026-06-20",
+       "timestamp": 1781395200,
+       "missing_data": false,
+       "values": [
+        45,
+        14
+       ]
+      },
+      {
+       "date_from": "2026-06-21",
+       "date_to": "2026-06-27",
+       "timestamp": 1782000000,
+       "missing_data": false,
+       "values": [
+        44,
+        15
+       ]
+      },
+      {
+       "date_from": "2026-06-28",
+       "date_to": "2026-07-04",
+       "timestamp": 1782604800,
+       "missing_data": false,
+       "values": [
+        57,
+        20
+       ]
+      },
+      {
+       "date_from": "2026-07-05",
+       "date_to": "2026-07-11",
+       "timestamp": 1783209600,
+       "missing_data": false,
+       "values": [
+        82,
+        17
+       ]
+      },
+      {
+       "date_from": "2026-07-12",
+       "date_to": "2026-07-18",
+       "timestamp": 1783814400,
+       "missing_data": false,
+       "values": [
+        61,
+        15
+       ]
+      },
+      {
+       "date_from": "2026-07-19",
+       "date_to": "2026-07-25",
+       "timestamp": 1784419200,
+       "missing_data": false,
+       "values": [
+        42,
+        9
+       ]
+      },
+      {
+       "date_from": "2026-07-26",
+       "date_to": "2026-08-01",
+       "timestamp": 1785024000,
+       "missing_data": false,
+       "values": [
+        34,
+        18
+       ]
+      },
+      {
+       "date_from": "2026-08-02",
+       "date_to": "2026-08-08",
+       "timestamp": 1785628800,
+       "missing_data": false,
+       "values": [
+        30,
+        19
+       ]
+      },
+      {
+       "date_from": "2026-08-09",
+       "date_to": "2026-08-15",
+       "timestamp": 1786233600,
+       "missing_data": false,
+       "values": [
+        32,
+        21
+       ]
+      },
+      {
+       "date_from": "2026-08-16",
+       "date_to": "2026-08-22",
+       "timestamp": 1786838400,
+       "missing_data": false,
+       "values": [
+        32,
+        16
+       ]
+      },
+      {
+       "date_from": "2026-08-23",
+       "date_to": "2026-08-29",
+       "timestamp": 1787443200,
+       "missing_data": false,
+       "values": [
+        31,
+        16
+       ]
+      },
+      {
+       "date_from": "2026-08-30",
+       "date_to": "2026-09-04",
+       "timestamp": 1788048000,
+       "missing_data": true,
+       "values": [
+        33,
+        14
+       ]
+      }
+     ],
+     "averages": [
+      44,
+      16
+     ]
+    }
+   ]
+  }
+ ]
+}

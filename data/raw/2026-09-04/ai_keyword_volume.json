@@ -1,0 +1,6678 @@
+{
+ "jp_supported": true,
+ "result": [
+  {
+   "location_code": 2392,
+   "language_code": "ja",
+   "items_count": 101,
+   "items": [
+    {
+     "keyword": "alexa タブレット",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "amazon kids 解約",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 8
+      }
+     ]
+    },
+    {
+     "keyword": "amazon kids+",
+     "ai_search_volume": 34,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 49
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 61
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 86
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 85
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 78
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 76
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 76
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 92
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 67
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 71
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 64
+      }
+     ]
+    },
+    {
+     "keyword": "amazon アプリストア",
+     "ai_search_volume": 36,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 36
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 48
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 61
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 71
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 166
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 220
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 264
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 278
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 246
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 206
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 213
+      }
+     ]
+    },
+    {
+     "keyword": "amazon タブレット",
+     "ai_search_volume": 169,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 169
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 178
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 238
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 332
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 306
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 270
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 244
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 273
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 269
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 211
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 207
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 250
+      }
+     ]
+    },
+    {
+     "keyword": "android タブレット",
+     "ai_search_volume": 669,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 669
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 848
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1028
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1442
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1385
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1553
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1443
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 1756
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 1833
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1617
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 1360
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1282
+      }
+     ]
+    },
+    {
+     "keyword": "android タブレット おすすめ",
+     "ai_search_volume": 26,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 45
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 59
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 59
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 8
+      }
+     ]
+    },
+    {
+     "keyword": "audible タブレット",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire 7",
+     "ai_search_volume": 46,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 46
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 53
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 44
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 45
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 64
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 88
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 75
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 83
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 55
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 57
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 44
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 58
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd",
+     "ai_search_volume": 209,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 209
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 237
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 310
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 419
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 405
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 435
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 443
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 484
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 472
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 405
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 420
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 10",
+     "ai_search_volume": 131,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 131
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 137
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 169
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 238
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 234
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 255
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 262
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 283
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 282
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 225
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 229
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 226
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 10 plus",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 5
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 10 キッズモデル",
+     "ai_search_volume": 3,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 16
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 10 価格",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 10 第13世代",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 4
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 8",
+     "ai_search_volume": 70,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 83
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 109
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 173
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 156
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 159
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 136
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 141
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 126
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 109
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 114
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 128
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 8 2024",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 8 キッズモデル",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 12
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd 8 値段",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd google play",
+     "ai_search_volume": 17,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 46
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 39
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 46
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 49
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd おすすめ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire hd プライムビデオ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire max 11",
+     "ai_search_volume": 6,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 9
+      }
+     ]
+    },
+    {
+     "keyword": "fire os",
+     "ai_search_volume": 39,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 39
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 41
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 32
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 32
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 35
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 24
+      }
+     ]
+    },
+    {
+     "keyword": "fire キッズプロ",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 39
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 31
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 14
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット",
+     "ai_search_volume": 354,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 354
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 359
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 427
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 552
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 597
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 595
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 547
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 625
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 644
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 617
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 623
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 635
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 2026",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット google playストア",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット kindle本",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット netflix",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット youtube",
+     "ai_search_volume": 16,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 48
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 43
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 41
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット できること",
+     "ai_search_volume": 354,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 354
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 359
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 427
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 552
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 597
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 595
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 547
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 625
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 644
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 617
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 623
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 635
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット アプリ",
+     "ai_search_volume": 17,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 48
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 56
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 67
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 44
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 54
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 78
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 85
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット カーナビ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット サポート",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット デメリット",
+     "ai_search_volume": 5,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット ブラックフライデー",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット プライムデー",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 不具合",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 使い方",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 使えない",
+     "ai_search_volume": 43,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 43
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 58
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 81
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 116
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 103
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 107
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 111
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 120
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 123
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 初期化",
+     "ai_search_volume": 3,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 8
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 初期設定",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 動画",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 寿命",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 23
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 広告なし",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 後悔",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 買ってはいけない",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 遅い",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 1
+      }
+     ]
+    },
+    {
+     "keyword": "fire タブレット 電源が入らない",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fireタブレット",
+     "ai_search_volume": 354,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 354
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 359
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 427
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 552
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 597
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 595
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 547
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 625
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 644
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 617
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 623
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 635
+      }
+     ]
+    },
+    {
+     "keyword": "fireタブレット どこで買う",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fireタブレット セール",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fireタブレット 店頭",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fireタブレット 新型",
+     "ai_search_volume": 1,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fireタブレット 比較",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "fireタブレット 評判",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "galaxy tab",
+     "ai_search_volume": 176,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 176
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 221
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 223
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 226
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 222
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 219
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 250
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 255
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 266
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 205
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 214
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 208
+      }
+     ]
+    },
+    {
+     "keyword": "galaxy tab a11",
+     "ai_search_volume": 8,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "idea tab",
+     "ai_search_volume": 11,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "ipad",
+     "ai_search_volume": 25479,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 25479
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 27570
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 29893
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 36325
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 36354
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 38879
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 38287
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 41925
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 41199
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 36509
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 35372
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 36307
+      }
+     ]
+    },
+    {
+     "keyword": "ipad mini",
+     "ai_search_volume": 1545,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 1545
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 1623
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 1846
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 2175
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 2186
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2432
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 2427
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 2879
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 2811
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 2553
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2348
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2385
+      }
+     ]
+    },
+    {
+     "keyword": "ipad 安い",
+     "ai_search_volume": 530,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 530
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 677
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 798
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 908
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 718
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 674
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 631
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 701
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 530
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 368
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 314
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 285
+      }
+     ]
+    },
+    {
+     "keyword": "ipad 無印",
+     "ai_search_volume": 128,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 128
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 127
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 162
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 217
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 236
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 281
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 264
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 205
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 198
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 208
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 195
+      }
+     ]
+    },
+    {
+     "keyword": "lavie tab",
+     "ai_search_volume": 69,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 69
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 88
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 88
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 93
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 98
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 84
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 82
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 68
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 80
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 61
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 73
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 69
+      }
+     ]
+    },
+    {
+     "keyword": "lenovo tab",
+     "ai_search_volume": 149,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 149
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 152
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 159
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 212
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 186
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 216
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 189
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 238
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 215
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 187
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 165
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 184
+      }
+     ]
+    },
+    {
+     "keyword": "luca タブレット",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 13
+      }
+     ]
+    },
+    {
+     "keyword": "matepad",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 35
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 34
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 19
+      }
+     ]
+    },
+    {
+     "keyword": "nec タブレット",
+     "ai_search_volume": 100,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 100
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 106
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 104
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 116
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 95
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 156
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 194
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 155
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 131
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 119
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 94
+      }
+     ]
+    },
+    {
+     "keyword": "oppo pad",
+     "ai_search_volume": 21,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 25
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 17
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 27
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 36
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 21
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 24
+      }
+     ]
+    },
+    {
+     "keyword": "prime video タブレット",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "redmi pad",
+     "ai_search_volume": 143,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 143
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 143
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 137
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 149
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 139
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 119
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 113
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 126
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 105
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 100
+      }
+     ]
+    },
+    {
+     "keyword": "redmi pad 2",
+     "ai_search_volume": 86,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 86
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 86
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 73
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 80
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 63
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 32
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "surface go",
+     "ai_search_volume": 245,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 245
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 268
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 287
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 330
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 349
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 344
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 361
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 374
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 352
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 317
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 321
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 356
+      }
+     ]
+    },
+    {
+     "keyword": "teclast タブレット",
+     "ai_search_volume": 26,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 26
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 23
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 11
+      }
+     ]
+    },
+    {
+     "keyword": "xiaomi pad",
+     "ai_search_volume": 166,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 166
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 187
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 215
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 259
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 285
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 292
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 303
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 331
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 337
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 267
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 257
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 230
+      }
+     ]
+    },
+    {
+     "keyword": "アイリスオーヤマ タブレット",
+     "ai_search_volume": 49,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 49
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 56
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 56
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 65
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 65
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 73
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 89
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 84
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 58
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 49
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 32
+      }
+     ]
+    },
+    {
+     "keyword": "アマゾン タブレット",
+     "ai_search_volume": 11,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 15
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 14
+      }
+     ]
+    },
+    {
+     "keyword": "キッズタブレット",
+     "ai_search_volume": 87,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 87
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 97
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 94
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 117
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 118
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 138
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 142
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 145
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 120
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 167
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 174
+      }
+     ]
+    },
+    {
+     "keyword": "シニア タブレット",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 10インチ",
+     "ai_search_volume": 188,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 188
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 189
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 215
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 268
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 231
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 237
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 250
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 319
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 350
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 288
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 273
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 282
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 1万円",
+     "ai_search_volume": 5,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 16
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 2万円以下",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 8インチ",
+     "ai_search_volume": 156,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 156
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 156
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 165
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 198
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 175
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 213
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 238
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 311
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 351
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 310
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 323
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 263
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット おすすめ",
+     "ai_search_volume": 400,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 562
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 753
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 984
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 864
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 870
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 905
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 967
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 774
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 484
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 456
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 420
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット ビックカメラ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット プレゼント",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット ヤマダ電機",
+     "ai_search_volume": 6,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 11
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット ヨドバシ",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 中古",
+     "ai_search_volume": 82,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 82
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 87
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 102
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 122
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 109
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 133
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 161
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 109
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 78
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 71
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 88
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 価格.com",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 動画視聴",
+     "ai_search_volume": 5,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 安い",
+     "ai_search_volume": 184,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 184
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 197
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 166
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 182
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 143
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 169
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 155
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 130
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 46
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 29
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 49
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 実機",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 家電量販店",
+     "ai_search_volume": 2,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 3
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 比較",
+     "ai_search_volume": 7,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 選び方",
+     "ai_search_volume": 0,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 6
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 5
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 3
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2
+      }
+     ]
+    },
+    {
+     "keyword": "タブレット 電子書籍",
+     "ai_search_volume": 13,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 43
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 78
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 71
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 82
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 64
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 67
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 52
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 45
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 56
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 58
+      }
+     ]
+    },
+    {
+     "keyword": "子供用 タブレット",
+     "ai_search_volume": 28,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 28
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 22
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 18
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 31
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 35
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 33
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 8
+      }
+     ]
+    },
+    {
+     "keyword": "学習用 タブレット",
+     "ai_search_volume": 4,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 4
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 24
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 37
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 38
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 38
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 44
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 54
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 43
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 25
+      }
+     ]
+    },
+    {
+     "keyword": "格安タブレット",
+     "ai_search_volume": 14,
+     "ai_monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "ai_search_volume": 14
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "ai_search_volume": 13
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "ai_search_volume": 7
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "ai_search_volume": 2
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "ai_search_volume": 1
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "ai_search_volume": 11
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "ai_search_volume": 12
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "ai_search_volume": 19
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "ai_search_volume": 9
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "ai_search_volume": 8
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "ai_search_volume": 2
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
