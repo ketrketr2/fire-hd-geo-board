@@ -1,20 +1,20 @@
-# Kindle 語られ方ボード（kindle-geo-board）
+# Fire HD 語られ方ボード（fire-hd-geo-board）
 
-Amazon Kindle（国内販売）の「現状」「世間の語られ方」「AIでの語られ方」を1画面で見る実データボード。
+Amazon Fireタブレット（国内販売）の「現状」「世間の語られ方」「AIでの語られ方」を1画面で見る実データボード。
 AI6面（ChatGPT / Gemini / Claude / Perplexity / GoogleのAI Overview / AIモード）・Google検索需要・
-Amazon.co.jp 検索結果・アプリ評価・YouTube・ニュース・Web感情を計測し、GitHub Pages で配信する（認証なし・noindex）。
+Amazon.co.jp 検索結果・価格.com・YouTube・ニュース・Web感情を計測し、GitHub Pages で配信する（認証なし・noindex）。
 
-- 公開URL: https://ketrketr2.github.io/kindle-geo-board/ （ID・PWなしでそのまま閲覧）
+- 公開URL: https://ketrketr2.github.io/fire-hd-geo-board/ （ID・PWなしでそのまま閲覧）
 - 技術資産の流用元: gotemba-geo-board（計測基盤・検証）
 
 ## 構成
 
 ```
 config/    settings.yaml（6面・予算）/ brands.yaml（ブランド・テーマ辞書）/ domains.yaml（引用分類）/ keywords.yaml（需要KW）
-prompts/   registry.yaml … クエリレジストリ42本（IDは絶対に振り直さない）
+prompts/   registry.yaml … クエリレジストリ42本 f001-f042（IDは絶対に振り直さない）
 src/       dfs.py（DataForSEOクライアント）/ run_round.py（AI6面）/ collect_extra.py（付帯収集）/ detect.py（検出辞書）
 tools/     pull_trends.py → aggregate.py → build.py → verify.js（encrypt.py / verify_gate.js は認証ゲートを戻す場合のみ使用）
-data/      snapshots/（回答全文＋引用）/ raw/（付帯収集の生データ）/ trends.json / market_facts.json（出典付き公開統計）
+data/      snapshots/（回答全文＋引用）/ raw/（付帯収集の生データ）/ trends.json / market_facts.json（出典付き公開統計・42件）
 docs/      公開ディレクトリ（GitHub Pages: main /docs）
 ```
 
