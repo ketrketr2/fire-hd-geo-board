@@ -259,7 +259,8 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 .flex{display:flex;gap:12px;flex-wrap:wrap}
 .center{display:grid;place-items:center}
 .empty{padding:26px;text-align:center;color:var(--ink3);font-size:12px;border:1px dashed var(--line2);border-radius:12px}
-.empty b{display:block;font-size:13px;color:var(--ink2);margin-bottom:4px}
+.empty > b:first-child{display:block;font-size:13px;color:var(--ink2);margin-bottom:4px}
+.empty b{color:var(--ink2)}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;border:1px solid rgba(255,153,0,.5);background:rgba(255,153,0,.12);color:#FFD166;font-size:12px;cursor:pointer;font-weight:700}
 .btn:hover{background:rgba(255,153,0,.22)}
 .btn.ghost{border-color:var(--line2);background:transparent;color:var(--ink2)}

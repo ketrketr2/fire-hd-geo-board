@@ -207,7 +207,7 @@ function bubbleMap(pm){
   nodes.sort((a, b) => b.r - a.r).forEach((b, i) => {
     const col = BRAND_COL[b.id] || CAT[i % 6];
     const tip = esc(`<b>${esc(b.label)}</b><br>言及 ${b.mentions}回（カテゴリ質問の${pct(b.share, 0)}）<br>第一想起 ${b.first}回（言及の${pct(b.mentions ? b.first / b.mentions * 100 : 0, 0)}）<br>好意 ${b.pos}文／懸念 ${b.neg}文（好意率 ${pct(b.fav, 0)}）<br>主なテーマ: ${b.top_themes.map(themeLabel).join('・')}`);
-    const small = b.r < 26;
+    const small = b.r < 26 || b.label.length * 6.9 > b.r * 1.9;   // 円より長いラベルは外に出す
     g += `<g class="bubble" data-tip="${tip}"><circle cx="${b.x.toFixed(1)}" cy="${b.y.toFixed(1)}" r="${b.r.toFixed(1)}" fill="${col}" fill-opacity=".24" stroke="${col}" stroke-width="2" style="filter:drop-shadow(0 0 12px ${col})"/>`;
     if(!small){ g += `<text x="${b.x.toFixed(1)}" y="${(b.y + 4).toFixed(1)}" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#fff">${esc(b.label)}</text></g>`; return; }
     // 小さい円は外に出す。候補位置ごとに「はみ出し＋円やラベルとの重なり面積」を採点し、最小の位置に置く
