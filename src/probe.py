@@ -83,7 +83,7 @@ def main() -> None:
 
     cfg = load("settings")
     faces = {s["id"]: s for s in cfg["surfaces"]}
-    q = "電子書籍リーダーのおすすめを教えてください"
+    q = "タブレットのおすすめを教えてください"
     for fid in ("chatgpt", "gemini", "claude", "perplexity"):
         if fid in faces:
             probe(f"2) {fid}", lambda f=faces[fid]: dfs.fetch_llm(q, f))
@@ -93,20 +93,20 @@ def main() -> None:
 
     probe("3) keywords_data search_volume", lambda: dfs.post(
         "keywords_data/google_ads/search_volume/live",
-        [{"keywords": ["kindle", "電子書籍リーダー", "kobo"], "location_code": 2392, "language_code": "ja"}]))
+        [{"keywords": ["fire hd", "タブレット", "ipad"], "location_code": 2392, "language_code": "ja"}]))
     probe("3) merchant amazon products", lambda: dfs.post(
         "merchant/amazon/products/live/advanced",
-        [{"keyword": "kindle", "location_code": 2392, "language_code": "ja_JP",
+        [{"keyword": "タブレット", "location_code": 2392, "language_code": "ja_JP",
           "se_domain": "amazon.co.jp", "depth": 20}]))
     probe("3) serp youtube", lambda: dfs.post(
         "serp/youtube/organic/live/advanced",
-        [{"keyword": "Kindle おすすめ", "location_code": 2392, "language_code": "ja", "block_depth": 20}]))
+        [{"keyword": "タブレット おすすめ", "location_code": 2392, "language_code": "ja", "block_depth": 20}]))
     probe("3) serp news", lambda: dfs.post(
         "serp/google/news/live/advanced",
-        [{"keyword": "Kindle", "location_code": 2392, "language_code": "ja", "depth": 10}]))
+        [{"keyword": "Fireタブレット", "location_code": 2392, "language_code": "ja", "depth": 10}]))
     probe("3) content_analysis summary", lambda: dfs.post(
         "content_analysis/summary/live",
-        [{"keyword": "kindle", "initial_dataset_filters": [["language", "=", "ja"]], "internal_list_limit": 5}]))
+        [{"keyword": "fire hd", "initial_dataset_filters": [["language", "=", "ja"]], "internal_list_limit": 5}]))
     probe("3) ai_keyword_data locations（JP対応の確認・無料）",
           lambda: dfs.get("ai_optimization/ai_keyword_data/locations_and_languages"))
     probe("3) llm_mentions locations（JP対応の確認・無料）",

@@ -16,6 +16,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import load, sentences  # noqa: E402
 
 
+SELF_ID = load("brands")["self"]["id"]   # 自社ブランドID（config/brands.yaml の self.id）
+
+
 def catalog() -> list[dict]:
     cfg = load("brands")
     rows = [{**cfg["self"], "own": True, "tier": "self"}]
@@ -100,10 +103,10 @@ def theme_persona_scan(text: str, cat: list[dict] | None = None) -> dict:
                 continue
             carry = brands[:1] if det else carry
             pol = sent_polarity(sn)
-            if "kindle" in brands:
+            if SELF_ID in brands:
                 pol_counts[pol] += 1
             _collect(cfg, sn, s, brands, pol, out_t, out_p)
-    return {"themes": out_t, "personas": out_p, "kindle_polarity": pol_counts}
+    return {"themes": out_t, "personas": out_p, "self_polarity": pol_counts}
 
 
 def _collect(cfg, sn, s, brands, pol, out_t, out_p) -> None:
@@ -119,24 +122,31 @@ def _collect(cfg, sn, s, brands, pol, out_t, out_p) -> None:
 # ---------------------------------------------------------------- selftest
 def _selftest() -> None:
     cat = catalog()
-    t1 = "楽天KoboのClara BWも良いですが、Kindle Paperwhiteは防水で目に優しく定番です。BOOX Palmaも人気。"
+    t1 = "Xiaomi Redmi Pad 2も良いですが、Fire HD 10は動画視聴に十分で安価です。iPadは高価。"
     d1 = detect_brands(t1, cat)
-    assert set(d1) == {"kobo", "kindle", "boox"}, d1
-    assert d1["kobo"]["rank"] == 1 and d1["kindle"]["rank"] == 2 and d1["boox"]["rank"] == 3, d1
-    t2 = "KINDLE PAPERWHITE is the best e-reader; iPad mini is a tablet."
+    assert set(d1) == {"xiaomi", "fire", "ipad"}, d1
+    assert d1["xiaomi"]["rank"] == 1 and d1["fire"]["rank"] == 2 and d1["ipad"]["rank"] == 3, d1
+    t2 = "FIRE HD 8 is cheap; the iPad mini is a premium tablet."
     d2 = detect_brands(t2, cat)
-    assert set(d2) == {"kindle", "ipad"}, d2
-    t3 = "Kindle FireはAmazonのタブレットです。Fire HD 10もあります。"   # guard: Kindle Fire は端末ブランドに数えない
+    assert set(d2) == {"fire", "ipad"}, d2
+    # guard: Fire TV Stick は端末ブランド（タブレット）に数えない
+    t3 = "Fire TV Stickは動画用のドングルです。Fire HD 10はタブレットです。"
     d3 = detect_brands(t3, cat)
-    assert set(d3) == {"fire"}, d3
-    m = detect_models("Kindle PaperwhiteとKindle Colorsoft、Scribeを比較。Kindle Unlimitedも。")
-    assert m.get("paperwhite") == 1 and m.get("colorsoft") == 1 and m.get("scribe") == 1 and m.get("unlimited") == 1, m
+    assert set(d3) == {"fire"} and d3["fire"]["hits"] == 1, d3
+    # Kindle Fire は自社（Fireタブレット）、単独の Kindle は電子書籍リーダー側
+    t4 = "Kindle FireはAmazonのタブレット。読書だけならKindle Paperwhiteの方が向きます。"
+    d4 = detect_brands(t4, cat)
+    assert set(d4) == {"fire", "kindle"}, d4
+    m = detect_models("Fire HD 10とFire HD 8、Fire Max 11を比較。キッズモデルやプライムビデオも。")
+    assert m.get("fire_hd10") == 1 and m.get("fire_hd8") == 1 and m.get("fire_max11") == 1, m
+    assert m.get("kids") == 1 and m.get("prime_video") == 1, m
     st = detect_stores("Amazonのセール時が最安ですが、ビックカメラやヨドバシの店頭でも買えます。中古ならメルカリも。")
     assert set(st) >= {"amazon", "bic", "yodobashi", "used"}, st
-    r = theme_persona_scan("Kindle Paperwhiteは防水なのでお風呂でも安心して読めます。", cat)
-    assert any(x["theme"] == "waterproof" and "kindle" in x["brands"] and x["pol"] == "pos" for x in r["themes"]), r
-    assert any(x["persona"] == "bath" for x in r["personas"]), r
-    print("detect selftest: OK (6/6)")
+    r = theme_persona_scan("Fire HD 10はGoogle Playが使えないのでアプリが少なく不便です。", cat)
+    assert any(x["theme"] == "play" and "fire" in x["brands"] and x["pol"] == "neg" for x in r["themes"]), r
+    r2 = theme_persona_scan("子ども用にはFireキッズモデルが安心でおすすめです。", cat)
+    assert any(x["persona"] == "kids_parent" for x in r2["personas"]), r2
+    print("detect selftest: OK (8/8)")
 
 
 if __name__ == "__main__":

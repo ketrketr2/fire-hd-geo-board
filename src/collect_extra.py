@@ -6,7 +6,7 @@ data/raw/<date>/<name>.json に保存する（集計は tools/aggregate.py が�
 
 収集項目:
   01 keywords_search_volume  Google広告 月間検索数（Kindle関連 約100語・12か月推移）
-  02 labs_suggestions        DataForSEO Labs キーワード候補（kindle / 電子書籍リーダー）
+  02 labs_suggestions        DataForSEO Labs キーワード候補（fire hd / タブレット）
   03 amazon_serp             amazon.co.jp 検索結果（順位・価格・評価・先月の購入数）
   04 amazon_asin             主要ASINの商品情報＋上位レビュー
   05 app_apple / app_google  Kindleアプリの評価・レビュー（標準キュー・ポーリング）
@@ -69,7 +69,7 @@ def kw_volume():
 # ---- 02 Labs ----
 def labs_suggestions():
     out = {}
-    for kw, lim in (("kindle", 300), ("電子書籍リーダー", 200)):
+    for kw, lim in (("fire hd", 300), ("タブレット おすすめ", 200)):
         t = dfs.post("dataforseo_labs/google/keyword_suggestions/live",
                      [{"keyword": kw, "location_code": 2392, "language_code": "ja", "limit": lim,
                        "include_seed_keyword": True, "include_serp_info": False,
@@ -103,7 +103,7 @@ def amazon_asin(serp: dict | None):
                 asin = it.get("data_asin")
                 if not asin or asin in seen:
                     continue
-                if any(w in title for w in ("kindle", "kobo", "boox", "電子書籍リーダー", "電子ペーパー")) and \
+                if any(w in title for w in ("fire hd", "fireタブレット", "タブレット", "ipad", "android")) and \
                    not any(w in title for w in ("ケース", "カバー", "フィルム", "スタンド", "充電器", "ペン先", "替え芯", "保護")):
                     seen.add(asin)
                     asins.append((asin, it.get("title") or ""))
@@ -162,10 +162,10 @@ def content_summary():
                             "internal_list_limit": 20, "positive_connotation_threshold": 0.4,
                             "sentiments_connotation_threshold": 0.4}])
         out[kw] = t.get("result") if t else {"error": err}
-    t, err = dfs.safe("ca_search:kindle", dfs.post, "content_analysis/search/live",
-                      [{"keyword": "kindle", "filters": [["language", "=", "ja"]], "search_mode": "one_per_domain",
+    t, err = dfs.safe("ca_search:fire", dfs.post, "content_analysis/search/live",
+                      [{"keyword": "fire hd", "filters": [["language", "=", "ja"]], "search_mode": "one_per_domain",
                         "limit": 100, "order_by": ["content_info.date_published,desc"]}])
-    out["_search_kindle"] = t.get("result") if t else {"error": err}
+    out["_search_self"] = t.get("result") if t else {"error": err}
     return out
 
 
@@ -208,9 +208,9 @@ def llm_mentions():
         return {"jp_supported": False}
     base = {"location_code": 2392, "language_code": "ja", "platform": "google", "limit": 100}
     shapes = [
-        ("keyword_list", {"target": [{"keyword": "kindle", "search_filter": "include", "search_scope": "answer"}]}),
-        ("keyword_flat", {"target": {"keyword": "kindle", "search_filter": "include", "search_scope": "answer"}}),
-        ("keyword_only", {"keyword": "kindle"}),
+        ("keyword_list", {"target": [{"keyword": "fire hd", "search_filter": "include", "search_scope": "answer"}]}),
+        ("keyword_flat", {"target": {"keyword": "fire hd", "search_filter": "include", "search_scope": "answer"}}),
+        ("keyword_only", {"keyword": "fire hd"}),
         ("domain_list", {"target": [{"domain": "amazon.co.jp", "search_filter": "include", "search_scope": "answer"}]}),
         ("domain_only", {"domain": "amazon.co.jp"}),
     ]
@@ -248,7 +248,7 @@ def trends():
     t, err = dfs.safe("trends:queries", dfs.post, "keywords_data/google_trends/explore/live",
                       [{"keywords": ["Kindle"], "location_code": 2392, "language_code": "ja", "type": "web",
                         "time_range": "past_12_months", "item_types": ["google_trends_queries_list", "google_trends_topics_list"]}])
-    out["kindle_queries"] = t.get("result") if t else {"error": err}
+    out["self_queries"] = t.get("result") if t else {"error": err}
     t, err = dfs.safe("trends:youtube", dfs.post, "keywords_data/google_trends/explore/live",
                       [{"keywords": ["Kindle", "Kobo"], "location_code": 2392, "language_code": "ja", "type": "youtube",
                         "time_range": "past_12_months", "item_types": ["google_trends_graph"]}])

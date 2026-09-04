@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import dfs  # noqa: E402
 from common import SNAPSHOTS, DATA, classify_url, env, load, load_prompts, today, write_json  # noqa: E402
-from detect import catalog, detect_brands, detect_models, detect_stores, theme_persona_scan  # noqa: E402
+from detect import SELF_ID, catalog, detect_brands, detect_models, detect_stores, theme_persona_scan  # noqa: E402
 
 
 def build_jobs(day: str, cap: float, only: list[str] | None = None) -> tuple[list[dict], dict]:
@@ -69,7 +69,7 @@ def build_cells(responses: list[dict], prompts_by_id: dict) -> list[dict]:
             "answer": text, "markdown": r.get("markdown") or "",
             "citations": cites, "organic": r.get("organic") or [],
             "brands": det, "models": detect_models(text), "stores": detect_stores(text),
-            "themes": scan["themes"], "personas": scan["personas"], "kindle_polarity": scan["kindle_polarity"],
+            "themes": scan["themes"], "personas": scan["personas"], "self_polarity": scan["self_polarity"],
             "fanout": r.get("fanout") or [],
         })
     return cells
@@ -85,8 +85,8 @@ def summarize(cells: list[dict]) -> dict:
         fe = [c for c in expect if c["surface"] == f]
         answered = [c for c in fc if c["answer"]]
         cite_counts = [len([x for x in c["citations"] if x["bucket"] != "noise"]) for c in answered]
-        m = [c for c in fe if "kindle" in c["brands"]]
-        first = [c for c in m if c["brands"]["kindle"]["rank"] == 1]
+        m = [c for c in fe if SELF_ID in c["brands"]]
+        first = [c for c in m if c["brands"][SELF_ID]["rank"] == 1]
         owned = sum(1 for c in answered for x in c["citations"] if x["bucket"] == "owned")
         allc = sum(cite_counts) or 1
         per_face[f] = {
