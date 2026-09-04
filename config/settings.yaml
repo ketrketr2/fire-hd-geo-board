@@ -1,14 +1,14 @@
 # ============================================================
-#  Kindle GEOボード 設定（全閾値・面・予算はここで管理。コードは触らない）
+#  Fire HD GEOボード 設定（全閾値・面・予算はここで管理。コードは触らない）
 # ============================================================
 site:
-  title: "Kindle 語られ方ボード"
-  brand: "Kindle"
-  owner: "Amazon Kindle 国内販売（Amazon.co.jp）"
+  title: "Fire HD 語られ方ボード"
+  brand: "Fireタブレット"
+  owner: "Amazon Fireタブレット 国内販売（Amazon.co.jp）"
   market: "Japan"
   language: "ja"
   timezone: "Asia/Tokyo"
-  gate_marker: "KINDLE_BOARD"
+  gate_marker: "FIRE_BOARD"
 
 # ---- 計測するAI面（6面）----
 # chatgpt/gemini/aio/aimode は御殿場・トヨタ案件で1,700呼以上検証済みの仕様。
@@ -57,17 +57,17 @@ amazon:
   location_code: 2392
   language_code: "ja_JP"
   se_domain: "amazon.co.jp"
-  search_keywords: ["kindle", "電子書籍リーダー", "kindle paperwhite", "kobo 電子書籍リーダー", "電子ペーパー タブレット"]
+  search_keywords: ["タブレット", "fire hd", "android タブレット", "子供用 タブレット", "タブレット 10インチ"]
   max_asin_lookups: 10
 
 apps:
-  apple_app_id: "302584613"      # Amazon Kindle（App Store 日本）
-  google_app_id: "com.amazon.kindle"
+  apple_app_id: "545519333"      # Amazon ショッピングアプリ（App Store 日本）※Fire本体はストア外のため周辺アプリで代替
+  google_app_id: "com.amazon.avod.thirdpartyclient"   # Prime Video（Fireの主用途アプリ）
 
-youtube_keywords: ["Kindle おすすめ", "Kindle Paperwhite レビュー", "Kindle Kobo 比較", "電子書籍リーダー おすすめ 2026", "Kindle Scribe Colorsoft"]
-news_keywords: ["Kindle", "電子書籍リーダー", "楽天Kobo"]
-content_keywords: ["kindle", "キンドル", "kobo", "電子書籍リーダー"]
-scraper_prompt_ids: ["k001", "k002", "k006", "k009", "k019", "k027", "k033", "k038"]
+youtube_keywords: ["タブレット おすすめ", "Fire HD 10 レビュー", "子供用 タブレット おすすめ", "格安タブレット 2026", "Fire HD Google Play"]
+news_keywords: ["Fireタブレット", "Amazon タブレット", "タブレット 新製品"]
+content_keywords: ["fire hd", "fireタブレット", "amazon タブレット", "格安タブレット"]
+scraper_prompt_ids: ["f001", "f002", "f006", "f009", "f019", "f027", "f033", "f038"]
 
 sampling:
   runs_per_prompt: 1

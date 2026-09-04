@@ -1,12 +1,12 @@
 # Google広告 検索ボリューム（keywords_data/google_ads/search_volume）で需要を測るキーワード群。
 # 1呼び出しで最大1000語・単価一定。カテゴリはボードの需要マップ用。
 groups:
-  brand:      ["kindle", "キンドル", "amazon kindle", "kindle 端末", "kindle おすすめ", "kindle 比較", "kindle 選び方", "kindle 新型", "kindle 最新", "kindle 2026"]
-  models:     ["kindle paperwhite", "kindle paperwhite 第12世代", "kindle paperwhite シグニチャー", "kindle colorsoft", "kindle scribe", "kindle scribe colorsoft", "kindle キッズモデル", "kindle 無印", "kindle 第11世代", "kindle oasis"]
-  price:      ["kindle セール", "kindle 値段", "kindle 価格", "kindle 安く買う", "kindle どこで買う", "kindle 中古", "kindle プライムデー", "kindle ブラックフライデー", "kindle 割引", "kindle 値上げ"]
-  channel:    ["kindle ビックカメラ", "kindle ヨドバシ", "kindle ヤマダ電機", "kindle 家電量販店", "kindle 店舗", "kindle 楽天", "kindle 実機", "kindle 店頭"]
-  service:    ["kindle unlimited", "kindle unlimited 料金", "kindle unlimited 解約", "kindle unlimited おすすめ", "kindle unlimited キャンペーン", "prime reading", "kindle 日替わりセール", "kindle 本 セール", "kindle 無料", "kindle 漫画"]
-  usage:      ["kindle アプリ", "kindle pc", "kindle pdf", "kindle 自炊", "kindle 使い方", "kindle 広告なし", "kindle 防水", "kindle バッテリー", "kindle 故障", "kindle 初期化"]
-  category:   ["電子書籍リーダー", "電子書籍リーダー おすすめ", "電子書籍リーダー 比較", "電子書籍 端末", "電子ペーパー タブレット", "電子ペーパー", "e-ink タブレット", "読書 タブレット", "電子書籍 タブレット", "電子書籍リーダー カラー", "電子書籍リーダー 防水", "電子書籍リーダー マンガ", "電子書籍リーダー 手書き"]
-  competitor: ["kobo", "楽天kobo", "kobo clara", "kobo libra colour", "kobo elipsa", "kobo kindle 比較", "boox", "boox palma", "boox go", "onyx boox", "remarkable", "supernote", "bigme", "meebook", "ipad mini 読書", "quaderno"]
-  ebook:      ["電子書籍", "電子書籍 おすすめ", "電子書籍 ストア 比較", "電子書籍 メリット", "ピッコマ", "line マンガ", "コミックシーモア", "booklive", "ebookjapan", "honto", "dmm ブックス"]
+  brand:      ["fire hd", "fireタブレット", "fire タブレット", "amazon タブレット", "アマゾン タブレット", "fire hd おすすめ", "fireタブレット 比較", "fireタブレット 評判", "fireタブレット 新型", "fire タブレット 2026"]
+  models:     ["fire hd 10", "fire hd 8", "fire max 11", "fire 7", "fire hd 10 キッズモデル", "fire hd 8 キッズモデル", "fire キッズプロ", "fire hd 10 第13世代", "fire hd 8 2024", "fire hd 10 plus"]
+  price:      ["fireタブレット セール", "fire hd 10 価格", "fire hd 8 値段", "タブレット 安い", "格安タブレット", "タブレット 1万円", "タブレット 2万円以下", "fire タブレット プライムデー", "fire タブレット ブラックフライデー", "タブレット 中古"]
+  channel:    ["タブレット ビックカメラ", "タブレット ヨドバシ", "タブレット ヤマダ電機", "タブレット 家電量販店", "fireタブレット 店頭", "fireタブレット どこで買う", "タブレット 実機", "タブレット 価格.com"]
+  service:    ["prime video タブレット", "amazon kids+", "amazon kids 解約", "alexa タブレット", "fire hd プライムビデオ", "fire タブレット kindle本", "audible タブレット", "fire タブレット 広告なし", "amazon アプリストア", "fire os"]
+  usage:      ["fire hd google play", "fire タブレット google playストア", "fire タブレット できること", "fire タブレット 使い方", "fire タブレット 初期設定", "fire タブレット アプリ", "fire タブレット youtube", "fire タブレット netflix", "fire タブレット 動画", "fire タブレット カーナビ"]
+  negative:   ["fire タブレット デメリット", "fire タブレット 遅い", "fire タブレット 使えない", "fire タブレット 買ってはいけない", "fire タブレット 後悔", "fire タブレット 不具合", "fire タブレット 電源が入らない", "fire タブレット サポート", "fire タブレット 寿命", "fire タブレット 初期化"]
+  category:   ["タブレット おすすめ", "タブレット 選び方", "タブレット 比較", "android タブレット", "android タブレット おすすめ", "タブレット 動画視聴", "子供用 タブレット", "キッズタブレット", "学習用 タブレット", "タブレット 電子書籍", "タブレット 10インチ", "タブレット 8インチ", "シニア タブレット", "タブレット プレゼント"]
+  competitor: ["ipad", "ipad 無印", "ipad mini", "ipad 安い", "redmi pad", "redmi pad 2", "xiaomi pad", "lavie tab", "nec タブレット", "galaxy tab", "galaxy tab a11", "lenovo tab", "idea tab", "oppo pad", "teclast タブレット", "matepad", "アイリスオーヤマ タブレット", "luca タブレット", "surface go"]
