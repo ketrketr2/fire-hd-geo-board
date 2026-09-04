@@ -1,22 +1,43 @@
 {
- "measured_at": "2026-09-03",
- "period": "2026/08/27〜09/02 の集計（更新日 2026/09/03）",
- "source": "価格.com 電子書籍リーダー 人気売れ筋ランキング",
- "source_url": "https://kakaku.com/pc/ebook-reader/ranking_0033/",
- "registered_products": 11,
- "kindle_products": 0,
- "note": "価格.comの「電子書籍リーダー」カテゴリは登録が全11製品。Kindleは1製品も登録されていない（Amazonデバイスは価格.comに製品登録がない）。ランキングはショップサイトへのアクセス数から推定販売数を集計したもの。",
- "rows": [
-  {"rank": 1, "brand": "kobo", "name": "Kobo Libra Colour", "price": 38384, "sat": 3.00, "n": 3, "released": "2024-05-01"},
-  {"rank": 2, "brand": "boox", "name": "BOOX Note Air4 C", "price": 71838, "sat": 3.33, "n": 2, "released": "2025-01-08"},
-  {"rank": 2, "brand": "sony", "name": "SONY Reader Touch Edition PRS-650", "price": 11800, "sat": 4.50, "n": 22, "released": "2010-12-10"},
-  {"rank": 4, "brand": "sony", "name": "SONY Reader PRS-T2", "price": 15600, "sat": 4.52, "n": 40, "released": "2012-09-21"},
-  {"rank": 5, "brand": "boox", "name": "BOOX Note Air3 C", "price": 86800, "sat": 3.55, "n": 4, "released": "2024-09-06"},
-  {"rank": 5, "brand": "boox", "name": "BOOX Palma", "price": 35455, "sat": 3.13, "n": 2, "released": "2024-09-06"},
-  {"rank": 7, "brand": "other", "name": "HUAWEI MatePad Paper", "price": 46500, "sat": 3.86, "n": 8, "released": "2022-06-09"},
-  {"rank": 8, "brand": "kobo", "name": "Kobo Clara 2E", "price": 20000, "sat": 4.50, "n": 2, "released": "2022-09-26"},
-  {"rank": 8, "brand": "kobo", "name": "Kobo Clara BW", "price": 23692, "sat": 3.67, "n": 3, "released": "2024-05-01"},
-  {"rank": 8, "brand": "kobo", "name": "Kobo Clara Colour", "price": 27365, "sat": 3.72, "n": 4, "released": "2024-05-01"},
-  {"rank": 11, "brand": "sony", "name": "SONY Reader PRS-T3S", "price": 21458, "sat": 3.89, "n": 32, "released": "2013-10-04"}
- ]
+ "measured_at": "2026-09-04",
+ "source": "価格.com タブレットPC 人気売れ筋ランキング（2026/08/28〜09/03 集計）",
+ "source_url": "https://kakaku.com/pc/pda/ranking_0030/",
+ "registered_products": 509,
+ "fire_products": 0,
+ "maker_counts": [
+  {"maker": "Apple", "n": 485},
+  {"maker": "Lenovo", "n": 84},
+  {"maker": "マイクロソフト", "n": 69},
+  {"maker": "Xiaomi", "n": 37},
+  {"maker": "NEC", "n": 34},
+  {"maker": "サムスン", "n": 22},
+  {"maker": "アイリスオーヤマ", "n": 16},
+  {"maker": "AIWA", "n": 14},
+  {"maker": "Dynabook", "n": 9},
+  {"maker": "YAMAZEN", "n": 2},
+  {"maker": "Amazon（Fire）", "n": 0}
+ ],
+ "note": "価格.comのタブレットPCカテゴリにAmazon（Fireタブレット）は1製品も登録されていない。メーカー絞り込みの選択肢にもAmazonが存在しない。ランキングTOP39にもFireは不在。",
+ "filter_note": "絞り込み条件に「Google Play対応（103製品）」という項目がある＝Google Playの有無が比較軸として明示されている。",
+ "items": [
+  {"rank": 1, "brand": "ipad", "name": "Apple iPad 11インチ (A16) Wi-Fi 128GB 2025年春モデル", "price": 65500, "rating": 4.71, "reviews": 103, "release": "2025-03-12"},
+  {"rank": 2, "brand": "lenovo", "name": "Lenovo Yoga Tab 12GB+256GB ペン＆キーボード付 価格.com限定", "price": 69800, "rating": null, "reviews": 0, "release": "2026-06-19"},
+  {"rank": 3, "brand": "ipad", "name": "Apple iPad Air 11インチ (M4) Wi-Fi 128GB 2026年春モデル", "price": 108545, "rating": 4.53, "reviews": 8, "release": "2026-03-11"},
+  {"rank": 4, "brand": "samsung", "name": "サムスン Galaxy Tab A11+ SM-X230NZAAXJP", "price": 43493, "rating": 4.00, "reviews": 5, "release": "2025-11-28"},
+  {"rank": 5, "brand": "nec", "name": "NEC LAVIE Tab Lite TL103/KAL", "price": 26333, "rating": 4.42, "reviews": 6, "release": "2025-08-07"},
+  {"rank": 6, "brand": "ipad", "name": "Apple iPad Air 11インチ (M4) Wi-Fi 256GB 2026年春モデル", "price": 126499, "rating": null, "reviews": 1, "release": "2026-03-11"},
+  {"rank": 7, "brand": "nec", "name": "NEC LAVIE Tab T11N T1175/LA 2025年秋冬モデル", "price": 46221, "rating": 4.00, "reviews": 4, "release": "2025-11-13"},
+  {"rank": 8, "brand": "xiaomi", "name": "Xiaomi Pad 8 8GB+128GB", "price": 58219, "rating": null, "reviews": 0, "release": "2026-03-02"},
+  {"rank": 9, "brand": "xiaomi", "name": "Xiaomi Redmi Pad 2 6GB+128GB", "price": 29184, "rating": 3.96, "reviews": 15, "release": "2025-07-08"},
+  {"rank": 10, "brand": "ipad", "name": "Apple iPad 10.2インチ 第9世代 Wi-Fi 64GB 2021年秋モデル", "price": 38800, "rating": 4.48, "reviews": 272, "release": "2021-09-24"},
+  {"rank": 11, "brand": "ipad", "name": "Apple iPad mini 8.3インチ (A17 Pro) Wi-Fi 128GB", "price": 84499, "rating": 4.51, "reviews": 56, "release": "2024-10-23"},
+  {"rank": 17, "brand": "iris", "name": "アイリスオーヤマ LUCA TA10E1W63-V1", "price": 15949, "rating": 5.00, "reviews": 1, "release": "2025-06-20"},
+  {"rank": 21, "brand": "aiwa", "name": "AIWA aiwa tab 10-X JA4-TBA1008", "price": 9480, "rating": 4.00, "reviews": 1, "release": "2024-08"},
+  {"rank": 36, "brand": "xiaomi", "name": "Xiaomi Redmi Pad SE 8.7 4GB+128GB", "price": 19780, "rating": 4.09, "reviews": 16, "release": "2024-08-22"}
+ ],
+ "voice": {
+  "quote": "AmazonFireHD10（2021年モデル）から買い替えました 少しだけ大きくしたかったので11インチで安いものを…",
+  "where": "価格.com Redmi Pad 2 4GB+128GB のユーザーレビュー（29位）",
+  "url": "https://kakaku.com/item/K0001708300/"
+ }
 }

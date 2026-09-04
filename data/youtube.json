@@ -1,27 +1,28 @@
 {
- "measured_at": "2026-09-03",
- "source": "YouTube 検索結果（関連度順）をChromeで実測",
- "note": "AI引用の第1位ソースはYouTube（電通デジタル資料 p32）。日本語主要3クエリの上位動画を採録。視聴回数はYouTube表示のまま。",
+ "measured_at": "2026-09-04",
+ "source": "YouTube検索（関連度順）上位動画をChromeで実測",
  "queries": [
-  {"q": "Kindle おすすめ 2026", "url": "https://www.youtube.com/results?search_query=Kindle+おすすめ+2026",
-   "items": [
-    {"rank": 1, "title": "【2026年版】Kindle端末のおすすめはどれ？全モデル実機で比較して選び方を徹底解説！", "ch": "電子書籍ターミナル | アーク", "views": "6.9万回", "when": "9か月前", "id": "G-48QDQ7j2Q", "official": false},
-    {"rank": 2, "title": "【電子書籍派はマストバイ！】最強の電子書籍リーダー！Kindleシリーズ4機種を比較レビューしてみた！", "ch": "ずんだ文芸部", "views": "3.8万回", "when": "1か月前", "id": "oBHEx-vKz2Q", "official": false},
-    {"rank": 3, "title": "【2026年版】電子書籍リーダーおすすめランキング！全11台を徹底比較！", "ch": "電子書籍ターミナル | アーク", "views": "4.8万回", "when": "7か月前", "id": "9KSx-bjG4Tw", "official": false},
-    {"rank": 4, "title": "Kindle Unlimited おすすめ本10選【2026年8月版】", "ch": "運ん読チャンネル", "views": "4,454回", "when": "3週間前", "id": "mE6tfB5QbMc", "official": false}
+  {"q": "タブレット おすすめ", "url": "https://www.youtube.com/results?search_query=%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88+%E3%81%8A%E3%81%99%E3%81%99%E3%82%81",
+   "videos": [
+    {"rank": 1, "title": "iPadが1位じゃない？2026年下半期おすすめタブレットTOP5", "channel": "電脳ガジェット探偵団", "views": "1.7万回", "age": "2週間前", "official": false, "url": "https://www.youtube.com/watch?v=OCrINNOBBKs"},
+    {"rank": 2, "title": "【安い】10〜11インチのAndroidタブレットのおすすめ！コスパ最強はどれ？【2026年8月最新】", "channel": "最新テック", "views": "1.1万回", "age": "12日前", "official": false, "url": "https://www.youtube.com/watch?v=J-5O5u1DjNk"},
+    {"rank": 3, "title": "【2026年】値上げ後のiPadどれ買うべき?!実機で紹介!後悔しない選び方", "channel": "みずおじさん", "views": "13万回", "age": "1か月前", "official": false, "url": "https://www.youtube.com/watch?v=sd4Vt4kFdmk"},
+    {"rank": 4, "title": "圧倒的コスパで爆売れ中のAndroidタブレット「Xiaomi Pad 7 Pro」かなり完成度高くね…？", "channel": "monograph/堀口英剛", "views": "14万回", "age": "1年前", "official": false, "url": "https://www.youtube.com/watch?v=Gnd-MVAqL-o"}
    ]},
-  {"q": "電子書籍リーダー おすすめ 比較", "url": "https://www.youtube.com/results?search_query=電子書籍リーダー+おすすめ+比較",
-   "items": [
-    {"rank": 1, "title": "【2026年版】電子書籍リーダーおすすめランキング！全11台を徹底比較！", "ch": "電子書籍ターミナル | アーク", "views": "4.8万回", "when": "7か月前", "id": "9KSx-bjG4Tw", "official": false},
-    {"rank": 2, "title": "【電子書籍派はマストバイ！】最強の電子書籍リーダー！Kindleシリーズ4機種を比較レビューしてみた！", "ch": "ずんだ文芸部", "views": "3.8万回", "when": "1か月前", "id": "oBHEx-vKz2Q", "official": false},
-    {"rank": 3, "title": "【2026年版】Kindle端末のおすすめはどれ？全モデル実機で比較して選び方を徹底解説！", "ch": "電子書籍ターミナル | アーク", "views": "6.9万回", "when": "9か月前", "id": "G-48QDQ7j2Q", "official": false}
+  {"q": "Fire HD 10 レビュー", "url": "https://www.youtube.com/results?search_query=Fire+HD+10+%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC",
+   "videos": [
+    {"rank": 1, "title": "【コスパ最強】Amazon Fire HD 10 2023年モデル レビュー！│Google Playストアを入れる方法も解説！", "channel": "まみよし", "views": "24万回", "age": "2年前", "official": false, "url": "https://www.youtube.com/watch?v=QJME047Pmm0"},
+    {"rank": 2, "title": "ペン入力もできるAmazonの激安タブレット『Fire HD 10』（第13世代）レビュー❗️iPadとの比較や、お絵描きにも使えるのか検証します", "channel": "Emoco Ch. / えもこ", "views": "14万回", "age": "2年前", "official": false, "url": "https://www.youtube.com/watch?v=MnPHfsrc7nY"},
+    {"rank": 3, "title": "徹底比較！コスパ良きAmazon 純正タブレット３機種はどれを買うべき？", "channel": "ニノ / MONOTIVE", "views": "5.7万回", "age": "9か月前", "official": false, "url": "https://www.youtube.com/watch?v=Plq3FvEG5m0"},
+    {"rank": 4, "title": "【絶対買え】9,980円のAmazon製「iPad風タブレットPC」が凄い！【fire HD 10】", "channel": "吉田製作所Y", "views": "567万回", "age": "5年前", "official": false, "url": "https://www.youtube.com/watch?v=MH7yAWNa1Vo"}
    ]},
-  {"q": "Kindle Kobo 比較", "url": "https://www.youtube.com/results?search_query=Kindle+Kobo+比較",
-   "items": [
-    {"rank": 1, "title": "KindleとKoboの違いを7項目で徹底比較！ジャンル別に最適な電子書籍ストアを紹介！", "ch": "電子書籍ターミナル | アーク", "views": "2.1万回", "when": "1年前", "id": "flDLDJTiWuc", "official": false},
-    {"rank": 2, "title": "KindleとKoboどっちがいいの？【電子書籍サービス/リーダー端末比較】", "ch": "Rebecca Miyama / ミヤマレベッカ", "views": "26万回", "when": "5年前", "id": "8P-60HJmoTA", "official": false},
-    {"rank": 3, "title": "【2026年】KindleとKobo、両方買って比較した結果…意外な「1位」が決まりました。電子書籍リーダーおすすめTOP5", "ch": "いいもの発見", "views": "4,680回", "when": "7か月前", "id": "ee_MnqGU7r4", "official": false},
-    {"rank": 4, "title": "【2026年版】電子書籍リーダーおすすめランキング！全11台を徹底比較！", "ch": "電子書籍ターミナル | アーク", "views": "4.8万回", "when": "7か月前", "id": "9KSx-bjG4Tw", "official": false}
+  {"q": "子供用 タブレット おすすめ", "url": "https://www.youtube.com/results?search_query=%E5%AD%90%E4%BE%9B%E7%94%A8+%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88+%E3%81%8A%E3%81%99%E3%81%99%E3%82%81",
+   "videos": [
+    {"rank": 1, "title": "子供用タブレットおすすめTOP5！買って後悔しないキッズタブレットを厳選【2026年最新】", "channel": "一円レビュー", "views": "372回", "age": "2週間前", "official": false, "url": "https://www.youtube.com/watch?v=U1d9mjgg8MI"},
+    {"rank": 2, "title": "【2026最新】失敗しないキッズタブレットおすすめTOP5！安物買って後悔する前に見てほしい", "channel": "MonoGatari", "views": "1072回", "age": "1か月前", "official": false, "url": "https://www.youtube.com/watch?v=7SIxneu4t0s"},
+    {"rank": 3, "title": "【結局どれ？】Amazon FireキッズタブレットおすすめランキングTOP5｜7・HD8・HD10・Proを比較", "channel": "Top Picks JP", "views": "393回", "age": "1か月前", "official": false, "url": "https://www.youtube.com/watch?v=8-ZmyakbJe4"},
+    {"rank": 4, "title": "キッズタブレットのおすすめ人気ランキング【2025年10月】", "channel": "Top Picks JP", "views": "1.7万回", "age": "11か月前", "official": false, "url": "https://www.youtube.com/watch?v=PsWi4POwfPg"}
    ]}
- ]
+ ],
+ "note": "3クエリ・上位12本すべて第三者チャンネル。Amazon公式チャンネルの動画は1本も上位に出ない。Fire HD 10レビューの1位は『Google Playストアを入れる方法も解説』（24万回視聴）で、Fireの使い方の中心が非公式のGoogle Play導入として語られている。"
 }
