@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
+from detect import SELF_ID as SELF  # noqa: E402  自社ブランドID
 from common import DATA, RAW, SNAPSHOTS, load, now_jst, read_json, write_json  # noqa: E402
 
 FACE_LABEL = {"chatgpt": "ChatGPT", "gemini": "Gemini", "claude": "Claude", "perplexity": "Perplexity",
@@ -32,37 +33,47 @@ BUCKET_LABEL = {"owned": "自社（Amazon）", "competitor": "競合", "retail":
 def facts_block() -> dict:
     mf = read_json(DATA / "market_facts.json", {"facts": [], "news": []})
     by_id = {f["id"]: f for f in mf["facts"]}
-    ebook_series = [  # インプレス総研 各年版（億円・年度）
-        {"fy": "2018", "v": 2826}, {"fy": "2019", "v": 3473}, {"fy": "2020", "v": 4821}, {"fy": "2021", "v": 5510},
-        {"fy": "2022", "v": 6026}, {"fy": "2023", "v": 6449}, {"fy": "2024", "v": 6703}, {"fy": "2025", "v": 6846}]
-    return {"by_id": by_id, "news": mf["news"], "ebook_series": ebook_series, "as_of": mf.get("as_of")}
+    return {"by_id": by_id, "news": mf["news"],
+            "shipment_series": mf.get("shipment_series", []), "shipment_note": mf.get("shipment_series_note"),
+            "household_series": mf.get("household_series", []), "as_of": mf.get("as_of")}
 
 
 # ------------------------------------------------------------------ 製品ラインナップ（公式価格）
 def lineup_block(facts: dict) -> list[dict]:
     g = lambda k: (facts.get(k) or {}).get("value")  # noqa: E731
     return [
-        {"id": "kindle", "name": "Kindle（第11世代 2024）", "screen": "6型 300ppi", "price": g("D01"), "sale": 15980, "sale_label": "PD2026", "storage": "16GB", "color": False, "pen": False, "water": False, "tag": "エントリー"},
-        {"id": "paperwhite", "name": "Kindle Paperwhite（第12世代）", "screen": "7型 300ppi", "price": g("D02"), "sale": 18980, "sale_label": "PD2026", "storage": "16GB", "color": False, "pen": False, "water": True, "tag": "主力"},
-        {"id": "paperwhite_se", "name": "Paperwhite シグニチャー", "screen": "7型 300ppi", "price": g("D02b"), "sale": 27980, "sale_label": "サマー2026", "storage": "32GB", "color": False, "pen": False, "water": True, "tag": "上位"},
-        {"id": "colorsoft", "name": "Kindle Colorsoft", "screen": "7型 カラー", "price": g("D03"), "sale": 29980, "sale_label": "PD2026", "storage": "16GB", "color": True, "pen": False, "water": True, "tag": "カラー"},
-        {"id": "scribe_2024", "name": "Kindle Scribe（2024）", "screen": "10.2型 300ppi", "price": 56980, "sale": 39980, "sale_label": "PD2026(64GB)", "storage": "16GB", "color": False, "pen": True, "water": False, "tag": "手書き"},
-        {"id": "scribe_2026", "name": "Kindle Scribe（2026・11型）", "screen": "11型 300ppi", "price": g("D05"), "sale": None, "sale_label": None, "storage": "32GB", "color": False, "pen": True, "water": False, "tag": "手書き 新型"},
-        {"id": "scribe_colorsoft", "name": "Kindle Scribe Colorsoft", "screen": "11型 カラー", "price": g("D04"), "sale": None, "sale_label": None, "storage": "32GB", "color": True, "pen": True, "water": False, "tag": "最上位"},
+        {"id": "fire7", "name": "Fire 7（第12世代）", "screen": "7型 1024x600", "price": 11980, "sale": None, "sale_label": None,
+         "ram": "2GB", "storage": "16GB", "weight": "282g", "stock": "在庫切れ", "tag": "エントリー"},
+        {"id": "fire_hd8", "name": "Fire HD 8（2024年モデル）", "screen": "8型 1280x800", "price": g("D02"), "sale": 8990, "sale_label": "BF2025",
+         "ram": "4GB", "storage": "64GB", "weight": "337g", "stock": "販売中", "tag": "主力（小）"},
+        {"id": "fire_hd10", "name": "Fire HD 10（第13世代）", "screen": "10.1型 1920x1200", "price": g("D01"), "sale": 10980, "sale_label": "BF2025",
+         "ram": "3GB", "storage": "32GB", "weight": "434g", "stock": "販売中", "tag": "主力"},
+        {"id": "fire_max11", "name": "Fire Max 11（第13世代）", "screen": "11型 2000x1200", "price": g("D03"), "sale": 29980, "sale_label": "BF2025",
+         "ram": "4GB", "storage": "128GB", "weight": "490g", "stock": "販売中", "tag": "上位"},
+        {"id": "kids_hd8", "name": "Fire HD 8 キッズモデル", "screen": "8型 1280x800", "price": g("D06"), "sale": 13980, "sale_label": "2026新生活",
+         "ram": "3GB", "storage": "32GB", "weight": "512g", "stock": "在庫切れ", "tag": "キッズ"},
+        {"id": "kids_pro8", "name": "Fire HD 8 キッズプロ", "screen": "8型 1280x800", "price": 19980, "sale": 9990, "sale_label": "2026新生活Final",
+         "ram": "3GB", "storage": "32GB", "weight": "506g", "stock": "在庫切れ", "tag": "キッズ"},
+        {"id": "kids_hd10", "name": "Fire HD 10 キッズモデル", "screen": "10.1型 1920x1200", "price": g("D07"), "sale": 16980, "sale_label": "2025スマイル",
+         "ram": "3GB", "storage": "32GB", "weight": "670g", "stock": "在庫切れ", "tag": "キッズ"},
+        {"id": "kids_pro10", "name": "Fire HD 10 キッズプロ", "screen": "10.1型 1920x1200", "price": 23980, "sale": 17980, "sale_label": "2026PD",
+         "ram": "3GB", "storage": "32GB", "weight": "670g", "stock": "在庫切れ", "tag": "キッズ"},
     ]
 
 
 def competitor_block(facts: dict) -> list[dict]:
     g = lambda k: (facts.get(k) or {}).get("value")  # noqa: E731
     return [
-        {"brand": "楽天Kobo", "name": "Kobo Clara BW", "price": g("F01"), "note": "6型・防水"},
-        {"brand": "楽天Kobo", "name": "Kobo Clara Colour", "price": g("F01b"), "note": "6型カラー"},
-        {"brand": "楽天Kobo", "name": "Kobo Libra Colour", "price": g("F02"), "note": "7型カラー・ページ送りボタン・価格.com売れ筋1位"},
-        {"brand": "楽天Kobo", "name": "Kobo Elipsa 2E", "price": g("F02b"), "note": "10.3型・手書き"},
-        {"brand": "BOOX", "name": "BOOX Go 7 / Go Color 7 Gen II", "price": 39800, "note": "Android・7型"},
-        {"brand": "BOOX", "name": "BOOX Palma 2 Pro", "price": g("F03"), "note": "6.13型・スマホ型"},
-        {"brand": "BOOX", "name": "BOOX Note Air5 C", "price": g("F03c"), "note": "10.3型カラー・手書き"},
-        {"brand": "Bigme", "name": "HiBreak Pro Color", "price": g("F04"), "note": "カラー電子ペーパー5Gスマホ"},
+        {"brand": "Apple", "name": "iPad 11インチ (A16) 128GB", "price": g("F02"), "note": "価格.com売れ筋1位・6月に値上げ"},
+        {"brand": "Apple", "name": "iPad（第9世代・整備済み品）", "price": 12599, "note": "Amazon棚でFire HD 8より安い"},
+        {"brand": "Xiaomi", "name": "Redmi Pad 2（6GB+128GB）", "price": g("F03"), "note": "11型2.5K・9000mAh"},
+        {"brand": "Xiaomi", "name": "Redmi Pad 2 9.7（4GB+64GB）", "price": 21941, "note": "Amazon棚ベストセラー8位"},
+        {"brand": "NEC", "name": "LAVIE Tab Lite TL103", "price": g("F04"), "note": "価格.com売れ筋5位・国内メーカー"},
+        {"brand": "サムスン", "name": "Galaxy Tab A11+ 128GB", "price": 43493, "note": "OS7年アップデート"},
+        {"brand": "Lenovo", "name": "Lenovo Tab 10.1型 4GB+64GB", "price": 27000, "note": ""},
+        {"brand": "OPPO", "name": "OPPO Pad SE 11型 128GB", "price": 23220, "note": "Amazon棚で★4.7"},
+        {"brand": "TECLAST", "name": "TECLAST M50T 10型", "price": 14900, "note": "レビュー1,162件"},
+        {"brand": "無名Android", "name": "HiGrace 10型（24GB+32GB）", "price": g("F05"), "note": "Amazon棚ベストセラー2位・1万円未満"},
     ]
 
 
@@ -77,7 +88,7 @@ def sales_sample() -> dict:
         dt.date(2025, 11, 24): 3.6, dt.date(2025, 12, 1): 1.6, dt.date(2025, 12, 22): 1.9, dt.date(2025, 12, 29): 1.7,
         dt.date(2026, 3, 2): 1.5, dt.date(2026, 3, 9): 1.3, dt.date(2026, 4, 27): 1.3, dt.date(2026, 6, 8): 1.4,
         dt.date(2026, 7, 6): 4.2, dt.date(2026, 7, 13): 1.5, dt.date(2026, 8, 3): 1.8, dt.date(2026, 8, 10): 1.6}
-    base = {"kindle": 2600, "paperwhite": 5200, "paperwhite_se": 1300, "colorsoft": 1500, "scribe": 900}
+    base = {"fire_hd10": 5400, "fire_hd8": 3800, "fire_max11": 900, "kids": 2100, "fire7": 700}
     for i in range(53):
         d = start + dt.timedelta(days=7 * i)
         mult = events.get(d, 1.0) * (1 + 0.08 * math.sin(i / 3.0)) * rnd.uniform(0.93, 1.07)
@@ -85,10 +96,12 @@ def sales_sample() -> dict:
         tot = 0
         for m, b in base.items():
             seasonal = 1.0
-            if m == "scribe" and d >= dt.date(2026, 6, 8):
-                seasonal = 1.6            # Scribe新型発売
-            if m == "colorsoft" and d >= dt.date(2026, 6, 8):
-                seasonal = 1.2
+            if m == "kids" and dt.date(2026, 3, 1) <= d <= dt.date(2026, 4, 30):
+                seasonal = 2.1            # 新生活シーズンにキッズが伸びる想定
+            if m == "kids" and d >= dt.date(2026, 6, 1):
+                seasonal = 0.35           # 実際にはキッズ全モデルが在庫切れ（2026/9時点）
+            if m == "fire7" and d >= dt.date(2026, 2, 1):
+                seasonal = 0.2            # Fire 7 は在庫切れ・再入荷予定なし
             v = int(b * mult * seasonal)
             row[m] = v
             tot += v
@@ -101,25 +114,25 @@ def sales_sample() -> dict:
     units_4w = sum(w["total"] for w in last4)
     units_prev = sum(w["total"] for w in prev4)
     yoy_4w = round((units_4w / max(1, sum(w["total"] for w in weeks[:4])) - 1) * 100, 1)
-    asp = 29800
+    asp = 19800
     return {
         "sample": True,
-        "note": "販売数・売上・チャネル比率は社内データ連携前の設計サンプル（固定シード生成）。Amazon Retail Analytics／Vendor Central／量販店POS（BCN・GfK）を接続すると実値に置き換わります。",
+        "note": "販売数・売上・チャネル比率・Kids+会員数は社内データ連携前の設計サンプル（固定シード生成）。Amazon Retail Analytics／Vendor Central／量販店POS（BCN・GfK/NIQ）を接続すると実値に置き換わります。キッズモデルとFire 7は実際には在庫切れのため、サンプルでも直近を絞った形にしています。",
         "weeks": weeks,
         "kpi": {
             "units_4w": units_4w, "units_4w_delta": round((units_4w / max(1, units_prev) - 1) * 100, 1), "units_yoy": yoy_4w,
             "revenue_4w_oku": round(units_4w * asp / 1e8, 2), "asp": asp,
             "amazon_share": round(sum(w["amazon"] for w in last4) / max(1, units_4w) * 100, 1),
-            "ku_members_man": 312, "ku_delta": 2.4, "attach_rate": 38.5, "review_avg": 4.4,
+            "ku_members_man": 118, "ku_delta": -6.1, "attach_rate": 41.2, "review_avg": 4.1,
             "channel": [
                 {"name": "Amazon.co.jp", "share": 83.2, "own": True},
                 {"name": "ビックカメラ・コジマ", "share": 5.1}, {"name": "ヤマダデンキ", "share": 4.2},
                 {"name": "ケーズデンキ", "share": 2.6}, {"name": "エディオン", "share": 2.3},
                 {"name": "ジョーシン", "share": 1.4}, {"name": "その他", "share": 1.2}],
-            "model_mix": [{"id": "paperwhite", "name": "Paperwhite", "share": 44.7}, {"id": "kindle", "name": "Kindle", "share": 22.3},
-                          {"id": "colorsoft", "name": "Colorsoft", "share": 14.2}, {"id": "scribe", "name": "Scribe", "share": 10.6},
-                          {"id": "paperwhite_se", "name": "PW シグニチャー", "share": 8.2}],
-            "funnel": [{"stage": "商品ページ閲覧", "v": 100}, {"stage": "カート追加", "v": 11.8}, {"stage": "購入", "v": 4.6}, {"stage": "KU同時加入", "v": 1.8}],
+            "model_mix": [{"id": "fire_hd10", "name": "Fire HD 10", "share": 41.2}, {"id": "fire_hd8", "name": "Fire HD 8", "share": 29.0},
+                          {"id": "kids", "name": "キッズモデル", "share": 16.0}, {"id": "fire_max11", "name": "Fire Max 11", "share": 6.9},
+                          {"id": "fire7", "name": "Fire 7", "share": 6.9}],
+            "funnel": [{"stage": "商品ページ閲覧", "v": 100}, {"stage": "カート追加", "v": 9.4}, {"stage": "購入", "v": 3.7}, {"stage": "Kids+ / Prime同時加入", "v": 1.1}],
         },
     }
 
@@ -135,13 +148,13 @@ def trends_block() -> dict | None:
         vals = s["values"]
         avg = {k: round(sum(v) / len(v), 1) for k, v in vals.items()}
         out["share_12m"] = avg
-        k = vals.get("Kindle") or []
+        k = vals.get("Fire HD") or []
         if k:
             peak_i = max(range(len(k)), key=lambda i: k[i])
-            out["kindle_peak"] = {"date": s["dates"][peak_i], "value": k[peak_i]}
-            out["kindle_last"] = {"date": s["dates"][-1], "value": k[-1]}
-            out["kindle_avg_last8"] = round(sum(k[-8:]) / 8, 1)
-            out["kindle_avg_prev8"] = round(sum(k[-16:-8]) / 8, 1)
+            out["self_peak"] = {"date": s["dates"][peak_i], "value": k[peak_i]}
+            out["self_last"] = {"date": s["dates"][-1], "value": k[-1]}
+            out["self_avg_last8"] = round(sum(k[-8:]) / 8, 1)
+            out["self_avg_prev8"] = round(sum(k[-16:-8]) / 8, 1)
     return out
 
 
@@ -161,7 +174,7 @@ def ai_block(snap: dict | None) -> dict:
     stores = {k: v["label"] for k, v in brands["stores"].items()}
     themes = {k: v["label"] for k, v in brands["themes"].items()}
     personas = {k: v["label"] for k, v in brands["personas"].items()}
-    base = {"measured": False, "date": None, "faces": [{"id": f, "label": FACE_LABEL.get(f, f)} for f in faces],
+    base = {"self_id": brands["self"]["id"], "self_label": brands["self"]["label"], "measured": False, "date": None, "faces": [{"id": f, "label": FACE_LABEL.get(f, f)} for f in faces],
             "queries": [{**{k: p[k] for k in ("id", "family", "named", "compare", "text", "keyword")},
                          "family_label": FAMILY_LABEL.get(p["family"], p["family"])} for p in prompts.values()],
             "family_label": FAMILY_LABEL, "brand_label": brand_label, "store_label": stores,
@@ -180,14 +193,14 @@ def ai_block(snap: dict | None) -> dict:
             if d["rank"] == 1:
                 first_rank[bid] += 1
     n_exp = len(expect) or 1
-    # ファミリー別 言及率（Kindle）
+    # ファミリー別 言及率（自社＝Fire）
     fam = defaultdict(lambda: {"cells": 0, "mention": 0, "first": 0})
     for c in cells:
         f = fam[c["family"]]
         f["cells"] += 1
-        if "kindle" in c["brands"]:
+        if SELF in c["brands"]:
             f["mention"] += 1
-            if c["brands"]["kindle"]["rank"] == 1:
+            if c["brands"][SELF]["rank"] == 1:
                 f["first"] += 1
     # モデル別言及
     models = Counter()
@@ -204,12 +217,12 @@ def ai_block(snap: dict | None) -> dict:
     # 極性
     pol = Counter()
     for c in cells:
-        for k, v in (c.get("kindle_polarity") or {}).items():
+        for k, v in (c.get("self_polarity") or {}).items():
             pol[k] += v
     # 引用元
     dom = Counter()
     dom_bucket = {}
-    dom_reco = Counter()   # 引用された回答でKindleが第一想起 → 推薦転換
+    dom_reco = Counter()   # 引用された回答で自社が第一想起 → 推薦転換
     bucket = Counter()
     for c in cells:
         seen = set()
@@ -221,12 +234,12 @@ def ai_block(snap: dict | None) -> dict:
             dom_bucket[x["host"]] = x["bucket"]
             if x["host"] not in seen:
                 seen.add(x["host"])
-                if "kindle" in c["brands"] and c["brands"]["kindle"]["rank"] == 1:
+                if SELF in c["brands"] and c["brands"][SELF]["rank"] == 1:
                     dom_reco[x["host"]] += 1
     total_c = sum(dom.values()) or 1
     domains = [{"host": h, "n": n, "share": round(n / total_c * 100, 1), "bucket": dom_bucket[h],
                 "reco": dom_reco[h], "reco_rate": round(dom_reco[h] / n * 100, 1)} for h, n in dom.most_common(40)]
-    # 勝敗マトリクス（テーマ×ブランド: Kindleを含む文の極性 / 競合のみの文の極性）
+    # 勝敗マトリクス（テーマ×ブランド: 自社を含む文の極性 / 競合のみの文の極性）
     mx = defaultdict(lambda: defaultdict(lambda: {"pos": 0, "neg": 0, "neu": 0, "n": 0}))
     theme_tot = Counter()
     for c in cells:
@@ -251,28 +264,28 @@ def ai_block(snap: dict | None) -> dict:
         posmap.append({"id": bid, "label": brand_label.get(bid, bid), "mentions": n, "first": first_rank[bid],
                        "share": round(n / n_exp * 100, 1), "top_themes": [t for t, _ in th.most_common(3)],
                        "pos": pos_n, "neg": neg_n})
-    # ペルソナ別（Kindle言及セル内）
+    # ペルソナ別（自社言及セル内）
     pers = Counter()
     for c in cells:
         for p in c["personas"]:
-            if "kindle" in p["brands"]:
+            if SELF in p["brands"]:
                 pers[p["persona"]] += 1
     # ファンアウト
     fan = Counter()
     for c in cells:
         for q in c.get("fanout") or []:
             fan[q.strip()] += 1
-    # 面×クエリ マトリクス（Kindle rank） & セル本文
+    # 面×クエリ マトリクス（自社 rank） & セル本文
     out_cells = []
     for c in cells:
         out_cells.append({"q": c["prompt_id"], "f": c["surface"], "model": c.get("model"),
                           "answer": c["answer"], "cites": [{"host": x["host"], "bucket": x["bucket"], "url": x["url"], "title": x["title"]}
                                                            for x in c["citations"] if x["bucket"] != "noise"][:20],
                           "brands": {b: d["rank"] for b, d in c["brands"].items()},
-                          "kindle_rank": (c["brands"].get("kindle") or {}).get("rank"),
-                          "stores": list(c.get("stores") or {}), "pol": c.get("kindle_polarity"),
+                          "self_rank": (c["brands"].get(SELF) or {}).get("rank"),
+                          "stores": list(c.get("stores") or {}), "pol": c.get("self_polarity"),
                           "fanout": (c.get("fanout") or [])[:12], "organic": (c.get("organic") or [])[:10]})
-    return {**base, "measured": True, "date": snap["date"], "n_prompts": snap["n_prompts"], "n_cells": snap["n_cells"],
+    return {**base, "self_id": SELF, "self_label": brand_label.get(SELF, SELF), "measured": True, "date": snap["date"], "n_prompts": snap["n_prompts"], "n_cells": snap["n_cells"],
             "api_cost": snap.get("api_cost"), "per_face": per_face,
             "first_rank": [{"id": b, "label": brand_label.get(b, b), "n": n, "rate": round(n / n_exp * 100, 1)} for b, n in first_rank.most_common(10)],
             "mention_rank": [{"id": b, "label": brand_label.get(b, b), "n": n, "rate": round(n / n_exp * 100, 1)} for b, n in mention_rank.most_common(10)],
@@ -424,7 +437,7 @@ def extras_block() -> dict:
                                 "connotation": r.get("connotation_types"), "top_domains": (r.get("top_domains") or [])[:20],
                                 "page_types": r.get("page_types"), "categories": (r.get("text_categories") or [])[:10]}
         mentions = []
-        for r in (ca.get("_search_kindle") or []) if isinstance(ca.get("_search_kindle"), list) else []:
+        for r in (ca.get("_search_self") or []) if isinstance(ca.get("_search_self"), list) else []:
             for it in (r or {}).get("items") or []:
                 ci = it.get("content_info") or {}
                 mentions.append({"domain": it.get("domain"), "url": it.get("url"), "title": ci.get("title"), "snippet": (ci.get("snippet") or "")[:200],
@@ -468,17 +481,17 @@ def status_block(ai: dict, extras: dict, trends: dict | None) -> list[dict]:
          "how": "週次レポートCSVを data/connect/sales.csv に配置 → 集計が自動で実値に置換"},
         {"id": "channel", "label": "量販店チャネル販売", "state": "sample", "src": "BCNランキング / GfK Japan POS",
          "how": "POSデータ（機種×店舗×週）を data/connect/retail_pos.csv に配置"},
-        {"id": "ku", "label": "Kindle Unlimited 会員・利用", "state": "sample", "src": "社内KU指標",
+        {"id": "ku", "label": "Amazon Kids+ 会員・継続率", "state": "sample", "src": "社内Kids+指標",
          "how": "会員数・アクティブ率の週次CSVを配置"},
-        {"id": "market", "label": "市場統計（出版科研・インプレス）", "state": "live", "src": "公開統計（出典リンク付き）", "how": "年次で手動更新"},
+        {"id": "market", "label": "市場統計（MM総研・総務省・BCN）", "state": "live", "src": "公開統計（出典リンク付き）", "how": "四半期・年次で手動更新"},
         {"id": "price", "label": "公式価格・セール履歴・量販店価格", "state": "live", "src": "Amazon公式 / 量販店EC / 報道", "how": "セール毎に追記"},
         {"id": "trends", "label": "Google検索需要（トレンド）", "state": "live" if trends else "wait", "src": "Google Trends（pytrends）", "how": "毎ラウンド自動更新"},
         {"id": "kwvol", "label": "検索ボリューム（月間）", "state": "live" if ex.get("keywords") else "wait", "src": "DataForSEO Google Ads", "how": "毎ラウンド自動更新"},
-        {"id": "ai", "label": "AI6面の語られ方（実クエリ42本）", "state": "live" if ai.get("measured") else "wait", "src": "DataForSEO AI Optimization / SERP", "how": "毎週月曜 自動計測"},
+        {"id": "ai", "label": "AI6面の語られ方（実クエリ42本・タブレット文脈）", "state": "live" if ai.get("measured") else "wait", "src": "DataForSEO AI Optimization / SERP", "how": "毎週月曜 自動計測"},
         {"id": "shelf", "label": "Amazon.co.jp の棚（順位・価格・評価）", "state": "live", "src": "Amazon.co.jp 検索結果をChromeで実測", "how": "DataForSEO Merchant 接続後は自動更新に切替"},
         {"id": "kakaku", "label": "比較サイトの棚（価格.com）", "state": "live", "src": "価格.com 人気売れ筋ランキング", "how": "週次でChrome実測"},
         {"id": "amazon", "label": "Amazon.co.jp 検索結果・レビュー（API自動化）", "state": "live" if ex.get("amazon_serp") else "wait", "src": "DataForSEO Merchant", "how": "毎ラウンド自動更新"},
-        {"id": "apps", "label": "Kindleアプリ評価（App Store / Google Play）", "state": "live" if ex.get("apps") else "wait", "src": "DataForSEO App Data", "how": "毎ラウンド自動更新"},
+        {"id": "apps", "label": "周辺アプリ評価（Amazon / Prime Video）", "state": "live" if ex.get("apps") else "wait", "src": "DataForSEO App Data", "how": "毎ラウンド自動更新"},
         {"id": "yt_manual", "label": "YouTube 上位動画（3クエリ）", "state": "live", "src": "YouTube 検索結果をChromeで実測", "how": "DataForSEO YouTube SERP 接続後は自動更新に切替"},
         {"id": "youtube", "label": "YouTube 語られ方（API自動化・全5クエリ）", "state": "live" if ex.get("youtube") else "wait", "src": "DataForSEO YouTube SERP", "how": "毎ラウンド自動更新"},
         {"id": "news", "label": "ニュース", "state": "live", "src": "報道リンク集 + DataForSEO News", "how": "毎ラウンド自動更新"},
@@ -498,10 +511,10 @@ def main() -> None:
     kakaku = read_json(DATA / "kakaku.json")
     yt_manual = read_json(DATA / "youtube.json")
     board = {
-        "meta": {"built_at": now_jst(), "brand": "Kindle", "owner": load("settings")["site"]["owner"],
-                 "measured_at": ai.get("date"), "facts_as_of": fb["as_of"], "marker": "KINDLE_BOARD"},
+        "meta": {"built_at": now_jst(), "brand": load("settings")["site"]["brand"], "owner": load("settings")["site"]["owner"],
+                 "measured_at": ai.get("date"), "facts_as_of": fb["as_of"], "marker": "FIRE_BOARD"},
         "status": status_block(ai, extras, trends),
-        "facts": facts, "ebook_series": fb["ebook_series"], "news_curated": fb["news"],
+        "facts": facts, "shipment_series": fb["shipment_series"], "shipment_note": fb["shipment_note"], "household_series": fb["household_series"], "news_curated": fb["news"],
         "lineup": lineup_block(facts), "competitors": competitor_block(facts),
         "sales": sales_sample(), "trends": trends, "ai": ai, "extras": extras, "shelf": shelf, "kakaku": kakaku, "yt_manual": yt_manual,
     }

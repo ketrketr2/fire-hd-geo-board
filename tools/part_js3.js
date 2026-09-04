@@ -7,7 +7,7 @@ const brandLabel = b => (AI.brand_label || {})[b] || b;
 const themeLabel = t => (AI.theme_label || {})[t] || t;
 const storeLabel = s => (AI.store_label || {})[s] || s;
 const avgOf = arr => { const v = arr.filter(isNum); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; };
-const MODEL_LABEL = {kindle_basic: 'Kindle 無印', paperwhite: 'Paperwhite', colorsoft: 'Colorsoft', scribe: 'Scribe', kids: 'キッズモデル', unlimited: 'Kindle Unlimited', app: 'Kindleアプリ'};
+const MODEL_LABEL = {fire_hd10: 'Fire HD 10', fire_hd8: 'Fire HD 8', fire_max11: 'Fire Max 11', fire7: 'Fire 7', kids: 'キッズモデル', kids_plus: 'Amazon Kids+', alexa: 'Alexa', appstore: 'Amazonアプリストア', prime_video: 'プライムビデオ'};
 
 function aiWait(title){
   return `<div class="g">
@@ -18,7 +18,7 @@ function aiWait(title){
   </div>`;
 }
 function stepperHtml(){
-  const steps = [['STEP1', '課題の整理', 'Kindleが「薦められない質問」はどれか'], ['STEP2', '需要の把握', 'トレンド・月間検索数で優先度'], ['STEP3', '対象の選定', '42本のクエリ・6ファミリー'], ['STEP4', '面の選定', 'AI6面（対話4＋Google2）'],
+  const steps = [['STEP1', '課題の整理', 'Fireが「薦められない質問」はどれか'], ['STEP2', '需要の把握', 'トレンド・月間検索数で優先度'], ['STEP3', '対象の選定', '42本のクエリ・6ファミリー'], ['STEP4', '面の選定', 'AI6面（対話4＋Google2）'],
     ['STEP5', '取得・加工', '回答全文・引用・ファンアウト'], ['STEP6', '多角的分析', '言及／第一想起／引用／推薦／極性'], ['STEP7', '設計', '打ち手・KPI（V9）'], ['STEP8', '定点観測', '週次自動計測・差分']];
   const done = AI.measured ? 6 : 4;
   return `<div class="stepper">${steps.map((s, i) => `<div class="step ${i < done ? 'done' : i === done ? 'now' : ''}"><div class="n">${s[0]}</div><b>${esc(s[1])}</b><span class="muted">${esc(s[2])}</span></div>`).join('')}</div><div class="src">GEOの8ステップ（電通デジタル ナレッジ共有会 2026/8/28 資料の進め方に準拠）</div>`;
@@ -36,15 +36,15 @@ RENDER.v4 = () => {
   const pol = AI.polarity || {}; const ptot = (pol.pos || 0) + (pol.neg || 0) + (pol.neu || 0) || 1;
   const fam = AI.family || {};
   const famOrder = ['A', 'B', 'C', 'D', 'P', 'H'].filter(k => fam[k]);
-  const first = (AI.first_rank || [])[0]; const kf = (AI.first_rank || []).find(x => x.id === 'kindle') || {};
+  const first = (AI.first_rank || [])[0]; const kf = (AI.first_rank || []).find(x => x.id === SELF) || {};
   return `<div class="g">
   <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>AIでの語られ方 — ${AI.queries.length}本 × 6面 ＝ ${AI.n_cells}セル（実測 ${esc(AI.date)}）</h3>${tagOf('live')}<span class="sub">DataForSEO ・ 実費 $${fmt((AI.api_cost || {}).usd, 2)}</span><span class="hb" onclick="help('idx')">?</span></div>
     <div class="kpi">
-      <div class="k hero orange"><div class="l">言及率（カテゴリ質問 ${AI.expect_cells}セル）</div><div class="v"><span data-cu="${avgM}" data-d="0">0</span><small>%</small></div><div class="d">Kindleの名前が回答本文に出た率（6面平均）</div></div>
-      <div class="k cyan"><div class="l">第一想起率</div><div class="v"><span data-cu="${avgF}" data-d="0">0</span><small>%</small></div><div class="d">Kindle言及回答のうち最初に挙がった率（6面平均）。回答の1位の内訳では ${pct(kf.rate, 0)}（${first ? esc(first.label) : '—'}が1位）</div></div>
+      <div class="k hero orange"><div class="l">言及率（カテゴリ質問 ${AI.expect_cells}セル）</div><div class="v"><span data-cu="${avgM}" data-d="0">0</span><small>%</small></div><div class="d">Fireの名前が回答本文に出た率（6面平均）</div></div>
+      <div class="k cyan"><div class="l">第一想起率</div><div class="v"><span data-cu="${avgF}" data-d="0">0</span><small>%</small></div><div class="d">Fire言及回答のうち最初に挙がった率（6面平均）。回答の1位の内訳では ${pct(kf.rate, 0)}（${first ? esc(first.label) : '—'}が1位）</div></div>
       <div class="k lime"><div class="l">自社（Amazon）引用率</div><div class="v"><span data-cu="${avgO}" data-d="0">0</span><small>%</small></div><div class="d">出典リンクのうち amazon.co.jp 等の比率。残りは第三者</div></div>
       <div class="k violet"><div class="l">平均引用数 / 回答</div><div class="v"><span data-cu="${avgC}" data-d="1">0</span><small>本</small></div><div class="d">露出機会（G1）。面ごとの差は下表</div></div>
-      <div class="k rose"><div class="l">Kindle文の極性</div><div class="v"><span style="color:#8FF0C9" data-cu="${(pol.pos || 0) / ptot * 100}" data-d="0">0</span><small>%好意</small> <span style="color:#FDA4AF" data-cu="${(pol.neg || 0) / ptot * 100}" data-d="0">0</span><small>%懸念</small></div><div class="d">Kindleに触れた文 ${fmt(ptot)}文の辞書判定</div></div>
+      <div class="k rose"><div class="l">Fire文の極性</div><div class="v"><span style="color:#8FF0C9" data-cu="${(pol.pos || 0) / ptot * 100}" data-d="0">0</span><small>%好意</small> <span style="color:#FDA4AF" data-cu="${(pol.neg || 0) / ptot * 100}" data-d="0">0</span><small>%懸念</small></div><div class="d">Fireに触れた文 ${fmt(ptot)}文の辞書判定</div></div>
     </div></div>
 
   <div class="card s7 rv"><div class="ct"><h3>面別の反応（言及率・第一想起率・自社引用率）</h3>${tagOf('live')}</div>${faceRadar()}</div>
@@ -53,12 +53,12 @@ RENDER.v4 = () => {
     <div class="muted" style="font-size:11px;margin:10px 0 4px">言及ランキング（名前が出た回数）</div>
     ${hbars((AI.mention_rank || []).slice(0, 8).map(b => ({name: b.label, v: b.n, sub: pct(b.rate, 0), color: BRAND_COL[b.id] || '#64748B'})), {})}</div>
 
-  <div class="card s6 rv"><div class="ct"><h3>質問タイプ別 Kindle言及率</h3>${tagOf('live')}<span class="sub">指名・比較を含む全セル</span></div>
-    ${barChart({w: 520, h: 200, labels: famOrder.map(k => fam[k].label), series: [{name: 'Kindle言及率', color: '#E36A1E', values: famOrder.map(k => fam[k].rate)}], suf: '%', d: 0, yfmt: v => fmt(v, 0) + '%'})}
+  <div class="card s6 rv"><div class="ct"><h3>質問タイプ別 Fire言及率</h3>${tagOf('live')}<span class="sub">指名・比較を含む全セル</span></div>
+    ${barChart({w: 520, h: 200, labels: famOrder.map(k => fam[k].label), series: [{name: 'Fire言及率', color: '#E36A1E', values: famOrder.map(k => fam[k].rate)}], suf: '%', d: 0, yfmt: v => fmt(v, 0) + '%'})}
     <div class="note">カテゴリ型（A）・ペルソナ型（B）が「薦められるか」の本丸。ネガ検証（H）は言及率が高くて当たり前 — 中身（極性）を見る。</div></div>
-  <div class="card s6 rv"><div class="ct"><h3>AIが語るKindleの「どのモデル」か</h3>${tagOf('live')}<span class="sub">全セルの端末名・サービス名の出現回数</span></div>
+  <div class="card s6 rv"><div class="ct"><h3>AIが語るFireの「どのモデル」か</h3>${tagOf('live')}<span class="sub">全セルの端末名・サービス名の出現回数</span></div>
     ${hbars(Object.entries(AI.models || {}).map(([m, n], i) => ({name: MODEL_LABEL[m] || m, v: n, color: CAT[i % 6]})), {})}
-    <div class="note">Paperwhite偏重なら「Colorsoft／Scribe新型の情報がAIに届いていない」。KU・アプリが多いなら端末より読み放題で語られている。</div></div>
+    <div class="note">HD 10偏重なら「HD 8・Max 11・キッズの情報がAIに届いていない」。プライムビデオ・Alexaが多いなら端末単体ではなく<b>Amazonのサービス文脈</b>で語られている。</div></div>
 
   <div class="card s6 rv"><div class="ct"><h3>AIが薦める購入チャネル</h3>${tagOf('live')}<span class="sub">購入チャネル型（P）5本 × 6面 と 全セル</span></div>
     <div class="row" style="align-items:flex-start;gap:18px;flex-wrap:wrap"><div style="flex:1 1 220px"><div class="muted" style="font-size:11px;margin-bottom:4px">P族（どこで買う？）での言及</div>${hbars(Object.entries(AI.stores_p || {}).slice(0, 8).map(([s, n]) => ({name: storeLabel(s), v: n, color: s === 'amazon' ? '#E36A1E' : s === 'used' ? '#F87171' : '#3987e5'})), {})}</div>
@@ -68,7 +68,7 @@ RENDER.v4 = () => {
     ${(AI.fanout_top || []).length ? `<div class="flex" style="gap:6px">${AI.fanout_top.slice(0, 30).map(([q, n]) => `<span class="cites" style="margin:0"><a style="cursor:default">${esc(q)} <b>${n}</b></a></span>`).join('')}</div>` : '<div class="empty">ファンアウト情報が返っていません（面によって非提供）</div>'}
     <div class="note">この語で<b>検索上位に自社ページがあるか</b>が引用の入口。無ければ第三者媒体が引用される（資料p25「クエリファンアウト」）。</div></div>
 
-  <div class="card s12 rv"><div class="ct"><h3>ヒートマップ — クエリ × 面 で Kindle は何番目に出たか</h3>${tagOf('live')}<span class="sub">1=第一想起 ／ 2-3=言及あり ／ ✕=言及なし ／ 灰=回答なし。クリックで実物へ</span></div>
+  <div class="card s12 rv"><div class="ct"><h3>ヒートマップ — クエリ × 面 で Fire は何番目に出たか</h3>${tagOf('live')}<span class="sub">1=第一想起 ／ 2-3=言及あり ／ ✕=言及なし ／ 灰=回答なし。クリックで実物へ</span></div>
     ${heatmap()}</div>
   </div>`;
 };
@@ -79,8 +79,8 @@ function heatmap(){
   qs.forEach(q => {
     h += `<div class="rl" title="${esc(q.text)}"><span class="fam" style="margin:0 6px 0 0;border-color:${FAM_COL[q.family]}">${q.family}</span>${esc(short(q.text, 22))}</div>`;
     faces.forEach(f => { const c = CELL_IDX[q.id + '|' + f.id]; let bg = 'rgba(120,150,210,.10)', tx = '–', col = 'var(--ink3)';
-      if(c && c.answer){ const r = c.kindle_rank; if(r === 1){ bg = 'rgba(227,106,30,.85)'; tx = '1'; col = '#fff'; } else if(r === 2 || r === 3){ bg = 'rgba(227,106,30,.42)'; tx = String(r); col = '#FFD9B3'; } else if(isNum(r)){ bg = 'rgba(227,106,30,.22)'; tx = String(r); col = '#FFD9B3'; } else { bg = 'rgba(248,113,113,.22)'; tx = '✕'; col = '#FDA4AF'; } }
-      h += `<div class="cell" style="background:${bg};color:${col}" onclick="openCell('${q.id}','${f.id}')" data-tip="${esc(`<b>${esc(q.id)}</b> ${esc(faceLabel(f.id))}<br>${esc(short(q.text, 60))}<br>${c && c.answer ? 'Kindle 出現順位: ' + (isNum(c.kindle_rank) ? c.kindle_rank + '番目' : '言及なし') + '<br>他ブランド: ' + Object.keys(c.brands).filter(b => b !== 'kindle').map(brandLabel).join('・') : '回答なし'}`)}">${tx}</div>`; });
+      if(c && c.answer){ const r = c.self_rank; if(r === 1){ bg = 'rgba(227,106,30,.85)'; tx = '1'; col = '#fff'; } else if(r === 2 || r === 3){ bg = 'rgba(227,106,30,.42)'; tx = String(r); col = '#FFD9B3'; } else if(isNum(r)){ bg = 'rgba(227,106,30,.22)'; tx = String(r); col = '#FFD9B3'; } else { bg = 'rgba(248,113,113,.22)'; tx = '✕'; col = '#FDA4AF'; } }
+      h += `<div class="cell" style="background:${bg};color:${col}" onclick="openCell('${q.id}','${f.id}')" data-tip="${esc(`<b>${esc(q.id)}</b> ${esc(faceLabel(f.id))}<br>${esc(short(q.text, 60))}<br>${c && c.answer ? 'Fire 出現順位: ' + (isNum(c.self_rank) ? c.self_rank + '番目' : '言及なし') + '<br>他ブランド: ' + Object.keys(c.brands).filter(b => b !== SELF).map(brandLabel).join('・') : '回答なし'}`)}">${tx}</div>`; });
   });
   return h + `</div></div>`;
 }
@@ -99,13 +99,13 @@ RENDER.v5 = () => {
   <div class="card" id="qpanel" style="min-height:420px">${qPanel()}</div></div></div>`;
 };
 function qItem(q){
-  const dots = AI.faces.map(f => { const c = CELL_IDX[q.id + '|' + f.id]; const st = !AI.measured || !c ? 'na' : !c.answer ? 'na' : c.kindle_rank === 1 ? 'm1' : isNum(c.kindle_rank) ? 'm2' : 'm0'; return `<i class="${st}" title="${esc(f.label)}"></i>`; }).join('');
+  const dots = AI.faces.map(f => { const c = CELL_IDX[q.id + '|' + f.id]; const st = !AI.measured || !c ? 'na' : !c.answer ? 'na' : c.self_rank === 1 ? 'm1' : isNum(c.self_rank) ? 'm2' : 'm0'; return `<i class="${st}" title="${esc(f.label)}"></i>`; }).join('');
   return `<div class="qi ${QSEL === q.id ? 'on' : ''}" id="qi-${q.id}" onclick="selectQ('${q.id}')"><div class="id">${esc(q.id)}<span class="fam" style="border-color:${FAM_COL[q.family]}">${esc((AI.family_label || {})[q.family] || q.family)}</span>${q.named || q.compare ? '<span class="fam">分母外</span>' : ''}</div><div class="tx">${esc(q.text)}</div><div class="dots">${dots}</div></div>`;
 }
 function selectQ(id){ QSEL = id; $$('.qi').forEach(e => e.classList.toggle('on', e.id === 'qi-' + id)); const p = $('#qpanel'); if(p){ p.innerHTML = qPanel(); bindTips(p); } }
 function selectF(f){ FSEL = f; const p = $('#qpanel'); if(p){ p.innerHTML = qPanel(); bindTips(p); } }
 function highlight(text){
-  const al = [['kindle', /(kindle|キンドル|paperwhite|ペーパーホワイト|colorsoft|カラーソフト|scribe|スクライブ)/gi], ['kobo', /(kobo|コボ|clara|libra|elipsa)/gi], ['boox', /(boox|onyx|palma|note air)/gi], ['ipad', /(ipad|アイパッド)/gi], ['other', /(remarkable|supernote|bigme|meebook|pocketbook|quaderno)/gi]];
+  const al = [['fire', /(fire\s?hd\s?\d*|fire\s?max\s?11|fire\s?7|fireタブレット|ファイアタブレット|amazon\s?fire)/gi], ['ipad', /(ipad|アイパッド)/gi], ['xiaomi', /(xiaomi|シャオミ|redmi\s?pad|poco\s?pad)/gi], ['lenovo', /(lenovo|レノボ|idea\s?tab|yoga\s?tab)/gi], ['other', /(galaxy\s?tab|lavie\s?tab|matepad|oppo\s?pad|teclast|alldocube|surface|luca)/gi]];
   const mark = seg => { let o = esc(seg); al.forEach(([k, re]) => { o = o.replace(re, m => `<mark class="${k}">${m}</mark>`); }); return o; };
   // URL部分はハイライトせず、リンクにする（回答本文そのものは書き換えない）
   const out = [];
@@ -122,7 +122,7 @@ function highlight(text){
 }
 function qPanel(){
   const q = Q_BY_ID[QSEL]; if(!q) return '<div class="empty">クエリを選択してください</div>';
-  const tabs = `<div class="ftabs">${AI.faces.map(f => { const c = CELL_IDX[q.id + '|' + f.id]; const st = c && c.answer ? (c.kindle_rank === 1 ? '#34D399' : isNum(c.kindle_rank) ? '#FBBF24' : '#F87171') : '#475569'; return `<button class="${FSEL === f.id ? 'on' : ''}" onclick="selectF('${f.id}')"><i style="background:${st}"></i>${esc(f.label)}</button>`; }).join('')}</div>`;
+  const tabs = `<div class="ftabs">${AI.faces.map(f => { const c = CELL_IDX[q.id + '|' + f.id]; const st = c && c.answer ? (c.self_rank === 1 ? '#34D399' : isNum(c.self_rank) ? '#FBBF24' : '#F87171') : '#475569'; return `<button class="${FSEL === f.id ? 'on' : ''}" onclick="selectF('${f.id}')"><i style="background:${st}"></i>${esc(f.label)}</button>`; }).join('')}</div>`;
   let body;
   const c = CELL_IDX[q.id + '|' + FSEL];
   if(!AI.measured) body = `<div class="empty"><b>計測待ち</b>初回ラウンド後、この位置に ${esc(faceLabel(FSEL))} の回答全文・引用URL・ファンアウトが入ります。</div>`;
@@ -143,16 +143,16 @@ RENDER.v6 = () => {
   if(!AI.measured) return aiWait('AIの中のブランド配置図・テーマ別勝敗（計測待ち）');
   const pm = AI.posmap || [];
   const themes = Object.entries(AI.theme_tot || {}).sort((a, b) => b[1] - a[1]).slice(0, 14).map(x => x[0]);
-  const cols = ['kindle', 'kobo', 'boox', 'ipad'];
-  // Kindle自身の好意/懸念バランスをテーマ別に見る（母数が違うブランド同士の比率比較は誤読を生むため避ける）
+  const cols = [SELF, 'ipad', 'xiaomi', 'lenovo'];
+  // 自社自身の好意/懸念バランスをテーマ別に見る（母数が違うブランド同士の比率比較は誤読を生むため避ける）
   const rows = [];
   // 勝敗リストはマトリクス表示（上位14テーマ）に限定せず、全テーマから拾う（件数の少ないテーマに強い懸念が隠れるため）
   Object.keys(AI.matrix || {}).forEach(t => {
-    const row = AI.matrix[t] || {}; const k = row.kindle;
+    const row = AI.matrix[t] || {}; const k = row[SELF];
     if(!k) return;
     const tot = (k.pos || 0) + (k.neg || 0);
     if(tot < 10) return;
-    const rivals = ['kobo', 'boox', 'ipad'].map(b => row[b]).filter(Boolean);
+    const rivals = ['ipad', 'xiaomi', 'lenovo'].map(b => row[b]).filter(Boolean);
     const rTot = rivals.reduce((a, r) => a + (r.pos || 0) + (r.neg || 0), 0);
     const rNeg = rivals.reduce((a, r) => a + (r.neg || 0), 0);
     rows.push({t, pos: k.pos || 0, neg: k.neg || 0, tot, negShare: (k.neg || 0) / tot * 100,
@@ -164,11 +164,11 @@ RENDER.v6 = () => {
   <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>AIの回答には「ブランドの配置図」が表れる</h3>${tagOf('live')}<span class="sub">横＝好意率（懸念←→好意）／縦＝第一想起率／大きさ＝言及量</span><span class="hb" onclick="help('posmap')">?</span></div>
     ${bubbleMap(pm)}</div>
   <div class="card s8 rv"><div class="ct"><h3>テーマ × ブランド 勝敗マトリクス</h3>${tagOf('live')}<span class="sub">セル＝そのテーマでブランドが主語の文の数。色＝極性（緑＝好意、赤＝懸念）</span></div>${matrixHtml(themes, cols)}</div>
-  <div class="card s4 rv"><div class="ct"><h3>強みテーマ / 懸念テーマ（Kindle）</h3>${tagOf('live')}<span class="sub">懸念率＝懸念文÷(好意+懸念)</span></div>
+  <div class="card s4 rv"><div class="ct"><h3>強みテーマ / 懸念テーマ（Fire）</h3>${tagOf('live')}<span class="sub">懸念率＝懸念文÷(好意+懸念)</span></div>
     <div class="muted" style="font-size:11px;margin-bottom:4px">好意で語られる（懸念率が低い）</div>${win.length ? win.map(r => `<div class="row" style="justify-content:space-between;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)"><span>✓ ${esc(themeLabel(r.t))}</span><span><b class="mono" style="color:#8FF0C9">懸念 ${pct(r.negShare, 0)}</b> <span class="muted">+${r.pos}/−${r.neg}</span></span></div>`).join('') : '<div class="muted" style="font-size:12px">該当なし</div>'}
     <div class="muted" style="font-size:11px;margin:12px 0 4px">懸念が相対的に多い</div>${lose.length ? lose.map(r => `<div class="row" style="justify-content:space-between;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)"><span>▲ ${esc(themeLabel(r.t))}</span><span><b class="mono" style="color:#FDA4AF">懸念 ${pct(r.negShare, 0)}</b> <span class="muted">+${r.pos}/−${r.neg}${isNum(r.rivalNegShare) ? ' ／競合 ' + pct(r.rivalNegShare, 0) : ''}</span></span></div>`).join('') : '<div class="muted" style="font-size:12px">該当なし</div>'}
-    <div class="note">Kindleは言及量が多いぶん好意も懸念も溜まります。ブランド間の比率を直接比べると母数差で誤読するため、<b>Kindle自身のテーマ別バランス</b>を見ます。懸念率の高いテーマが、第三者媒体で語られ方を変えにいく対象（資料p41-42）。</div></div>
-  <div class="card s6 rv"><div class="ct"><h3>ペルソナ文脈でのKindle言及</h3>${tagOf('live')}<span class="sub">Kindleが登場した文のペルソナ語</span></div>${hbars(Object.entries(AI.personas || {}).map(([p, n], i) => ({name: (AI.persona_label || {})[p] || p, v: n, color: CAT[i % 6]})), {})}</div>
+    <div class="note">Fireは言及量が多いぶん好意も懸念も溜まります。ブランド間の比率を直接比べると母数差で誤読するため、<b>Fire自身のテーマ別バランス</b>を見ます。懸念率の高いテーマが、第三者媒体で語られ方を変えにいく対象（資料p41-42）。</div></div>
+  <div class="card s6 rv"><div class="ct"><h3>ペルソナ文脈でのFire言及</h3>${tagOf('live')}<span class="sub">Fireが登場した文のペルソナ語</span></div>${hbars(Object.entries(AI.personas || {}).map(([p, n], i) => ({name: (AI.persona_label || {})[p] || p, v: n, color: CAT[i % 6]})), {})}</div>
   <div class="card s6 rv"><div class="ct"><h3>ブランド別 主語テーマ トップ3</h3>${tagOf('live')}</div>${pm.map(b => `<div class="row" style="align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--line)"><b style="color:${BRAND_COL[b.id] || '#c98500'};min-width:90px">${esc(b.label)}</b><span style="font-size:12px;color:var(--ink2)">${b.top_themes.map(themeLabel).join(' ／ ') || '—'}<span class="muted"> ・ 言及${b.mentions}回 ・ 第一想起${b.first}回 ・ 好意${b.pos}文／懸念${b.neg}文</span></span></div>`).join('')}</div>
   </div>`;
 };
@@ -243,7 +243,7 @@ function bubbleMap(pm){
     if(lead) g += `<line x1="${lead.x1.toFixed(1)}" y1="${lead.y1.toFixed(1)}" x2="${lead.x2.toFixed(1)}" y2="${lead.y2.toFixed(1)}" stroke="#3A4A63" stroke-width="1"/>`;
     g += `<text x="${put.tx.toFixed(1)}" y="${put.ty.toFixed(1)}" text-anchor="${put.ax}" style="font-size:11px;font-weight:700;fill:#EAF1FB;paint-order:stroke;stroke:#0B0F1A;stroke-width:2.5px">${esc(b.label)}</text></g>`;
   });
-  return g + `</svg><div class="note">円の大きさ＝言及量。横軸は<b>好意率</b>（全ブランドが好意寄りのため、差が見えるよう目盛を実データ範囲に拡大しています）。<b>Kindleは右上（好意的・第一想起が高い）</b>に単独で位置し、楽天Kobo・BOOXは好意度は近いが第一想起で下。iPad・Fireは「読書専用ではない」文脈で挙がるため位置が異なります。</div>`;
+  return g + `</svg><div class="note">円の大きさ＝言及量。横軸は<b>好意率</b>（全ブランドが好意寄りのため、差が見えるよう目盛を実データ範囲に拡大しています）。右上ほど「好意的に語られ、かつ最初に挙がる」ブランド。Fireが左下に沈んでいる場合は、<b>名前は出るが推されていない</b>状態を意味します。</div>`;
 }
 function matrixHtml(themes, cols){
   let h = `<div class="mx" style="grid-template-columns:140px repeat(${cols.length},minmax(60px,1fr))"><div class="h"></div>${cols.map(c => `<div class="h" style="color:${BRAND_COL[c]}">${esc(brandLabel(c))}</div>`).join('')}`;
@@ -266,7 +266,7 @@ RENDER.v7 = () => {
       <div class="k hero rose"><div class="l">第三者ページ由来</div><div class="v"><span data-cu="${third}" data-d="0">0</span><small>%</small></div><div class="d">資料p31「7〜9割が第三者」と比較</div></div>
       <div class="k orange"><div class="l">自社（Amazon）</div><div class="v"><span data-cu="${own.share}" data-d="1">0</span><small>%</small></div><div class="d">amazon.co.jp / aboutamazon.jp 等</div></div>
       <div class="k cyan"><div class="l">引用ドメイン数</div><div class="v"><span data-cu="${dm.length}">0</span><small>+</small></div><div class="d">上位40を下表に表示</div></div>
-      <div class="k lime"><div class="l">推薦転換率トップ媒体</div><div class="v" style="font-size:16px">${dm.filter(d => d.n >= 3).sort((a, b) => b.reco_rate - a.reco_rate)[0] ? esc(dm.filter(d => d.n >= 3).sort((a, b) => b.reco_rate - a.reco_rate)[0].host) : '—'}</div><div class="d">引用された回答でKindleが第一想起になる率（引用3回以上）</div></div>
+      <div class="k lime"><div class="l">推薦転換率トップ媒体</div><div class="v" style="font-size:16px">${dm.filter(d => d.n >= 3).sort((a, b) => b.reco_rate - a.reco_rate)[0] ? esc(dm.filter(d => d.n >= 3).sort((a, b) => b.reco_rate - a.reco_rate)[0].host) : '—'}</div><div class="d">引用された回答でFireが第一想起になる率（引用3回以上）</div></div>
     </div></div>
   <div class="card s5 rv"><div class="ct"><h3>引用元の種類</h3>${tagOf('live')}</div>${donut(bk.map(b => ({name: b.label, v: b.share, color: BUCKET_COL[b.id] || '#64748B'})), {center: `<span style="font-size:16px">${fmt(third, 0)}%</span><small>第三者</small>`})}
     <div class="note">動画（YouTube）・UGC・アフィリの比率が高いほど「公式サイト改善だけでは足りない」。第三者媒体への働きかけ（タイアップ・一次情報の提供）が施策の中心になる。</div></div>
@@ -274,7 +274,7 @@ RENDER.v7 = () => {
   <div class="card s6 rv"><div class="ct"><h3>面別の自社引用率・平均引用数</h3>${tagOf('live')}</div>${barChart({w: 520, h: 200, labels: AI.faces.map(f => f.label), series: [{name: '自社引用率', color: '#E36A1E', values: AI.faces.map(f => (pf[f.id] || {}).owned_cite_share)}], suf: '%', d: 0, yfmt: v => fmt(v, 0) + '%'})}
     <div class="leg"><span><i style="background:#E36A1E"></i>自社引用率</span></div><div class="muted" style="font-size:11px">平均引用数/回答: ${AI.faces.map(f => esc(f.label) + ' ' + fmt((pf[f.id] || {}).avg_cites, 1)).join(' ・ ')}</div></div>
   <div class="card s6 rv"><div class="ct"><h3>Google通常検索の上位ドメイン（AI Overview対象クエリ）</h3>${tagOf('live')}<span class="sub">検索上位ほど引用されやすい（資料p36）</span></div>${organicTop()}</div>
-  <div class="card s12 rv"><div class="ct"><h3>引用ドメイン一覧（クリックで並べ替え）</h3>${tagOf('live')}</div><div class="tw"><table><thead><tr><th onclick="sortDom('host')">ドメイン</th><th onclick="sortDom('bucket')">種類</th><th class="num" onclick="sortDom('n')">引用回数</th><th class="num" onclick="sortDom('share')">シェア</th><th class="num" onclick="sortDom('reco')">Kindle第一想起の回答数</th><th class="num" onclick="sortDom('reco_rate')">推薦転換率</th></tr></thead><tbody id="domtb">${domRows()}</tbody></table></div></div>
+  <div class="card s12 rv"><div class="ct"><h3>引用ドメイン一覧（クリックで並べ替え）</h3>${tagOf('live')}</div><div class="tw"><table><thead><tr><th onclick="sortDom('host')">ドメイン</th><th onclick="sortDom('bucket')">種類</th><th class="num" onclick="sortDom('n')">引用回数</th><th class="num" onclick="sortDom('share')">シェア</th><th class="num" onclick="sortDom('reco')">Fire第一想起の回答数</th><th class="num" onclick="sortDom('reco_rate')">推薦転換率</th></tr></thead><tbody id="domtb">${domRows()}</tbody></table></div></div>
   </div>`;
 };
 function domRows(){

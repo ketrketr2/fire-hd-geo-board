@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex,nofollow">
-<title>Kindle 語られ方ボード — 現状 × 世間 × AI</title>
-<!-- KINDLE_BOARD -->
+<title>Fire HD 語られ方ボード — 現状 × 世間 × AI</title>
+<!-- FIRE_BOARD -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=BIZ+UDPGothic:wght@400;700&family=JetBrains+Mono:wght@500;700;800&display=swap" media="print" onload="this.media='all'">
@@ -18,7 +18,7 @@
   --amz:#FF9900;--amz2:#FFB84D;--cyan:#22D3EE;--cyan2:#67E8F9;--lime:#A3E635;--rose:#FB7185;--gold:#FDE68A;
   /* 検証済みカテゴリ配色（ダーク面 #0B0F1A・順序固定） */
   --c1:#E36A1E;--c2:#199e70;--c3:#9085e9;--c4:#c98500;--c5:#3987e5;--c6:#d55181;
-  --kindle:#E36A1E;--kobo:#d55181;--boox:#199e70;--ipad:#3987e5;--other:#c98500;--other2:#9085e9;
+  --fire:#E36A1E;--ipad:#3987e5;--xiaomi:#d55181;--lenovo:#199e70;--other:#c98500;--other2:#9085e9;
   --chatgpt:#199e70;--gemini:#3987e5;--claude:#E36A1E;--perplexity:#9085e9;--aio:#c98500;--aimode:#d55181;
   --good:#34D399;--warn:#FBBF24;--bad:#F87171;
   --r:18px;--font:'BIZ UDGothic','BIZ UDPGothic','Hiragino Sans','Noto Sans JP',Meiryo,sans-serif;--mono:'JetBrains Mono','BIZ UDGothic',monospace;
@@ -214,7 +214,7 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 .ftabs button.on{color:#fff;border-color:rgba(255,255,255,.35);background:rgba(255,255,255,.06)}
 .ans{background:rgba(8,12,22,.7);border:1px solid var(--line);border-radius:14px;padding:16px 18px;font-size:13px;line-height:1.8;white-space:pre-wrap;word-break:break-word;max-height:520px;overflow:auto}
 .ans mark{background:rgba(227,106,30,.28);color:#FFD9B3;border-radius:3px;padding:0 2px;font-weight:700}
-.ans mark.kobo{background:rgba(213,81,129,.25);color:#FFC2D6}.ans mark.boox{background:rgba(25,158,112,.25);color:#B7F0D8}.ans mark.ipad{background:rgba(57,135,229,.25);color:#BFDBFE}.ans mark.other{background:rgba(201,133,0,.25);color:#FDE68A}
+.ans mark.xiaomi{background:rgba(213,81,129,.25);color:#FFC2D6}.ans mark.lenovo{background:rgba(25,158,112,.25);color:#B7F0D8}.ans mark.ipad{background:rgba(57,135,229,.25);color:#BFDBFE}.ans mark.other{background:rgba(201,133,0,.25);color:#FDE68A}
 .cites{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .cites a{font-size:11px;padding:3px 9px;border-radius:999px;border:1px solid var(--line2);color:var(--ink2);background:rgba(12,17,30,.6);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block}
 .cites a:hover{border-color:var(--cyan);color:#fff;text-decoration:none}
@@ -295,7 +295,7 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 <body>
 <div id="boot"><div class="boot-in">
   <div class="boot-logo"><svg width="40" height="40" viewBox="0 0 100 100" fill="none"><rect x="24" y="16" width="52" height="68" rx="8" stroke="#FF9900" stroke-width="6"/><path d="M36 34h28M36 48h28M36 62h18" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/></svg></div>
-  <div class="boot-t">Kindle <span>語られ方ボード</span></div>
+  <div class="boot-t">Fire HD <span>語られ方ボード</span></div>
   <div class="boot-log" id="bootlog"></div>
   <div class="boot-bar"><i></i></div>
   <div class="boot-skip" onclick="bootOff()">クリックでスキップ</div>
@@ -303,7 +303,7 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 <div id="fx"><canvas id="cv"></canvas><div class="blob a"></div><div class="blob b"></div><div class="blob c"></div><div class="grid"></div><div class="scan"></div></div>
 <div id="app">
   <nav id="nav">
-    <div class="brand"><div class="mk"><svg width="22" height="22" viewBox="0 0 100 100" fill="none"><rect x="24" y="16" width="52" height="68" rx="8" stroke="#FF9900" stroke-width="7"/><path d="M36 34h28M36 48h28M36 62h18" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/></svg></div><div><b>Kindle ボード</b><small>KINDLE × VOICE × AI</small></div></div>
+    <div class="brand"><div class="mk"><svg width="22" height="22" viewBox="0 0 100 100" fill="none"><rect x="14" y="24" width="72" height="52" rx="8" stroke="#FF9900" stroke-width="7"/><path d="M30 40h30M30 52h22" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/><circle cx="74" cy="50" r="4" fill="#22D3EE"/></svg></div><div><b>Fire HD ボード</b><small>FIRE × VOICE × AI</small></div></div>
     <div id="navlist"></div>
     <div class="nfoot" id="navfoot"></div>
   </nav>
