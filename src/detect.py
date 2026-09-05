@@ -121,32 +121,42 @@ def _collect(cfg, sn, s, brands, pol, out_t, out_p) -> None:
 
 # ---------------------------------------------------------------- selftest
 def _selftest() -> None:
+    """2026-09 全面刷新（Fireタブレット → Fire TV Stick）に合わせた辞書の退行検知。"""
     cat = catalog()
-    t1 = "Xiaomi Redmi Pad 2も良いですが、Fire HD 10は動画視聴に十分で安価です。iPadは高価。"
+    # 出現順＝第一想起。競合を先に書いた文で rank が入れ替わること
+    t1 = "Google TV Streamerも良いですが、Fire TV Stickは動画視聴に十分で安価です。Apple TVは高価。"
     d1 = detect_brands(t1, cat)
-    assert set(d1) == {"xiaomi", "fire", "ipad"}, d1
-    assert d1["xiaomi"]["rank"] == 1 and d1["fire"]["rank"] == 2 and d1["ipad"]["rank"] == 3, d1
-    t2 = "FIRE HD 8 is cheap; the iPad mini is a premium tablet."
+    assert set(d1) == {"googletv", "firetv", "appletv"}, d1
+    assert d1["googletv"]["rank"] == 1 and d1["firetv"]["rank"] == 2 and d1["appletv"]["rank"] == 3, d1
+    # 大文字・英文でも拾う
+    t2 = "The FIRE TV STICK 4K is cheap; the Apple TV 4K is a premium streamer."
     d2 = detect_brands(t2, cat)
-    assert set(d2) == {"fire", "ipad"}, d2
-    # guard: Fire TV Stick は端末ブランド（タブレット）に数えない
-    t3 = "Fire TV Stickは動画用のドングルです。Fire HD 10はタブレットです。"
+    assert set(d2) == {"firetv", "appletv"}, d2
+    # guard: 旧製品（Fireタブレット）は自社ブランドに数えない
+    t3 = "Fire HD 10はタブレットです。Fire TV Stickはテレビに挿すドングルです。"
     d3 = detect_brands(t3, cat)
-    assert set(d3) == {"fire"} and d3["fire"]["hits"] == 1, d3
-    # Kindle Fire は自社（Fireタブレット）、単独の Kindle は電子書籍リーダー側
-    t4 = "Kindle FireはAmazonのタブレット。読書だけならKindle Paperwhiteの方が向きます。"
+    assert set(d3) == {"firetv"} and d3["firetv"]["hits"] == 1, d3
+    # 口語のカタカナ表記
+    t4 = "ファイヤースティックを買いました。スマートテレビでも同じことができます。"
     d4 = detect_brands(t4, cat)
-    assert set(d4) == {"fire", "kindle"}, d4
-    m = detect_models("Fire HD 10とFire HD 8、Fire Max 11を比較。キッズモデルやプライムビデオも。")
-    assert m.get("fire_hd10") == 1 and m.get("fire_hd8") == 1 and m.get("fire_max11") == 1, m
-    assert m.get("kids") == 1 and m.get("prime_video") == 1, m
+    assert set(d4) == {"firetv", "smarttv"}, d4
+    # モデル検出
+    m = detect_models("Fire TV Stick HDとFire TV Stick 4K Max、Fire TV Cubeを比較。プライムビデオやアレクサも。")
+    assert m.get("stick_hd") == 1 and m.get("stick_4k_max") == 1 and m.get("cube") == 1, m
+    assert m.get("prime_video") == 1 and m.get("alexa") == 1, m
+    # 購入チャネル
     st = detect_stores("Amazonのセール時が最安ですが、ビックカメラやヨドバシの店頭でも買えます。中古ならメルカリも。")
     assert set(st) >= {"amazon", "bic", "yodobashi", "used"}, st
-    r = theme_persona_scan("Fire HD 10はGoogle Playが使えないのでアプリが少なく不便です。", cat)
-    assert any(x["theme"] == "play" and "fire" in x["brands"] and x["pol"] == "neg" for x in r["themes"]), r
-    r2 = theme_persona_scan("子ども用にはFireキッズモデルが安心でおすすめです。", cat)
-    assert any(x["persona"] == "kids_parent" for x in r2["personas"]), r2
-    print("detect selftest: OK (8/8)")
+    # テーマ × 極性
+    r = theme_persona_scan("Fire TV Stickはアプリが入らないので不便です。", cat)
+    assert any(x["theme"] == "os" and "firetv" in x["brands"] and x["pol"] == "neg" for x in r["themes"]), r
+    # サービス名（TVer）テーマ
+    r2 = theme_persona_scan("Fire TV StickならTVerの見逃し配信もテレビで見られます。", cat)
+    assert any(x["theme"] == "tver" and "firetv" in x["brands"] for x in r2["themes"]), r2
+    # ペルソナ
+    r3 = theme_persona_scan("子ども用にFire TV Stickを買うか迷っています。", cat)
+    assert any(x["persona"] == "family_kids" for x in r3["personas"]), r3
+    print("detect selftest: OK (9/9)")
 
 
 if __name__ == "__main__":

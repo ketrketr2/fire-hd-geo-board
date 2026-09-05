@@ -5,11 +5,11 @@ data/raw/<date>/<name>.json に保存する（集計は tools/aggregate.py が�
   python src/collect_extra.py --cap 6
 
 収集項目:
-  01 keywords_search_volume  Google広告 月間検索数（Kindle関連 約100語・12か月推移）
-  02 labs_suggestions        DataForSEO Labs キーワード候補（fire hd / タブレット）
+  01 keywords_search_volume  Google広告 月間検索数（Fire TV・テレビ視聴関連 約90語・12か月推移）
+  02 labs_suggestions        DataForSEO Labs キーワード候補（config/settings.yaml の seeds.labs）
   03 amazon_serp             amazon.co.jp 検索結果（順位・価格・評価・先月の購入数）
   04 amazon_asin             主要ASINの商品情報＋上位レビュー
-  05 app_apple / app_google  Kindleアプリの評価・レビュー（標準キュー・ポーリング）
+  05 app_apple / app_google  テレビ視聴アプリ（TVer / Prime Video）の評価・レビュー
   06 youtube                 YouTube検索上位（再生数）
   07 news                    Googleニュース
   08 content_summary         Content Analysis（Web上の語られ方・感情）
@@ -57,6 +57,11 @@ def step(name: str, fn) -> None:
         save(name, {"error": err})
 
 
+def _seeds() -> dict:
+    """収集の種キーワード。config/settings.yaml の seeds を単一の出所とする。"""
+    return load("settings")["seeds"]
+
+
 # ---- 01 需要 ----
 def kw_volume():
     groups = load("keywords")["groups"]
@@ -69,7 +74,7 @@ def kw_volume():
 # ---- 02 Labs ----
 def labs_suggestions():
     out = {}
-    for kw, lim in (("fire hd", 300), ("タブレット おすすめ", 200)):
+    for kw, lim in _seeds()["labs"]:
         t = dfs.post("dataforseo_labs/google/keyword_suggestions/live",
                      [{"keyword": kw, "location_code": 2392, "language_code": "ja", "limit": lim,
                        "include_seed_keyword": True, "include_serp_info": False,
@@ -103,8 +108,9 @@ def amazon_asin(serp: dict | None):
                 asin = it.get("data_asin")
                 if not asin or asin in seen:
                     continue
-                if any(w in title for w in ("fire hd", "fireタブレット", "タブレット", "ipad", "android")) and \
-                   not any(w in title for w in ("ケース", "カバー", "フィルム", "スタンド", "充電器", "ペン先", "替え芯", "保護")):
+                sd = _seeds()
+                if any(w in title for w in sd["amazon_title_include"]) and \
+                   not any(w in title for w in sd["amazon_title_exclude"]):
                     seen.add(asin)
                     asins.append((asin, it.get("title") or ""))
     asins = asins[: cfg.get("max_asin_lookups", 10)]
@@ -162,8 +168,8 @@ def content_summary():
                             "internal_list_limit": 20, "positive_connotation_threshold": 0.4,
                             "sentiments_connotation_threshold": 0.4}])
         out[kw] = t.get("result") if t else {"error": err}
-    t, err = dfs.safe("ca_search:fire", dfs.post, "content_analysis/search/live",
-                      [{"keyword": "fire hd", "filters": [["language", "=", "ja"]], "search_mode": "one_per_domain",
+    t, err = dfs.safe("ca_search:self", dfs.post, "content_analysis/search/live",
+                      [{"keyword": _seeds()["self_kw"], "filters": [["language", "=", "ja"]], "search_mode": "one_per_domain",
                         "limit": 100, "order_by": ["content_info.date_published,desc"]}])
     out["_search_self"] = t.get("result") if t else {"error": err}
     return out
@@ -207,10 +213,11 @@ def llm_mentions():
     if not ok:
         return {"jp_supported": False}
     base = {"location_code": 2392, "language_code": "ja", "platform": "google", "limit": 100}
+    _self_kw = _seeds()["self_kw"]
     shapes = [
-        ("keyword_list", {"target": [{"keyword": "fire hd", "search_filter": "include", "search_scope": "answer"}]}),
-        ("keyword_flat", {"target": {"keyword": "fire hd", "search_filter": "include", "search_scope": "answer"}}),
-        ("keyword_only", {"keyword": "fire hd"}),
+        ("keyword_list", {"target": [{"keyword": _self_kw, "search_filter": "include", "search_scope": "answer"}]}),
+        ("keyword_flat", {"target": {"keyword": _self_kw, "search_filter": "include", "search_scope": "answer"}}),
+        ("keyword_only", {"keyword": _self_kw}),
         ("domain_list", {"target": [{"domain": "amazon.co.jp", "search_filter": "include", "search_scope": "answer"}]}),
         ("domain_only", {"domain": "amazon.co.jp"}),
     ]
@@ -238,21 +245,27 @@ def chatgpt_scraper():
     return out
 
 
-# ---- 12 トレンド（保険）----
+# ---- 12 トレンド（DataForSEO google_trends。pytrendsが429で落ちる場合の実データ源）----
+def _tr(name: str, keywords: list, time_range: str, item_types: list, type_: str = "web"):
+    t, err = dfs.safe(f"trends:{name}", dfs.post, "keywords_data/google_trends/explore/live",
+                      [{"keywords": keywords, "location_code": 2392, "language_code": "ja", "type": type_,
+                        "time_range": time_range, "item_types": item_types}])
+    return t.get("result") if t else {"error": err}
+
+
 def trends():
+    sd = _seeds()
     out = {}
-    t, err = dfs.safe("trends:brands", dfs.post, "keywords_data/google_trends/explore/live",
-                      [{"keywords": ["Kindle", "Kobo", "BOOX", "電子書籍リーダー", "Kindle Unlimited"], "location_code": 2392,
-                        "language_code": "ja", "type": "web", "time_range": "past_12_months", "item_types": ["google_trends_graph"]}])
-    out["brands_12m"] = t.get("result") if t else {"error": err}
-    t, err = dfs.safe("trends:queries", dfs.post, "keywords_data/google_trends/explore/live",
-                      [{"keywords": ["Kindle"], "location_code": 2392, "language_code": "ja", "type": "web",
-                        "time_range": "past_12_months", "item_types": ["google_trends_queries_list", "google_trends_topics_list"]}])
-    out["self_queries"] = t.get("result") if t else {"error": err}
-    t, err = dfs.safe("trends:youtube", dfs.post, "keywords_data/google_trends/explore/live",
-                      [{"keywords": ["Kindle", "Kobo"], "location_code": 2392, "language_code": "ja", "type": "youtube",
-                        "time_range": "past_12_months", "item_types": ["google_trends_graph"]}])
-    out["youtube_12m"] = t.get("result") if t else {"error": err}
+    out["brands_12m"] = _tr("brands_12m", sd["trends_brands"], "past_12_months", ["google_trends_graph"])
+    out["brands_5y"] = _tr("brands_5y", sd.get("trends_5y") or sd["trends_brands"][:4], "past_5_years",
+                           ["google_trends_graph"])
+    if sd.get("trends_models"):
+        out["models_12m"] = _tr("models_12m", sd["trends_models"], "past_12_months", ["google_trends_graph"])
+    out["self_queries"] = _tr("self_queries", sd["trends_self"], "past_12_months",
+                              ["google_trends_queries_list", "google_trends_topics_list"])
+    out["self_map"] = _tr("self_map", sd["trends_self"], "past_12_months", ["google_trends_map"])
+    out["youtube_12m"] = _tr("youtube_12m", sd["trends_youtube"], "past_12_months",
+                             ["google_trends_graph"], type_="youtube")
     return out
 
 
