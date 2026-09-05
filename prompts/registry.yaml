@@ -1,49 +1,52 @@
 # クエリレジストリ（唯一の正）。IDは絶対に振り直さない（時系列が壊れる）。
 # family: A=カテゴリ型 B=ペルソナ内包 C=比較型 D=指名型 P=購入チャネル型 H=ネガ検証
-# named: true = クエリにFireを含む（言及率・第一想起の分母から除外＝ファネル原則）
+# named: true = クエリにFire TVを含む（言及率・第一想起の分母から除外＝ファネル原則）
 # compare: true = 比較クエリ（分母除外・勝敗分析に使用）
-version: 1
-updated_at: '2026-09-04'
+# 2026-09-05 全面刷新: 計測対象を Fireタブレット → Fire TV（テレビ用ストリーミング端末）へ差し替え。
+#   旧 f001-f042 は対象製品が異なるため凍結し、時系列を接続しない（data/snapshots は保持）。
+#   新採番 t001-t042 は 2026-09 を起点として、以後 IDを振り直さない。
+version: 2
+updated_at: '2026-09-05'
 prompts:
-- {id: f001, family: A, named: false, compare: false, tier: active, keyword: タブレット おすすめ, text: タブレットのおすすめを教えてください}
-- {id: f002, family: A, named: false, compare: false, tier: active, keyword: タブレット 2026, text: 2026年に買うべきタブレットはどれですか？}
-- {id: f003, family: A, named: false, compare: false, tier: active, keyword: タブレット 選び方, text: 初めてタブレットを買います。選び方とおすすめ機種を教えてください}
-- {id: f004, family: A, named: false, compare: false, tier: active, keyword: タブレット 安い, text: 2万円以下で買えるおすすめのタブレットはありますか？}
-- {id: f005, family: A, named: false, compare: false, tier: active, keyword: タブレット 動画視聴, text: 動画視聴に使うタブレットのおすすめを教えてください}
-- {id: f006, family: A, named: false, compare: false, tier: active, keyword: android タブレット おすすめ, text: Androidタブレットでコスパの良い機種はどれですか？}
-- {id: f007, family: A, named: false, compare: false, tier: active, keyword: タブレット 10インチ, text: 10インチくらいの大画面タブレットでおすすめはありますか？}
-- {id: f008, family: A, named: false, compare: false, tier: active, keyword: タブレット 8インチ, text: 片手で持てる8インチ前後のタブレットのおすすめを教えてください}
-- {id: f009, family: A, named: false, compare: false, tier: active, keyword: 格安タブレット 選び方, text: 格安タブレットで失敗しない選び方を教えてください}
-- {id: f010, family: A, named: false, compare: false, tier: active, keyword: タブレット 電子書籍, text: マンガや電子書籍を読むのに向いたタブレットはどれですか？}
-- {id: f011, family: B, named: false, compare: false, tier: active, keyword: 子供用 タブレット, text: 小学生の子どもに持たせるタブレットのおすすめを教えてください}
-- {id: f012, family: B, named: false, compare: false, tier: active, keyword: キッズタブレット 3歳, text: 3歳の子ども向けに、動画と知育アプリが使えるタブレットはありますか？}
-- {id: f013, family: B, named: false, compare: false, tier: active, keyword: シニア タブレット, text: 70代の親にプレゼントするタブレットは何が良いですか？}
-- {id: f014, family: B, named: false, compare: false, tier: active, keyword: 学習用 タブレット, text: 中学生のオンライン学習用にタブレットを買うならどれですか？}
-- {id: f015, family: B, named: false, compare: false, tier: active, keyword: タブレット カーナビ, text: 車で動画やナビに使うタブレットのおすすめはありますか？}
-- {id: f016, family: B, named: false, compare: false, tier: active, keyword: キッチン タブレット, text: キッチンでレシピや音楽に使う小型タブレットのおすすめは？}
-- {id: f017, family: B, named: false, compare: false, tier: active, keyword: 仕事 サブ タブレット, text: 仕事のサブ端末として安く使えるタブレットはどれですか？}
-- {id: f018, family: B, named: false, compare: false, tier: active, keyword: タブレット プレゼント, text: タブレットをプレゼントしたいのですが、1万円台から2万円台で喜ばれる機種はありますか？}
-- {id: f019, family: C, named: true,  compare: true,  tier: active, keyword: fire hd 10 ipad 比較, text: Fire HD 10とiPad（無印）はどちらを買うべきですか？}
-- {id: f020, family: C, named: true,  compare: true,  tier: active, keyword: fire hd redmi pad 比較, text: Fire HD 10とXiaomi Redmi Pad 2を比較してください}
-- {id: f021, family: C, named: true,  compare: true,  tier: active, keyword: fire hd lavie tab 比較, text: Fire HD 10とNEC LAVIE Tabはどちらが良いですか？}
-- {id: f022, family: C, named: true,  compare: true,  tier: active, keyword: fire hd 8 10 違い, text: Fire HD 8とFire HD 10の違いを教えてください。どちらを選ぶべきですか？}
-- {id: f023, family: C, named: false, compare: true,  tier: active, keyword: 無名タブレット 大手 比較, text: Amazonで売っている1万円前後の無名ブランドのタブレットと、大手メーカーのタブレットはどちらが良いですか？}
-- {id: f024, family: C, named: false, compare: true,  tier: active, keyword: ipad android 比較, text: iPadとAndroidタブレット、初心者はどちらを選ぶべきですか？}
-- {id: f025, family: C, named: true,  compare: true,  tier: active, keyword: fire max 11 ipad 代わり, text: Fire Max 11はiPadの代わりになりますか？}
-- {id: f026, family: C, named: false, compare: true,  tier: active, keyword: キッズタブレット 比較, text: 子ども用には専用のキッズタブレットと、普通のタブレットに制限をかけるのと、どちらが良いですか？}
-- {id: f027, family: D, named: true,  compare: false, tier: active, keyword: fire hd 10 評判, text: Fire HD 10の評判を教えてください。買っても後悔しませんか？}
-- {id: f028, family: D, named: true,  compare: false, tier: active, keyword: fire hd 8 レビュー, text: Fire HD 8（2024年モデル）の実際の使い勝手はどうですか？}
-- {id: f029, family: D, named: true,  compare: false, tier: active, keyword: fire max 11 レビュー, text: Fire Max 11はどんな人に向いていますか？}
-- {id: f030, family: D, named: true,  compare: false, tier: active, keyword: fire キッズモデル 評判, text: Fireタブレットのキッズモデルは買う価値がありますか？}
-- {id: f031, family: D, named: true,  compare: false, tier: active, keyword: fire タブレット できること, text: Fireタブレットで何ができますか？できないことも教えてください}
-- {id: f032, family: D, named: true,  compare: false, tier: active, keyword: fire タブレット セール, text: Fireタブレットが安くなる時期はいつですか？}
-- {id: f033, family: P, named: false, compare: false, tier: active, keyword: タブレット どこで買う, text: タブレットはどこで買うのが一番お得ですか？}
-- {id: f034, family: P, named: true,  compare: false, tier: active, keyword: fire タブレット 店頭, text: Fireタブレットは家電量販店の店頭で買えますか？実機は見られますか？}
-- {id: f035, family: P, named: false, compare: false, tier: active, keyword: タブレット 中古 整備済み, text: タブレットを中古や整備済み品で買うのはありですか？}
-- {id: f036, family: P, named: false, compare: false, tier: active, keyword: タブレット セール時期, text: タブレットを安く買える時期とセールを教えてください}
-- {id: f037, family: P, named: false, compare: false, tier: active, keyword: タブレット 量販店 ネット, text: タブレットは家電量販店とネット通販、どちらで買うべきですか？}
-- {id: f038, family: H, named: true,  compare: false, tier: active, keyword: fire タブレット デメリット, text: Fireタブレットのデメリットを教えてください}
-- {id: f039, family: H, named: true,  compare: false, tier: active, keyword: fire hd google play, text: FireタブレットでGoogle Playは使えますか？使えない場合どうなりますか？}
-- {id: f040, family: H, named: true,  compare: false, tier: active, keyword: fire タブレット 買ってはいけない, text: Fireタブレットは買ってはいけないと聞きましたが本当ですか？}
-- {id: f041, family: H, named: false, compare: false, tier: active, keyword: 格安タブレット リスク, text: 1万円台の格安タブレットを買うリスクはありますか？}
-- {id: f042, family: H, named: false, compare: false, tier: active, keyword: タブレット サポート 寿命, text: タブレットのOSアップデートやサポートはどのくらい続きますか？買い替えの目安は？}
+- {id: t001, family: A, named: false, compare: false, tier: active, keyword: テレビ ネット動画 見る方法, text: テレビでYouTubeやNetflixを見るにはどうすればいいですか？}
+- {id: t002, family: A, named: false, compare: false, tier: active, keyword: ストリーミングデバイス おすすめ, text: テレビのHDMIに挿すストリーミング端末のおすすめを教えてください}
+- {id: t003, family: A, named: false, compare: false, tier: active, keyword: テレビ youtube 見る方法, text: テレビでYouTubeを見る一番簡単で安い方法は何ですか？}
+- {id: t004, family: A, named: false, compare: false, tier: active, keyword: 古いテレビ ネット接続, text: 10年くらい前のテレビをネット動画が見られるようにする方法はありますか？}
+- {id: t005, family: A, named: false, compare: false, tier: active, keyword: 動画配信 機器 選び方, text: 動画配信をテレビで見るための機器の選び方を教えてください}
+- {id: t006, family: A, named: false, compare: false, tier: active, keyword: テレビ netflix 必要なもの, text: いま使っているテレビでNetflixを見たいのですが、何が必要ですか？}
+- {id: t007, family: A, named: false, compare: false, tier: active, keyword: テレビ tver 見る方法, text: テレビでTVerを見る方法を教えてください}
+- {id: t008, family: A, named: false, compare: false, tier: active, keyword: 4kテレビ 配信 4k画質, text: 4Kテレビで動画配信を4K画質で見るには何が必要ですか？}
+- {id: t009, family: A, named: false, compare: false, tier: active, keyword: テレビ 動画 1万円以下, text: 1万円以下でテレビをネット動画対応にできますか？}
+- {id: t010, family: A, named: false, compare: false, tier: active, keyword: 寝室 古いテレビ 動画, text: 寝室にある古い液晶テレビで動画配信を見たいです。どうすればいいですか？}
+- {id: t011, family: B, named: false, compare: false, tier: active, keyword: 実家 親 テレビ youtube, text: 離れて暮らす親がテレビでYouTubeを見られるようにしたいです。何を送ればいいですか？}
+- {id: t012, family: B, named: false, compare: false, tier: active, keyword: 一人暮らし テレビ 動画配信, text: 一人暮らしを始めます。テレビで動画配信を見るには何を買えばいいですか？}
+- {id: t013, family: B, named: false, compare: false, tier: active, keyword: 子ども テレビ youtube 制限, text: 子どもがテレビでYouTubeを見すぎます。制限をかける方法を教えてください}
+- {id: t014, family: B, named: false, compare: false, tier: active, keyword: 車中泊 動画 見る, text: 車中泊やキャンプで動画配信を見たいです。どんな機器と準備が必要ですか？}
+- {id: t015, family: B, named: false, compare: false, tier: active, keyword: プロジェクター netflix, text: プロジェクターでNetflixやYouTubeを見るには何が必要ですか？}
+- {id: t016, family: B, named: false, compare: false, tier: active, keyword: dazn スポーツ テレビ, text: DAZNやスポーツ中継をテレビの大画面で見る方法を教えてください}
+- {id: t017, family: B, named: false, compare: false, tier: active, keyword: 高齢の親 操作 簡単 動画, text: 高齢の親でも操作できる、テレビで動画を見る機器はありますか？}
+- {id: t018, family: B, named: false, compare: false, tier: active, keyword: 出張 ホテル テレビ 動画, text: 出張先や単身赴任先のテレビで動画配信を見る方法はありますか？}
+- {id: t019, family: C, named: true,  compare: true,  tier: active, keyword: fire tv google tv streamer 比較, text: Fire TV StickとGoogle TV Streamerはどちらを買うべきですか？}
+- {id: t020, family: C, named: true,  compare: true,  tier: active, keyword: fire tv apple tv 比較, text: Fire TV StickとApple TV 4Kの違いは何ですか？値段の差ほどの価値はありますか？}
+- {id: t021, family: C, named: false, compare: true,  tier: active, keyword: スマートテレビ ストリーミング端末 比較, text: スマートテレビを持っているなら、別のストリーミング端末は不要ですか？}
+- {id: t022, family: C, named: true,  compare: true,  tier: active, keyword: fire tv stick select plus max 違い, text: Fire TV Stick 4K Select・4K Plus・4K Maxの違いを初心者にも分かるように教えてください}
+- {id: t023, family: C, named: true,  compare: true,  tier: active, keyword: vega os fire os 違い, text: Fire TV Stickの新しいOS（Vega）と従来のFire OSでは、使い勝手に決定的な違いがありますか？}
+- {id: t024, family: C, named: true,  compare: true,  tier: active, keyword: chromecast fire tv どっち, text: ChromecastとFire TV Stick、いま買うならどちらですか？}
+- {id: t025, family: C, named: false, compare: true,  tier: active, keyword: ネット対応テレビ 買い替え 比較, text: テレビを買い替えるとき、ネット対応テレビを買うのと、安いテレビに外付け端末を足すのはどちらが得ですか？}
+- {id: t026, family: C, named: false, compare: true,  tier: active, keyword: ゲーム機 動画視聴 比較, text: PS5やゲーム機で動画配信を見るのと、専用のストリーミング端末を買うのはどちらが良いですか？}
+- {id: t027, family: D, named: true,  compare: false, tier: active, keyword: fire tv stick 評判, text: Fire TV Stickの評判を教えてください。買っても後悔しませんか？}
+- {id: t028, family: D, named: true,  compare: false, tier: active, keyword: fire tv stick hd レビュー, text: 新しいFire TV Stick HD（2026年モデル）の実際の使い勝手はどうですか？}
+- {id: t029, family: D, named: true,  compare: false, tier: active, keyword: fire tv stick できること, text: Fire TV Stickで何ができますか？できないことも教えてください}
+- {id: t030, family: D, named: true,  compare: false, tier: active, keyword: fire tv stick 4k select 評判, text: Fire TV Stick 4K Selectは買う価値がありますか？実際の評価を教えてください}
+- {id: t031, family: D, named: true,  compare: false, tier: active, keyword: fire tv stick セール, text: Fire TV Stickが安くなる時期はいつですか？}
+- {id: t032, family: D, named: true,  compare: false, tier: active, keyword: fire tv stick 寿命, text: Fire TV Stickの寿命は何年くらいですか？買い替えのサインを教えてください}
+- {id: t033, family: P, named: false, compare: false, tier: active, keyword: ストリーミング端末 どこで買う, text: テレビ用のストリーミング端末はどこで買うのが一番お得ですか？}
+- {id: t034, family: P, named: true,  compare: false, tier: active, keyword: fire tv stick 店頭, text: Fire TV Stickは家電量販店の店頭で買えますか？実機は見られますか？}
+- {id: t035, family: P, named: true,  compare: false, tier: active, keyword: fire tv stick 中古 メルカリ, text: Fire TV Stickをメルカリの中古や新品未開封で買っても大丈夫ですか？}
+- {id: t036, family: P, named: false, compare: false, tier: active, keyword: ストリーミング端末 セール時期, text: テレビ用ストリーミング端末を安く買える時期とセールを教えてください}
+- {id: t037, family: P, named: false, compare: false, tier: active, keyword: 量販店 ネット通販 どちら, text: ストリーミング端末は家電量販店とネット通販、どちらで買うべきですか？}
+- {id: t038, family: H, named: true,  compare: false, tier: active, keyword: fire tv stick デメリット, text: Fire TV Stickのデメリットを教えてください}
+- {id: t039, family: H, named: true,  compare: false, tier: active, keyword: fire tv stick アプリ 入らない, text: Fire TV Stickは好きなアプリを自由に入れられますか？入れられない場合は何が困りますか？}
+- {id: t040, family: H, named: true,  compare: false, tier: active, keyword: fire tv stick 買ってはいけない, text: Fire TV Stickは買ってはいけないと言われることがありますが本当ですか？}
+- {id: t041, family: H, named: true,  compare: false, tier: active, keyword: fire tv 広告 消す, text: Fire TV Stickのホーム画面に出る広告やPR映像を消す方法はありますか？}
+- {id: t042, family: H, named: false, compare: false, tier: active, keyword: ストリーミング端末 サポート 寿命, text: ストリーミング端末のOSアップデートやサポートはどのくらい続きますか？買い替えの目安は？}
