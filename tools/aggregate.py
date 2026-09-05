@@ -135,16 +135,92 @@ def sales_sample() -> dict:
 
 
 # ------------------------------------------------------------------ トレンド
+def _dfs_graph(res) -> dict | None:
+    """DataForSEO google_trends_graph → pytrends互換の {keywords, dates, values}。"""
+    for r in (res or []) if isinstance(res, list) else []:
+        for it in r.get("items") or []:
+            if it.get("type") != "google_trends_graph":
+                continue
+            kws = it.get("keywords") or r.get("keywords") or []
+            rows = it.get("data") or []
+            if not kws or not rows:
+                continue
+            dates = [x.get("date_from") for x in rows]
+            vals = {k: [(x.get("values") or [None] * len(kws))[i] or 0 for x in rows] for i, k in enumerate(kws)}
+            return {"keywords": kws, "timeframe": r.get("time_range") or "", "dates": dates, "values": vals}
+    return None
+
+
+def _dfs_queries(res) -> dict | None:
+    """google_trends_queries_list / topics_list → {top:[{query,value}], rising:[...]}。"""
+    out = {"top": [], "rising": []}
+    for r in (res or []) if isinstance(res, list) else []:
+        for it in r.get("items") or []:
+            if it.get("type") not in ("google_trends_queries_list", "google_trends_topics_list"):
+                continue
+            d = it.get("data") or {}
+            for side in ("top", "rising"):
+                for x in (d.get(side) or []):
+                    q = x.get("query") or x.get("topic_title")
+                    if q and not any(e["query"] == q for e in out[side]):
+                        out[side].append({"query": q, "value": x.get("value")})
+    return out if (out["top"] or out["rising"]) else None
+
+
+def _dfs_map(res) -> dict | None:
+    """google_trends_map → {都道府県名: 値}。"""
+    out = {}
+    for r in (res or []) if isinstance(res, list) else []:
+        for it in r.get("items") or []:
+            if it.get("type") != "google_trends_map":
+                continue
+            for x in (it.get("data") or []):
+                name = x.get("geo_name") or x.get("geo_id")
+                vals = x.get("values") or []
+                v = vals[0] if vals else x.get("value")
+                if name and isinstance(v, (int, float)):
+                    out[name] = int(v)
+    return out or None
+
+
+def _trends_from_dfs() -> dict | None:
+    """pytrends が取れなかった回でも、付帯収集の Google Trends（DataForSEO）を実データとして使う。"""
+    d = latest_raw_dir()
+    raw = read_json(d / "trends.json") if d else None
+    if not raw:
+        return None
+    series = {}
+    for key in ("brands_12m", "brands_5y", "models_12m"):
+        g = _dfs_graph(raw.get(key))
+        if g:
+            series[key] = g
+    if not series:
+        return None
+    self_kw = (series.get("brands_12m") or {}).get("keywords", [None])[0]
+    out = {"pulled_at": d.name, "source": "dataforseo", "series": series, "region": {}, "related": {}}
+    q = _dfs_queries(raw.get("self_queries"))
+    if q and self_kw:
+        out["related"][self_kw] = q
+    m = _dfs_map(raw.get("self_map"))
+    if m and self_kw:
+        out["region"][self_kw] = m
+    return out
+
+
 def trends_block() -> dict | None:
     t = read_json(DATA / "trends.json")
-    if not t:
-        return None
     # 2026-09 全面刷新: 旧製品（Fire HD タブレット）のキーワードで取得された
     # トレンドは別製品の需要なので使わない。Fire TV Stick を含むものだけ採用する。
-    _brands = ((t.get("series") or {}).get("brands_12m") or {}).get("values") or {}
-    if _brands and "Fire TV Stick" not in _brands:
+    if t:
+        _brands = ((t.get("series") or {}).get("brands_12m") or {}).get("values") or {}
+        if _brands and "Fire TV Stick" not in _brands:
+            t = None
+    if not t:
+        t = _trends_from_dfs()
+    if not t:
         return None
-    out = {"pulled_at": t.get("pulled_at"), "series": t.get("series"), "region": t.get("region"), "related": t.get("related")}
+    out = {"pulled_at": t.get("pulled_at"), "source": t.get("source") or "pytrends",
+           "series": t.get("series"), "region": t.get("region"), "related": t.get("related")}
     s = (t.get("series") or {}).get("brands_12m")
     if s:
         vals = s["values"]
@@ -506,7 +582,9 @@ def status_block(ai: dict, extras: dict, trends: dict | None) -> list[dict]:
          "how": "会員数・アクティブ率の週次CSVを配置"},
         {"id": "market", "label": "市場統計（総務省・公取委・REVISIO・CA）", "state": "live", "src": "公開統計（出典リンク付き）", "how": "四半期・年次で手動更新"},
         {"id": "price", "label": "公式価格・セール履歴・量販店価格", "state": "live", "src": "Amazon公式 / 量販店EC / 報道", "how": "セール毎に追記"},
-        {"id": "trends", "label": "Google検索需要（トレンド）", "state": "live" if trends else "wait", "src": "Google Trends（pytrends）", "how": "毎ラウンド自動更新"},
+        {"id": "trends", "label": "Google検索需要（トレンド）", "state": "live" if trends else "wait",
+         "src": "Google Trends（DataForSEO）" if (trends or {}).get("source") == "dataforseo" else "Google Trends（pytrends）",
+         "how": "毎ラウンド自動更新"},
         {"id": "kwvol", "label": "検索ボリューム（月間）", "state": "live" if ex.get("keywords") else "wait", "src": "DataForSEO Google Ads", "how": "毎ラウンド自動更新"},
         {"id": "ai", "label": "AI6面の語られ方（実クエリ42本・テレビ視聴文脈）", "state": "live" if ai.get("measured") else "wait", "src": "DataForSEO AI Optimization / SERP", "how": "毎週月曜 自動計測"},
         {"id": "shelf", "label": "Amazon.co.jp の棚（順位・価格・評価）", "state": "live", "src": "Amazon.co.jp 検索結果をChromeで実測", "how": "DataForSEO Merchant 接続後は自動更新に切替"},
