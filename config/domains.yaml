@@ -8,26 +8,34 @@ owned_domains:
   - amazon.jobs
   - amazon-press.jp
 competitor_domains:
+  # テレビ用ストリーミング端末・スマートテレビ・ゲーム機の各社（2026-09 全面刷新）
   - apple.com
   - support.apple.com
+  - store.google.com
+  - tv.google
+  - chromecast.com
+  - roku.com
   - mi.com
   - xiaomi.com
-  - lenovo.com
-  - nec-lavie.jp
-  - necpc.co.jp
+  - jp.xiaomi.com
+  - sony.jp
+  - sony.com
+  - playstation.com
+  - panasonic.jp
+  - panasonic.com
+  - sharp.co.jp
+  - toshiba.co.jp
+  - regza.co.jp
+  - hisense.co.jp
+  - tcl.com
+  - lg.com
   - samsung.com
-  - galaxymobile.jp
-  - consumer.huawei.com
-  - oppo.com
-  - teclast.com
-  - alldocube.com
-  - irisohyama.co.jp
-  - irisplaza.co.jp
-  - aiwa-digital.com
-  - microsoft.com
-  - dynabook.com
-  - blackview.hk
-  - headwolf.com
+  - nintendo.com
+  - nintendo.co.jp
+  - jcom.co.jp
+  - aladdinx.jp
+  - anker.com
+  - nebula.us
 retail_domains:
   - biccamera.com
   - yodobashi.com

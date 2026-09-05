@@ -69,6 +69,23 @@ news_keywords: ["Fire TV Stick", "Fire TV", "ストリーミングデバイス �
 content_keywords: ["fire tv stick", "fire tv", "ファイヤースティック", "ストリーミングデバイス"]
 scraper_prompt_ids: ["t001", "t002", "t007", "t011", "t019", "t027", "t033", "t038"]
 
+# ---- 収集の種キーワード（旧製品の直書きを排除し、ここで一元管理）----
+seeds:
+  self_kw: "fire tv stick"                       # Content Analysis / LLM Mentions の自社キーワード
+  labs:                                          # Labs キーワード候補の種（語, 取得上限）
+    - ["fire tv stick", 300]
+    - ["ストリーミングデバイス おすすめ", 200]
+  amazon_title_include: ["fire tv", "firetv", "ファイヤースティック", "ファイアスティック", "ファイヤーtv",
+                         "streaming stick", "chromecast", "google tv", "apple tv", "roku",
+                         "ストリーミング", "メディアプレーヤー", "セットトップ"]
+  amazon_title_exclude: ["ケース", "カバー", "フィルム", "スタンド", "充電器", "保護", "収納",
+                         "リモコンカバー", "hdmi 延長", "延長ケーブル", "ホルダー", "変換アダプタ"]
+  trends_brands: ["Fire TV Stick", "Chromecast", "Apple TV", "TVer", "スマートテレビ"]
+  trends_5y: ["Fire TV Stick", "Chromecast", "TVer", "スマートテレビ"]
+  trends_models: ["Fire TV Stick 4K", "Fire TV Stick HD", "Fire TV Cube", "ファイヤースティック", "Fire TV Stick セール"]
+  trends_self: ["Fire TV Stick"]
+  trends_youtube: ["Fire TV Stick", "Chromecast"]
+
 sampling:
   runs_per_prompt: 1
 
