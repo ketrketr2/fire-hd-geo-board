@@ -1,14 +1,14 @@
 # ============================================================
-#  Fire HD GEOボード 設定（全閾値・面・予算はここで管理。コードは触らない）
+#  Fire TV GEOボード 設定（全閾値・面・予算はここで管理。コードは触らない）
 # ============================================================
 site:
-  title: "Fire HD 語られ方ボード"
-  brand: "Fireタブレット"
-  owner: "Amazon Fireタブレット 国内販売（Amazon.co.jp）"
+  title: "Fire TV 語られ方ボード"
+  brand: "Fire TV"
+  owner: "Amazon Fire TV（テレビ用ストリーミング端末）国内販売（Amazon.co.jp）"
   market: "Japan"
   language: "ja"
   timezone: "Asia/Tokyo"
-  gate_marker: "FIRE_BOARD"
+  gate_marker: "FIRETV_BOARD"
 
 # ---- 計測するAI面（6面）----
 # chatgpt/gemini/aio/aimode は御殿場・トヨタ案件で1,700呼以上検証済みの仕様。
@@ -57,17 +57,17 @@ amazon:
   location_code: 2392
   language_code: "ja_JP"
   se_domain: "amazon.co.jp"
-  search_keywords: ["タブレット", "fire hd", "android タブレット", "子供用 タブレット", "タブレット 10インチ"]
+  search_keywords: ["ストリーミングデバイス", "fire tv stick", "chromecast", "テレビ youtube", "メディアプレーヤー テレビ"]
   max_asin_lookups: 10
 
 apps:
-  apple_app_id: "545519333"      # Amazon ショッピングアプリ（App Store 日本）※Fire本体はストア外のため周辺アプリで代替
-  google_app_id: "com.amazon.avod.thirdpartyclient"   # Prime Video（Fireの主用途アプリ）
+  apple_app_id: "1234595891"     # TVer（App Store 日本）※Fire TV本体はストア外のため、テレビ視聴の主要アプリで代替
+  google_app_id: "com.amazon.avod.thirdpartyclient"   # Prime Video（Fire TVの主用途アプリ）
 
-youtube_keywords: ["タブレット おすすめ", "Fire HD 10 レビュー", "子供用 タブレット おすすめ", "格安タブレット 2026", "Fire HD Google Play"]
-news_keywords: ["Fireタブレット", "Amazon タブレット", "タブレット 新製品"]
-content_keywords: ["fire hd", "fireタブレット", "amazon タブレット", "格安タブレット"]
-scraper_prompt_ids: ["f001", "f002", "f006", "f009", "f019", "f027", "f033", "f038"]
+youtube_keywords: ["Fire TV Stick レビュー", "Fire TV Stick 4K Select", "テレビ YouTube 見る方法", "Google TV Streamer 比較", "Fire TV Stick 設定"]
+news_keywords: ["Fire TV Stick", "Fire TV", "ストリーミングデバイス 新製品"]
+content_keywords: ["fire tv stick", "fire tv", "ファイヤースティック", "ストリーミングデバイス"]
+scraper_prompt_ids: ["t001", "t002", "t007", "t011", "t019", "t027", "t033", "t038"]
 
 sampling:
   runs_per_prompt: 1

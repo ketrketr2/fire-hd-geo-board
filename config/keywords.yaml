@@ -1,12 +1,13 @@
 # Google広告 検索ボリューム（keywords_data/google_ads/search_volume）で需要を測るキーワード群。
 # 1呼び出しで最大1000語・単価一定。カテゴリはボードの需要マップ用。
+# 2026-09-05 全面刷新：Fireタブレット → Fire TV（テレビ用ストリーミング端末）。口語カタカナ表記を意図的に含める。
 groups:
-  brand:      ["fire hd", "fireタブレット", "fire タブレット", "amazon タブレット", "アマゾン タブレット", "fire hd おすすめ", "fireタブレット 比較", "fireタブレット 評判", "fireタブレット 新型", "fire タブレット 2026"]
-  models:     ["fire hd 10", "fire hd 8", "fire max 11", "fire 7", "fire hd 10 キッズモデル", "fire hd 8 キッズモデル", "fire キッズプロ", "fire hd 10 第13世代", "fire hd 8 2024", "fire hd 10 plus"]
-  price:      ["fireタブレット セール", "fire hd 10 価格", "fire hd 8 値段", "タブレット 安い", "格安タブレット", "タブレット 1万円", "タブレット 2万円以下", "fire タブレット プライムデー", "fire タブレット ブラックフライデー", "タブレット 中古"]
-  channel:    ["タブレット ビックカメラ", "タブレット ヨドバシ", "タブレット ヤマダ電機", "タブレット 家電量販店", "fireタブレット 店頭", "fireタブレット どこで買う", "タブレット 実機", "タブレット 価格.com"]
-  service:    ["prime video タブレット", "amazon kids+", "amazon kids 解約", "alexa タブレット", "fire hd プライムビデオ", "fire タブレット kindle本", "audible タブレット", "fire タブレット 広告なし", "amazon アプリストア", "fire os"]
-  usage:      ["fire hd google play", "fire タブレット google playストア", "fire タブレット できること", "fire タブレット 使い方", "fire タブレット 初期設定", "fire タブレット アプリ", "fire タブレット youtube", "fire タブレット netflix", "fire タブレット 動画", "fire タブレット カーナビ"]
-  negative:   ["fire タブレット デメリット", "fire タブレット 遅い", "fire タブレット 使えない", "fire タブレット 買ってはいけない", "fire タブレット 後悔", "fire タブレット 不具合", "fire タブレット 電源が入らない", "fire タブレット サポート", "fire タブレット 寿命", "fire タブレット 初期化"]
-  category:   ["タブレット おすすめ", "タブレット 選び方", "タブレット 比較", "android タブレット", "android タブレット おすすめ", "タブレット 動画視聴", "子供用 タブレット", "キッズタブレット", "学習用 タブレット", "タブレット 電子書籍", "タブレット 10インチ", "タブレット 8インチ", "シニア タブレット", "タブレット プレゼント"]
-  competitor: ["ipad", "ipad 無印", "ipad mini", "ipad 安い", "redmi pad", "redmi pad 2", "xiaomi pad", "lavie tab", "nec タブレット", "galaxy tab", "galaxy tab a11", "lenovo tab", "idea tab", "oppo pad", "teclast タブレット", "matepad", "アイリスオーヤマ タブレット", "luca タブレット", "surface go"]
+  brand:      ["fire tv stick", "fire tv", "ファイヤースティック", "ファイヤースティックtv", "ファイアスティック", "amazon fire tv stick", "fire stick", "fire tv stick おすすめ", "fire tv stick 比較", "fire tv stick 評判"]
+  models:     ["fire tv stick hd", "fire tv stick 4k", "fire tv stick 4k max", "fire tv stick 4k select", "fire tv stick 4k plus", "fire tv cube", "fire tv stick 新型", "fire tv stick 2026", "fire tv 第2世代", "fire tv stick 世代 違い"]
+  price:      ["fire tv stick 安い", "fire tv stick 値段", "fire tv stick セール", "fire tv stick プライムデー", "fire tv stick ブラックフライデー", "fire tv stick 最安値", "ストリーミングデバイス 安い", "fire tv stick 中古", "fire tv stick 値上げ", "fire tv stick 型落ち"]
+  channel:    ["fire tv stick ヨドバシ", "fire tv stick ヤマダ電機", "fire tv stick ビックカメラ", "fire tv stick ドンキ", "fire tv stick 家電量販店", "fire tv stick 店頭", "fire tv stick どこで買う", "fire tv stick メルカリ"]
+  service:    ["fire tv stick tver", "fire tv stick abema", "fire tv stick netflix", "fire tv stick youtube", "fire tv stick prime video", "fire tv stick u-next", "fire tv stick dazn", "fire tv stick disney+", "fire tv stick radiko", "fire tv stick nhk"]
+  usage:      ["fire tv stick 使い方", "fire tv stick 初期設定", "fire tv stick 接続方法", "fire tv stick wifiなし", "fire tv stick テザリング", "fire tv stick ミラーリング", "fire tv stick 車", "fire tv stick プロジェクター", "fire tv stick 子供 制限", "fire tv stick alexa"]
+  negative:   ["fire tv stick デメリット", "fire tv stick 重い", "fire tv stick カクカク", "fire tv stick 買ってはいけない", "fire tv stick 後悔", "fire tv stick リモコン 効かない", "fire tv stick 広告 消す", "fire tv stick 繋がらない", "fire tv stick 寿命", "fire tv stick 初期化", "fire tv stick サイドロード", "vega os 後悔"]
+  category:   ["テレビ youtube 見る方法", "テレビ netflix 見る方法", "テレビ tver 見る方法", "ストリーミングデバイス おすすめ", "動画配信 テレビ 見る", "古いテレビ ネット", "スマートテレビ 必要", "チューナーレステレビ", "テレビ 動画 機器", "4k 動画配信 テレビ"]
+  competitor: ["google tv streamer", "chromecast", "クロームキャスト", "apple tv 4k", "apple tv 値段", "xiaomi tv stick", "roku 日本", "google tv streamer 比較", "apple tv fire tv 比較", "chromecast fire tv どっち", "スマートテレビ google tv", "ps5 tver"]

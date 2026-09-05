@@ -1,87 +1,77 @@
 # ブランド辞書（回答本文からの検出用）。照合は NFKC + casefold 正規化後に「長い順」で行う。
 # aliases … ヒットさせる語 / guards … 先にマスクして誤検出を防ぐ語（他ブランドのaliasを壊さないよう最小限）
+# 2026-09-05 全面刷新：計測対象を Fireタブレット → Fire TV（テレビ用ストリーミング端末）へ差し替え。
 self:
-  id: fire
-  label: "Fireタブレット"
-  aliases: ["fire hd 10", "fire hd10", "fire hd 8", "fire hd8", "fire hd", "fire max 11", "fire max", "fire 7", "fire7",
-            "fireタブレット", "fire タブレット", "fireタブ", "ファイアタブレット", "ファイアーtvタブレット",
-            "amazon fire", "kindle fire", "amazonタブレット", "amazon タブレット", "アマゾンタブレット", "アマゾンのタブレット", "fireシリーズ", "fire os", "fireキッズ", "fire キッズ", "fireのキッズ"]
-  guards: ["fire tv stick", "fire tv", "firetv", "ファイアtvスティック", "fire stick", "firefox"]
+  id: firetv
+  label: "Fire TV"
+  aliases: ["fire tv stick 4k max", "fire tv stick 4k plus", "fire tv stick 4k select", "fire tv stick 4k", "fire tv stick hd", "fire tv stick",
+            "firetv stick", "firetvstick", "fire tv cube", "firetv cube", "fire tv", "firetv", "fire stick tv", "fire stick", "firestick",
+            "ファイヤースティックtv", "ファイヤースティック", "ファイアースティックtv", "ファイアースティック", "ファイアスティック", "ファイヤーステック",
+            "ファイヤーtvスティック", "ファイアtvスティック", "ファイヤーtv", "ファイアtv", "ファイアーtv",
+            "アマゾンファイヤースティック", "アマゾンファイアスティック", "amazonのスティック", "amazon fire tv", "fire os", "vega os", "vegaos"]
+  guards: ["fire hd", "fire hd 10", "fire hd 8", "fire max 11", "fireタブレット", "fire タブレット", "ファイアタブレット", "firefox", "fire 7"]
   models:                       # モデル・サービス名の言及（何が語られているか）
-    fire7: ["fire 7", "fire7"]
-    fire_hd8: ["fire hd 8", "fire hd8"]
-    fire_hd10: ["fire hd 10", "fire hd10"]
-    fire_max11: ["fire max 11", "fire max11", "fire max"]
-    kids: ["キッズモデル", "キッズプロ", "kids pro", "fireキッズ", "fire キッズ", "キッズタブレット"]
-    kids_plus: ["kids+", "kids＋", "amazon kids", "キッズプラス"]
-    alexa: ["alexa", "アレクサ", "showモード"]
+    stick_hd: ["fire tv stick hd", "stick hd", "無印のスティック", "hdモデル"]
+    stick_4k_select: ["4k select", "4kセレクト", "セレクトモデル"]
+    stick_4k_plus: ["4k plus", "4kプラス", "fire tv stick 4k"]
+    stick_4k_max: ["4k max", "4kマックス", "fire tv stick 4k max"]
+    cube: ["fire tv cube", "キューブ"]
+    builtin_tv: ["fire tv搭載", "fire tv内蔵", "fire tv搭載テレビ", "スマートテレビ fire tv"]
+    vega: ["vega os", "vegaos", "ベガos", "新os"]
+    fireos: ["fire os", "fireos", "android ベース"]
+    alexa: ["alexa", "アレクサ", "音声リモコン", "ハンズフリー"]
     appstore: ["amazonアプリストア", "amazon appstore", "アプリストア"]
     prime_video: ["prime video", "プライムビデオ", "プライム・ビデオ", "プライム ビデオ"]
+    sideload: ["サイドロード", "サイドローディング", "apk", "野良アプリ", "downloader"]
 tier1:
-  - id: ipad
-    label: "iPad"
-    aliases: ["ipad", "アイパッド", "ipad mini", "ipad air", "ipad pro"]
+  - id: googletv
+    label: "Google TV Streamer / Chromecast"
+    aliases: ["google tv streamer", "googletv streamer", "グーグルtvストリーマー", "chromecast with google tv", "chromecast", "クロームキャスト", "クロムキャスト", "グーグルのストリーマー"]
+    guards: []
+  - id: appletv
+    label: "Apple TV 4K"
+    aliases: ["apple tv 4k", "apple tv", "アップルtv", "アップルティービー"]
+    guards: ["apple tv+", "apple tvプラス", "apple tvアプリ"]
+  - id: smarttv
+    label: "スマートTV内蔵"
+    aliases: ["スマートテレビ", "スマートtv", "android tv", "androidテレビ", "google tv搭載", "google tv内蔵", "チューナーレステレビ", "チューナーレススマートテレビ", "ネット対応テレビ", "テレビ内蔵", "内蔵アプリ"]
+    guards: ["google tv streamer"]
+tier2:
+  - id: ps5
+    label: "PlayStation 5"
+    aliases: ["ps5", "playstation 5", "プレイステーション5", "プレステ5"]
+    guards: []
+  - id: switch
+    label: "Nintendo Switch"
+    aliases: ["nintendo switch", "スイッチ2", "switch 2", "ニンテンドースイッチ"]
     guards: []
   - id: xiaomi
-    label: "Xiaomi / Redmi"
-    aliases: ["xiaomi", "シャオミ", "redmi pad", "redmi", "レッドミー", "xiaomi pad", "poco pad"]
+    label: "Xiaomi TV Stick / Box"
+    aliases: ["xiaomi tv stick", "mi tv stick", "mi box", "シャオミ tv stick", "シャオミのスティック"]
     guards: []
-  - id: lenovo
-    label: "Lenovo"
-    aliases: ["lenovo", "レノボ", "idea tab", "ideatab", "yoga tab", "lenovo tab", "tab m11", "tab m10"]
+  - id: roku
+    label: "Roku"
+    aliases: ["roku", "ロク "]
     guards: []
-tier2:
-  - id: nec
-    label: "NEC LAVIE Tab"
-    aliases: ["lavie tab", "lavie", "ラヴィタブ", "necのタブレット"]
+  - id: projector
+    label: "プロジェクター（Android内蔵）"
+    aliases: ["popin aladdin", "aladdin x", "nebula", "xgimi", "プロジェクター内蔵", "android搭載プロジェクター"]
     guards: []
-  - id: samsung
-    label: "Galaxy Tab"
-    aliases: ["galaxy tab", "ギャラクシータブ", "ギャラクシー tab", "サムスンのタブレット"]
+  - id: stb
+    label: "ケーブル・光STB"
+    aliases: ["j:com", "jcom", "ケーブルプラスstb", "auひかりテレビ", "セットトップボックス", "stb"]
     guards: []
-  - id: huawei
-    label: "HUAWEI MatePad"
-    aliases: ["matepad", "huawei", "ファーウェイ"]
+  - id: recorder
+    label: "レコーダー・nasne"
+    aliases: ["ブルーレイレコーダー", "bdレコーダー", "nasne", "ナスネ", "torne", "トルネ", "diximplay", "dixim play"]
     guards: []
-  - id: oppo
-    label: "OPPO Pad"
-    aliases: ["oppo pad", "oppo"]
+  - id: hdmi_direct
+    label: "PC・スマホ直結（HDMI）"
+    aliases: ["hdmiケーブルで繋", "hdmi 接続", "パソコンを繋", "スマホを繋", "有線ミラーリング"]
     guards: []
-  - id: teclast
-    label: "TECLAST"
-    aliases: ["teclast", "テクラスト"]
-    guards: []
-  - id: alldocube
-    label: "ALLDOCUBE"
-    aliases: ["alldocube", "オールドキューブ"]
-    guards: []
-  - id: headwolf
-    label: "HEADWOLF"
-    aliases: ["headwolf"]
-    guards: []
-  - id: blackview
-    label: "Blackview"
-    aliases: ["blackview"]
-    guards: []
-  - id: iris
-    label: "アイリスオーヤマ LUCA"
-    aliases: ["アイリスオーヤマ", "luca", "ルカ"]
-    guards: []
-  - id: aiwa
-    label: "AIWA"
-    aliases: ["aiwa tab", "アイワ"]
-    guards: []
-  - id: surface
-    label: "Surface"
-    aliases: ["surface"]
-    guards: []
-  - id: dynabook
-    label: "dynabook"
-    aliases: ["dynabook", "ダイナブック"]
-    guards: []
-  - id: kindle
-    label: "Kindle（電子書籍リーダー）"
-    aliases: ["kindle", "キンドル", "paperwhite", "ペーパーホワイト", "colorsoft", "scribe"]
+  - id: pc_stick
+    label: "スティックPC・その他"
+    aliases: ["スティックpc", "windows スティック", "raspberry pi"]
     guards: []
 
 # 購入チャネルの言及（AIが「どこで買え」と言っているか）
@@ -96,8 +86,9 @@ stores:
   joshin:   { label: "ジョーシン", aliases: ["ジョーシン", "joshin", "上新"] }
   kojima:   { label: "コジマ", aliases: ["コジマ"] }
   nojima:   { label: "ノジマ", aliases: ["ノジマ"] }
+  donki:    { label: "ドン・キホーテ", aliases: ["ドンキ", "ドン・キホーテ", "情熱価格"] }
   apple:    { label: "Apple Store", aliases: ["apple store", "アップルストア", "apple公式"] }
-  carrier:  { label: "キャリア（ドコモ/au/SB）", aliases: ["ドコモ", "docomo", "au ", "ソフトバンク", "softbank", "楽天モバイル", "キャリア"] }
+  google:   { label: "Google ストア", aliases: ["google ストア", "googleストア", "google store"] }
   used:     { label: "中古・フリマ", aliases: ["メルカリ", "中古", "ハードオフ", "フリマ", "ヤフオク", "リユース", "整備済"] }
   costco:   { label: "コストコ", aliases: ["コストコ"] }
   kakaku:   { label: "価格.com", aliases: ["価格.com", "価格コム", "kakaku"] }
@@ -106,37 +97,37 @@ stores:
 # テーマ辞書（文単位の共起で勝敗マトリクスを作る）
 themes:
   price:      { label: "価格・コスパ", words: ["価格", "値段", "安い", "高価", "高め", "コスパ", "割安", "割高", "お得", "円", "値上げ", "値下げ", "予算", "格安", "低価格"] }
-  play:       { label: "Google Play・アプリ", words: ["google play", "googleプレイ", "プレイストア", "play ストア", "アプリが入ら", "アプリが少な", "対応アプリ", "gms", "apk", "サイドロード", "アプリストア", "アプリの数", "使えないアプリ", "非対応アプリ"] }
-  video:      { label: "動画視聴", words: ["動画", "youtube", "netflix", "プライムビデオ", "配信", "視聴", "映画", "アニメ", "ストリーミング"] }
-  kids:       { label: "子ども・学習", words: ["子ども", "子供", "キッズ", "学習", "知育", "ペアレンタル", "見守り", "お子", "小学生", "幼児"] }
-  perf:       { label: "動作・処理性能", words: ["動作", "サクサク", "もっさり", "遅い", "処理速度", "cpu", "メモリ", "カクつ", "重い", "スペック", "ラグ", "固まる"] }
-  display:    { label: "画面・解像度", words: ["画面", "解像度", "インチ", "フルhd", "2k", "精細", "ppi", "リフレッシュレート", "90hz", "120hz", "液晶", "見やすい"] }
-  battery:    { label: "バッテリー", words: ["バッテリー", "電池", "充電", "駆動時間", "mah"] }
-  weight:     { label: "軽さ・携帯性", words: ["軽い", "軽量", "軽さ", "片手", "持ち運び", "携帯性", "グラム", "コンパクト", "薄い"] }
-  audio:      { label: "音・スピーカー", words: ["スピーカー", "音質", "dolby", "音が", "ステレオ", "イヤホン"] }
-  storage:    { label: "容量・microSD", words: ["ストレージ", "容量", "microsd", "sdカード", "拡張", "32gb", "64gb", "128gb"] }
-  ads:        { label: "広告・ロック画面", words: ["広告", "ロック画面", "広告つき", "広告なし", "広告表示"] }
-  ecosystem:  { label: "Amazon連携", words: ["prime", "プライム", "alexa", "アレクサ", "echo", "kindle本", "audible", "オーディブル", "連携", "エコシステム", "amazonアカウント"] }
-  support:    { label: "故障・サポート・OS更新", words: ["故障", "保証", "サポート", "修理", "壊れ", "不具合", "バグ", "アップデート", "os更新", "サポート期限", "セキュリティ更新", "終了"] }
-  pen:        { label: "ペン・キーボード", words: ["ペン", "スタイラス", "キーボード", "手書き", "メモ", "ノート", "イラスト", "お絵描き"] }
-  work:       { label: "仕事・学習用途", words: ["office", "word", "excel", "授業", "オンライン授業", "勉強", "仕事", "テレワーク", "会議", "zoom", "資料"] }
-  sale:       { label: "セール・値引き", words: ["セール", "プライムデー", "ブラックフライデー", "割引", "値引き", "タイムセール", "特価", "クーポン"] }
-  reading:    { label: "読書・マンガ", words: ["読書", "マンガ", "漫画", "コミック", "電子書籍", "雑誌", "kindle本"] }
-  lockin:     { label: "囲い込み・自由度", words: ["囲い込み", "汎用性", "自由度", "縛ら", "専用", "閉じた", "ロックイン", "amazon以外", "他のストア", "カスタマイズ"] }
+  os:         { label: "OS・アプリの自由度", words: ["vega", "fire os", "サイドロード", "サイドローディング", "apk", "野良アプリ", "downloader", "アプリが入ら", "アプリが少な", "対応アプリ", "非対応アプリ", "appstore", "アプリストア", "kodi", "smarttube", "自由度", "カスタマイズ"] }
+  tver:       { label: "TVer・民放無料配信", words: ["tver", "ティーバー", "民放", "見逃し配信", "abema", "アベマ", "地上波", "radiko", "nhk"] }
+  video:      { label: "動画配信サービス", words: ["youtube", "netflix", "ネットフリックス", "プライムビデオ", "prime video", "u-next", "hulu", "disney", "dazn", "dmm tv", "配信", "視聴", "映画", "アニメ"] }
+  quality:    { label: "画質・音質", words: ["4k", "フルhd", "hdr", "dolby vision", "ドルビー", "atmos", "画質", "音質", "サラウンド", "解像度", "hdr10"] }
+  network:    { label: "通信・Wi-Fi・有線", words: ["wi-fi", "wifi", "無線", "有線lan", "イーサネット", "回線", "速度", "通信量", "テザリング", "繋がらない", "途切れ", "バッファ", "読み込み"] }
+  perf:       { label: "動作・処理性能", words: ["動作", "サクサク", "もっさり", "遅い", "処理速度", "cpu", "メモリ", "カクつ", "重い", "スペック", "ラグ", "固まる", "起動時間", "再起動"] }
+  remote:     { label: "リモコン・操作性", words: ["リモコン", "ペアリング", "反応しない", "効かない", "ボタン", "音声検索", "テレビの電源", "hdmi cec", "操作性", "ui"] }
+  ads:        { label: "広告・ホーム画面", words: ["広告", "pr映像", "自動再生", "スクリーンセーバー", "ホーム画面", "おすすめ表示", "うざい", "邪魔"] }
+  setup:      { label: "設置・電源・端子", words: ["hdmi端子", "端子", "usb", "電源", "アダプター", "延長", "設置", "初期設定", "セットアップ", "配線", "コンセント", "テレビの裏"] }
+  mirroring:  { label: "ミラーリング・キャスト", words: ["ミラーリング", "airplay", "エアプレイ", "キャスト", "miracast", "画面共有", "スマホの画面"] }
+  recording:  { label: "録画・レコーダー連携", words: ["録画", "レコーダー", "nasne", "dixim", "torne", "ダビング", "地デジ"] }
+  ecosystem:  { label: "Amazon連携・Alexa", words: ["prime", "プライム", "alexa", "アレクサ", "echo", "スマートホーム", "音声操作", "連携", "amazonアカウント"] }
+  family:     { label: "家族・子ども・実家", words: ["子ども", "子供", "キッズ", "ペアレンタル", "見守り", "利用制限", "実家", "親に", "高齢", "プレゼント", "家族"] }
+  support:    { label: "故障・サポート・寿命", words: ["故障", "保証", "サポート", "修理", "壊れ", "不具合", "バグ", "アップデート", "os更新", "サポート終了", "寿命", "買い替え", "初期化"] }
+  sale:       { label: "セール・値引き", words: ["セール", "プライムデー", "ブラックフライデー", "割引", "値引き", "タイムセール", "特価", "クーポン", "新生活"] }
+  alternative: { label: "代替手段・不要論", words: ["必要ない", "不要", "要らない", "内蔵", "買い替え", "そもそも", "代わりに", "十分"] }
+  privacy:    { label: "プライバシー・アカウント", words: ["アカウント", "紐付", "登録解除", "プロフィール", "プライバシー", "履歴", "データ"] }
 
 personas:
-  kids_parent: { label: "子どもの親", words: ["子ども", "子供", "小学生", "幼児", "キッズ", "お子", "親として", "家庭"] }
-  senior:      { label: "シニア・高齢者", words: ["シニア", "高齢", "老眼", "文字を大き", "親に", "60代", "70代", "祖母", "祖父"] }
-  video:       { label: "動画視聴メイン", words: ["動画を見", "動画視聴", "netflix", "youtube", "プライムビデオ", "映画を"] }
-  student:     { label: "学生・学習", words: ["学生", "受験", "授業", "勉強", "オンライン学習", "参考書", "大学"] }
-  business:    { label: "仕事・サブ端末", words: ["仕事", "ビジネス", "サブ機", "テレワーク", "出張", "会議"] }
-  gamer:       { label: "ゲーム", words: ["ゲーム", "原神", "ソシャゲ", "フレームレート"] }
-  reader:      { label: "読書・マンガ", words: ["読書", "マンガ", "漫画", "電子書籍", "小説"] }
-  first_time:  { label: "初めて・入門", words: ["初めて", "初心者", "入門", "はじめての", "安く試"] }
-  gift:        { label: "プレゼント", words: ["プレゼント", "ギフト", "贈り"] }
-  car:         { label: "車載・カーナビ", words: ["カーナビ", "車載", "車で", "後部座席"] }
-  kitchen:     { label: "キッチン・家事", words: ["キッチン", "料理", "レシピ", "家事"] }
+  parents_home: { label: "実家・親へ", words: ["実家", "親に", "高齢", "シニア", "60代", "70代", "祖母", "祖父", "母に", "父に"] }
+  family_kids:  { label: "子育て家庭", words: ["子ども", "子供", "小学生", "幼児", "キッズ", "お子", "家庭", "見守り"] }
+  single:       { label: "一人暮らし・新生活", words: ["一人暮らし", "新生活", "引っ越し", "ワンルーム", "初めての部屋"] }
+  heavy_video:  { label: "動画ヘビーユーザー", words: ["毎日見", "動画をよく", "サブスク", "複数契約", "映画好き", "一気見"] }
+  sports:       { label: "スポーツ観戦", words: ["dazn", "スポーツ", "野球", "サッカー", "観戦", "j sports", "wowow"] }
+  gamer:        { label: "ゲーム・クラウド", words: ["ゲーム", "steam link", "クラウドゲーム", "geforce now", "luna"] }
+  tech:         { label: "カスタマイズ志向", words: ["サイドロード", "apk", "kodi", "root", "vpn", "広告ブロック", "自作", "改造"] }
+  car_outdoor:  { label: "車中泊・アウトドア", words: ["車中泊", "キャンプ", "アウトドア", "ポータブル電源", "モバイルルーター", "車で"] }
+  second_room:  { label: "寝室・2台目", words: ["寝室", "2台目", "サブ", "自室", "書斎", "古いテレビ"] }
+  gift:         { label: "プレゼント", words: ["プレゼント", "ギフト", "贈り"] }
+  first_time:   { label: "初めて・入門", words: ["初めて", "初心者", "入門", "はじめての", "安く試"] }
 
 sentiment:
-  positive: ["おすすめ", "最適", "優れ", "良い", "よい", "快適", "便利", "満足", "人気", "定番", "魅力", "強み", "高評価", "安心", "最強", "最良", "十分", "コスパが良", "ベスト", "鉄板", "王道", "向いて", "メリット", "長所", "選ばれ", "使いやすい", "見やすい", "軽い", "手頃", "安定", "充実", "豊富", "圧倒的", "no.1", "一番", "割り切れば", "必要十分"]
-  negative: ["デメリット", "欠点", "弱点", "割高", "高すぎ", "不便", "遅い", "もっさり", "不満", "注意", "制限", "できない", "非対応", "縛り", "劣る", "微妙", "残念", "故障", "バグ", "不具合", "後悔", "面倒", "使いにくい", "重い", "不安", "リスク", "囲い込み", "限定的", "物足りな", "入らない", "おすすめしない", "避けた"]
+  positive: ["おすすめ", "最適", "優れ", "良い", "よい", "快適", "便利", "満足", "人気", "定番", "魅力", "強み", "高評価", "安心", "最強", "最良", "十分", "コスパが良", "ベスト", "鉄板", "王道", "向いて", "メリット", "長所", "選ばれ", "使いやすい", "簡単", "手頃", "安定", "充宝", "豊富", "圧倒的", "no.1", "一番", "割り切れば", "必要十分", "速い", "サクサク"]
+  negative: ["デメリット", "欠点", "弱点", "割高", "高すぎ", "不便", "遅い", "もっさり", "不満", "注意", "制限", "できない", "非対応", "縛り", "劣る", "微妙", "残念", "故障", "バグ", "不具合", "後悔", "面倒", "使いにくい", "不安", "リスク", "囲い込み", "限定的", "物足りな", "入らない", "おすすめしない", "避けた", "うざい", "邪魔", "壊れやす"]
