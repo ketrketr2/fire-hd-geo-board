@@ -262,7 +262,9 @@ RENDER.v0 = () => {
 function waitBox(t, s){ return `<div class="empty"><b>${esc(t)}</b>${esc(s || '')}<div style="margin-top:10px"><button class="btn" onclick="go('v8')">連携手順を見る</button></div></div>`; }
 function trendMini(){
   const t = (D.trends || {}).series; if(!t || !t.brands_12m) return waitBox('Googleトレンドを取得できませんでした');
-  const s = t.brands_12m; const keys = ['Fire TV Stick', 'Chromecast', 'Apple TV', 'TVer'];
+  const s = t.brands_12m; const all = ['Fire TV Stick', 'Chromecast', 'Apple TV', 'TVer'];
+  const keys = all.filter(k => Array.isArray((s.values || {})[k]));
+  if(!keys.length) return waitBox('Googleトレンドは旧キーワードのままです。次のラウンドで Fire TV Stick 系の取得に切り替わります');
   const col = {'Fire TV Stick': '#E36A1E', 'Chromecast': '#3987e5', 'Apple TV': '#C9CDD4', 'TVer': '#2DD4BF'};
   return `<div class="leg">${keys.map(k => `<span><i style="background:${col[k]}"></i>${esc(k)}</span>`).join('')}</div>` +
     lineChart({w: 600, h: 200, dates: s.dates, series: keys.map(k => ({name: k, color: col[k], values: s.values[k]})), ymax: 100, labelsEvery: 8, dfmt: d => d.slice(5).replace('-', '/')}) +

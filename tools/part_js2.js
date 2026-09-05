@@ -5,8 +5,11 @@ RENDER.v2 = () => {
   const rel = ((T.related || {})['Fire TV Stick']) || {top: [], rising: []};
   const reg = T.region || {};
   const regRows = Object.entries(reg['Fire TV Stick'] || {}).sort((a, b) => b[1] - a[1]).slice(0, 12);
-  const ku = S.models_12m;
+  const _ku = S.models_12m;
+  const ku = (_ku && Array.isArray(_ku.keywords) && _ku.keywords.some(k => Array.isArray((_ku.values || {})[k]))) ? _ku : null;
   const b12 = (S.brands_12m || {values: {}}).values || {};
+  const B5 = ((S.brands_5y || {}).values) || {};
+  const b5ok = S.brands_5y && ['Fire TV Stick', 'Chromecast', 'TVer', 'スマートテレビ'].some(k => Array.isArray(B5[k]));
   return `<div class="g">
   <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>世間の需要 — 人は「機器」ではなく「見たいもの」から探している</h3>${tagOf(T.series ? 'live' : 'wait')}<span class="sub">Google Trends（日本）${kw ? '＋ Google広告 月間検索数' : ''}</span><span class="hb" onclick="help('demand')">?</span></div>
     <div class="kpi">
@@ -16,10 +19,10 @@ RENDER.v2 = () => {
       <div class="k violet"><div class="l">Google広告 月間検索数（合計）</div><div class="v">${kw ? `<span data-cu="${kw.total}">0</span><small>回/月</small>` : '<span style="font-size:16px;color:var(--ink3)">計測待ち</span>'}</div><div class="d">${kw ? 'Fire TV・テレビ視聴関連 ' + kw.rows.length + '語の合計' : 'DataForSEO 初回ラウンドで反映'}</div></div>
     </div></div>
 
-  <div class="card s7 rv"><div class="ct"><h3>ブランド別 検索関心 5年（週次）</h3>${tagOf(S.brands_5y ? 'live' : 'wait')}<span class="sub">最大週=100</span></div>
-    ${S.brands_5y ? `<div class="leg"><span><i style="background:#E36A1E"></i>Fire TV Stick</span><span><i style="background:#3987e5"></i>Chromecast</span><span><i style="background:#2DD4BF"></i>TVer</span><span><i style="background:#22D3EE"></i>スマートテレビ</span></div>` + lineChart({w: 720, h: 230, dates: S.brands_5y.dates, labelsEvery: 26, ymax: 100, dfmt: d => d.slice(0, 7), series: [
-      {name: 'Fire TV Stick', color: '#E36A1E', values: S.brands_5y.values['Fire TV Stick']}, {name: 'Chromecast', color: '#3987e5', values: S.brands_5y.values['Chromecast']},
-      {name: 'TVer', color: '#2DD4BF', values: S.brands_5y.values['TVer']}, {name: 'スマートテレビ', color: '#22D3EE', values: S.brands_5y.values['スマートテレビ']}]}) : waitBox('5年トレンドが未取得です')}
+  <div class="card s7 rv"><div class="ct"><h3>ブランド別 検索関心 5年（週次）</h3>${tagOf(b5ok ? 'live' : 'wait')}<span class="sub">最大週=100</span></div>
+    ${b5ok ? `<div class="leg"><span><i style="background:#E36A1E"></i>Fire TV Stick</span><span><i style="background:#3987e5"></i>Chromecast</span><span><i style="background:#2DD4BF"></i>TVer</span><span><i style="background:#22D3EE"></i>スマートテレビ</span></div>` + lineChart({w: 720, h: 230, dates: S.brands_5y.dates, labelsEvery: 26, ymax: 100, dfmt: d => d.slice(0, 7), series: [
+      {name: 'Fire TV Stick', color: '#E36A1E', values: B5['Fire TV Stick'] || []}, {name: 'Chromecast', color: '#3987e5', values: B5['Chromecast'] || []},
+      {name: 'TVer', color: '#2DD4BF', values: B5['TVer'] || []}, {name: 'スマートテレビ', color: '#22D3EE', values: B5['スマートテレビ'] || []}]}) : waitBox('5年トレンドが未取得です')}
     <div class="note">端末名とサービス名を同じ軸に置くと、<b>需要の主語がどちらにあるか</b>が見える。人はまず「何を見たいか」で検索し、機器はその答えとして後から出てくる — <span class="hl">非指名クエリでAIが何を勧めるかが、そのまま販売の入口になる</span>。</div>
     <div class="src">出典: <a href="https://trends.google.co.jp/trends/explore?date=today%205-y&geo=JP&q=Fire%20TV%20Stick,Chromecast,TVer" target="_blank" rel="noopener">Google Trends</a> 取得 ${esc(T.pulled_at || '')}</div></div>
 

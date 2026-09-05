@@ -139,6 +139,11 @@ def trends_block() -> dict | None:
     t = read_json(DATA / "trends.json")
     if not t:
         return None
+    # 2026-09 全面刷新: 旧製品（Fire HD タブレット）のキーワードで取得された
+    # トレンドは別製品の需要なので使わない。Fire TV Stick を含むものだけ採用する。
+    _brands = ((t.get("series") or {}).get("brands_12m") or {}).get("values") or {}
+    if _brands and "Fire TV Stick" not in _brands:
+        return None
     out = {"pulled_at": t.get("pulled_at"), "series": t.get("series"), "region": t.get("region"), "related": t.get("related")}
     s = (t.get("series") or {}).get("brands_12m")
     if s:
@@ -317,8 +322,12 @@ def load_prompts_all() -> list[dict]:
 
 
 # ------------------------------------------------------------------ 付帯収集（生データ → 表示用）
+REBUILD_DATE = "2026-09-05"   # 全面刷新日。これ以前の生データは旧製品（Fireタブレット）の収集
+
+
 def latest_raw_dir() -> Path | None:
-    dirs = sorted([p for p in RAW.glob("*") if p.is_dir()])
+    """最新の生データディレクトリ。全面刷新前（旧クエリ・旧キーワード）の収集は使わない。"""
+    dirs = sorted([p for p in RAW.glob("*") if p.is_dir() and p.name >= REBUILD_DATE])
     return dirs[-1] if dirs else None
 
 
