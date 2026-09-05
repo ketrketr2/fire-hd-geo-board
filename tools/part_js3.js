@@ -7,7 +7,7 @@ const brandLabel = b => (AI.brand_label || {})[b] || b;
 const themeLabel = t => (AI.theme_label || {})[t] || t;
 const storeLabel = s => (AI.store_label || {})[s] || s;
 const avgOf = arr => { const v = arr.filter(isNum); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; };
-const MODEL_LABEL = {fire_hd10: 'Fire HD 10', fire_hd8: 'Fire HD 8', fire_max11: 'Fire Max 11', fire7: 'Fire 7', kids: 'キッズモデル', kids_plus: 'Amazon Kids+', alexa: 'Alexa', appstore: 'Amazonアプリストア', prime_video: 'プライムビデオ'};
+const MODEL_LABEL = {stick_hd: 'Fire TV Stick HD', stick_4k_select: '4K Select', stick_4k_plus: '4K Plus', stick_4k_max: '4K Max', cube: 'Fire TV Cube', builtin_tv: 'Fire TV搭載テレビ', vega: 'Vega OS', fireos: 'Fire OS', alexa: 'Alexa', appstore: 'Amazonアプリストア', prime_video: 'プライムビデオ', sideload: 'サイドロード'};
 
 function aiWait(title){
   return `<div class="g">
@@ -58,7 +58,7 @@ RENDER.v4 = () => {
     <div class="note">カテゴリ型（A）・ペルソナ型（B）が「薦められるか」の本丸。ネガ検証（H）は言及率が高くて当たり前 — 中身（極性）を見る。</div></div>
   <div class="card s6 rv"><div class="ct"><h3>AIが語るFireの「どのモデル」か</h3>${tagOf('live')}<span class="sub">全セルの端末名・サービス名の出現回数</span></div>
     ${hbars(Object.entries(AI.models || {}).map(([m, n], i) => ({name: MODEL_LABEL[m] || m, v: n, color: CAT[i % 6]})), {})}
-    <div class="note">HD 10偏重なら「HD 8・Max 11・キッズの情報がAIに届いていない」。プライムビデオ・Alexaが多いなら端末単体ではなく<b>Amazonのサービス文脈</b>で語られている。</div></div>
+    <div class="note">4K偏重なら「HD で十分な人にも上位機が勧められている」。<b>Vega OS / Fire OS への言及</b>が出ているかは知識鮮度の指標で、触れられていなければ2025年10月以降の情報が届いていない。</div></div>
 
   <div class="card s6 rv"><div class="ct"><h3>AIが薦める購入チャネル</h3>${tagOf('live')}<span class="sub">購入チャネル型（P）5本 × 6面 と 全セル</span></div>
     <div class="row" style="align-items:flex-start;gap:18px;flex-wrap:wrap"><div style="flex:1 1 220px"><div class="muted" style="font-size:11px;margin-bottom:4px">P族（どこで買う？）での言及</div>${hbars(Object.entries(AI.stores_p || {}).slice(0, 8).map(([s, n]) => ({name: storeLabel(s), v: n, color: s === 'amazon' ? '#E36A1E' : s === 'used' ? '#F87171' : '#3987e5'})), {})}</div>
@@ -105,7 +105,7 @@ function qItem(q){
 function selectQ(id){ QSEL = id; $$('.qi').forEach(e => e.classList.toggle('on', e.id === 'qi-' + id)); const p = $('#qpanel'); if(p){ p.innerHTML = qPanel(); bindTips(p); } }
 function selectF(f){ FSEL = f; const p = $('#qpanel'); if(p){ p.innerHTML = qPanel(); bindTips(p); } }
 function highlight(text){
-  const al = [['fire', /(fire\s?hd\s?\d*|fire\s?max\s?11|fire\s?7|fireタブレット|ファイアタブレット|amazon\s?fire)/gi], ['ipad', /(ipad|アイパッド)/gi], ['xiaomi', /(xiaomi|シャオミ|redmi\s?pad|poco\s?pad)/gi], ['lenovo', /(lenovo|レノボ|idea\s?tab|yoga\s?tab)/gi], ['other', /(galaxy\s?tab|lavie\s?tab|matepad|oppo\s?pad|teclast|alldocube|surface|luca)/gi]];
+  const al = [['firetv', /(fire\s?tv\s?(stick|cube)?|firetv|ファイヤ[ーァ]?ステ[ィイ]ック|ファイア[ーァ]?ステ[ィイ]ック|fire\s?stick|amazon\s?fire\s?tv)/gi], ['googletv', /(google\s?tv\s?streamer|chromecast|クロ[ームム]キャスト)/gi], ['appletv', /(apple\s?tv|アップルtv)/gi], ['smarttv', /(スマートテレビ|スマートtv|google\s?tv(内蔵|搭載)|android\s?tv|チューナーレス)/gi], ['other', /(ps5|playstation\s?5|switch|xiaomi\s?tv\s?stick|roku|nasne|j:?com)/gi]];
   const mark = seg => { let o = esc(seg); al.forEach(([k, re]) => { o = o.replace(re, m => `<mark class="${k}">${m}</mark>`); }); return o; };
   // URL部分はハイライトせず、リンクにする（回答本文そのものは書き換えない）
   const out = [];

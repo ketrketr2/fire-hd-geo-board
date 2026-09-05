@@ -1,12 +1,12 @@
-/* Fire HD 語られ方ボード — 表示側 part1: ユーティリティ・チャート・演出・ナビ・V0/V1 */
+/* Fire TV 語られ方ボード — 表示側 part1: ユーティリティ・チャート・演出・ナビ・V0/V1 */
 'use strict';
 const D = window.BOARD_DATA || {};
 const AI = D.ai || {measured:false, queries:[], faces:[]};
 const EX = D.extras || {};
 const FACTS = D.facts || {};
 const FACE_COL = {chatgpt:'#199e70', gemini:'#3987e5', claude:'#E36A1E', perplexity:'#9085e9', aio:'#c98500', aimode:'#d55181'};
-const BRAND_COL = {fire:'#E36A1E', ipad:'#3987e5', xiaomi:'#d55181', lenovo:'#199e70', nec:'#9085e9', samsung:'#c98500', kindle:'#22D3EE', oppo:'#f472b6', teclast:'#64748B', iris:'#a3a3a3'};
-const SELF = (AI && AI.self_id) || 'fire';
+const BRAND_COL = {firetv:'#E36A1E', googletv:'#3987e5', appletv:'#C9CDD4', smarttv:'#2DD4BF', ps5:'#9085e9', switch:'#d55181', xiaomi:'#c98500', roku:'#a3a3a3', projector:'#22D3EE', stb:'#64748B', recorder:'#f472b6', hdmi_direct:'#94A3B8', pc_stick:'#94A3B8'};
+const SELF = (AI && AI.self_id) || 'firetv';
 const CAT = ['#E36A1E','#199e70','#9085e9','#c98500','#3987e5','#d55181'];
 const BUCKET_COL = {owned:'#E36A1E', competitor:'#d55181', retail:'#3987e5', ugc:'#199e70', video:'#F87171', affiliate:'#c98500', press:'#9085e9', reference:'#94A3B8', media:'#64748B'};
 
@@ -204,7 +204,7 @@ function go(id){
   try{ history.replaceState(null, '', '#' + id); }catch(e){}
 }
 function topBar(){
-  return `<div id="top"><h1>Fire HD <em>語られ方ボード</em> <span class="muted" style="font-size:12px;font-weight:400">現状 × 世間 × AI</span></h1>
+  return `<div id="top"><h1>Fire TV <em>語られ方ボード</em> <span class="muted" style="font-size:12px;font-weight:400">現状 × 世間 × AI</span></h1>
     <span class="livechip"><i></i>${AI.measured ? 'AI実測 ' + esc(AI.date) : 'AI計測 待機中'}</span>
     <div class="legend"><span class="lg live"><i></i>実測・出典付き</span><span class="lg sample"><i></i>サンプル（連携で置換）</span><span class="lg wait"><i></i>計測待ち</span><span class="lg teaser"><i></i>連携予定</span></div></div>`;
 }
@@ -220,16 +220,16 @@ RENDER.v0 = () => {
   const avgF = frates.length ? frates.reduce((a, b) => a + b, 0) / frates.length : null;
   const owned = faces.map(f => (pf[f.id] || {}).owned_cite_share).filter(isNum);
   const avgO = owned.length ? owned.reduce((a, b) => a + b, 0) / owned.length : null;
-  const tr = D.trends || {}; const sh = tr.share_12m || {}; const fv = sh['Fire HD'], iv = sh['iPad'];
+  const tr = D.trends || {}; const sh = tr.share_12m || {}; const fv = sh['Fire TV Stick'], iv = sh['Chromecast'];
   const s = D.sales.kpi;
   const first = (AI.first_rank || [])[0];
   const F = id => (D.facts[id] || {}).value;
   return `<div class="g">
-  <div class="card hero rv"><h2>Fire HDは今、<em>どう語られているか</em>。<br><span style="font-size:18px;color:var(--ink2)">タブレット市場の現状・世間の声・AI6面の回答を、実データで1画面に。</span></h2>
-    <p>数値は<span class="hl">出典付き実測</span>を原則とし、社内データ（販売台数・チャネル・Kids+）は連携前のため<span class="hl">サンプル表示</span>。AI面はDataForSEO経由で <b>${AI.queries.length}本の実クエリ × 6面</b> を計測します（${AI.measured ? '最新 ' + esc(AI.date) : '初回計測待ち'}）。</p>
+  <div class="card hero rv"><h2>テレビに挿す1本は今、<em>どう語られているか</em>。<br><span style="font-size:18px;color:var(--ink2)">Fire TV の現状・世間の声・AI6面の回答を、実データで1画面に。</span></h2>
+    <p>数値は<span class="hl">出典付き実測</span>を原則とし、社内データ（販売台数・チャネル・会員）は連携前のため<span class="hl">サンプル表示</span>。AI面はDataForSEO経由で <b>${AI.queries.length}本の実クエリ × 6面</b> を計測します（${AI.measured ? '最新 ' + esc(AI.date) : '初回計測待ち'}）。</p>
     <div class="pillars">
-      <div class="pl" onclick="go('v1')"><span class="arrow">→</span><div class="n">01 / 現状</div><div class="t">市場は伸びたが、Fireは上位5社圏外</div><div class="b" data-cu="811" data-suf="万台">—</div><div class="m">国内タブレット出荷 2025年度（前年度比+22%）。Apple 60.9%に対し<b>AmazonはMM総研の上位5社から外れ</b>、最後の公表値は2024年度上期の5.0%</div></div>
-      <div class="pl" onclick="go('v2')"><span class="arrow">→</span><div class="n">02 / 世間</div><div class="t">検索需要は iPad が Fire HD の約${isNum(fv) && isNum(iv) && fv > 0 ? fmt(iv / fv, 0) : '—'}倍</div><div class="b c">${isNum(fv) ? fmt(fv, 1) : '—'} <span style="font-size:14px;color:var(--ink2)">vs</span> ${isNum(iv) ? fmt(iv, 0) : '—'}</div><div class="m">Googleトレンド 直近12か月平均（最大週=100基準）。Fire HDはRedmi Pad 1.0・Galaxy Tab 1.3と同じ帯で、<b>指名検索が育っていない</b></div></div>
+      <div class="pl" onclick="go('v1')"><span class="arrow">→</span><div class="n">01 / 現状</div><div class="t">テレビはあるのに、繋がっていない</div><div class="b" data-cu="18.7" data-d="1" data-suf="%">—</div><div class="m">インターネットに接続できるテレビの利用率（総務省・2025年8月調査）。テレビ世帯保有率は90.1%。<b>差分がそのまま Fire TV の未開拓市場</b>で、日本国内の台数・シェアはどこも公表していない</div></div>
+      <div class="pl" onclick="go('v2')"><span class="arrow">→</span><div class="n">02 / 世間</div><div class="t">指名検索：Fire TV Stick と Chromecast の距離</div><div class="b c">${isNum(fv) ? fmt(fv, 1) : '—'} <span style="font-size:14px;color:var(--ink2)">vs</span> ${isNum(iv) ? fmt(iv, 0) : '—'}</div><div class="m">Googleトレンド 直近12か月平均（最大週=100基準）。比較対象は Chromecast / Apple TV / TVer / スマートテレビ。<b>需要の入口は「テレビで◯◯を見る方法」側にある</b></div></div>
       <div class="pl" onclick="go('v4')"><span class="arrow">→</span><div class="n">03 / AI</div><div class="t">${AI.measured ? 'AIの言及率 ' + pct(avgM, 0) + '・第一想起率 ' + pct(avgF, 0) : 'AI6面 × ' + AI.queries.length + '本を計測待ち'}</div><div class="b v">${AI.measured ? pct(avgM, 0) : '計測待ち'}</div><div class="m">${AI.measured ? 'カテゴリ質問（' + AI.expect_cells + 'セル）でFireに触れた率。第一想起率は言及回答のうち最初に挙がった率で、回答全体の1位の内訳では ' + (first ? esc(first.label) + ' が' + pct(first.rate, 0) : '—') + '。自社（Amazon）引用率 ' + pct(avgO, 0) : 'ChatGPT / Gemini / Claude / Perplexity / AI Overview / AIモード。Secrets登録後、初回ラウンドで自動反映'}</div></div>
     </div></div>
 
@@ -238,14 +238,14 @@ RENDER.v0 = () => {
       <div class="k hero orange"><div class="l">販売台数（4週）</div><div class="v"><span data-cu="${s.units_4w}">0</span><small>台</small></div><div class="d"><span class="${cls(s.units_4w_delta)}">${arrow(s.units_4w_delta)} ${sgn(s.units_4w_delta)}%</span> 前4週比</div>${spark(D.sales.weeks.slice(-16).map(w => w.total))}</div>
       <div class="k cyan"><div class="l">売上（4週・端末）</div><div class="v"><span data-cu="${s.revenue_4w_oku}" data-d="2">0</span><small>億円</small></div><div class="d">ASP ${yen(s.asp)}</div></div>
       <div class="k lime"><div class="l">Amazon.co.jp 比率</div><div class="v"><span data-cu="${s.amazon_share}" data-d="1">0</span><small>%</small></div><div class="d">残りは量販店・法人チャネル</div></div>
-      <div class="k violet"><div class="l">Amazon Kids+ 会員</div><div class="v"><span data-cu="${s.ku_members_man}">0</span><small>万人</small></div><div class="d"><span class="dn">▼ ${fmt(s.ku_delta, 1)}%</span> 端末同時加入率 ${pct(s.attach_rate)}</div></div>
+      <div class="k violet"><div class="l">Prime 会員（端末購入者）</div><div class="v"><span data-cu="${s.ku_members_man}">0</span><small>万人</small></div><div class="d"><span class="dn">▼ ${fmt(s.ku_delta, 1)}%</span> 端末同時加入率 ${pct(s.attach_rate)}</div></div>
     </div>
     <div class="note">⚠ このカードの数値はすべて<b>設計サンプル</b>（固定シード生成）です。データ連携ビュー（⚙）の手順で社内データを接続すると、同じレイアウトのまま実値に置き換わります。</div></div>
 
-  <div class="card s4 rv"><div class="ct"><h3>Fireの公式価格 vs セール底値</h3>${tagOf('live')}<span class="hb" onclick="help('price')">?</span></div>
+  <div class="card s4 rv"><div class="ct"><h3>公式価格 vs セール底値</h3>${tagOf('live')}<span class="hb" onclick="help('price')">?</span></div>
     ${hbars(D.lineup.filter(l => isNum(l.price)).map(l => ({name: l.name.replace('Fire ', '').replace('（第13世代）', '').replace('（2024年モデル）', ''), v: l.price, vf: yen(l.price), sub: (l.stock === '在庫切れ' ? '在庫切れ' : '') + (l.sale ? (l.stock === '在庫切れ' ? ' / ' : '') + '底値 ' + yen(l.sale) : ''), color: l.stock === '在庫切れ' ? '#64748B' : '#E36A1E', tip: `<b>${esc(l.name)}</b><br>通常 ${yen(l.price)}${l.sale ? '<br>直近セール ' + yen(l.sale) + '（' + esc(l.sale_label) + '・' + fmt((1 - l.sale / l.price) * 100, 0) + '%OFF）' : ''}<br>在庫: ${esc(l.stock)}`})), {})}
-    <div class="note">灰色は<b>在庫切れ・再入荷予定なし</b>（2026/9/4 実測）。購入できるのは Fire HD 10 / HD 8 / Max 11 の3機種のみ。</div>
-    <div class="src">出典: ${factLink('D01')}／${factLink('D04')}／${factLink('D06')}</div></div>
+    <div class="note">セール時は<b>定価の4〜6割</b>まで落ちる。7月（プライムデー）と11月（ブラックフライデー）が底で、この2点が消費者の相場観になっている。4K Plus / 4K Max / Cube の通常価格は媒体記載値のため<b>要検証</b>扱い。</div>
+    <div class="src">出典: ${factLink('D01')}／${factLink('D02')}／${factLink('D06')}／${factLink('D07')}</div></div>
 
   <div class="card s6 rv"><div class="ct"><h3>検索需要 12か月（Googleトレンド）</h3>${tagOf(D.trends ? 'live' : 'wait')}<span class="sub">週次・最大週=100</span></div>
     ${trendMini()}</div>
@@ -262,12 +262,12 @@ RENDER.v0 = () => {
 function waitBox(t, s){ return `<div class="empty"><b>${esc(t)}</b>${esc(s || '')}<div style="margin-top:10px"><button class="btn" onclick="go('v8')">連携手順を見る</button></div></div>`; }
 function trendMini(){
   const t = (D.trends || {}).series; if(!t || !t.brands_12m) return waitBox('Googleトレンドを取得できませんでした');
-  const s = t.brands_12m; const keys = ['iPad', 'Fire HD', 'Redmi Pad', 'Galaxy Tab'];
-  const col = {'iPad': '#3987e5', 'Fire HD': '#E36A1E', 'Redmi Pad': '#d55181', 'Galaxy Tab': '#199e70'};
+  const s = t.brands_12m; const keys = ['Fire TV Stick', 'Chromecast', 'Apple TV', 'TVer'];
+  const col = {'Fire TV Stick': '#E36A1E', 'Chromecast': '#3987e5', 'Apple TV': '#C9CDD4', 'TVer': '#2DD4BF'};
   return `<div class="leg">${keys.map(k => `<span><i style="background:${col[k]}"></i>${esc(k)}</span>`).join('')}</div>` +
     lineChart({w: 600, h: 200, dates: s.dates, series: keys.map(k => ({name: k, color: col[k], values: s.values[k]})), ymax: 100, labelsEvery: 8, dfmt: d => d.slice(5).replace('-', '/')}) +
-    `<div class="note">iPadが指名検索を独占。Fire HDは<b>Redmi Pad・Galaxy Tabと同じ最下層</b>で、ブランド名で探されていない。</div>` +
-    `<div class="src">出典: <a href="https://trends.google.co.jp/trends/explore?geo=JP&q=Fire%20HD,iPad,Redmi%20Pad,Galaxy%20Tab" target="_blank" rel="noopener">Google Trends（日本・過去12か月）</a> 取得 ${esc(D.trends.pulled_at)}</div>`;
+    `<div class="note">端末名（Fire TV Stick / Chromecast / Apple TV）よりも、<b>サービス名（TVer）の方が検索される</b>。人はデバイスではなく「見たいもの」から入る。</div>` +
+    `<div class="src">出典: <a href="https://trends.google.co.jp/trends/explore?geo=JP&q=Fire%20TV%20Stick,Chromecast,Apple%20TV,TVer" target="_blank" rel="noopener">Google Trends（日本・過去12か月）</a> 取得 ${esc(D.trends.pulled_at)}</div>`;
 }
 function faceRadar(){
   const pf = AI.per_face || {}; const faces = AI.faces || [];
@@ -284,56 +284,57 @@ RENDER.v1 = () => {
   const s = D.sales.kpi, wk = D.sales.weeks;
   const ship = D.shipment_series || [], hh = D.household_series || [];
   return `<div class="g">
-  <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>現状 — 市場は法人・GIGAで伸び、家庭の保有率は頭打ち。Fireは上位5社圏外</h3>${tagOf('live')}<span class="sub">公開統計・出典リンク付き</span><span class="hb" onclick="help('market')">?</span></div>
+  <div class="card s12 rv" style="padding:16px 20px"><div class="ct"><h3>現状 — テレビは各家庭にある。繋がっていないだけ</h3>${tagOf('live')}<span class="sub">公開統計・出典リンク付き</span><span class="hb" onclick="help('market')">?</span></div>
     <div class="kpi">
-      <div class="k orange"><div class="l">国内タブレット出荷 2025年度</div><div class="v"><span data-cu="811">0</span><small>万台</small></div><div class="d"><span class="up">▲ +22.0%</span> MM総研・2年連続増</div></div>
-      <div class="k cyan"><div class="l">2026年度 予測</div><div class="v"><span data-cu="679">0</span><small>万台</small></div><div class="d"><span class="dn">▼ -16.3%</span> メモリー高騰。実績ではなく予測</div></div>
-      <div class="k violet"><div class="l">Apple の出荷シェア</div><div class="v"><span data-cu="60.9" data-d="1">0</span><small>%</small></div><div class="d">16年連続1位・上位4社で82.1%</div></div>
-      <div class="k rose"><div class="l">Amazon シェア（最後の公表値）</div><div class="v"><span data-cu="5.0" data-d="1">0</span><small>%</small></div><div class="d">2024年度上期 15.2万台・5位。<b>以降は上位5社圏外</b></div></div>
-      <div class="k lime"><div class="l">タブレット世帯保有率</div><div class="v"><span data-cu="36.9" data-d="1">0</span><small>%</small></div><div class="d"><span class="dn">▼ -0.7pt</span> スマホ91.8%・10年横ばい</div></div>
-      <div class="k orange"><div class="l">6〜12歳のネット利用機器</div><div class="v"><span data-cu="58.8" data-d="1">0</span><small>%</small></div><div class="d">タブレットが<b>スマホ56.4%を上回る唯一の層</b></div></div>
+      <div class="k orange"><div class="l">テレビ世帯保有率</div><div class="v"><span data-cu="90.1" data-d="1">0</span><small>%</small></div><div class="d">総務省・スマホ91.8%に次ぐ</div></div>
+      <div class="k cyan"><div class="l">ネット接続テレビの利用率</div><div class="v"><span data-cu="18.7" data-d="1">0</span><small>%</small></div><div class="d">個人ベース。<b>ここが空白</b></div></div>
+      <div class="k violet"><div class="l">ストリーミング端末の普及</div><div class="v"><span data-cu="33.7" data-d="1">0</span><small>%</small></div><div class="d">2016年8.9%から7年で3.8倍</div></div>
+      <div class="k rose"><div class="l">スマートテレビ普及率</div><div class="v"><span data-cu="32.7" data-d="1">0</span><small>%</small></div><div class="d">2021年時点。<b>最大の代替</b></div></div>
+      <div class="k lime"><div class="l">Fire TV 世界累計販売</div><div class="v"><span data-cu="3">0</span><small>億台</small></div><div class="d">2024年11月の2.5億台から</div></div>
+      <div class="k orange"><div class="l">日本国内の台数・シェア</div><div class="v">—</div><div class="d">公表なし。準公式は<b>公取委2022年のOSシェア推計のみ</b></div></div>
     </div>
-    <div class="src">出典: ${factLink('A01')}／${factLink('A02')}／${factLink('B01')}／${factLink('B02')}／${factLink('C01')}／${factLink('C04')}</div></div>
+    <div class="src">出典: ${factLink('A02')}／${factLink('A01')}／${factLink('A03')}／${factLink('A04')}／${factLink('E01')}／${factLink('H04')}</div></div>
 
-  <div class="card s7 rv"><div class="ct"><h3>国内タブレット出荷台数の推移（年度・万台）</h3>${tagOf('live')}<span class="sub">MM総研 各年度リリースの公表時点値</span></div>
-    ${barChart({w: 620, h: 230, labels: ship.map(e => e.fy + '年度'), series: [{name: '出荷台数', color: '#E36A1E', values: ship.map(e => e.v)}], yfmt: v => fmt(v, 0)})}
-    <div class="note">2020年度の1,152万台はGIGAスクール特需。以降は法人・文教の買い替えサイクルで上下しており、<b>家庭市場の伸びではない</b>。${esc(D.shipment_note || '')}</div>
-    <div class="src">出典: ${factLink('A01')}／${factLink('A04')}</div></div>
+  <div class="card s7 rv"><div class="ct"><h3>CTV向け動画広告市場の推移（億円）</h3>${tagOf('live')}<span class="sub">サイバーエージェント／デジタルインファクト 各年リリース</span></div>
+    ${barChart({w: 620, h: 230, labels: ship.map(e => e.fy + '年'), series: [{name: 'CTV広告', color: '#E36A1E', values: ship.map(e => e.v)}], yfmt: v => fmt(v, 0)})}
+    <div class="note">4年で2.4倍。テレビ画面が広告面として値付けされ始めた。<b>ホーム画面の広告が重くなっているのは、この市場の伸びの裏返し</b>で、ユーザーの「広告がうざい」という不満と事業側の成長ドライバーが同じ場所にある。${esc(D.shipment_note || '')}</div>
+    <div class="src">出典: ${factLink('C01')}／${factLink('C02')}</div></div>
 
-  <div class="card s5 rv"><div class="ct"><h3>世帯保有率は10年横ばい（％）</h3>${tagOf('live')}<span class="sub">総務省 通信利用動向調査</span></div>
-    ${lineChart({w: 460, h: 210, dates: hh.map(h => h.fy), series: [{name: '世帯保有率', color: '#3987e5', values: hh.map(h => h.v)}], ymax: 50, labelsEvery: 2, dfmt: d => d})}
-    <div class="note">出荷台数が乱高下しても保有率は36〜40%で動かない。学校配備端末は世帯保有に入らないため、<b>出荷の伸び＝家庭需要の伸びと読むのは誤り</b>。内閣府調査（二人以上世帯）も2023年44.9%をピークに3年連続低下。</div>
-    <div class="src">出典: ${factLink('C01')}／${factLink('C03')}</div></div>
+  <div class="card s5 rv"><div class="ct"><h3>TVer のテレビ経由 月間再生数（億回）</h3>${tagOf('live')}<span class="sub">TVer 公式リリースの公表時点値</span></div>
+    ${lineChart({w: 460, h: 210, dates: hh.map(h => h.fy), series: [{name: 'CTV経由再生', color: '#2DD4BF', values: hh.map(h => h.v)}], ymax: 2.5, labelsEvery: 1, dfmt: d => d})}
+    <div class="note">2年で1.5倍。全体6.3億回のうち2.1億回がテレビ画面（2026年1月）。<b>TVer 公式が対応を明記しているストリーミング端末は Fire TV と Chromecast だけ</b>で、Apple TV は掲載がない。日本での勝敗はスペックの外側で決まっている。</div>
+    <div class="src">出典: ${factLink('B05')}／${factLink('B06')}</div></div>
 
   <div class="card s8 sample rv"><div class="ct"><h3>週次販売台数（モデル別・53週）</h3>${tagOf('sample')}<span class="sub">Amazon Retail Analytics 連携で実値に置換</span><span class="hb" onclick="help('sample')">?</span></div>
-    <div class="leg"><span><i style="background:#E36A1E"></i>Fire HD 10</span><span><i style="background:#199e70"></i>Fire HD 8</span><span><i style="background:#9085e9"></i>キッズ</span><span><i style="background:#c98500"></i>Fire Max 11</span><span><i style="background:#3987e5"></i>Fire 7</span></div>
+    <div class="leg"><span><i style="background:#E36A1E"></i>Stick HD</span><span><i style="background:#199e70"></i>4K Select</span><span><i style="background:#9085e9"></i>4K Plus</span><span><i style="background:#c98500"></i>4K Max</span><span><i style="background:#3987e5"></i>Cube</span></div>
     ${barChart({w: 760, h: 240, stacked: true, labels: wk.map(w => w.week.slice(5).replace('-', '/')), every: 5, series: [
-      {name: 'Fire HD 10', color: '#E36A1E', values: wk.map(w => w.fire_hd10)}, {name: 'Fire HD 8', color: '#199e70', values: wk.map(w => w.fire_hd8)},
-      {name: 'キッズ', color: '#9085e9', values: wk.map(w => w.kids)}, {name: 'Fire Max 11', color: '#c98500', values: wk.map(w => w.fire_max11)}, {name: 'Fire 7', color: '#3987e5', values: wk.map(w => w.fire7)}]})}
-    <div class="note">山はブラックフライデー（11/24週）・年末年始・新生活・プライムデー（7/6週）。サンプルは<b>キッズの在庫切れとFire 7の販売終了を織り込んだ形</b>にしています — 実データで同じ形になるかが最初の検証ポイント。</div></div>
+      {name: 'Stick HD', color: '#E36A1E', values: wk.map(w => w.stick_hd)}, {name: '4K Select', color: '#199e70', values: wk.map(w => w.stick_4k_select)},
+      {name: '4K Plus', color: '#9085e9', values: wk.map(w => w.stick_4k_plus)}, {name: '4K Max', color: '#c98500', values: wk.map(w => w.stick_4k_max)}, {name: 'Cube', color: '#3987e5', values: wk.map(w => w.cube)}]})}
+    <div class="note">山はブラックフライデー（11/24週）・年末年始・新生活・プライムデー（7/6週）。サンプルは<b>4K Select（2025-10）と新HD（2026-04-30）の発売時期</b>を織り込んだ形にしています — 実データで同じ形になるかが最初の検証ポイント。</div></div>
 
   <div class="card s4 sample rv"><div class="ct"><h3>チャネル構成（4週）</h3>${tagOf('sample')}</div>
     ${donut(s.channel.map((c, i) => ({name: c.name, v: c.share, color: c.own ? '#E36A1E' : ['#3987e5', '#199e70', '#9085e9', '#c98500', '#d55181', '#64748B'][i % 6]})), {center: `<span style="font-size:18px">${pct(s.amazon_share, 0)}</span><small>Amazon.co.jp</small>`})}
-    <div class="note">市場全体では<b>法人向けが個人向けの1.7倍</b>（2024年・NIQ）。Fireは家庭向けEC中心のため、法人・文教チャネルの空白がそのまま出荷シェアの差になっている。</div>
-    <div class="src">出典: ${factLink('A06')}／${factLink('A05')}</div></div>
+    <div class="note">自社ECに寄るほど、<b>テレビを買い替える瞬間の売場（量販店の店頭）に居られない</b>。Fire TV 搭載テレビ（パナソニック ビエラ12機種など）はその穴を埋めるための布石。</div>
+    <div class="src">出典: ${factLink('E04')}／${factLink('E03')}</div></div>
 
   <div class="card s6 sample rv"><div class="ct"><h3>モデル構成比 と 購入ファネル</h3>${tagOf('sample')}</div>
     <div class="row" style="align-items:flex-start;flex-wrap:wrap;gap:22px"><div style="flex:1 1 240px">${hbars(s.model_mix.map((m, i) => ({name: m.name, v: m.share, color: CAT[i]})), {suf: '%', d: 1})}</div>
     <div style="flex:1 1 220px">${s.funnel.map((f, i) => `<div style="margin:5px 0"><div class="row" style="justify-content:space-between;font-size:11px;color:var(--ink2)"><span>${esc(f.stage)}</span><b class="mono" style="color:#FFD166">${pct(f.v, 1)}</b></div><div style="height:16px;background:rgba(120,150,210,.08);border-radius:6px;overflow:hidden"><i class="growx" style="display:block;height:100%;width:${f.v}%;background:linear-gradient(90deg,#22D3EE,#9085e9);animation-delay:${i * 80}ms"></i></div></div>`).join('')}</div></div></div>
 
-  <div class="card s6 rv"><div class="ct"><h3>競合の実売価格（実測）</h3>${tagOf('live')}<span class="sub">Amazon棚・価格.comの最安値</span></div>
-    ${hbars(D.competitors.filter(c => isNum(c.price)).map(c => ({name: c.name, v: c.price, vf: yen(c.price), sub: c.brand, color: c.brand === 'Apple' ? '#3987e5' : c.brand === 'Xiaomi' ? '#d55181' : c.brand === '無名Android' ? '#64748B' : '#199e70', tip: `<b>${esc(c.name)}</b><br>${esc(c.note)}`})), {})}
-    <div class="note">Fire HD 8（17,980円）の真下に<b>1万円未満の無名Android機</b>が、真上に整備済みiPadと国内メーカー機が並ぶ。価格の下も上も詰まっている状態。</div>
-    <div class="src">出典: ${factLink('F02')}／${factLink('F03')}／${factLink('F05')}</div></div>
+  <div class="card s6 rv"><div class="ct"><h3>競合の価格（公式・実測）</h3>${tagOf('live')}<span class="sub">Google ストア／Apple 公式／各社リリース</span></div>
+    ${hbars(D.competitors.filter(c => isNum(c.price)).map(c => ({name: c.name, v: c.price, vf: yen(c.price), sub: c.brand, color: c.brand === 'Apple' ? '#C9CDD4' : c.brand === 'Google' ? '#3987e5' : c.brand === 'Xiaomi' ? '#c98500' : '#9085e9', tip: `<b>${esc(c.name)}</b><br>${esc(c.note)}`})), {})}
+    <div class="note">最安の Fire TV Stick HD（6,980円）と Apple TV 4K（34,800円）で<b>約5倍</b>。Apple は発売時19,800円から大きく上げ、Google TV Streamer も米国で $99.99→$149.99 に改定済み。<span class="hl">値上げ局面で「入口としての安さ」は相対的に強まっている</span>。</div>
+    <div class="src">出典: ${factLink('F01')}／${factLink('F02')}／${factLink('F04')}</div></div>
 
-  <div class="card s12 rv"><div class="ct"><h3>タブレットは何に使われているか（MM総研 利用実態調査）</h3>${tagOf('live')}<span class="sub">2024年1-2月調査・n=1,640</span></div>
+  <div class="card s12 rv"><div class="ct"><h3>テレビ画面では何が見られているか（REVISIO コネクテッドTV白書2026）</h3>${tagOf('live')}<span class="sub">関東2,000世帯の実測アテンション＋本調査3,000名</span></div>
     <div class="row" style="align-items:flex-start;flex-wrap:wrap;gap:24px">
-      <div style="flex:1 1 300px">${hbars([{name: 'ネット検索・情報収集', v: 81.6, color: '#3987e5'}, {name: '動画視聴', v: 76.7, color: '#E36A1E'}, {name: 'オンラインショッピング', v: 48.7, color: '#199e70'}, {name: 'メール・LINE', v: 46.5, color: '#9085e9'}, {name: '地図・ナビ', v: 45.2, color: '#c98500'}], {suf: '%', d: 1})}</div>
-      <div style="flex:1 1 300px">${hbars([{name: 'Amazonプライムビデオ', v: 47.9, color: '#E36A1E'}, {name: 'Netflix', v: 24.2, color: '#d55181'}, {name: 'YouTube Premium', v: 16.2, color: '#199e70'}, {name: 'U-NEXT', v: 15.5, color: '#9085e9'}, {name: 'NHKオンデマンド', v: 15.4, color: '#c98500'}], {suf: '%', d: 1})}
-        <div class="muted" style="font-size:11px;margin-top:4px">動画視聴者が使うサービス（n=1,258）</div></div>
+      <div style="flex:1 1 300px">${hbars([{name: 'YouTube', v: 50.4, color: '#E36A1E'}, {name: '日本テレビ', v: 47.3, color: '#64748B'}, {name: 'TBS', v: 41.0, color: '#64748B'}, {name: 'テレビ朝日', v: 37.9, color: '#64748B'}, {name: 'Prime Video', v: 13.4, color: '#22D3EE'}], {suf: '分', d: 1})}
+        <div class="muted" style="font-size:11px;margin-top:4px">テレビデバイス上の1日平均利用時間</div></div>
+      <div style="flex:1 1 300px">${hbars([{name: 'YouTube', v: 51.0, color: '#E36A1E'}, {name: 'TVer', v: 29.7, color: '#2DD4BF'}, {name: '有料動画配信 スマートTV', v: 21.3, color: '#3987e5'}, {name: '有料動画配信 ストリーミング端末', v: 12.1, color: '#9085e9'}], {suf: '%', d: 1})}
+        <div class="muted" style="font-size:11px;margin-top:4px">利用率（下2本はICT総研・有料動画配信利用者の視聴デバイス）</div></div>
     </div>
-    <div class="note">タブレットの主用途は<b>動画視聴76.7%</b>、そのうち<b>プライムビデオが47.9%で1位</b>（Netflixの約2倍）。Fireの土俵は「タブレット全般」ではなく<span class="hl">プライムビデオを見る端末</span>。購入時に最も重視されるのは本体価格28.8%で、参考情報はECサイトのレビュー31.2%。</div>
-    <div class="src">出典: ${factLink('E02')}／${factLink('E03')}／${factLink('E04')}／${factLink('E07')}</div></div>
+    <div class="note">端末を挿す動機は Prime Video ではなく<b>YouTube と民放無料配信</b>。TVer の利用率は Prime Video を上回る。<span class="hl">Amazon の箱を買って、Amazon 以外を見る</span>という構造が、この製品の語られ方の土台にある。</div>
+    <div class="src">出典: ${factLink('B01')}／${factLink('B02')}／${factLink('B03')}／${factLink('B04')}／${factLink('C05')}</div></div>
   </div>`;
 };
 // テーマ別の懸念率（自社ブランド自身の好意/懸念のみ・母数10文未満は除外）。V0の発見とV9の打ち手で共用
@@ -355,24 +356,22 @@ function findings(){
                 d: `他5面は${pct(Math.min(...others), 0)}〜${pct(Math.max(...others), 0)}。利用者数が最も多い面で最初に名前が出ていない`}); }
     const own = (((AI.buckets || []).find(b => b.id === 'owned')) || {}).share;
     if(isNum(own)) out.push({v: 'v7', tag: 'AI / 材料', t: `AIが見ている出典の <b style="color:#FFD166">${pct(100 - own, 0)}が第三者</b>`,
-      d: `自社（amazon.co.jp / aboutamazon.jp）は${pct(own, 0)}。公式サイトの改修だけでは語られ方は動かない（資料p31）`});
+      d: `自社（amazon.co.jp / aboutamazon.jp）は${pct(own, 0)}。公式サイトの改修だけでは語られ方は動かない`});
     const worstT = concernRows()[0];
     if(worstT) out.push({v: 'v6', tag: 'AI / 語られ方', t: `懸念が最も多いテーマは <b style="color:#FDA4AF">${esc(themeLabel(worstT.t))}</b>`,
-      d: `Fireを主語にした文の${pct(worstT.share, 0)}が懸念（好意${worstT.pos}文／懸念${worstT.neg}文）。ここが第三者媒体で語られ方を変えにいく最優先テーマ`});
+      d: `Fire TV を主語にした文の${pct(worstT.share, 0)}が懸念（好意${worstT.pos}文／懸念${worstT.neg}文）。第三者媒体で語られ方を変えにいく最優先テーマ`});
     const d0 = (AI.domains || [])[0];
     if(d0) out.push({v: 'v7', tag: 'AI / 重点媒体', t: `引用1位は <b style="color:#8FF0C9">${esc(d0.host)}</b>（${d0.n}回）`,
-      d: `公式より第三者ブログ・UGCが材料。上位はnote・YouTube・Reddit・my-best。ここでの語られ方がAIの答えになる`});
+      d: `公式より第三者ブログ・UGCが材料。ここでの語られ方がそのままAIの答えになる`});
   }
-  if(sh){ const fireItems = (sh.items || []).filter(i => i.brand === 'fire');
-    const ranked = (sh.items || []).filter(i => isNum(i.rank)).sort((a, b) => a.rank - b.rank);
+  if(sh){ const ranked = (sh.items || []).filter(i => isNum(i.rank)).sort((a, b) => a.rank - b.rank);
     const topRank = ranked[0];
-    out.push({v: 'v3', tag: '棚 / Amazon', t: `自社の棚で1位は <b style="color:#FDA4AF">1万円未満の無名機</b>`, d: `ベストセラー2位 ${esc(topRank ? topRank.name.slice(0, 22) : '')} ${topRank ? yen(topRank.price) : ''}（レビュー${topRank ? fmt(topRank.reviews) : ''}件）。Fire HD 10は5位（${esc(sh.measured_at)} 実測）`});
-    const f10 = fireItems.find(i => i.name.indexOf('Fire HD 10') >= 0);
-    if(f10) out.push({v: 'v3', tag: '満足度 / 弱点', t: `Fire HD 10の評価 <b style="color:#FDA4AF">★${fmt(f10.rating, 1)}</b>`, d: `同じ棚のOPPO Pad SE ★4.7・AOC M10 ★4.5・TECLAST P30T ★4.8。レビュー数では勝っているが、星では格安Android勢に負けている`});
+    if(topRank) out.push({v: 'v3', tag: '棚 / Amazon', t: `棚の1位は <b style="color:#FDA4AF">${esc(topRank.name.slice(0, 22))}</b>`, d: `${yen(topRank.price)}（レビュー${fmt(topRank.reviews)}件・${esc(sh.measured_at)} 実測）。自社ECの棚で何が最初に見えているかは、指名検索の前段そのもの`});
   }
-  if(k) out.push({v: 'v3', tag: '比較の場 / 不在', t: `価格.comに Fireは <b style="color:#FDA4AF">0製品</b>`, d: `登録${fmt(k.registered_products)}製品のメーカー一覧にAmazonが存在しない（Apple 485・Lenovo 84・Xiaomi 37・NEC 34）。絞り込みには「Google Play対応」という項目まである`});
-  if(T.share_12m && T.share_12m['iPad'] && T.share_12m['Fire HD']) out.push({v: 'v2', tag: '需要 / 指名', t: `指名検索は iPad の <b style="color:#FDA4AF">${fmt((T.share_12m['Fire HD'] || 0) / (T.share_12m['iPad'] || 1) * 100, 1)}%</b>`, d: `Fire HD 1.1 に対し iPad 78.0（直近12か月平均）。Redmi Pad 1.0・Galaxy Tab 1.3と同じ帯で、ブランドで探されていない`});
-  out.push({v: 'v1', tag: '市場 / 構造', t: `出荷は+22%でも <b style="color:#FDA4AF">保有率は横ばい</b>`, d: `2025年度811万台（+22%）はGIGA・法人の買い替えが主因。世帯保有率は36.9%で10年動かず、法人向けが個人向けの1.7倍`});
-  out.push({v: 'v1', tag: '用途 / 勝ち筋', t: `動画視聴の1位は <b style="color:#8FF0C9">プライムビデオ 47.9%</b>`, d: `タブレット用途の76.7%が動画視聴、その中でプライムビデオがNetflixの約2倍。Fireの土俵は「タブレット全般」ではなくここ`});
+  out.push({v: 'v3', tag: '比較の場 / 不在', t: `価格.comに Fire TV Stick の <b style="color:#FDA4AF">製品ページが無い</b>`, d: `ショッピング検索（複数店舗の価格一覧）だけで、満足度・レビュー・売れ筋ランキングが存在しない。製品として登録されているのは「Fire TV 搭載テレビ」の側。比較サイト経由の検討導線がまるごと欠けている`});
+  out.push({v: 'v1', tag: '市場 / 空白', t: `テレビ保有90.1%に対し <b style="color:#FDA4AF">ネット接続は18.7%</b>`, d: `テレビはあるのに繋がっていない。ストリーミング端末の普及は33.7%（2016年8.9%）で、伸びしろは残っているが、スマートテレビ32.7%が同じ空白を先に埋めにいっている`});
+  out.push({v: 'v1', tag: '用途 / 勝ち筋', t: `テレビ画面の1位は <b style="color:#8FF0C9">YouTube 50.4分</b>`, d: `Prime Video は13.4分、TVer の利用率29.7%は Prime Video を上回る。Amazon の箱を買って Amazon 以外を見る構造で、TVer 公式対応は Fire TV と Chromecast のみ`});
+  out.push({v: 'v1', tag: '価格 / 構造', t: `値上げ局面で <b style="color:#8FF0C9">入口の安さが際立つ</b>`, d: `Apple TV 4K は19,800→34,800円、Google TV Streamer は米国で+50%。Fire TV Stick HD 6,980円（セール底値3,780円）との差は約5倍`});
+  out.push({v: 'v2', tag: '需要 / 入口', t: `人は端末名より <b style="color:#FFD166">「テレビで◯◯を見る方法」</b>で探す`, d: `検索需要の入口はサービス名（TVer・YouTube・Netflix）側。指名検索の前に、この非指名クエリでどう答えられているかがAI時代の分岐点`});
   return out;
 }

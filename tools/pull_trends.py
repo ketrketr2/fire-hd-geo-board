@@ -16,36 +16,36 @@ def iot(key, kws, tf):
         except Exception as e:
             print("retry", key, attempt, type(e).__name__, str(e)[:120]); time.sleep(20*(attempt+1))
     out["errors"].append(key)
-iot("brands_12m", ["Fire HD","iPad","Redmi Pad","LAVIE Tab","Galaxy Tab"], "today 12-m"); time.sleep(8)
-iot("brands_5y", ["Fireタブレット","iPad","タブレット","Androidタブレット","子供用タブレット"], "today 5-y"); time.sleep(8)
-iot("models_12m", ["Fire HD 10","Fire HD 8","Fire Max 11","Fireタブレット セール","キッズタブレット"], "today 12-m"); time.sleep(8)
-iot("channels_12m", ["タブレット おすすめ","格安タブレット","子供用タブレット","タブレット 安い","中古タブレット"], "today 12-m"); time.sleep(8)
-# related queries for Fire HD
+iot("brands_12m", ["Fire TV Stick","Chromecast","Apple TV","TVer","スマートテレビ"], "today 12-m"); time.sleep(8)
+iot("brands_5y", ["Fire TV Stick","Chromecast","ストリーミングデバイス","スマートテレビ","TVer"], "today 5-y"); time.sleep(8)
+iot("models_12m", ["Fire TV Stick 4K","Fire TV Stick HD","Fire TV Cube","Fire TV Stick セール","ファイヤースティック"], "today 12-m"); time.sleep(8)
+iot("channels_12m", ["テレビ youtube 見る方法","テレビ netflix","ストリーミングデバイス","テレビ tver","チューナーレステレビ"], "today 12-m"); time.sleep(8)
+# related queries for Fire TV Stick
 for attempt in range(3):
     try:
-        pt.build_payload(["Fire HD"], timeframe="today 12-m", geo="JP")
-        rq = pt.related_queries()["Fire HD"]
-        out["related"]["Fire HD"] = {
+        pt.build_payload(["Fire TV Stick"], timeframe="today 12-m", geo="JP")
+        rq = pt.related_queries()["Fire TV Stick"]
+        out["related"]["Fire TV Stick"] = {
             "top": rq["top"].to_dict("records") if rq.get("top") is not None else [],
             "rising": rq["rising"].to_dict("records") if rq.get("rising") is not None else []}
-        print("ok related", len(out["related"]["Fire HD"]["top"]), len(out["related"]["Fire HD"]["rising"])); break
+        print("ok related", len(out["related"]["Fire TV Stick"]["top"]), len(out["related"]["Fire TV Stick"]["rising"])); break
     except Exception as e:
         print("retry related", attempt, type(e).__name__, str(e)[:120]); time.sleep(25*(attempt+1))
 time.sleep(8)
 for attempt in range(3):
     try:
-        pt.build_payload(["Fire HD"], timeframe="today 12-m", geo="JP")
+        pt.build_payload(["Fire TV Stick"], timeframe="today 12-m", geo="JP")
         df = pt.interest_by_region(resolution="REGION", inc_low_vol=True)
-        out["region"]["Fire HD"] = {k:int(v) for k,v in df["Fire HD"].to_dict().items()}
-        print("ok region", len(out["region"]["Fire HD"])); break
+        out["region"]["Fire TV Stick"] = {k:int(v) for k,v in df["Fire TV Stick"].to_dict().items()}
+        print("ok region", len(out["region"]["Fire TV Stick"])); break
     except Exception as e:
         print("retry region", attempt, type(e).__name__, str(e)[:120]); time.sleep(25*(attempt+1))
 time.sleep(8)
 for attempt in range(3):
     try:
-        pt.build_payload(["Fire HD","iPad"], timeframe="today 12-m", geo="JP")
+        pt.build_payload(["Fire TV Stick","Chromecast"], timeframe="today 12-m", geo="JP")
         df = pt.interest_by_region(resolution="REGION", inc_low_vol=True)
-        out["region"]["Fire_vs_iPad"] = {k:{"Fire HD":int(v["Fire HD"]),"iPad":int(v["iPad"])} for k,v in df.to_dict("index").items()}
+        out["region"]["Fire_vs_Chromecast"] = {k:{"Fire TV Stick":int(v["Fire TV Stick"]),"Chromecast":int(v["Chromecast"])} for k,v in df.to_dict("index").items()}
         print("ok region2"); break
     except Exception as e:
         print("retry region2", attempt, type(e).__name__, str(e)[:120]); time.sleep(25*(attempt+1))

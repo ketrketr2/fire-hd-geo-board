@@ -40,40 +40,37 @@ def facts_block() -> dict:
 
 # ------------------------------------------------------------------ 製品ラインナップ（公式価格）
 def lineup_block(facts: dict) -> list[dict]:
+    """Fire TV 現行5機種。screen=映像/OS、weight=Wi-Fi世代 として表示に流用している。"""
     g = lambda k: (facts.get(k) or {}).get("value")  # noqa: E731
     return [
-        {"id": "fire7", "name": "Fire 7（第12世代）", "screen": "7型 1024x600", "price": 11980, "sale": None, "sale_label": None,
-         "ram": "2GB", "storage": "16GB", "weight": "282g", "stock": "在庫切れ", "tag": "エントリー"},
-        {"id": "fire_hd8", "name": "Fire HD 8（2024年モデル）", "screen": "8型 1280x800", "price": g("D02"), "sale": 8990, "sale_label": "BF2025",
-         "ram": "4GB", "storage": "64GB", "weight": "337g", "stock": "販売中", "tag": "主力（小）"},
-        {"id": "fire_hd10", "name": "Fire HD 10（第13世代）", "screen": "10.1型 1920x1200", "price": g("D01"), "sale": 10980, "sale_label": "BF2025",
-         "ram": "3GB", "storage": "32GB", "weight": "434g", "stock": "販売中", "tag": "主力"},
-        {"id": "fire_max11", "name": "Fire Max 11（第13世代）", "screen": "11型 2000x1200", "price": g("D03"), "sale": 29980, "sale_label": "BF2025",
-         "ram": "4GB", "storage": "128GB", "weight": "490g", "stock": "販売中", "tag": "上位"},
-        {"id": "kids_hd8", "name": "Fire HD 8 キッズモデル", "screen": "8型 1280x800", "price": g("D06"), "sale": 13980, "sale_label": "2026新生活",
-         "ram": "3GB", "storage": "32GB", "weight": "512g", "stock": "在庫切れ", "tag": "キッズ"},
-        {"id": "kids_pro8", "name": "Fire HD 8 キッズプロ", "screen": "8型 1280x800", "price": 19980, "sale": 9990, "sale_label": "2026新生活Final",
-         "ram": "3GB", "storage": "32GB", "weight": "506g", "stock": "在庫切れ", "tag": "キッズ"},
-        {"id": "kids_hd10", "name": "Fire HD 10 キッズモデル", "screen": "10.1型 1920x1200", "price": g("D07"), "sale": 16980, "sale_label": "2025スマイル",
-         "ram": "3GB", "storage": "32GB", "weight": "670g", "stock": "在庫切れ", "tag": "キッズ"},
-        {"id": "kids_pro10", "name": "Fire HD 10 キッズプロ", "screen": "10.1型 1920x1200", "price": 23980, "sale": 17980, "sale_label": "2026PD",
-         "ram": "3GB", "storage": "32GB", "weight": "670g", "stock": "在庫切れ", "tag": "キッズ"},
+        {"id": "stick_hd", "name": "Fire TV Stick HD（2026）", "screen": "フルHD / Vega OS", "price": g("D01"), "sale": 3780, "sale_label": "2026PD",
+         "ram": "1GB", "storage": "8GB", "weight": "Wi-Fi 6", "stock": "販売中", "tag": "入口"},
+        {"id": "stick_4k_select", "name": "Fire TV Stick 4K Select", "screen": "4K HDR10+ / Vega OS", "price": g("D02"), "sale": 4980, "sale_label": "2026新生活",
+         "ram": "1GB", "storage": "8GB", "weight": "Wi-Fi 5", "stock": "販売中", "tag": "最廉価4K"},
+        {"id": "stick_4k_plus", "name": "Fire TV Stick 4K Plus", "screen": "4K DV / Fire OS", "price": g("D03"), "sale": 5980, "sale_label": "2026新生活",
+         "ram": "2GB", "storage": "8GB", "weight": "Wi-Fi 6", "stock": "販売中", "tag": "主力"},
+        {"id": "stick_4k_max", "name": "Fire TV Stick 4K Max", "screen": "4K DV / Fire OS", "price": g("D04"), "sale": 7980, "sale_label": "2026新生活",
+         "ram": "2GB", "storage": "16GB", "weight": "Wi-Fi 6E", "stock": "販売中", "tag": "上位"},
+        {"id": "cube", "name": "Fire TV Cube（第3世代）", "screen": "4K DV / Fire OS", "price": g("D05"), "sale": 13980, "sale_label": "2026新生活",
+         "ram": "2GB", "storage": "16GB", "weight": "Wi-Fi 6E＋有線", "stock": "販売中", "tag": "最上位"},
+        {"id": "builtin_tv", "name": "Fire TV 搭載テレビ（ビエラ等）", "screen": "テレビ本体に内蔵", "price": None, "sale": None, "sale_label": None,
+         "ram": "—", "storage": "—", "weight": "機種による", "stock": "販売中", "tag": "内蔵"},
     ]
 
 
 def competitor_block(facts: dict) -> list[dict]:
     g = lambda k: (facts.get(k) or {}).get("value")  # noqa: E731
     return [
-        {"brand": "Apple", "name": "iPad 11インチ (A16) 128GB", "price": g("F02"), "note": "価格.com売れ筋1位・6月に値上げ"},
-        {"brand": "Apple", "name": "iPad（第9世代・整備済み品）", "price": 12599, "note": "Amazon棚でFire HD 8より安い"},
-        {"brand": "Xiaomi", "name": "Redmi Pad 2（6GB+128GB）", "price": g("F03"), "note": "11型2.5K・9000mAh"},
-        {"brand": "Xiaomi", "name": "Redmi Pad 2 9.7（4GB+64GB）", "price": 21941, "note": "Amazon棚ベストセラー8位"},
-        {"brand": "NEC", "name": "LAVIE Tab Lite TL103", "price": g("F04"), "note": "価格.com売れ筋5位・国内メーカー"},
-        {"brand": "サムスン", "name": "Galaxy Tab A11+ 128GB", "price": 43493, "note": "OS7年アップデート"},
-        {"brand": "Lenovo", "name": "Lenovo Tab 10.1型 4GB+64GB", "price": 27000, "note": ""},
-        {"brand": "OPPO", "name": "OPPO Pad SE 11型 128GB", "price": 23220, "note": "Amazon棚で★4.7"},
-        {"brand": "TECLAST", "name": "TECLAST M50T 10型", "price": 14900, "note": "レビュー1,162件"},
-        {"brand": "無名Android", "name": "HiGrace 10型（24GB+32GB）", "price": g("F05"), "note": "Amazon棚ベストセラー2位・1万円未満"},
+        {"brand": "Google", "name": "Google TV Streamer", "price": g("F01"), "note": "有線LAN内蔵・Google Homeハブ。米国では$99.99→$149.99に改定済み"},
+        {"brand": "Apple", "name": "Apple TV 4K（Wi-Fi 64GB）", "price": g("F02"), "note": "発売時19,800円から大幅値上げ。TVer公式アプリなし"},
+        {"brand": "Apple", "name": "Apple TV 4K（128GB・有線LAN）", "price": g("F03"), "note": "Thread対応。AirPlay/Apple Musicは唯一の強み"},
+        {"brand": "ソニー", "name": "PlayStation 5 デジタル・エディション", "price": g("F04"), "note": "2025年9月にTVer対応。すでに繋がっている箱"},
+        {"brand": "Xiaomi", "name": "Xiaomi TV A Pro 2025（43型）", "price": g("F05"), "note": "Google TV内蔵テレビ。買い替えでスティックが不要になる側"},
+        {"brand": "Google", "name": "Chromecast（生産終了）", "price": None, "note": "HD版のみ2027年までサポート。TVer公式対応は継続"},
+        {"brand": "各社", "name": "スマートTV内蔵（TVer対応12社）", "price": None, "note": "AQUOS/BRAVIA/REGZA/VIERA/ハイセンス/TCL 等。最大の代替"},
+        {"brand": "各社", "name": "ケーブル・光STB（J:COM等）", "price": None, "note": "契約に付随。テレビ側の入力を先に埋める"},
+        {"brand": "Roku", "name": "Roku（日本未展開）", "price": None, "note": "日本発売を示す一次情報は確認できず"},
+        {"brand": "Xiaomi", "name": "Xiaomi TV Stick（日本正規販売なし）", "price": None, "note": "日本公式サイトに製品掲載を確認できず"},
     ]
 
 
@@ -88,7 +85,7 @@ def sales_sample() -> dict:
         dt.date(2025, 11, 24): 3.6, dt.date(2025, 12, 1): 1.6, dt.date(2025, 12, 22): 1.9, dt.date(2025, 12, 29): 1.7,
         dt.date(2026, 3, 2): 1.5, dt.date(2026, 3, 9): 1.3, dt.date(2026, 4, 27): 1.3, dt.date(2026, 6, 8): 1.4,
         dt.date(2026, 7, 6): 4.2, dt.date(2026, 7, 13): 1.5, dt.date(2026, 8, 3): 1.8, dt.date(2026, 8, 10): 1.6}
-    base = {"fire_hd10": 5400, "fire_hd8": 3800, "fire_max11": 900, "kids": 2100, "fire7": 700}
+    base = {"stick_hd": 6200, "stick_4k_select": 3400, "stick_4k_plus": 2600, "stick_4k_max": 1200, "cube": 380}
     for i in range(53):
         d = start + dt.timedelta(days=7 * i)
         mult = events.get(d, 1.0) * (1 + 0.08 * math.sin(i / 3.0)) * rnd.uniform(0.93, 1.07)
@@ -96,12 +93,12 @@ def sales_sample() -> dict:
         tot = 0
         for m, b in base.items():
             seasonal = 1.0
-            if m == "kids" and dt.date(2026, 3, 1) <= d <= dt.date(2026, 4, 30):
-                seasonal = 2.1            # 新生活シーズンにキッズが伸びる想定
-            if m == "kids" and d >= dt.date(2026, 6, 1):
-                seasonal = 0.35           # 実際にはキッズ全モデルが在庫切れ（2026/9時点）
-            if m == "fire7" and d >= dt.date(2026, 2, 1):
-                seasonal = 0.2            # Fire 7 は在庫切れ・再入荷予定なし
+            if m == "stick_hd" and d < dt.date(2026, 4, 30):
+                seasonal = 0.0            # 新Fire TV Stick HD は 2026-04-30 発売
+            if m == "stick_4k_select" and d < dt.date(2025, 10, 1):
+                seasonal = 0.0            # 4K Select は 2025-10 発売
+            if m == "stick_4k_plus" and d >= dt.date(2026, 4, 30):
+                seasonal = 0.7            # 新HD 発売後は下位が食われる想定
             v = int(b * mult * seasonal)
             row[m] = v
             tot += v
@@ -117,22 +114,22 @@ def sales_sample() -> dict:
     asp = 19800
     return {
         "sample": True,
-        "note": "販売数・売上・チャネル比率・Kids+会員数は社内データ連携前の設計サンプル（固定シード生成）。Amazon Retail Analytics／Vendor Central／量販店POS（BCN・GfK/NIQ）を接続すると実値に置き換わります。キッズモデルとFire 7は実際には在庫切れのため、サンプルでも直近を絞った形にしています。",
+        "note": "販売数・売上・チャネル比率は社内データ連携前の設計サンプル（固定シード生成）。Amazon Retail Analytics／Vendor Central／量販店POS（BCN・GfK/NIQ）を接続すると実値に置き換わります。新Fire TV Stick HD（2026-04-30発売）と4K Select（2025-10発売）の発売時期を織り込んだ形にしています。",
         "weeks": weeks,
         "kpi": {
             "units_4w": units_4w, "units_4w_delta": round((units_4w / max(1, units_prev) - 1) * 100, 1), "units_yoy": yoy_4w,
             "revenue_4w_oku": round(units_4w * asp / 1e8, 2), "asp": asp,
             "amazon_share": round(sum(w["amazon"] for w in last4) / max(1, units_4w) * 100, 1),
-            "ku_members_man": 118, "ku_delta": -6.1, "attach_rate": 41.2, "review_avg": 4.1,
+            "ku_members_man": 118, "ku_delta": -6.1, "attach_rate": 41.2, "review_avg": 4.3,
             "channel": [
                 {"name": "Amazon.co.jp", "share": 83.2, "own": True},
                 {"name": "ビックカメラ・コジマ", "share": 5.1}, {"name": "ヤマダデンキ", "share": 4.2},
                 {"name": "ケーズデンキ", "share": 2.6}, {"name": "エディオン", "share": 2.3},
                 {"name": "ジョーシン", "share": 1.4}, {"name": "その他", "share": 1.2}],
-            "model_mix": [{"id": "fire_hd10", "name": "Fire HD 10", "share": 41.2}, {"id": "fire_hd8", "name": "Fire HD 8", "share": 29.0},
-                          {"id": "kids", "name": "キッズモデル", "share": 16.0}, {"id": "fire_max11", "name": "Fire Max 11", "share": 6.9},
-                          {"id": "fire7", "name": "Fire 7", "share": 6.9}],
-            "funnel": [{"stage": "商品ページ閲覧", "v": 100}, {"stage": "カート追加", "v": 9.4}, {"stage": "購入", "v": 3.7}, {"stage": "Kids+ / Prime同時加入", "v": 1.1}],
+            "model_mix": [{"id": "stick_hd", "name": "Stick HD", "share": 44.8}, {"id": "stick_4k_select", "name": "4K Select", "share": 24.6},
+                          {"id": "stick_4k_plus", "name": "4K Plus", "share": 18.8}, {"id": "stick_4k_max", "name": "4K Max", "share": 8.7},
+                          {"id": "cube", "name": "Cube", "share": 3.1}],
+            "funnel": [{"stage": "商品ページ閲覧", "v": 100}, {"stage": "カート追加", "v": 9.4}, {"stage": "購入", "v": 3.7}, {"stage": "Prime 同時加入", "v": 1.1}],
         },
     }
 
@@ -148,7 +145,7 @@ def trends_block() -> dict | None:
         vals = s["values"]
         avg = {k: round(sum(v) / len(v), 1) for k, v in vals.items()}
         out["share_12m"] = avg
-        k = vals.get("Fire HD") or []
+        k = vals.get("Fire TV Stick") or []
         if k:
             peak_i = max(range(len(k)), key=lambda i: k[i])
             out["self_peak"] = {"date": s["dates"][peak_i], "value": k[peak_i]}
@@ -160,8 +157,23 @@ def trends_block() -> dict | None:
 
 # ------------------------------------------------------------------ AIスナップショット
 def latest_snapshot() -> dict | None:
-    files = sorted(SNAPSHOTS.glob("*.json"))
-    return read_json(files[-1]) if files else None
+    """最新スナップショット。2026-09の全面刷新で計測対象が変わったため、
+    旧クエリ系列（f001-）のスナップショットは読み込まない（別製品の測定値を混ぜない）。"""
+    valid = {p["id"] for p in load_prompts_all()}
+    for f in sorted(SNAPSHOTS.glob("*.json"), reverse=True):
+        snap = read_json(f)
+        if not snap:
+            continue
+        ids = {c.get("prompt_id") or c.get("id") for c in (snap.get("cells") or snap.get("results") or [])}
+        if ids and not (ids & valid):
+            continue                      # 旧製品（f系列）のスナップショットはスキップ
+        return snap
+    return None
+
+
+def _legacy(d: dict | None) -> bool:
+    """旧製品（タブレット）の手動採録データかどうか。scope が firetv でなければ使わない。"""
+    return bool(d) and (d.get("scope") != "firetv")
 
 
 def ai_block(snap: dict | None) -> dict:
@@ -481,17 +493,17 @@ def status_block(ai: dict, extras: dict, trends: dict | None) -> list[dict]:
          "how": "週次レポートCSVを data/connect/sales.csv に配置 → 集計が自動で実値に置換"},
         {"id": "channel", "label": "量販店チャネル販売", "state": "sample", "src": "BCNランキング / GfK Japan POS",
          "how": "POSデータ（機種×店舗×週）を data/connect/retail_pos.csv に配置"},
-        {"id": "ku", "label": "Amazon Kids+ 会員・継続率", "state": "sample", "src": "社内Kids+指標",
+        {"id": "ku", "label": "Prime 会員・視聴継続率", "state": "sample", "src": "社内Prime/視聴指標",
          "how": "会員数・アクティブ率の週次CSVを配置"},
-        {"id": "market", "label": "市場統計（MM総研・総務省・BCN）", "state": "live", "src": "公開統計（出典リンク付き）", "how": "四半期・年次で手動更新"},
+        {"id": "market", "label": "市場統計（総務省・公取委・REVISIO・CA）", "state": "live", "src": "公開統計（出典リンク付き）", "how": "四半期・年次で手動更新"},
         {"id": "price", "label": "公式価格・セール履歴・量販店価格", "state": "live", "src": "Amazon公式 / 量販店EC / 報道", "how": "セール毎に追記"},
         {"id": "trends", "label": "Google検索需要（トレンド）", "state": "live" if trends else "wait", "src": "Google Trends（pytrends）", "how": "毎ラウンド自動更新"},
         {"id": "kwvol", "label": "検索ボリューム（月間）", "state": "live" if ex.get("keywords") else "wait", "src": "DataForSEO Google Ads", "how": "毎ラウンド自動更新"},
-        {"id": "ai", "label": "AI6面の語られ方（実クエリ42本・タブレット文脈）", "state": "live" if ai.get("measured") else "wait", "src": "DataForSEO AI Optimization / SERP", "how": "毎週月曜 自動計測"},
+        {"id": "ai", "label": "AI6面の語られ方（実クエリ42本・テレビ視聴文脈）", "state": "live" if ai.get("measured") else "wait", "src": "DataForSEO AI Optimization / SERP", "how": "毎週月曜 自動計測"},
         {"id": "shelf", "label": "Amazon.co.jp の棚（順位・価格・評価）", "state": "live", "src": "Amazon.co.jp 検索結果をChromeで実測", "how": "DataForSEO Merchant 接続後は自動更新に切替"},
-        {"id": "kakaku", "label": "比較サイトの棚（価格.com）", "state": "live", "src": "価格.com 人気売れ筋ランキング", "how": "週次でChrome実測"},
+        {"id": "kakaku", "label": "比較サイトの棚（価格.com）", "state": "wait", "src": "価格.com（Fire TV Stick の製品ページは未登録・ショッピング検索のみ）", "how": "Fire TV 搭載テレビのランキングで代替する設計に変更予定"},
         {"id": "amazon", "label": "Amazon.co.jp 検索結果・レビュー（API自動化）", "state": "live" if ex.get("amazon_serp") else "wait", "src": "DataForSEO Merchant", "how": "毎ラウンド自動更新"},
-        {"id": "apps", "label": "周辺アプリ評価（Amazon / Prime Video）", "state": "live" if ex.get("apps") else "wait", "src": "DataForSEO App Data", "how": "毎ラウンド自動更新"},
+        {"id": "apps", "label": "周辺アプリ評価（Prime Video / TVer）", "state": "live" if ex.get("apps") else "wait", "src": "DataForSEO App Data", "how": "毎ラウンド自動更新"},
         {"id": "yt_manual", "label": "YouTube 上位動画（3クエリ）", "state": "live", "src": "YouTube 検索結果をChromeで実測", "how": "DataForSEO YouTube SERP 接続後は自動更新に切替"},
         {"id": "youtube", "label": "YouTube 語られ方（API自動化・全5クエリ）", "state": "live" if ex.get("youtube") else "wait", "src": "DataForSEO YouTube SERP", "how": "毎ラウンド自動更新"},
         {"id": "news", "label": "ニュース", "state": "live", "src": "報道リンク集 + DataForSEO News", "how": "毎ラウンド自動更新"},
@@ -510,9 +522,13 @@ def main() -> None:
     shelf = read_json(DATA / "amazon_shelf.json")
     kakaku = read_json(DATA / "kakaku.json")
     yt_manual = read_json(DATA / "youtube.json")
+    # 旧製品（タブレット）の採録は表示しない。再採録時に scope: "firetv" を付ける。
+    shelf = None if _legacy(shelf) else shelf
+    kakaku = None if _legacy(kakaku) else kakaku
+    yt_manual = None if _legacy(yt_manual) else yt_manual
     board = {
         "meta": {"built_at": now_jst(), "brand": load("settings")["site"]["brand"], "owner": load("settings")["site"]["owner"],
-                 "measured_at": ai.get("date"), "facts_as_of": fb["as_of"], "marker": "FIRE_BOARD"},
+                 "measured_at": ai.get("date"), "facts_as_of": fb["as_of"], "marker": "FIRETV_BOARD"},
         "status": status_block(ai, extras, trends),
         "facts": facts, "shipment_series": fb["shipment_series"], "shipment_note": fb["shipment_note"], "household_series": fb["household_series"], "news_curated": fb["news"],
         "lineup": lineup_block(facts), "competitors": competitor_block(facts),
