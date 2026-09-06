@@ -201,6 +201,6 @@ function ytManualBlock(){
       <div class="k violet"><div class="l">狙うべき状態</div><div class="v" style="font-size:17px">字幕・章立て</div><div class="d">AIが読むのは音声でなく<b>書き起こし</b>。価格・型番・OS（Vega / Fire OS）・対応アプリを説明欄と字幕に置く（V9-02）</div></div>
     </div>
     ${(y.queries || []).map(q => `<div style="margin-bottom:10px"><div class="muted" style="font-size:11px;margin-bottom:4px">検索語: <b style="color:#9BEBF7">${esc(q.q)}</b></div>
-      <div class="flex">${(q.videos || []).map(i => `<a class="qi" style="flex:1 1 300px;display:block" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="id">${i.rank}位 ・ ${esc(i.channel)} ・ <b style="color:#FDA4AF">${esc(i.views)}視聴</b> ・ ${esc(i.age)}</div><div class="tx" style="color:var(--ink)">${esc(i.title)}</div></a>`).join('')}</div></div>`).join('')}
+      <div class="flex">${(q.videos || []).map(i => `<a class="qi" style="flex:1 1 300px;display:block" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="id">${esc(i.rank ?? '-')}位 ・ ${esc(i.channel)} ・ <b style="color:#FDA4AF">${isNum(i.views) ? man(i.views) + '回' : esc(i.views || '—')}</b> ・ ${esc(i.age)}</div><div class="tx" style="color:var(--ink)">${esc(i.title)}</div></a>`).join('')}</div></div>`).join('')}
     <div class="src">出典: ${(y.queries || []).map(q => `<a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.q)}</a>`).join('／')}（${esc(y.measured_at)} 取得）／${esc(y.note)}</div></div>`;
 }

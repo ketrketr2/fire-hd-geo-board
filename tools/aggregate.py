@@ -603,7 +603,10 @@ def shelf_from_serp(extras: dict) -> dict | None:
             break
     if not items:
         return None
-    return {"scope": "firetv", "source": "dataforseo_amazon_serp", "keyword": kw,
+    import urllib.parse as _up
+    return {"scope": "firetv", "source": "DataForSEO Amazon SERP（amazon.co.jp）", "keyword": kw,
+            "source_url": "https://www.amazon.co.jp/s?k=" + _up.quote(kw),
+            "rival_spec_note": "アクセサリ（ケース・カバー等）は除外。価格・★・レビュー数・過去1か月の購入数はAmazon掲載値",
             "measured_at": extras.get("date"), "items": items}
 
 
@@ -612,18 +615,25 @@ def yt_from_extras(extras: dict) -> dict | None:
     yt = (extras or {}).get("youtube") or {}
     if not yt:
         return None
+    import urllib.parse as _up
     official = ("amazon", "アマゾン", "fire tv")
     queries = []
     for kw, vids in yt.items():
-        rows = [{"title": v.get("title"), "channel": v.get("channel"), "views": v.get("views"),
-                 "url": v.get("url"), "date": v.get("date"),
-                 "official": any(o in (v.get("channel") or "").lower() for o in official)}
-                for v in (vids or [])[:10] if v.get("url")]
+        rows = []
+        for n, v in enumerate((vids or [])[:10], 1):
+            if not v.get("url"):
+                continue
+            d = (v.get("date") or "")[:10]
+            rows.append({"rank": v.get("rank") or n, "title": v.get("title") or "", "channel": v.get("channel") or "",
+                         "views": v.get("views"), "url": v.get("url"), "date": d, "age": d,
+                         "official": any(o in (v.get("channel") or "").lower() for o in official)})
         if rows:
-            queries.append({"q": kw, "videos": rows})
+            queries.append({"q": kw, "url": "https://www.youtube.com/results?search_query=" + _up.quote(kw), "videos": rows})
     if not queries:
         return None
-    return {"scope": "firetv", "source": "dataforseo_youtube", "measured_at": extras.get("date"), "queries": queries}
+    return {"scope": "firetv", "source": "DataForSEO YouTube", "measured_at": extras.get("date"),
+            "note": "各検索語の上位10本（関連度順）。視聴回数・チャンネル名はYouTube掲載値",
+            "queries": queries}
 
 
 # ------------------------------------------------------------------ 連携ステータス
