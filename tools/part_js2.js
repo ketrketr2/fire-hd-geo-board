@@ -140,7 +140,7 @@ function shelfBlock(){
   const top = ranked[0];
   const BR = {fire: '#E36A1E', googletv: '#3987e5', appletv: '#C9CDD4', smarttv: '#2DD4BF', xiaomi: '#c98500', projector: '#22D3EE', noname: '#64748B'};
   const BRL = {fire: 'Fire TV', googletv: 'Google', appletv: 'Apple', smarttv: 'スマートTV', xiaomi: 'Xiaomi', projector: 'プロジェクター', noname: '無名ブランド'};
-  return `<div class="card s12 rv"><div class="ct"><h3>Amazon.co.jp の棚 — 「ストリーミングデバイス」検索1ページ目（実測）</h3>${tagOf('live')}<span class="sub">${esc(sh.measured_at)} 時点・Chromeで採録</span><span class="hb" onclick="help('shelf')">?</span></div>
+  return `<div class="card s12 rv"><div class="ct"><h3>Amazon.co.jp の棚 — 「${esc(sh.keyword || 'ストリーミングデバイス')}」検索1ページ目（実測）</h3>${tagOf('live')}<span class="sub">${esc(sh.measured_at)} 取得・${sh.source ? 'DataForSEO Amazon SERP' : 'Chromeで採録'}</span><span class="hb" onclick="help('shelf')">?</span></div>
     <div class="kpi" style="margin-bottom:12px">
       <div class="k hero rose"><div class="l">ベストセラー表示のうち Fire TV</div><div class="v"><span data-cu="${fireTop}">0</span><small>/${ranked.length}枠</small></div><div class="d">自社ECの棚で、自社製品が何枠を占めているか。<b>指名検索の前段</b>にあたる</div></div>
       <div class="k orange"><div class="l">棚の最上位</div><div class="v" style="font-size:17px">${esc(top ? short(top.name, 18) : '—')}</div><div class="d">${top ? yen(top.price) : ''}・レビュー${top ? fmt(top.reviews) : ''}件・過去1か月${top ? esc(top.bought || '') : ''}購入</div></div>
@@ -193,7 +193,7 @@ function ytManualBlock(){
   all.forEach(i => { if(!seen.has(i.url)){ seen.add(i.url); uniq.push(i); } });
   const official = uniq.filter(i => i.official).length;
   const play = uniq.filter(i => /google\s?play/i.test(i.title));
-  return `<div class="card s12 rv"><div class="ct"><h3>YouTube の上位動画 — <span class="hl">AI引用ソースの第1位はYouTube</span>（資料p32）</h3>${tagOf('live')}<span class="sub">${esc(y.measured_at)}・関連度順・Chromeで実測</span><span class="hb" onclick="help('yt')">?</span></div>
+  return `<div class="card s12 rv"><div class="ct"><h3>YouTube の上位動画 — <span class="hl">AI引用ソースの第1位はYouTube</span>（資料p32）</h3>${tagOf('live')}<span class="sub">${esc(y.measured_at)} 取得・関連度順・${y.source ? 'DataForSEO YouTube' : 'Chromeで実測'}</span><span class="hb" onclick="help('yt')">?</span></div>
     <div class="kpi" style="margin-bottom:12px">
       <div class="k hero rose"><div class="l">上位動画のうち Amazon公式</div><div class="v"><span data-cu="${official}">0</span><small>/${uniq.length}本</small></div><div class="d">「Fire TV Stick レビュー」「テレビ YouTube 見る方法」の上位が<b>第三者だけで占められていないか</b></div></div>
       <div class="k orange"><div class="l">レビュー動画の主題</div><div class="v" style="font-size:16px">${play.length ? esc(short(play[0].title, 18)) : '設定・比較'}</div><div class="d">何を「使い方」として語られているかが、そのままAIの説明の型になる</div></div>

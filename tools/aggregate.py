@@ -18,7 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
-from detect import SELF_ID as SELF  # noqa: E402  自社ブランドID
+from detect import SELF_ID as SELF, catalog, detect_brands  # noqa: E402  自社ブランドID・本文検出
 from common import DATA, RAW, SNAPSHOTS, load, now_jst, read_json, write_json  # noqa: E402
 
 FACE_LABEL = {"chatgpt": "ChatGPT", "gemini": "Gemini", "claude": "Claude", "perplexity": "Perplexity",
@@ -570,6 +570,62 @@ def extras_block() -> dict:
     return out
 
 
+# ------------------------------------------------------------- 実測からの棚・動画
+_SHELF_BRAND = {SELF: "fire", "googletv": "googletv", "appletv": "appletv", "smarttv": "smarttv",
+                "xiaomi": "xiaomi", "projector": "projector", "roku": "googletv", "stb": "smarttv"}
+
+
+def shelf_from_serp(extras: dict) -> dict | None:
+    """Amazon SERP（DataForSEO実測）から棚パネルのデータを作る。手動採録の代替。"""
+    serp = (extras or {}).get("amazon_serp") or {}
+    if not serp:
+        return None
+    kws = load("settings")["amazon"]["search_keywords"]
+    kw = next((k for k in kws if serp.get(k)), None)
+    if not kw:
+        return None
+    ng = [w.lower() for w in (load("settings").get("seeds") or {}).get("amazon_title_exclude", [])]
+    cat = catalog()
+    items, seen = [], set()
+    for r in serp[kw]:
+        title = r.get("title") or ""
+        low = title.lower()
+        if not title or r.get("asin") in seen or any(w in low for w in ng):
+            continue
+        seen.add(r.get("asin"))
+        det = detect_brands(title, cat)
+        bid = min(det, key=lambda k: det[k]["pos"]) if det else None
+        items.append({"rank": r.get("rank"), "name": title[:70], "brand": _SHELF_BRAND.get(bid, "noname"),
+                      "price": r.get("price"), "list": None, "rating": r.get("rating"),
+                      "reviews": r.get("votes"), "bought": r.get("bought"),
+                      "note": "Amazon's Choice" if r.get("choice") else ("ベストセラー" if r.get("best") else None)})
+        if len(items) >= 20:
+            break
+    if not items:
+        return None
+    return {"scope": "firetv", "source": "dataforseo_amazon_serp", "keyword": kw,
+            "measured_at": extras.get("date"), "items": items}
+
+
+def yt_from_extras(extras: dict) -> dict | None:
+    """YouTube 実測（DataForSEO）から動画パネルのデータを作る。手動採録の代替。"""
+    yt = (extras or {}).get("youtube") or {}
+    if not yt:
+        return None
+    official = ("amazon", "アマゾン", "fire tv")
+    queries = []
+    for kw, vids in yt.items():
+        rows = [{"title": v.get("title"), "channel": v.get("channel"), "views": v.get("views"),
+                 "url": v.get("url"), "date": v.get("date"),
+                 "official": any(o in (v.get("channel") or "").lower() for o in official)}
+                for v in (vids or [])[:10] if v.get("url")]
+        if rows:
+            queries.append({"q": kw, "videos": rows})
+    if not queries:
+        return None
+    return {"scope": "firetv", "source": "dataforseo_youtube", "measured_at": extras.get("date"), "queries": queries}
+
+
 # ------------------------------------------------------------------ 連携ステータス
 def status_block(ai: dict, extras: dict, trends: dict | None) -> list[dict]:
     ex = extras or {}
@@ -619,7 +675,8 @@ def main() -> None:
         "status": status_block(ai, extras, trends),
         "facts": facts, "shipment_series": fb["shipment_series"], "shipment_note": fb["shipment_note"], "household_series": fb["household_series"], "news_curated": fb["news"],
         "lineup": lineup_block(facts), "competitors": competitor_block(facts),
-        "sales": sales_sample(), "trends": trends, "ai": ai, "extras": extras, "shelf": shelf, "kakaku": kakaku, "yt_manual": yt_manual,
+        "sales": sales_sample(), "trends": trends, "ai": ai, "extras": extras,
+        "shelf": shelf or shelf_from_serp(extras), "kakaku": kakaku, "yt_manual": yt_manual or yt_from_extras(extras),
     }
     write_json(ROOT / "tools" / "board_data.json", board, compact=True)
     size = (ROOT / "tools" / "board_data.json").stat().st_size
