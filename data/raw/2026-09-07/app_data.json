@@ -1,0 +1,3686 @@
+{
+ "apple_info": [],
+ "apple_reviews": [],
+ "google_info": [
+  {
+   "id": "09070007-1009-0419-0000-bfb191bcf267",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0094 sec.",
+   "cost": 0,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "app_data",
+    "google",
+    "app_info",
+    "task_get",
+    "advanced",
+    "09070007-1009-0419-0000-bfb191bcf267"
+   ],
+   "data": {
+    "se_type": "app_info",
+    "api": "app_data",
+    "function": "app_info",
+    "se": "google",
+    "app_id": "com.amazon.avod.thirdpartyclient",
+    "location_code": 2392,
+    "language_code": "ja",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "app_id": "com.amazon.avod.thirdpartyclient",
+     "se_domain": "play.google.com",
+     "location_code": 2392,
+     "language_code": "ja",
+     "check_url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient&hl=ja&gl=jp",
+     "datetime": "2026-09-07 00:07:35 +00:00",
+     "se_results_count": 0,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "google_play_info_organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "app_id": "com.amazon.avod.thirdpartyclient",
+       "title": "Prime Video",
+       "url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient&hl=ja&gl=jp",
+       "icon": "https://play-lh.googleusercontent.com/NnoDzfxkvlsAvU8jzoPeK8aaxbcU2sEH_btwgMQ2xI88_qtrNGQuf1vlFkxSiQODyKVFZ3-s71sU1MHyV-vc9Q",
+       "description": "『沈黙の艦隊』、『バチェラー・ジャパン』シリーズ、『ロード・オブ・ザ・リング：力の指輪』、 『フォールアウト』、『アイデア・オブ・ユー ～大人の愛が叶うまで～』などのAmazon MGMスタジオ製作の話題作をはじめ、さまざまな映画、TV番組、ライブ番組、スポーツ配信をお楽しみいただけます。話題の作品やお気に入りを検索したり、あなたが興味がありそうな映画や番組のおすすめをチェックしてみてください。※上記の作品の視聴には会員登録が必要です。\n\nアプリの機能：\n • 作品をダウンロードして、どこでもオフラインで視聴できます。※コンテンツによってはダウンロードできない場合もあります。\n • 新作映画や人気のTV番組を購入またはレンタルいただけます（国・地域によって視聴可能な作品は異なります）。\n • ChromecastやFire TVを利用して、スマートフォンやタブレットの映像をテレビの大画面に映し出すことが可能です。\n • 複数のプロフィールを作成して、ユーザープロフィールごとにパーソナライズされたエンターテイメント体験をお楽みいただけます。\n\nAmazonビデオの利用規約と使用規則については、amazon.com/videotermsをご覧ください。Amazon、Prime Video及びこれらに関連するすべての商標は、Amazon.com, Inc. 又はその関連会社の商標です。",
+       "reviews_count": 5615220,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.3,
+        "votes_count": 5615220,
+        "rating_max": 5
+       },
+       "price": {
+        "current": 0,
+        "regular": null,
+        "max_value": null,
+        "currency": "JPY",
+        "is_price_range": false,
+        "displayed_price": null
+       },
+       "is_free": true,
+       "main_category": "エンタメ",
+       "installs": "500,000,000+",
+       "installs_count": 915471099,
+       "developer": "Amazon Mobile LLC",
+       "developer_id": "Amazon+Mobile+LLC",
+       "developer_url": "https://play.google.com/store/apps/developer?id=Amazon+Mobile+LLC",
+       "developer_email": "amazon-mobile-development@amazon.com",
+       "developer_address": "410 Terry Ave N\nSeattle, WA 98109-5210\nUnited States",
+       "developer_website": "http://www.primevideo.com",
+       "version": null,
+       "minimum_os_version": "9",
+       "size": null,
+       "released_date": "2015-09-23 00:00:00 +00:00",
+       "last_update_date": "2026-09-04 00:00:00 +00:00",
+       "update_notes": "世界中200以上の国・地域でAmazonプライム・ビデオをお楽しみください。\nモバイルネットワークでビデオのダウンロードができます。",
+       "images": [
+        "https://play-lh.googleusercontent.com/gxZbstVZFTPVwFYT9PBODYoV_m10muRghaHQ7dE6Op_WsbMYBopN5prexy7_7WiYmyQscekhhydwdNmO-wHG",
+        "https://play-lh.googleusercontent.com/5BzYISGuAXUOtEgv3b7T1c-6oKJzMNlI5hMm4W2iru0Id7K_p837vUJZJevbJ92lpdjrKejjVAnogPj8nllwWA",
+        "https://play-lh.googleusercontent.com/h0L7bm8c1uwwPpWM4VpQmUnuHAI7qBvTcz2HUngmuBx5Ie_UyxZ9ChpyL_f9IO_fGut3ex1Htl_5ldijzKmP5A",
+        "https://play-lh.googleusercontent.com/XN2MFM-88q4WsrWY1aY3AEQfuJSKLTjapTcoS-Ldiul_HwD7B-6157_Pqk75MwSlRTloZcWu_uWq6ACAgNstQrY",
+        "https://play-lh.googleusercontent.com/uVKPxIN8LGnSY7sr607XVdWuJIsCOkFvCvzacwEilCRuYcdyhEghPpP_wix67tzdqgeD8Dg933Ve7P48R5SZ-g",
+        "https://play-lh.googleusercontent.com/gxZbstVZFTPVwFYT9PBODYoV_m10muRghaHQ7dE6Op_WsbMYBopN5prexy7_7WiYmyQscekhhydwdNmO-wHG",
+        "https://play-lh.googleusercontent.com/5BzYISGuAXUOtEgv3b7T1c-6oKJzMNlI5hMm4W2iru0Id7K_p837vUJZJevbJ92lpdjrKejjVAnogPj8nllwWA",
+        "https://play-lh.googleusercontent.com/h0L7bm8c1uwwPpWM4VpQmUnuHAI7qBvTcz2HUngmuBx5Ie_UyxZ9ChpyL_f9IO_fGut3ex1Htl_5ldijzKmP5A",
+        "https://play-lh.googleusercontent.com/XN2MFM-88q4WsrWY1aY3AEQfuJSKLTjapTcoS-Ldiul_HwD7B-6157_Pqk75MwSlRTloZcWu_uWq6ACAgNstQrY",
+        "https://play-lh.googleusercontent.com/uVKPxIN8LGnSY7sr607XVdWuJIsCOkFvCvzacwEilCRuYcdyhEghPpP_wix67tzdqgeD8Dg933Ve7P48R5SZ-g",
+        "https://play-lh.googleusercontent.com/BDuR_BmRiv_MP67NWhD97DM49kLR13BBg60uUDPTjrce__45iFE9eXJlQ6oNi-Hs6LSzdjzoTPRI41XH3i8yvhk",
+        "https://play-lh.googleusercontent.com/5lxqgfxgSg0fU8xv060OYWdRCeY8Ist9ldUWKBkwHSqhF8gkIFPo0g1FXpI0xRhBuXUXAptqGriuxhYqOw5qag",
+        "https://play-lh.googleusercontent.com/YirM0EOuI4lHTnNvF1L2GJFoELwuHQSLpzjv2caqABkDppjeE7mto3TMFmpiLoVq4dtrymSpWgcq4ScTzJY5jw",
+        "https://play-lh.googleusercontent.com/5KQGfqAOiRTF6wHx0PnH6MaoF3AgQ_Tzy5gQ6hTE_0CRm_zej8fr7iHBqZFi3sH4kRAJt_ODZsfcffe0T0Ld",
+        "https://play-lh.googleusercontent.com/Z-pZJqm7tDJiAvrzbKHztp0mIyrcAL69bt3D12xPTksDyqoqfG2fcnfVHFS3ECs9vz3WwgwC_-OhD6tKGflbZvU",
+        "https://play-lh.googleusercontent.com/plKKJxNF9jXExO9vRg0vEB8xxE4jHaRZKzLvOvLJrNjPNo1HJkWSQMM5FvepHuCwMLWY7tuiNHfKoXjTQ5xGRQ",
+        "https://play-lh.googleusercontent.com/jnpNlugrIz8Epbzy2YiTA33DI5GX_sR8O3vaLS541VPHBBt_WY729rPASL5jCenxjBwjSONywAyHLRX_tvcr",
+        "https://play-lh.googleusercontent.com/ppP-uyz_h1TGyjDxMd-2Y0X8-19Cg1CY_VnCXrP3qmuDeZlXj4XhYbhoeoETugDDmaO4ibxaPFmZymDOAzv8",
+        "https://play-lh.googleusercontent.com/fLOHVKVRUMTed0EwTSOVL_cPKkHVTpOK1wgDzJhxpyH92Rbpu4BShlVx7bS6OSaTNW7wKOO0hpTWxXznRz-i"
+       ],
+       "videos": null,
+       "similar_apps": [
+        {
+         "app_id": "com.amazon.mShop.android.shopping",
+         "title": "Amazon ショッピングアプリ",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping"
+        },
+        {
+         "app_id": "com.amazon.mp3",
+         "title": "Amazon Music: 音楽やポッドキャスト",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.mp3"
+        },
+        {
+         "app_id": "com.amazon.clouddrive.photos",
+         "title": "Amazon Photos",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.clouddrive.photos"
+        },
+        {
+         "app_id": "com.amazon.kindle",
+         "title": "Amazon Kindle: 電子書籍、マンガ、雑誌",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.kindle"
+        },
+        {
+         "app_id": "com.amazon.storm.lightning.client.aosp",
+         "title": "Amazon Fire TV",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp"
+        },
+        {
+         "app_id": "com.amazon.dee.app",
+         "title": "Amazon Alexa",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.dee.app"
+        },
+        {
+         "app_id": "com.netflix.mediaclient",
+         "title": "Netflix",
+         "url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient"
+        },
+        {
+         "app_id": "com.disney.disneyplus",
+         "title": "Disney+",
+         "url": "https://play.google.com/store/apps/details?id=com.disney.disneyplus"
+        },
+        {
+         "app_id": "com.spotify.music",
+         "title": "Spotify: 最新の音楽や人気のポッドキャストを再生",
+         "url": "https://play.google.com/store/apps/details?id=com.spotify.music"
+        },
+        {
+         "app_id": "com.instagram.android",
+         "title": "Instagram",
+         "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+        },
+        {
+         "app_id": "com.amazon.kindle",
+         "title": "Amazon Kindle: 電子書籍、マンガ、雑誌",
+         "url": "https://play.google.com/store/apps/details?id=com.amazon.kindle"
+        },
+        {
+         "app_id": "com.pinterest",
+         "title": "Pinterest（ピンタレスト）",
+         "url": "https://play.google.com/store/apps/details?id=com.pinterest"
+        }
+       ],
+       "more_apps_by_developer": null,
+       "genres": [
+        "エンタメ"
+       ],
+       "tags": [
+        "#4 エンタメ 無料ランキング",
+        "エンタメ"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "google_reviews": [
+  {
+   "id": "09070007-1009-0425-0000-59696c0c064e",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0578 sec.",
+   "cost": 0,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "app_data",
+    "google",
+    "app_reviews",
+    "task_get",
+    "advanced",
+    "09070007-1009-0425-0000-59696c0c064e"
+   ],
+   "data": {
+    "se_type": "app_reviews",
+    "se": "google",
+    "api": "app_data",
+    "function": "app_reviews",
+    "app_id": "com.amazon.avod.thirdpartyclient",
+    "location_code": 2392,
+    "language_code": "ja",
+    "depth": 150,
+    "sort_by": "newest",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "app_id": "com.amazon.avod.thirdpartyclient",
+     "type": "reviews",
+     "se_domain": "play.google.com",
+     "location_code": 2392,
+     "language_code": "ja",
+     "check_url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient&hl=ja&gl=jp&showAllReviews=true",
+     "datetime": "2026-09-07 00:08:01 +00:00",
+     "title": "Prime Video",
+     "rating": {
+      "rating_type": "Max5",
+      "value": 4.3,
+      "votes_count": 5615220,
+      "rating_max": 5
+     },
+     "reviews_count": 5615220,
+     "items_count": 150,
+     "items": [
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-05 23:15:30 +00:00",
+       "id": "a6ebbd51-ea62-4d27-bb9c-44321a5b3e6c",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "観ている途中で勝手に切れる",
+       "user_profile": {
+        "profile_name": "宮本孝",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIWCW8b7WT1r-CIV32FKV_b7xcesIV-rKf-5eGwXbpE7iNxeQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-05 18:24:02 +00:00",
+       "id": "29942034-2dd1-436b-9c72-85b64422789f",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "途中で落ちる",
+       "user_profile": {
+        "profile_name": "Kazuki",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVrkRAIDOSmj9-xDcuL7YC8C5elbLJTxgglaVAo8Ujv3uCLyg5F"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-05 06:03:40 +00:00",
+       "id": "1fc91e3b-231e-4a58-85f9-cdc4d717bc6b",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "新作は少ない感じですね。 旧作を好まれ方てしたらいいかと。",
+       "user_profile": {
+        "profile_name": "猫山アキアキ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWiRMUH5Q8yl9JrMbohI9Q7aWMrrEYWWV63WbANIN0vUOfTPsAr"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 4,
+       "rank_absolute": 4,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-05 01:41:15 +00:00",
+       "id": "bbba5a5d-573b-46f1-bfcb-d4ed7092e55b",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "毎日楽しく観てます。",
+       "user_profile": {
+        "profile_name": "るはぶののぶおか",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLisFjRgB5JIlYYWKIyo7CBK-exdDd-t9Bqm1N0c9vwF8bU=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 5,
+       "rank_absolute": 5,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-04 18:12:58 +00:00",
+       "id": "5d918408-dcea-45e9-b6cf-47f259674df0",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "再生出来ない",
+       "user_profile": {
+        "profile_name": "y y",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocL_5fDieGOgIsl7Y2ygqLh7jOZqmhSsLszziy-gbKwYhr6zQ8iQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 6,
+       "rank_absolute": 6,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-04 13:29:25 +00:00",
+       "id": "2d5852b3-586e-4802-923d-f82afd154d26",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ダウンロードすると倍速で見れるのはとてもありがたい。けど、朝開くと倍速できないから困ってます。 夕方からなら倍速見れるんだけど。。",
+       "user_profile": {
+        "profile_name": "S Megumi",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXQRY4pu_CI22S2AwD_VrngwPIAgI0bRGGJzahXeYHKLwMPOtrS"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 7,
+       "rank_absolute": 7,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-04 08:59:44 +00:00",
+       "id": "f6781ea6-7cc3-4c46-adc1-22d168c61e26",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "アニメのエンディングをゆったり見るのが難しく感じます。自動再生をオフにしても画面が小さくなり次のおすすめ作品が表示され、またそれを元に戻しても「次のエピソード」というボタンがずっと表示される状態です。私はエンディングも作品の一部としておりますので、あたしとは相性の悪いサービスといった印象です。2026/09/04現在",
+       "user_profile": {
+        "profile_name": "静青",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUPEdxfQgr2He_SBMMkEm5envvWA1otK71gnhYPTMJAImlOCwQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 8,
+       "rank_absolute": 8,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-04 04:17:49 +00:00",
+       "id": "5f1281e1-6fc0-4357-a76e-9476e7a14cc9",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "過去のようにCMが無ければ星5",
+       "user_profile": {
+        "profile_name": "wataru kumagai",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJ-us6cGUOaI_cx0dDdbS_TdGjZk_4l30hS4HDEzPbnkMMtTg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 9,
+       "rank_absolute": 9,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-03 20:53:10 +00:00",
+       "id": "82aee723-cc34-4bfe-a7d5-53a99bf97321",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "シークバー触ったり10秒スキップしたり、次の話にスキップしたりすると、再生速度がリセットされて変更できなくなる。",
+       "user_profile": {
+        "profile_name": "j suzuki",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIUDJ52oN4WVGtCZPXBNvjuJa5OhMKmyHaHhtS09AApW349XQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 10,
+       "rank_absolute": 10,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-03 16:40:47 +00:00",
+       "id": "fccf2d0d-f35e-4daa-b10c-21b8833612a6",
+       "helpful_count": 53,
+       "title": null,
+       "review_text": "Androidユーザーなんだが、数度タップしても反応しなかったり、長押しがなかなか反応しなかったりする事が数ヶ月前のアップデートから続いていますので、早急に改善をお願いしたい！それと、視聴できるはずの動画がプレミアム？じゃないと観れない表示(黄色の鍵)がされていたりと使用上で大変使い難い状態ですので、早急に改善をお願いしたい！無料で視聴している訳では無いので、しっかりしてください！",
+       "user_profile": {
+        "profile_name": "yasu -",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVwmVaBlgPkhjj1CIfnob26-oLQPMtROOTbrqZ2REMsveQJYCqi"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 11,
+       "rank_absolute": 11,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-03 16:07:56 +00:00",
+       "id": "907f9a08-11c4-4eb1-a532-d65846f473f7",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "アプリをインストールし、起動してログインを選択して、ワンタイムパスワードを入力しましたが、次はフルネームを尋ねられ、合っているにもかかわらず、なぜかパスワードの変更を一時停止したとの表示が出ました。 登録している フルネームはウェブサイトでログインして、間違いがないことも確認しました。 何度 アプリを起動し直しても同じで、ログインではなく、パスワードの変更処理になっているようです。 ずっと同じことの繰り返しでログインができません。",
+       "user_profile": {
+        "profile_name": "To Mo",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKyU-qabOjgCI1D7sHFMWVBxh1oYevw-fjY5Q_xudcz4BjXupY=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 12,
+       "rank_absolute": 12,
+       "position": "left",
+       "version": "3.0.470.847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-03 15:19:51 +00:00",
+       "id": "aa8e8b95-66f2-4d4a-89ef-b314cc127916",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "ずっと画面上の注意書き(00歳以上とか光の刺激が〜みたいなやつ)が消えなかったり、動画は動いているが薄暗い状態から直らなかったり、CMのあと画面比率おかしくなったり、回線に問題なくても動画の手前にグルグル回るのが出続けたり、最後まで再生し終わったのに次の話ではなく同じ話の(00話の続きを再生)が出たりと、再起動すれば解消する程度ではあるが細かいバグが一生出ている。使えないことはないが、小さいストレスを無数に与えてくる……",
+       "user_profile": {
+        "profile_name": "豊西澤",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIFHUJtW1JPqtkisK6QCX2hR-xIdAveGtMeGU0QUw5cqoZ11g=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 13,
+       "rank_absolute": 13,
+       "position": "left",
+       "version": "3.0.395.1347",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-03 13:31:01 +00:00",
+       "id": "0da1f27d-5a8e-4382-bec9-56e6232b39bd",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "5等分の花嫁見れるなら何でもいい",
+       "user_profile": {
+        "profile_name": "Hiroshi Koga",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocITgyi8ciTm_jKmwiRn2EPYs2KSOE1N4dt50XVA822OaH6FkA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 14,
+       "rank_absolute": 14,
+       "position": "left",
+       "version": "3.0.470.1047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-03 11:15:21 +00:00",
+       "id": "0d89b3dd-6058-4114-bea0-592577fcf9ee",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "素晴らしいアプリ。(*´ー｀*)俺にだけかも知れんけど。　",
+       "user_profile": {
+        "profile_name": "親方",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIk7Uk-YtuZ_lWPRJLQxVCwEVR-yNGpD36aUs16ik1by6wQYg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 15,
+       "rank_absolute": 15,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-03 07:46:32 +00:00",
+       "id": "04a6d332-5335-49c2-9db5-53f1034aad68",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "画面出てこない。アンインストールしないと直らない",
+       "user_profile": {
+        "profile_name": "Hima",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI00s_qiVqFZNZp58upA-7ey1ldf1tFpMgNEI3x5iXaS5P9Pw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 16,
+       "rank_absolute": 16,
+       "position": "left",
+       "version": "3.0.470.847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 19:43:53 +00:00",
+       "id": "753edc7d-977b-4ad9-9921-fcef26da69b7",
+       "helpful_count": 48,
+       "title": null,
+       "review_text": "数話再生すると画面が真っ暗になり音声のみの再生しか出来なくなる。端末を再起動すると映像が出るが、また数話で真っ暗。詐欺アプリである。",
+       "user_profile": {
+        "profile_name": "Masa Yoshi",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIi4Ow9z9wRKWyeop49wgAPj5piY2OEKkfjdce94qVi5YIPAg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 17,
+       "rank_absolute": 17,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 15:07:35 +00:00",
+       "id": "b78cf869-a7b6-4acd-9bdd-7cb3fec07f4f",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "うーん…って感じやね",
+       "user_profile": {
+        "profile_name": "西屋真琴",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVPA7-Giid0Kmjmz-cLg7kW4nMgOljrusEFUjEktdbyNQqhDe3H"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 18,
+       "rank_absolute": 18,
+       "position": "left",
+       "version": "3.0.470.847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 13:28:23 +00:00",
+       "id": "4740668f-c6c9-4fab-a14f-e8bd2e5b88c7",
+       "helpful_count": 10,
+       "title": null,
+       "review_text": "再生中に途切れるようになった。このアプリ以外は途切れないけどな。金払ってまともに視聴できないとか舐めすぎ。",
+       "user_profile": {
+        "profile_name": "切れない正宗",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVIYxpUCGAk3_RzoCVEq8Zs5XBPQOgWFe_d8mbwQknu07adwh3X"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 19,
+       "rank_absolute": 19,
+       "position": "left",
+       "version": "3.0.470.847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 12:19:07 +00:00",
+       "id": "b22525e5-b8ad-41ba-8476-7062d74767fa",
+       "helpful_count": 95,
+       "title": null,
+       "review_text": "他の動画配信サービスに比べて音がこもっていて人物の声が特に聴き取りづらいです。 あと、広告が変なタイミングで入るのが気になります。テレビ放送の様に場面が変わるタイミングでなく喋っている途中で入ることがあって気が削がれます。 最近の更新で最終エピソードのエンディングが小窓で表示されるようになったのをやめてほしいです… アニメやドラマのエンディングで「次のエピソード」という表示が出るのですが、最新話で次のエピソードが無いのに表示され、どうやっても消えなくて困ってます",
+       "user_profile": {
+        "profile_name": "Mi Ya",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLwGNltbcpL9vDcnoa9u57TvVgkngCzRq8WApaNwgzQMsg9xQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 20,
+       "rank_absolute": 20,
+       "position": "left",
+       "version": "3.0.467.189247",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 07:14:00 +00:00",
+       "id": "a4600443-f077-456f-bf05-28a5d0d16ac8",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "Ａｍａｚｏｎオリジナルが楽しい🎶",
+       "user_profile": {
+        "profile_name": "ヨシノリマツナガ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIZ5SPSxLOrBMGC1bK5i93UjTguowdQIOVdNeDq9Qe13rp4iQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 21,
+       "rank_absolute": 21,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 06:54:23 +00:00",
+       "id": "89b07093-7175-40ec-9c89-80b88f801a04",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "広告入りすぎ。マジうざい。30分番組で2回も広告……映画に集中出来ないし、酷いの一言。",
+       "user_profile": {
+        "profile_name": "安室0",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLRGwkdFGzhMPq4n4IjcCtPZU5cs3R8CxiZUZjMIOU7DNPdrQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 22,
+       "rank_absolute": 22,
+       "position": "left",
+       "version": "3.0.470.847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 05:55:36 +00:00",
+       "id": "0130da0c-d6d3-4b1b-8767-b84c7b10548f",
+       "helpful_count": 6,
+       "title": null,
+       "review_text": "prime会員自体が有料なのに広告があるというのが大真面目に意味がわからない。おまけにアニメやらドラマやら観ようとして検索しても結構な数がdアニメストアなどの外部のもので有料。こんなん契約するよりNetflixとかの方が遥かにマシ。ゴミ。",
+       "user_profile": {
+        "profile_name": "HKY auo",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXIIXj-cL2IU53T7c4wfTBB2mi4U6I2AxpaRDGZJD1HLJ2QIP0"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 23,
+       "rank_absolute": 23,
+       "position": "left",
+       "version": "3.0.335.11447",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-02 05:35:02 +00:00",
+       "id": "959e7bf2-69a7-43fc-bb4c-75ac3a5a3fa9",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "再生されない、再生しようとすると、強制停止になる",
+       "user_profile": {
+        "profile_name": "もとくんPRIUSのドライブ日記",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW4Or5n48bH_DGVYbA46R7oNE5dGXgH6S4RxbzEMy0M9eRPD_JDVw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 24,
+       "rank_absolute": 24,
+       "position": "left",
+       "version": "3.0.470.847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 23:37:28 +00:00",
+       "id": "7899d6f2-b91c-4249-8dee-bb20e992b0ac",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "【倍速機能付けて頂きありがとうございます】相変わらず ドラマの連続再生の設定をしても 連続再生されず 選ぶ画面を戻されますが どうにかならんのかね？",
+       "user_profile": {
+        "profile_name": "AKF11アスラーダ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWnQ9bXYR1_67-4SocWDT0TfLWeS8IxZPUTu_bdg2_wVA_ROrg"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 25,
+       "rank_absolute": 25,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 22:51:02 +00:00",
+       "id": "3d17fc17-8a9e-48b8-847c-5c51a1818598",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "広告ポイントでは無いところにでも広告がはいる",
+       "user_profile": {
+        "profile_name": "Damn you",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW1Gpuqy-MffZGvBhgWESSv_2D5LyB4d_z9AlA1ZOf-EBzAxxE"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 26,
+       "rank_absolute": 26,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 18:37:56 +00:00",
+       "id": "58556454-3207-46f2-8989-632f1d527561",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "シリーズや続編があるものが関連タイトルに入ってない事が多い結局検索することになるからイラつく 関連タイトルにこの作品を見た人はこんな作品を見てますとかどうでもいい 最新作がレンタルになるのはわかるがシリーズものの最初がレンタルになってたり真ん中がなってたりで中途半端",
+       "user_profile": {
+        "profile_name": "まーめ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIx5oivLN7eJJgsKKNAL8d9r2Ov4MvNtWSoogGLwIzM3zpy6A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 27,
+       "rank_absolute": 27,
+       "position": "left",
+       "version": "3.0.470.747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-09-01 12:05:21 +00:00",
+       "id": "5568c0e5-7af0-4033-8369-f448989bcacb",
+       "helpful_count": 12,
+       "title": null,
+       "review_text": "これは凄い✨大して面白くもない作品をローテーションしてるだけで良作は金を払わせようとしてエンディングを最後まで見たい視聴者の意見も聞かず挙句の果てには馬鹿みたいな量のCMまで入れ込んで視聴者からさらに金を巻き上げようとしてますね✨やっぱりNetflixの方が高くてもこのゴミよりはマシですね✨",
+       "user_profile": {
+        "profile_name": "翠玲",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLI6ri9am70dKtZAZ_2Hzpl9_sfwLhQ8402XkaoP8tHUapIHBk=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 28,
+       "rank_absolute": 28,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 16:11:49 +00:00",
+       "id": "a7de9639-4522-426a-85c3-983118fb4008",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "アニメの数がもう少し増えてほしい！ホーム画面での、続きから見るが、たまに出て来ないときがあるから、それを改善してほしい！",
+       "user_profile": {
+        "profile_name": "Ari Aki",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKtw9JP8j7J9ezBnq1GPKrVh6QE9Jly_IVyFOweSJ3rPpRk0A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 29,
+       "rank_absolute": 29,
+       "position": "left",
+       "version": "3.0.470.747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 15:49:09 +00:00",
+       "id": "fc030da9-cde6-4182-8b02-8c168dafa8cb",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "観たいものが有料だとちょっとがっかりします。たまに画面操作ができなくなることがあり、何度か起ち上げて正常に動くことができました。それで星4つです。",
+       "user_profile": {
+        "profile_name": "あんしい",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIK3Q8tMIhYGh8p8owsZmn27kod0P1cnb8YTkGjvMBv1is4zg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 30,
+       "rank_absolute": 30,
+       "position": "left",
+       "version": "3.0.363.3747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 14:06:01 +00:00",
+       "id": "7ccfc89a-ac01-4151-a2fa-82e721f149cc",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "WiFi化、ダウンロードしたものでも 後ほど再度試してくださいと通知がでて全然動画がみれないときがある 見れない期間があったとしても、返金、謝罪は一切ない",
+       "user_profile": {
+        "profile_name": "ソータ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWne9GgLga_41ywnncsOesSM7iSuGyheH59orpSqdn4-waU39_-"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 31,
+       "rank_absolute": 31,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 09:51:08 +00:00",
+       "id": "5547da5d-a9de-40fa-92fd-053973ce6bc2",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "前より悪く無った広告ばっかり、プライムでカネを取って又カネを取ろうして有料の動画ばっかりです。",
+       "user_profile": {
+        "profile_name": "セイジ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIkPDWr0jiogzAXW8OmlRhVt5y8616B6WxClUZK57BnvVFnUQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 32,
+       "rank_absolute": 32,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-31 04:52:04 +00:00",
+       "id": "186f856e-1ab3-4352-a3a9-25576454699e",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "広告ウザイ",
+       "user_profile": {
+        "profile_name": "大西遙（ニニサン）",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUUbkZSDoftw0nRPGmpcbTudHBvO6zMk0vi8D9k3RddNzPN71vT"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 33,
+       "rank_absolute": 33,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 17:22:11 +00:00",
+       "id": "88328dda-1059-40a1-9f2f-53b3d3a11f27",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "興味無い見たくない放送を見せる、勘弁して下さい。",
+       "user_profile": {
+        "profile_name": "耄碌ジジイ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXzqQ9NS66Q2gsrr_x2AueKNrp3KCHHP-OkY8sL85QtBn8019EpwA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 34,
+       "rank_absolute": 34,
+       "position": "left",
+       "version": "3.0.470.747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 14:19:50 +00:00",
+       "id": "66fcf0b6-2940-4937-a434-32e2de6e987c",
+       "helpful_count": 8,
+       "title": null,
+       "review_text": "なぜ同じ作品を何個も表示させるのか？ ウォッチリストに入れてるのは見れないのに新たに 見れる同じ作品が出てるのがややこい ウォッチリストの意味は？ 字幕の日本語がおかしすぎる作品がある",
+       "user_profile": {
+        "profile_name": "ユウ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKrZ7mrC_GOE3c-czzGVbTNtV4YnSSEE6tFGTLkKSI5PAmdTA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 35,
+       "rank_absolute": 35,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 09:09:56 +00:00",
+       "id": "b56ebdf0-dada-4a6d-852c-f2a7901a6646",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "サブスク系の中では検索機能含めかなり使いやすいと感じています。強いて難点を言えば、全画面表示で再生が終わり次話をそのまま再生すると画面端が見切れることがたまにある(毎回ではなく、一旦全画面表示を終わればすぐ直るのでそこまで気にならないです)、イントロをスキップするや次のエピソードを再生するなどのポップアップが少々鬱陶しいぐらいでしょうか。",
+       "user_profile": {
+        "profile_name": "石橋直樹",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUzSdoQGxUJujmklngJit__bCgvDem2jutdY-y0alxPItih5bvw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 36,
+       "rank_absolute": 36,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:40:42 +00:00",
+       "id": "2c65bae8-dfcd-4136-8874-c6fc52831544",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "作品をさがすのが大変",
+       "user_profile": {
+        "profile_name": "JEDI REDS",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX6w0p5x8vmlX2-lkeWl-Yixed8JYa2eNbsfkeIhQf0BiGyuPH68g"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 37,
+       "rank_absolute": 37,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-30 00:01:21 +00:00",
+       "id": "7b0d7344-0758-490b-9066-2ec22e1b0be7",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "日本語字幕の無い映画を日本のサイトにあげるべきではない。 返金サイト、問い合わせサイトが分かりにく",
+       "user_profile": {
+        "profile_name": "May M",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIs6kE99IhG_-g1yBNKzQL3i0ZuMnj3yqJkE-jLyxJxIZFgoA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 38,
+       "rank_absolute": 38,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 12:15:19 +00:00",
+       "id": "87af83d8-9205-4054-a7e0-c6223bca14c3",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "観たい作品が多くて有難いです。",
+       "user_profile": {
+        "profile_name": "dゆみこ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXGI6Lnj5d3YkW1XFlAQwW0bMfuudF0pzILqPZN0Q7-E-beru0N"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 39,
+       "rank_absolute": 39,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 10:45:21 +00:00",
+       "id": "ce8b5e58-cb0f-4831-a8c7-897065e32ed2",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "月額費用払ってるのに広告でてきて二重で請求される 論外",
+       "user_profile": {
+        "profile_name": "High Sky",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVNs1KoInoUWSvjqszHJ8GqnHMoyynmN9F0HfqK3o_Qkkr6-2ci"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 40,
+       "rank_absolute": 40,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 08:09:28 +00:00",
+       "id": "19fca657-22c2-4434-9444-a72f6aa41423",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "ピクチャーインピクチャーにしたとき、画面が暗くて見えない",
+       "user_profile": {
+        "profile_name": "mochij03",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLQaMHJ0dPPx3SpkaXtGPwExr0AYFAZVmZAq9Yxl-dOB9HNVg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 41,
+       "rank_absolute": 41,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-29 07:10:29 +00:00",
+       "id": "9bc7f07c-7594-4f31-82db-3c8c8572472a",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "最近まともに動画再生されない。音声のみで画像は表示されず、そのままにしていると、ビデオはご利用になれませんとメッセージが出て停止していまう。キャッシュやデータ削除しても変わらず。他にも同じ事象が発生している投稿が多数あるのですから、早く対応してください。",
+       "user_profile": {
+        "profile_name": "加藤信之（めぐパパ）",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXkXPDaWYeX0fD5LuY-EiUHRo2xRz2zDKdUe_7HNP2cs6WH23s"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 42,
+       "rank_absolute": 42,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 18:30:43 +00:00",
+       "id": "f83f5f5f-ba6e-4101-9ca5-898a3cf77455",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "間違えてアプリを閉じたら最初から広告再生させられる。試しにアプリを意図的に閉じてみると毎回広告が必ず1分再生はきつい。最初の再生時に広告全部見たんだから同じ広告出してくんな",
+       "user_profile": {
+        "profile_name": "re aki",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI_cUxSnqzG3r6tbkF0jxU9LVLXHCfXQ9axfFynzdX6PBeJeIw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 43,
+       "rank_absolute": 43,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 13:30:10 +00:00",
+       "id": "9674b48a-fc74-49d2-a7ba-12d060017f7b",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "最近ダウンロードしたアニメや映画を削除すると、アプリが落ちるよ〜なんとかして〜よ😭運営さん頑張って下さい(*´ω｀*)",
+       "user_profile": {
+        "profile_name": "hiroyuki kuronuna",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXx-awmDMvQgo8j-t3zAY5jsRzHyaoJCLYI4DC-jYB165bEnFM"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 44,
+       "rank_absolute": 44,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-28 05:07:58 +00:00",
+       "id": "6c132b03-a868-47c8-b069-9bc7b497d295",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "広告ばかりで解約しました",
+       "user_profile": {
+        "profile_name": "ああ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKr-5dCa0xxn09e8HB5Dy6ucIbT2_iSiPapKbnUSACGu7p40w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 45,
+       "rank_absolute": 45,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 16:03:48 +00:00",
+       "id": "8ddf820d-2bd2-4ecc-b76e-1d4eb05d69ae",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "ここ数日挙動がおかしくまともに視聴できません 解約を考えています",
+       "user_profile": {
+        "profile_name": "takehiro tanimura",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKE68xDctOr_4IaC4RpFI3zPsT6RNUoNd9W745sMbPnoX697Q=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 46,
+       "rank_absolute": 46,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 11:55:05 +00:00",
+       "id": "bdb271c3-61fa-4cb6-96c1-fcda97ed8bde",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "広告がうざい 特に最近、多い ひどいですね",
+       "user_profile": {
+        "profile_name": "古寺貴大",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKTAEEpMoRWqcfYaHqNRytxiF_jbKflFXkhQJ_C5y4Vep5ZWA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 47,
+       "rank_absolute": 47,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-27 01:26:35 +00:00",
+       "id": "a6c2a22f-e720-4a2a-bd77-b7c324bdd5aa",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "月額なのはわかります、別料金の動画も概ね理解できます しかし広告を強制で見せられ非常に不愉快です 残念ですが退会すると思います",
+       "user_profile": {
+        "profile_name": "黒澤零",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJIDw3qnlIonKPnx9YkboYG8GFxii23zcO8zjPw-_rvb3OyOw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 48,
+       "rank_absolute": 48,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-26 23:58:17 +00:00",
+       "id": "96e7acd4-97f4-41b4-ae9e-101eba78f5e2",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "たのしい",
+       "user_profile": {
+        "profile_name": "かな",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJBmuxJrHr39-aCtRf2uVubQ7vXUEHdEryDRnWifLvNsPvxnQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 49,
+       "rank_absolute": 49,
+       "position": "left",
+       "version": "3.0.469.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-26 04:47:16 +00:00",
+       "id": "74b7397a-16c1-4e52-a9df-cd69fae032f3",
+       "helpful_count": 7,
+       "title": null,
+       "review_text": "2026/08/26:快調 03/28:なぜ”00”ー”-０１”で止まってクルクル回ってるのか？ 2026/03/20:又、クルクルと回って始まらない。。何で別のコンテンツだと見れるのになぁ。 2026/03/11:外観が変わって元に戻った。。 何だったのだろう。。 2026/03/09:何か最近、クルクルと回って始まらないな。。他の環境は出来るんじゃが。。 2020/09/13:快調",
+       "user_profile": {
+        "profile_name": "ROJIN Cobra",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWEnL-gnQB4-W_2CiDbLWjrG2StT46N9WY_5x3aFTex9c-4YBJf"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 50,
+       "rank_absolute": 50,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 02:27:58 +00:00",
+       "id": "31e7dcba-fbfa-464a-abdb-a8271383079f",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "急な仕様変更か何かで 続けてみるが消失。 少し使いずらさを感じます。",
+       "user_profile": {
+        "profile_name": "タカヒロ（ホークアイ）",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWbwR0iX02eaZCS4lg3l8g3yge7mvrVF5BPrO9xJyMHZOJ-pHyIQA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 51,
+       "rank_absolute": 51,
+       "position": "left",
+       "version": "3.0.469.1947",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-25 01:31:47 +00:00",
+       "id": "1bcbcf59-3cae-43e6-b674-c131375ae75e",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "連続再生してくれない(-_-#。12話あったりするとかなり面倒、前バージョンが永遠に連続再生してくれていたので、そっちに戻してほしいわ。アプリでやってるのかサーバ側でやってるのか知らんけど。 ●以前のレビュー●画面左上の光や飲酒の警告が消えないことがある。一度再生を止めて再生を続けたり、自動再生(6話？)が終わり再生を続けたり、画面の向きを変えたり。条件はいろいろあるが、必ずなるという条件はない。以前のバージョンではなかったので、なにかの原因があるのだろ 。開発者は心当たりはあるのだろうが、もう加減にしてほしい。 画面の自動回転を入れないと横画面にならないのもとても不便、端末のセンサの利用をしてほしい。おまけに、追加料金を払っているのに広告がでる。こればアプリの再起動で消えるが致命的ですよ。",
+       "user_profile": {
+        "profile_name": "* Miya *",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjU4kITuAGHLhUi6rkLQOcxrl-tiEKzjedo_biQD9rcOJU49Q0U"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 52,
+       "rank_absolute": 52,
+       "position": "left",
+       "version": "3.0.467.189247",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-24 20:19:55 +00:00",
+       "id": "88e5ae82-2912-401b-b929-d2022529e247",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "家族全員楽しく観てます",
+       "user_profile": {
+        "profile_name": "風神雷神",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJX4DukhEyp6WaspcagxpVmP4nxHJqvg1nV_OhyydUEEhOhdg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 53,
+       "rank_absolute": 53,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-24 10:00:17 +00:00",
+       "id": "cb1bd2be-f683-400e-9488-d2e90eff2fcc",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "再生が一向に始まらない。",
+       "user_profile": {
+        "profile_name": "kokopandaman",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVGGzI-2Qtgn8whWSSK4YIsZgqNemsVgs6NrDg2_T_t1E7LBX6H"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 54,
+       "rank_absolute": 54,
+       "position": "left",
+       "version": "3.0.469.1947",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 23:31:44 +00:00",
+       "id": "8a3c1eb5-9304-45da-871d-5be58b8fddf7",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "しらないけれど興味のあるタイトルを見つけるのが楽しい。ほぼ毎日利用しており、なくてはならない存在。",
+       "user_profile": {
+        "profile_name": "石原弘之",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI9hYPWXWAhZpUv-ThMsAKH9RSU0qXEMVTljnGVbQro0R2PfQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 55,
+       "rank_absolute": 55,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 21:12:02 +00:00",
+       "id": "ec1d8a56-2267-4777-94e8-668acd41998b",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "有料でも見れないものがあったり、CMが流れたりする。他のアプリを使ったほうがいい",
+       "user_profile": {
+        "profile_name": "ゲーム",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUVdY35cBoa-zZ3QnHcLzCFEsGYwLHPr7m-IDn1fFP7meKrYppY"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 56,
+       "rank_absolute": 56,
+       "position": "left",
+       "version": "3.0.309.6847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 20:40:35 +00:00",
+       "id": "2b342b06-2dab-49a0-8068-97476f50e6d7",
+       "helpful_count": 21,
+       "title": null,
+       "review_text": "　「次に見る」のせいでアマゾンビデオは次回予告やエンディング、本編終了後の展開などの体験が著しく低下した劣化版になってしまっている。3秒後に別の作品に飛ぶな。なんで誰も指摘しない？見終わった後よくわからない別の作品に飛ばされたら見返したりできないのでかなり困るが、アマゾンにはなにか利益があるのだろう。→広告をいっぱい見せるためだった　他の人の評価を見ると厳しすぎるかもしれない…",
+       "user_profile": {
+        "profile_name": "x p",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKtVT6FOaQ8g93IlW6Rl6fCLE3CuNggC5zYjI8x5kfDHwQXr20=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 57,
+       "rank_absolute": 57,
+       "position": "left",
+       "version": "3.0.456.747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 20:31:33 +00:00",
+       "id": "5523e678-afde-4735-998e-728e87b3469f",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "Amazonのアカウントが重複し、退会不可能になると、一生金がかかるシステムがいけない。",
+       "user_profile": {
+        "profile_name": "hatakeyama hirouki",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX72Sk3Zq4-sRAy-T6tgWYKfhSmGx2ndIIulFGfqNSKJvk-aV0"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 58,
+       "rank_absolute": 58,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 12:28:49 +00:00",
+       "id": "70da04a7-5364-4a6b-aca0-1ca57810e346",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "見たい映画が少ない",
+       "user_profile": {
+        "profile_name": "Yuki Nakazawa",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWzoKa8z0lV0ptru-blcd5MrNB_LZKNoOjiZMiuNyRpLqwdgonQsA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 59,
+       "rank_absolute": 59,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 11:22:51 +00:00",
+       "id": "67b2d7b1-78dc-46f7-9a3c-7fdd54bde593",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "素晴らしい",
+       "user_profile": {
+        "profile_name": "大城雅人",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocK1Pbq4bRHnD1F0LirD2KQR6-b_zdHBwgUXQQ_K-Ea1kZR8_A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 60,
+       "rank_absolute": 60,
+       "position": "left",
+       "version": "3.0.469.1947",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 04:09:17 +00:00",
+       "id": "fb76f30d-8d2e-44b8-ab81-1ae26cda11f1",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "使いにくくなった？他の方のレビューどおりの点もあるけどデバイスごとの相性がねぇ🤔あとなんでもかんでも◎いかわってのもなんだかなー",
+       "user_profile": {
+        "profile_name": "古馬英米太朗",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWipXBqrri_KJ2xRcwmMVL9vfr4UJQ0KXeVurixDlluhtovMKgf"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 61,
+       "rank_absolute": 61,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 01:18:55 +00:00",
+       "id": "aa446d3f-15b0-4f04-9bb3-9f9fd3e28ec4",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "サービス自体は頑張っているが、ネトフリアプリと比べると操作にストレスがある。 オープニングスキップ 再生履歴 次話再生 PinP時の挙動 など頑張ってほしい",
+       "user_profile": {
+        "profile_name": "mon pai",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocL432KfMon2I3HkhPnkY0hDk7eqpXbRb3Q3j5gH2k39C13LfA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 62,
+       "rank_absolute": 62,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 01:09:56 +00:00",
+       "id": "9e46a316-8a97-4297-94a2-204e73451151",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "画質変更できない。広告あり。倍速ができないことがある。 有料なのにアプリの出来がお粗末すぎる。",
+       "user_profile": {
+        "profile_name": "hinagiひなぎ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWfarybThPhEkEdBPz3Qb3Xr6i9TEa1Lsqs2HELlJkLcZMu6y8"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 63,
+       "rank_absolute": 63,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-23 01:07:17 +00:00",
+       "id": "084a3e31-f044-40f3-a4e5-950ea7c27665",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "青い海の伝説や私の夫と結婚してなど、面白かったり切なかったりの物語",
+       "user_profile": {
+        "profile_name": "宮崎浩美",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUAtZaGzWXFG3MEIws87q8zp5FyRUgsJ6BwE1nQQtHCWk0o3iVz"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 64,
+       "rank_absolute": 64,
+       "position": "left",
+       "version": "3.0.468.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-22 23:45:11 +00:00",
+       "id": "13302180-5aec-4d2c-bfdc-71f944cff6c7",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "もっと早く入ればよかったですね！",
+       "user_profile": {
+        "profile_name": "たけち",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXfcLvvVC8QWmIDBJR68mKb5KH6lCyBg08Y38u32vAMzSLb6K4q"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 65,
+       "rank_absolute": 65,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-22 20:34:22 +00:00",
+       "id": "458e5810-7edd-47ea-b071-d352bfc380ed",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "プライムビデオのCMがウザいです…長い上に回数多い…色々観れるのは良いけど…正直CMに出てきた商品はむしろ買いたくなくなる逆効果の気がする次はプライム会員は更新しません",
+       "user_profile": {
+        "profile_name": "松ま",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJ6km1LAS9nwtAfpifvpJigdxzXaSreSk0EX92j7rErepywaA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 66,
+       "rank_absolute": 66,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-22 17:42:58 +00:00",
+       "id": "fe5ad9db-b6b4-4ad7-9291-caea6f55d47b",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "広告つくようになったので",
+       "user_profile": {
+        "profile_name": "柴田ふじこ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKeJOBZDaHBzVqBjpbe9L3AlT9IlW37oCGuXt0xZmmrZs1KDA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 67,
+       "rank_absolute": 67,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-22 10:27:19 +00:00",
+       "id": "ec2c4919-13a9-4b18-93d2-ab595e0b84f7",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "デバイスと管理をタップしてもどこにもベータ版がない。どこにある？",
+       "user_profile": {
+        "profile_name": "服部高明",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVlx6brwpjp7PBdCapdOalflUeymFpa9Bzba96jvV7qpjE-Rwcp"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 68,
+       "rank_absolute": 68,
+       "position": "left",
+       "version": "3.0.447.1147",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-22 05:00:29 +00:00",
+       "id": "4b0f2a49-2659-4d4e-9386-1fa2af8eff6d",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "ダウンロード制限を撤廃してほしい 機内モードにしない限りダウンロード再生でも多くの通信量を消費している",
+       "user_profile": {
+        "profile_name": "エクレア3",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKNf3omQbu4tMqQHmBNuOUN1tf9iqC0cOr87g-NBrzk3W8UkQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 69,
+       "rank_absolute": 69,
+       "position": "left",
+       "version": "3.0.468.1847",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-22 04:11:36 +00:00",
+       "id": "4d9c563d-a320-4cc9-b6ae-91fa6c8367c9",
+       "helpful_count": 12,
+       "title": null,
+       "review_text": "個人的に見たやつはわかりやすくして欲しいな",
+       "user_profile": {
+        "profile_name": "かちゅ（かちゅ）",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUcHR600qMuDWAny0fhI5j6LGVVr604vbBRO17shx-wQB9IP_eN"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 70,
+       "rank_absolute": 70,
+       "position": "left",
+       "version": "3.0.468.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-21 15:02:36 +00:00",
+       "id": "2b1f9210-0035-4aa1-8eb5-62590b8ce355",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "Primeで動画を再生する時、音声は出るが画像が真っ暗。本体の再起動が必要。 キャッシュ等はクリアにしてほかのアプリもオフでもだめで、本体の再起動でPrimeが正常動作。 バグか？ メモリが足りなくなっているのか判別ができない。",
+       "user_profile": {
+        "profile_name": "もっち",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKb-zba1pZx_8bvJV3DKHWSWLv2TcUppsqS3t83zqVJIPxkFQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 71,
+       "rank_absolute": 71,
+       "position": "left",
+       "version": "3.0.468.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-21 13:46:40 +00:00",
+       "id": "a242c521-1034-4276-8799-75e04b993ff9",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "やりにくいけど画質良い",
+       "user_profile": {
+        "profile_name": "森戸陽夢",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIMpkS0k6CKpoRSOFtbmtD9mauedBvzvzY-rLfJKyt7vKVzmw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 72,
+       "rank_absolute": 72,
+       "position": "left",
+       "version": "3.0.468.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-21 10:19:58 +00:00",
+       "id": "90b15e3e-cd43-462a-9503-a343cd5b2d9b",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "昔の大山のぶ代さんのドラえもんの映画が見たくて久しぶりに開いたら無かった！！なぜっ！？ドラえもんの映画とコナンの映画はオールシーズン見られるようにしてほしいです。あと世界名作劇場もできれば無料シーズンも作ってほしい。韓流はもういいので、アニメ充実希望。",
+       "user_profile": {
+        "profile_name": "桜みかん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX-0775FxRxsAXSd5VL4FeM15ZjZ4uI4asNPDSZwFKGwn-5f2pw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 73,
+       "rank_absolute": 73,
+       "position": "left",
+       "version": "3.0.467.189247",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-19 12:38:31 +00:00",
+       "id": "3bb286a3-6bdb-4838-9629-d9237fba2a5e",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "金払ってんのに広告見せられるしかも長い。",
+       "user_profile": {
+        "profile_name": "佐藤弘樹",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV-KVHkwSsuzNCAzccqSvANwIQwKRFc9NpzTkqyCgNECoVZOYvg"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 74,
+       "rank_absolute": 74,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-19 08:14:31 +00:00",
+       "id": "21ba23c4-4d00-4589-9557-b3293bd98019",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "視聴歴がちょくちょく狂う。 見たい番組がドコモや他サイトに取られて無料で視聴できないことが度々起きている。無料に釣られてます（笑）しかし有料では視聴しません！（笑）個人的には無料のPrime以外認めていません。有料動画だけになったらアプリ消します。",
+       "user_profile": {
+        "profile_name": "かっとぱい",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUk32kMPUDEwV0YNR2hj5yBj-zI41a8m2hJwQ-_MpOA1JXGQ8Ch"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 75,
+       "rank_absolute": 75,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-19 01:09:58 +00:00",
+       "id": "d04abe3f-ab0f-4dff-920e-ac70e96ec5d0",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "最近ドジャーズの試合放映されない日が多いですね!? わ",
+       "user_profile": {
+        "profile_name": "鈴木利夫",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocL3SCI1qVGnrmbR1B3qiYa939d_H98nTn2bQ295OASutRN3vw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 76,
+       "rank_absolute": 76,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-19 01:08:50 +00:00",
+       "id": "9c7567b6-7ccb-4bfa-8eca-f3eebc666765",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "広告が多すぎます。",
+       "user_profile": {
+        "profile_name": "はるか",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUQ5dgs3nbULenGBED7YjXba02zZMOFMeNfLnde0fZQZZBMMqI8"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 77,
+       "rank_absolute": 77,
+       "position": "left",
+       "version": "3.0.467.189247",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-18 21:42:21 +00:00",
+       "id": "2ca8e4ed-dc1d-436c-ad5e-c574db01ef57",
+       "helpful_count": 6,
+       "title": null,
+       "review_text": "倍速機能を付けて下さい。他の配信アプリの99%は 倍速機能有りますよ～ primeが倍速機能あれば もっと活用します。会員なのに今はまったく見てません。他の配信アプリを見てます。なぜなら… 標準速度でしか見れないからです。 追伸 倍速機能やっと付きましたね。なので星４へ… あとは Fire TVや スマートTVにも 対応してくれたら 星５なんですが💧",
+       "user_profile": {
+        "profile_name": "サマーSummer",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocJ5gz1Bg3qAZtSVm-V6dfp7aGO2MOCnWMmPDVtmrdx0wVKGtQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 78,
+       "rank_absolute": 78,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-18 20:42:15 +00:00",
+       "id": "90114b4e-950e-4678-b661-6fcb616d2976",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "バックグラウンド再生できるようにしてほしい！！！ 電車でスマホにて視聴中に乗り換えの時とか画面消したら止まるのは不便！！！",
+       "user_profile": {
+        "profile_name": "あんころもちもち",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI7FN1NeXX8yqV3jZJGiExoKPC-LygUsytOLJGP-K9fh-Zq9bW7=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 79,
+       "rank_absolute": 79,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 22:40:18 +00:00",
+       "id": "77ee3caf-017a-4a63-8d3b-f48f6e943d1e",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "アンドロイド(スマホとタブレットで確認)でまったく動かなくなった インストールし直したら、黒い画面にアマゾンのマークが出るのみ 家族のアイホンとファイヤースティックは動く 早く対応して下さい",
+       "user_profile": {
+        "profile_name": "武田",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXrc_RYammZALVahIRKEuqDSa4g7JvqUVSs1bQ276AkhUkqotA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 80,
+       "rank_absolute": 80,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 21:47:33 +00:00",
+       "id": "4d404af8-7b66-4760-a51b-376519fc6226",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "いつも楽しく動画見させてもらってます",
+       "user_profile": {
+        "profile_name": "松下拓章",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIVJv2YqCG-gr_A5EbNFTblSIVkM7nzYygXDt6OBb3RyxrR5Q=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 81,
+       "rank_absolute": 81,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 21:28:25 +00:00",
+       "id": "5e037669-7be5-4fb9-a2dc-1a1246e47b69",
+       "helpful_count": 6,
+       "title": null,
+       "review_text": "イントロスキップや10秒スキップ 一度戻ってからの再生などをすると 音声がゆっくりになって動画と音声が合わない視聴時間の表記を見たら視聴時間が進んでおらず使い勝手が悪い 3、4回入り直さないと正常な動画再生にならない（スマホ）",
+       "user_profile": {
+        "profile_name": "田中遥人",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLtlF-kdtq7LTeUumXe7AnYjmEDq9dDnngct0Jxq50w3xSF2w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 82,
+       "rank_absolute": 82,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 12:37:47 +00:00",
+       "id": "fbe92ea9-685c-4206-bec0-11548cb780c5",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "プライムビデオがみれない",
+       "user_profile": {
+        "profile_name": "忠久新里",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUwCbfrYV_2wO08dvzEAHTbxBduKdVUDF019anP5IvhlWr_g6Ve"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 83,
+       "rank_absolute": 83,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 11:46:57 +00:00",
+       "id": "9c9cdf7d-1486-4e9c-9562-ac88a367abd9",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "楽しんで番組を見てるのに、勝手に次の番組を再生しないで欲しい！！！本当に邪魔！！ 自分はエンディングまで見たいの！！ そこまでお金払ってるの！！ しかも自分のお気に入りにしてないアニメを勝手に再生しないで！！ ハイキューなんてアニメいらないから！！見たくない！！絶対見ない！！",
+       "user_profile": {
+        "profile_name": "H I",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKPuRLKrbz-wqSKFSUbC5tnzjYBtu0av4u2KGtrtSdwnq4B0A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 84,
+       "rank_absolute": 84,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 07:29:17 +00:00",
+       "id": "4592aa0e-e5a2-4f88-a493-9a4f28de0dbd",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "外出時はデータセーブして見る設定にしているのですが、がっつりパケットを使われていていました。 0.14GB/時の設定で2時間の映画を見たので、行っても0.4GBくらいかと思ってましたが、2GB強消費されてました。 さすがに怖くてもう使うことはないですね…",
+       "user_profile": {
+        "profile_name": "初老系オジ55",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXOEcDyElS9mS0jppChsyA2XonADx5TFXWDoEWyo7v_mZ0pwc5N"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 85,
+       "rank_absolute": 85,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 06:51:02 +00:00",
+       "id": "92ab00ba-af40-45e6-9754-21127a8fed40",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "ダウンロードすると音質が悪くなる しかもこの問題は何年か前からあるようでずっと改善する気がないのが気になる UIが変わってサムネイルとかそういった情報がパット見た時に見えなくなっていてすごく微妙になった",
+       "user_profile": {
+        "profile_name": "karato tosawa",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXd-I9vr-hqVHkKkvhRcecLzD26iXxdxnPgJ9i8V60lRSKyuHs"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 86,
+       "rank_absolute": 86,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-17 00:56:48 +00:00",
+       "id": "a4425541-da81-4d36-b9bf-4517c813b163",
+       "helpful_count": 14,
+       "title": null,
+       "review_text": "スクロールが際どい!!慎重にスクロールするとカクカクで、少し滑らせるとガーーーっとすべる。だめ。",
+       "user_profile": {
+        "profile_name": "平塚ゆうや",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVJWYJV7rLrPjgdNydPQVtd1iO1QYF54UVNQpDiaJB6Yc_pYDM"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 87,
+       "rank_absolute": 87,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-16 13:39:59 +00:00",
+       "id": "7795c881-e903-4b8c-825e-1fde76bbc7b3",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "あんまり日本語の字幕がない。",
+       "user_profile": {
+        "profile_name": "Christian Gold",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUrcUCLG1YPzzIIolUVQCOLWpH4uv3fAMXBJwbdqAljgJvBe9Ty"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 88,
+       "rank_absolute": 88,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-16 05:58:42 +00:00",
+       "id": "dd5b7254-ce89-4b7b-bb0f-14dd98824032",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "バグってて再生されない",
+       "user_profile": {
+        "profile_name": "Syrtis",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUA-bxUoqwXYoY0x8Nmo85WSbqZvfNVBTtKLaNLc1CESCxS9STp"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 89,
+       "rank_absolute": 89,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-16 00:48:18 +00:00",
+       "id": "06b4f256-7537-410e-a61a-6bf06132d799",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "CMは最初と最後に分けてほしい",
+       "user_profile": {
+        "profile_name": "masami.g",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUXdGpGPFJXdpQzzhDGQOoKvgGokgJ3V0A3PpKG1_oj25AbkJL3jw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 90,
+       "rank_absolute": 90,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 23:07:20 +00:00",
+       "id": "478c5acc-5742-476b-ba6e-0171bed2dbb9",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "今まで途中まで見てた作品などが表示されず、検索しなければならなかった。最近は続きから視聴出来るようになったので助かる",
+       "user_profile": {
+        "profile_name": "kui hosi",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKGyofC3uLZ82kKUA-AqT1JwMoXbiObyqBISMSvOPB8FHKprg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 91,
+       "rank_absolute": 91,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 14:09:31 +00:00",
+       "id": "ddd279eb-d41d-4a83-803a-b9210fee441b",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "比較的少ないギガで見れるのでおすすめです。 個人的に好きなアニメはハズビンホテルです！",
+       "user_profile": {
+        "profile_name": "RUPI",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWcO3qBxlhB3WUY8qRtMy52gMek3isPfW5AdMrEACakKP7W7nN-"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 92,
+       "rank_absolute": 92,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 09:24:57 +00:00",
+       "id": "6d2f221f-634d-4db7-bc24-cf8cd4c3a943",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "アプリ起動しても、なにも動かん。なにも出来ん…。なんやこれ？",
+       "user_profile": {
+        "profile_name": "りたま",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVrYk6OhyquOJQ2iQ3E8vVH5AED2LaBbCz6fLR7RlNDaSAJCkFg"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 93,
+       "rank_absolute": 93,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 06:09:02 +00:00",
+       "id": "e62d430a-8265-461c-afdc-6ad82bafe1ae",
+       "helpful_count": 12,
+       "title": null,
+       "review_text": "動画ダウンロードして見ると音質が劣化するのを防いでほしいです。 動画再生時に上に表示されるものが消えない時があります。また、横画面にしようと右下をタップすると失敗して再生バーをタップして時間が変わり、広告も流れるありえない仕様になっています。これって有料ですよ？",
+       "user_profile": {
+        "profile_name": "ノコNoko",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXA5P2uS2aSpHow_udJrCFJrG6a-pKeYbPjsLMqMmQmvKzikLgD"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 94,
+       "rank_absolute": 94,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 04:59:53 +00:00",
+       "id": "914e3141-b14a-4de6-b993-b9bf4dcfc180",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "ダウンロードが遅い長い最速最短で終らせろ💢接続が長い遅い最速最短で終らせろ💢",
+       "user_profile": {
+        "profile_name": "門司衆",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocK8406Ab0TvrrlRJdxxkLUVnch91XdtN6pSaWm9n8SK19svNg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 95,
+       "rank_absolute": 95,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-15 04:27:27 +00:00",
+       "id": "d43204e5-757d-4585-af86-d04a684e8355",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "よく、苛つかされる。Netflix のほうが性能が良い。",
+       "user_profile": {
+        "profile_name": "Y Mina",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV6VbO9heg2pQCiZKyxwyVp7No8g7ZOWwiz-Y1IXT_v7tBaxruO"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 96,
+       "rank_absolute": 96,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-14 23:15:20 +00:00",
+       "id": "9ddc62ed-fede-49fb-9f39-91c813658c82",
+       "helpful_count": 12,
+       "title": null,
+       "review_text": "CM長すぎ、ゲロ吐きそう。 TVの録画ならCM飛ばせるのに。",
+       "user_profile": {
+        "profile_name": "Bluejay Acrolith",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLjN2zH37NJkSDtFSlw4K8ieFmVX_dBaAMxZrHWl7N1HAosFg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 97,
+       "rank_absolute": 97,
+       "position": "left",
+       "version": "3.0.467.189047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-14 22:55:04 +00:00",
+       "id": "fe5d232a-548e-48f9-b8cf-cae9c95c50ac",
+       "helpful_count": 7,
+       "title": null,
+       "review_text": "CMは多いし長いしで観るの嫌になる。 サブスクで課金しても全話観られないしアマプラは配達だけで。",
+       "user_profile": {
+        "profile_name": "ゆうこ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKBknYJ5CY8BBzdTpJ-aPaqr1QrSE7gp5NA91uP2O5GENuGyBE=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 98,
+       "rank_absolute": 98,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-14 16:16:48 +00:00",
+       "id": "3d5cac69-1589-44dc-8291-66611377339f",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "検索しても　手を少し離したらすぐ戻る　検索できないし次のやつが調べられない",
+       "user_profile": {
+        "profile_name": "mirrinz M",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW7MWRzVdSii3RFmouJySOVaAwAIIK9LJk1fOSR47C1_TcmBn1b"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 99,
+       "rank_absolute": 99,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-14 05:45:32 +00:00",
+       "id": "b399e32a-750a-436c-9595-ac2d502fa5ce",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "あるときから起動できなくなった 再インストールしても青い矢印しか出ない アプリは諦めてます",
+       "user_profile": {
+        "profile_name": "R T",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVdJMDpkf1feob7zk4UnvNhynOdLokWNgWJRqbK5HUDsLKMahza"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 100,
+       "rank_absolute": 100,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-14 04:34:09 +00:00",
+       "id": "d41bd6b5-1107-481d-86da-c108af79d6eb",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ネトフリ、U-NEXT勢には必要ないですね ショッピングをよく利用してるので、それだけで十分です。",
+       "user_profile": {
+        "profile_name": "筑摩小次郎",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIE9m2jOwvvvEzpuMfR5U0ngYhsy40CCwV60uAsnwcptkMY4Q=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 101,
+       "rank_absolute": 101,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-14 01:19:39 +00:00",
+       "id": "39a246bf-ec31-43b8-a894-dcd936a22017",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "プライム会員で広告出るのは問題 顧客満足度を下げたくないなら今すぐもとに戻すべき",
+       "user_profile": {
+        "profile_name": "P",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLfqP1rwNIPzHXghLLrU1NIRUivoXVU-6BugqbzBXeQ-uIU1FC7=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 102,
+       "rank_absolute": 102,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-13 23:14:00 +00:00",
+       "id": "e9f85b7d-b35f-44fe-af03-0bfa76fc9495",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "広告フリーに登録しても、アマゾンの予告編が流れてしまう。スキップは可能だが完全に表示させないようにしたい。",
+       "user_profile": {
+        "profile_name": "寺島宗利",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI1BWYH75LB5X788aSQfQ9vFF4FP_O-Gjc4lXbANBkkghBGEw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 103,
+       "rank_absolute": 103,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-13 13:56:29 +00:00",
+       "id": "c5596a3e-4774-4724-9e1a-7c4494be8d9b",
+       "helpful_count": 6,
+       "title": null,
+       "review_text": "毎度毎度動画が再生できずクルクル回ってばかり。 ダウンロードした動画でもクルクルクルクルで再生できず。 ヘルプみてもキャッシュをクリアしろとか、再起動しろとか、Wi-Fiの通信がとか、こっちが悪いみたいなことしか書いてない。 全部やった上でクルクルしてるからイライラしてんだよ！ 我々のようなギリギリ我慢してる勢が乗り換えはじめる前に改善を強く強く希望します。",
+       "user_profile": {
+        "profile_name": "関口裕介",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKTEm6nWY8H5oFbgW2Hmfc67XPTneAbtM3jNVQjWy1wiu7k9A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 104,
+       "rank_absolute": 104,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-13 01:22:42 +00:00",
+       "id": "6f8d5d92-d29b-46c2-bb35-74c907be5bd8",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "暇潰しには最適なコンテンツ 有難い",
+       "user_profile": {
+        "profile_name": "宮田清隆",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocI54nCSYJccOp8dxPWycMjUERdJ6BEk2AkYgiLfUFxxcQIqeA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 105,
+       "rank_absolute": 105,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 22:54:34 +00:00",
+       "id": "94f08c05-3687-4cb1-a69d-d618ff2d5a81",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "つながらなくなった。YouTubeは見られるのに。プライム会員なのに、有料がけっこうある。",
+       "user_profile": {
+        "profile_name": "Hiroshi Endo",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLmQqMAYuQeFIFOjffouI2WvH6_y4LdxznRT6eqmCsUEXkpOSE=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 106,
+       "rank_absolute": 106,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 13:31:29 +00:00",
+       "id": "1661d71f-f341-4c0b-8890-9d47da65f5a9",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "cmいれるのありえん。",
+       "user_profile": {
+        "profile_name": "鈴木誠也",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKFcq_IKb1k59k9fCKU8t8cdD3aCnA-Vx1DDzfU2zk4iF3SAA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 107,
+       "rank_absolute": 107,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-12 12:44:35 +00:00",
+       "id": "e00df8cb-4639-4968-9195-511b9d134bac",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "まぁまあかな",
+       "user_profile": {
+        "profile_name": "植村あさはや",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVg3zhr1Nl9bM5aT5kTQeQgUxOodDQ-7Rg3Wp4iKZicIp658vTh9Q"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 108,
+       "rank_absolute": 108,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 11:20:58 +00:00",
+       "id": "7b2eecd1-e21b-4f6c-be7e-728bb12e6478",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "育児の合間に最高の贅沢。ありがとう！",
+       "user_profile": {
+        "profile_name": "Ayako Shimizu",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXSGUamE9KCdjOKwDqgDE6azvbWL1rkpeJ3CuVQup-7jZyCUipO"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 109,
+       "rank_absolute": 109,
+       "position": "left",
+       "version": "3.0.467.188547",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 10:23:57 +00:00",
+       "id": "8f6b2572-386f-4065-96df-a7433a2ae393",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "テレビ用だが、シーズンのある作品で話数を戻ろうとするとシーズン1になってイライラする。CMがどんどんYouTubeと同様に酷くなって来てる。アニメは最初とあと2本差し込んできて、更に40秒以上から90秒の長尺CMになった。広告無しにしたければ金払えと最初は無料or低額で人を集めて、人が集まればor期間が来れば有料or値上げと同意しなければ更にCM強制。今の所は大手のまともなCMだが、そのうち詐欺めいたCMや更に長尺化しそだし、現在のCM無しプランにちょっとだけCM入れるからCM無しプランはプレミアムコースに入れとなりそう。最新話は他の動画配信に加入しないと見られない鍵付きで1週間遅れで配信？とか数話だけ見れて後は鍵付きや、映画も鍵付きも多い。だったら他の動画配信会社に入った方が良くね？",
+       "user_profile": {
+        "profile_name": "プラネットシー",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLuU5bXPxWG-JXGv5npUADxgfufwJcTNbAKl72J44s84mQKlw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 110,
+       "rank_absolute": 110,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 07:41:55 +00:00",
+       "id": "9fd25b96-fa7d-4a58-a72e-c7fa92643fd1",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "比較的使いやすくて、見やすいと思う( . .)\" 探すのも難しくないし、シリーズでも探せるからいい(* • ω • )b プライム特典で見られるのは物によるから、追加してるけど、無料範囲でも色んなものを楽しく見られてるから良いと思うね( . .)\"",
+       "user_profile": {
+        "profile_name": "蒼山ユウリ（シーマ零）",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWOfKjTy3M1vHMb_o5-kfSJWZh_pHn_ugY6Qsq2L_A9rrlkV9d6"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 111,
+       "rank_absolute": 111,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 04:52:32 +00:00",
+       "id": "93e5efb8-e051-4e6f-87e0-68646e629f5c",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "使いやすい",
+       "user_profile": {
+        "profile_name": "いけだよしのり",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLXa4iD9y2DasCopQqAnT8Bte3He3zYXtI9P9QrzTCjreJngA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 112,
+       "rank_absolute": 112,
+       "position": "left",
+       "version": "3.0.462.2647",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 03:18:41 +00:00",
+       "id": "42075422-4296-4ea9-baea-e24e700bff74",
+       "helpful_count": 15,
+       "title": null,
+       "review_text": "サブスクなのに更にCMまで入れてくるのはおかしくないか？ 運営側は全くユーザーレビューを読んでないのがこれでハッキリした。今の所、一切返答無し！！ 運営に改善を強く求めます。 ①動画画面でスワイプ等で 「画面の照度」 「音量調節」 「画面のどこをタップしても一時停止するように」 ②有料サイトなのにダウンロード出来る本数が少なすぎる。オフラインで貯めておいて後で観たいのにダウンロード数制限で観てないのに削除を余儀なくされる。 ③ユーザーの改善要望に必ず返答してください。運営者が読んでいるのか既読スルーしてるのかさっぱり分からない。 あと、有料なのに無料で観れるものが明らかに少ない。 1話だけ無料とか？ やってる事は日テレお得意の続きはHuluで！！ と同じ。この事はネットでも叩かれてるのにアマゾンも同じ考えなんだな あとサブスクなのに更にCMまで入れてくる異常さ。 そんなに収益得たいのか？？ プライムビデオはアマゾンプライム会員の【オマケ】程度って考えなんだろう、",
+       "user_profile": {
+        "profile_name": "kp gc",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLv260A5e5-L2CorJs1BtqiWV6_vAf1JFUqnpuuY1eJZviyBw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 113,
+       "rank_absolute": 113,
+       "position": "left",
+       "version": "3.0.467.188547",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 02:51:01 +00:00",
+       "id": "7107db1c-fbb4-4dc3-b0f6-097f8ad8fab7",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "操作性が悪い、有料コンテンツが多い",
+       "user_profile": {
+        "profile_name": "ナベちひろ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocK5BAphqZm_0jlUMbs8YPQIRkj_s6e6MpELsxz8kPTWa-AuYQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 114,
+       "rank_absolute": 114,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-11 02:36:52 +00:00",
+       "id": "4e75eb78-3e45-4268-9a04-2cebd0847814",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "Amazonショッピングのためにプライム会員に入ってるだけなのでプライムビデオはオマケ程度だと思ったほうがいい！まず作品数はすごくすくなく入れ替わりもなくずっと同じのしかないうえに狂ったほど広告ぶっこんできます！こんなゴミに広告フリーの金払うぐらいなら僕はHuluを勧めます！作品も多く入れ替わりも多く広告なしで1000円程度です。",
+       "user_profile": {
+        "profile_name": "まこくん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVGiix4E3eCTbQR6yZ8XpVRwTqjcHJ1r_mXTlE6gK2z1-1lzbcX"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 115,
+       "rank_absolute": 115,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-10 11:52:41 +00:00",
+       "id": "ad514ec8-5427-4e7b-bf5e-8d23347dfc6b",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "映像と音声がズレてます😭",
+       "user_profile": {
+        "profile_name": "福ちゃん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWrGpBOhb-glpbR6xxXSFfKoKn6nO2A2Nq_qMrzUArKkkBJnJOm"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 116,
+       "rank_absolute": 116,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-10 09:20:21 +00:00",
+       "id": "bc9a5b11-a93d-41bf-b6a6-a5e0d0eb2812",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "広告視聴が始まってから、広告の読み込みエラーが起きる様でブラックアウト頻繁 携帯を再起動すれば直るが、頻度が多く不便になり使いづらい",
+       "user_profile": {
+        "profile_name": "Tola Qizi",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIGtxgnUM1h6s96wuS_Y53xO_j8D9nfRbSQtCdADJhqwsm5lg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 117,
+       "rank_absolute": 117,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-10 07:16:48 +00:00",
+       "id": "0d21470f-2d29-4963-a52d-a2618517eeed",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ネットフリックスで見れない物が多い！でもコマーシャルがあって途中何度も（3〜4回）2分程待たされる。 後、後戻りと早送りが出来ないのと途中で切ると再生時かなり前に戻ってしまうので改善して欲しい。興ざめする。",
+       "user_profile": {
+        "profile_name": "なおちゃん“太陽の下で”",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWdz-5jouhMuv3Db_3oZERF6x0MraWLdTQPv6dTFiaHYpykGRaLyw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 118,
+       "rank_absolute": 118,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-10 01:21:50 +00:00",
+       "id": "871d0bb2-582c-433d-acaf-eec637e93ee8",
+       "helpful_count": 3,
+       "title": null,
+       "review_text": "アンドロイドアプリ再生出来ない",
+       "user_profile": {
+        "profile_name": "森田拓男",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXbiSh4IoO_AKNH66riDLPZoOtvdCehV_nTgghjC6sLLbITHIG5"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 119,
+       "rank_absolute": 119,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 16:03:09 +00:00",
+       "id": "ffa44a10-51f8-417a-8c18-76d602954374",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "CM が長すぎるタイミングが悪い30分の アニメ に2回入れるのはちょっと多すぎる15秒 とか そのぐらいの流れだったらいいんだけど1分とか1分以上のものを2回とかぶち込まれるとお金払ってるの 何でなのかなって本当に思うあまり ストレスがかからないような感じでコマーシャルを入れていただければ そんなにストレスはかからないんだけどAbema みたいな無料のCM ありで見るタイプは15秒 とか 短いものもあれば10秒で終わるものとかちょいちょい 入ったとしてもあまり 不快に思わない その辺考えていただきたい。 あと 最大の問題点は無料で見れる作品の調べ方がなかなかうまくいかない3話まで無料とかいうのも 一緒に混ざっちゃってるんでこれだと 作品 調べようがないので本当に困ります。無料と言ったら全話無料で見れる作品のみ表示できるようにしていただきたい。",
+       "user_profile": {
+        "profile_name": "天の羽衣",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUsMlIdRZPChMGHPrg_GlsBC2SsKdB4N1MRosg9DYwQY9IeNUw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 120,
+       "rank_absolute": 120,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 13:17:34 +00:00",
+       "id": "78514e81-53a3-4361-9e7b-e93f22a57745",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "監督や俳優の関連作品がリンクしていないから非常に使い勝手が悪い 広告がまじでゴミ",
+       "user_profile": {
+        "profile_name": "Ramumai Yatsuta",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKBLHhhyjVCm-41iea4Wn0YvZGzJ7C34ZQx16yRdpMNLItJ_9w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 121,
+       "rank_absolute": 121,
+       "position": "left",
+       "version": null,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 12:10:23 +00:00",
+       "id": "b39f6929-9a6d-424d-9a8d-ca67ec31f7a9",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "テレビにFire TVを接続して見ているが、最近プライムビデオを起動するとテレビの戻るボタンでプライムビデオを終了できない為、ホームに戻れない。 わざわざ純正リモコンか、コンセントを抜かないとホームに戻れないバグが発生している。 至急改善求む",
+       "user_profile": {
+        "profile_name": "I TARU",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLpGcLr0MibrUDA8zIi_nc5tO3rFlDdlqEuxc3TeNinU0ZNVQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 122,
+       "rank_absolute": 122,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 07:06:01 +00:00",
+       "id": "06bc169b-2e7f-4507-932a-4ce385fb740b",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "広告がうるさすぎる",
+       "user_profile": {
+        "profile_name": "K ei",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKhbVfhKt24tHAnlzuk3oIJaMj6fXnEx5a_4ZLhSBeQrLDg1Q=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 123,
+       "rank_absolute": 123,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 07:02:37 +00:00",
+       "id": "b4c23dda-98df-443d-81ad-4f913949e6dc",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "おもしろい",
+       "user_profile": {
+        "profile_name": "佐藤清敏",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIQtXs4YDFRjPqwBD8UTjwpbZi9xcOSVYV-lECHqIGyQ9rQbQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 124,
+       "rank_absolute": 124,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-09 05:41:34 +00:00",
+       "id": "7fa901b8-d480-475f-9bc4-8953d62f7e63",
+       "helpful_count": 11,
+       "title": null,
+       "review_text": "金の亡者",
+       "user_profile": {
+        "profile_name": "らんどりちきん",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXt1zdR-JrRWF2rgs-3rjCC7xCsadx-VU4ln6H_KakAiUlFSE-6"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 125,
+       "rank_absolute": 125,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-08 12:12:54 +00:00",
+       "id": "9ffb27d2-e8d5-47cf-a311-0353ec32d3d8",
+       "helpful_count": 4,
+       "title": null,
+       "review_text": "広告　広告　広告　広告… 映像体験は台無し、価格そのままでサービスの質は下がるばかり。",
+       "user_profile": {
+        "profile_name": "b si",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKcKFOZ2G5hnS5jT2jKzJJeGo-nBlIK4EQcRnyddnoUqDxthQ=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 126,
+       "rank_absolute": 126,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-08 11:14:23 +00:00",
+       "id": "5902da9f-c539-4d9b-b710-15f13b89bf25",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "見たやつを広告スタートで何度も最初からスタートしてくる。見たやつかを確認しようとしても広告で金金しすぎてる",
+       "user_profile": {
+        "profile_name": "河野雄哉",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUSF5HSgWIsmsJEGhgSfzsB6FS7MVkJVEKf2v3mJ6Xgp9z2bRgM"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 127,
+       "rank_absolute": 127,
+       "position": "left",
+       "version": "3.0.466.2047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-08 04:14:55 +00:00",
+       "id": "6a04b6f7-0e9e-4fee-a216-b446f8c18260",
+       "helpful_count": 6,
+       "title": null,
+       "review_text": "概ね使えてはいるんですが、注意書きが消えない、途中から観たいのに観てないことになってる、字幕がついたりつかなかったりする、など、細かな困ることがたくさんあります。 CMは仕方ないけど、集中して見てる映画だと本当に冷めます。最初に五分くらい見させられてもいいので、途中に挟むのやめてもらえませんか。作品にも失礼だと思います。",
+       "user_profile": {
+        "profile_name": "Hana_ cha",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjU-OfI_yBcv5Z5n_dGdrvn82ogcEaeHWS11-DGtAwRWNl549P5Vdw"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 128,
+       "rank_absolute": 128,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-08 03:33:45 +00:00",
+       "id": "5b7bb290-fb9c-4f73-8c5b-124a04e7b4a7",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "新作が月額料金だけで見れるとか有難過ぎます",
+       "user_profile": {
+        "profile_name": "mie mike",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUh8TCZCYxdhwI0-tF8kdOerreZW6ri5qusytQUVNQzzybWsPrE"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 129,
+       "rank_absolute": 129,
+       "position": "left",
+       "version": "3.0.450.247",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 21:53:01 +00:00",
+       "id": "72411be6-4b23-4048-a405-2018ae9c2edc",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "広告が出るようになって没入感が途切れるようになったのはマイナス点",
+       "user_profile": {
+        "profile_name": "桜やゆら",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWv_1yQpqB9y6I3LQTPmf4ChyjEZ-fwoskYuHUMA3GoOzDgZCrS"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 130,
+       "rank_absolute": 130,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 21:20:00 +00:00",
+       "id": "dc2301fc-2c3a-400e-9d31-109dc43d15f1",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "良く勝手に落ちます。 何度やってもだめな時はだめなのでダウンロードしたものが勿体ないですが再インストールします。",
+       "user_profile": {
+        "profile_name": "Etsuo Ueda",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjX-OqVGOWkoMLJOfM29Rb_EV_SFtJBeNFDWABoHdQg2z-vBxMZj5w"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 131,
+       "rank_absolute": 131,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 14:21:43 +00:00",
+       "id": "ed8110b2-3706-44a2-8508-ec214d5474eb",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "スキップできるとはいえ、再生前に流している別作品の紹介動画はCMでは？広告が嫌で有料のプランを契約してるのに…",
+       "user_profile": {
+        "profile_name": "Takuya Kiyozuka",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWAV4b0NYn92uAAPWYCPdLgiIpN1nc4wfH9sodJg72tH2w_0evW"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 132,
+       "rank_absolute": 132,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 13:38:57 +00:00",
+       "id": "7b517a1b-7890-44a7-a6df-a4beb2e63c0f",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "グルグル🌀の時間が長くて、結局観ることが出来ない事が本当に多々ある。",
+       "user_profile": {
+        "profile_name": "aimi i",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWyRoOOHlTh62tzHzUcrNdptvP6S9K2R8Y0J8bD3Ss5jTiJEIMMIQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 133,
+       "rank_absolute": 133,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 10:19:29 +00:00",
+       "id": "add60637-776c-4ace-93db-a9c6b4179bc9",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "広告が多い",
+       "user_profile": {
+        "profile_name": "ぬこまめ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjV1g81eU6NH0k_lZ6FI44i1VXvNpRfCFWpetwfnYTKqTi5LqAqD"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 134,
+       "rank_absolute": 134,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 01:54:57 +00:00",
+       "id": "73c48ce8-51fb-4b6b-b8f4-e328a990e322",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "プライムで金払ってんのに宣伝すんの？",
+       "user_profile": {
+        "profile_name": "ムーランムーラン",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKOkF1t4ndH5Ga4vhoaljgq7H3lLDszczQL33_m2E4vtA52WA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 135,
+       "rank_absolute": 135,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-07 00:51:43 +00:00",
+       "id": "88a934c7-fee1-410b-a6a4-603e03dd6bf9",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "これまではprime会員であれば広告なしで見れていたのに、prime会員でも別に広告なしにするためにサブスクに入らないといけないなんて…。残念です。",
+       "user_profile": {
+        "profile_name": "teddy at",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjXoV7-tey-6oXoVIx6AB3rBSPgICs2dK7NLt0BS1s-FCqsgjggE"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 136,
+       "rank_absolute": 136,
+       "position": "left",
+       "version": "3.0.466.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-06 15:01:18 +00:00",
+       "id": "e05a4419-3345-40f0-9f54-60471aa51699",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "ダウンロードしてもギガ食います",
+       "user_profile": {
+        "profile_name": "半田貴也",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLSvuRQ1SIit1uN52ozyAJm9r_5a89frIVaNm3L161uSaTTBA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 137,
+       "rank_absolute": 137,
+       "position": "left",
+       "version": "3.0.462.2947",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-06 14:30:47 +00:00",
+       "id": "5e4ac976-8bc3-4e59-8ea3-28d1be69017a",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "広告仕様後付けとか詐欺だろ",
+       "user_profile": {
+        "profile_name": "N U",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjWYKRT0mLzBPE2K3mY0zu4CinKMauEUUx0eCcdKj2-GbLyUahaEMQ"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 138,
+       "rank_absolute": 138,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-06 13:47:35 +00:00",
+       "id": "29abb5b8-44b4-4cd5-8777-a77a290230ac",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "全部とは言わないが有料動画配信への案内所、 サービス止めてアマプラ会費安くしたら？ 半端なサービスに成りつつ有るので価値半減かな",
+       "user_profile": {
+        "profile_name": "shou A",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVThj86BO63RBlt3mm8CcZXZVd62blM3EClfXKyYjME4QKISsk"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 139,
+       "rank_absolute": 139,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-06 03:35:01 +00:00",
+       "id": "e149c43f-e787-4ac3-8b41-9b58a669539e",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "たちあがらない",
+       "user_profile": {
+        "profile_name": "白鳥タツヒコ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLVZObUwPz2i4XXldbCnA1W0FlYzqgt4E8EV4UCMhtE0PgOzw=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 140,
+       "rank_absolute": 140,
+       "position": "left",
+       "version": "3.0.462.3047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 2,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 23:17:19 +00:00",
+       "id": "a05b8ce7-5801-42b3-89cc-21a51643cf91",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "再生中に何故か早送りも停止も出来なくなります。その都度アプリをダウンロードし直しますが、スマホ(Android)との相性が悪いのか、改善されません。",
+       "user_profile": {
+        "profile_name": "高田泰弘",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIx3CvQYrotoAJZ2sjXTx5chUqLWHXBKATpysd9IjEziESpuA=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 141,
+       "rank_absolute": 141,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 23:00:07 +00:00",
+       "id": "31ba1080-4ede-4461-bed2-2707a5854559",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "よい。",
+       "user_profile": {
+        "profile_name": "健作福原",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVzT3bjXiFujY-gbA27xGVCqUGiuGP7rD2OdeByQBHlYa2g19p1wA"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 142,
+       "rank_absolute": 142,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 14:55:28 +00:00",
+       "id": "847234c1-cfb6-42d0-a50f-c0025b1fb5fa",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "時々全然再生が始まらないことがある。 条件もよく分からないし、ストレス",
+       "user_profile": {
+        "profile_name": "AKUMA",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjUKttcO6fjlLBueF-_HZmxDrTJkJ6xL10Yf0eK8akScwHzQr1jn"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 143,
+       "rank_absolute": 143,
+       "position": "left",
+       "version": "3.0.466.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 14:45:56 +00:00",
+       "id": "590a99f7-ca8a-43c6-add6-65d4812ba381",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "👍️",
+       "user_profile": {
+        "profile_name": "JYMN KTKMN",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLCVxo05LqXlpYvHUuOE4vV7kHyGTZL0stYxOMtTawLvlsFbWjg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 144,
+       "rank_absolute": 144,
+       "position": "left",
+       "version": "3.0.466.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 13:05:55 +00:00",
+       "id": "382cf66b-43a3-4ce6-9dfc-1898ddc45833",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "倍速ができるようになりました (最大2倍速) とてもいいですね",
+       "user_profile": {
+        "profile_name": "MASAHIRO SATO",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjVl_vnWce3KkOaUz0zTEC8ds1zhxsgbhgqrKZkL8IkDqVn-UDRX"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 145,
+       "rank_absolute": 145,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 10:37:17 +00:00",
+       "id": "0729e18f-593d-4cd3-8d8d-976d973f571f",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "広告が酷い！どんだけなん！ 有料ならuネクストの方がストレスない",
+       "user_profile": {
+        "profile_name": "友則松本",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a-/ALV-UjW3CvSurJ63aXgJbBwVCQc-ccfln7CNS96J2p0gFGeHBio-D6w"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 146,
+       "rank_absolute": 146,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 10:28:37 +00:00",
+       "id": "f185ac0e-850a-4bf2-8ec4-dead478dfac3",
+       "helpful_count": 2,
+       "title": null,
+       "review_text": "年々プライムであることの旨味が感じられなくなってる",
+       "user_profile": {
+        "profile_name": "ぽてとスキー",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKtkHxfANgcVIVnzPwDc1U-9nFQsxAp9XNzuthC-AWOSrJu2A=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 147,
+       "rank_absolute": 147,
+       "position": "left",
+       "version": "3.0.462.3047",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 10:18:12 +00:00",
+       "id": "592701df-20ff-4349-861b-f94dbf4d5416",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "CMがうざい",
+       "user_profile": {
+        "profile_name": "ほうじとたかひろ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLI3cq1HpysZ4-ewqq00sfLDxm5h2BxPQPbFSwK2cTgLDKV7w=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 148,
+       "rank_absolute": 148,
+       "position": "left",
+       "version": "3.0.434.2147",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 09:45:16 +00:00",
+       "id": "fb3a92db-9ecb-4d59-9210-c8be8156bb68",
+       "helpful_count": 1,
+       "title": null,
+       "review_text": "どんどん CM が長くなってきている。 お酒の CM とか あまり見たくないものがずっと続くとイライラしてくる。 Abema あの CM の入れ方 上手だと思う 短い時間でサクサク見れるから あっちは 完全に無料であそこまでできるのに プライムビデオは なぜ できないのか お金払ったとしても 作品数がそんなに多くないからな",
+       "user_profile": {
+        "profile_name": "arknight",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocLPdTM5Uun18CQPvA5GmmHW6KtB4RmTXIK4xb9jY74EMfdtRfE=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 149,
+       "rank_absolute": 149,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-05 08:27:06 +00:00",
+       "id": "dffb9413-7364-4499-8d54-a72f0a17b2f1",
+       "helpful_count": null,
+       "title": null,
+       "review_text": "神と言っても過言では無い",
+       "user_profile": {
+        "profile_name": "聖也松岡",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocIK4K9MPs_qZ1TU0U4Qq9R3TIuVhljMW05mGzXf9_yAvYEjZg=mo"
+       },
+       "responses": null
+      },
+      {
+       "type": "google_play_reviews_search",
+       "rank_group": 150,
+       "rank_absolute": 150,
+       "position": "left",
+       "version": "3.0.465.1747",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 1,
+        "votes_count": null,
+        "rating_max": 5
+       },
+       "timestamp": "2026-08-04 12:48:46 +00:00",
+       "id": "1b0740b2-20a2-420e-8f28-7c7927c9df86",
+       "helpful_count": 8,
+       "title": null,
+       "review_text": "マイリストが出たり出なかったりするしアプリ開いた直後に落ちることがある 前にスキップしても戻るし動画再生しようとしてみ永遠にロード中になるし 広告出す前に最低限のことまともにやっていただきたい",
+       "user_profile": {
+        "profile_name": "ああ",
+        "profile_image_url": "https://play-lh.googleusercontent.com/a/ACg8ocKvzktR5cAnXv_XsVE82D8ScyNdnRquG2jkx3GJFiAeebonjFTu=mo"
+       },
+       "responses": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

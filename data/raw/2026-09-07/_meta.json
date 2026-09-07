@@ -1,0 +1,11 @@
+{
+ "date": "2026-09-07",
+ "spent": {
+  "usd": 0.4831,
+  "calls": 55
+ },
+ "errors": [
+  "app_data/apple/app_info get 09070006-1009-0419-0000-e858035f6a44: 40102 No Search Results.",
+  "app_data/apple/app_reviews get 09070006-1009-0425-0000-01826a42ae87: 40102 No Search Results."
+ ]
+}

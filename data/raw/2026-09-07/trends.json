@@ -1,0 +1,5986 @@
+{
+ "brands_12m": [
+  {
+   "keywords": [
+    "Fire TV Stick",
+    "Chromecast",
+    "Apple TV",
+    "TVer",
+    "スマートテレビ"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&geo=JP&date=today%2012-m&q=Fire%20TV%20Stick,Chromecast,Apple%20TV,TVer,%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%86%E3%83%AC%E3%83%93",
+   "datetime": "2026-09-07 00:05:11 +00:00",
+   "items_count": 1,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_graph",
+     "title": null,
+     "keywords": [
+      "Fire TV Stick",
+      "Chromecast",
+      "Apple TV",
+      "TVer",
+      "スマートテレビ"
+     ],
+     "data": [
+      {
+       "date_from": "2025-09-07",
+       "date_to": "2025-09-13",
+       "timestamp": 1757203200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        2,
+        49,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-09-14",
+       "date_to": "2025-09-20",
+       "timestamp": 1757808000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        2,
+        53,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-09-21",
+       "date_to": "2025-09-27",
+       "timestamp": 1758412800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        2,
+        45,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-09-28",
+       "date_to": "2025-10-04",
+       "timestamp": 1759017600,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        2,
+        43,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-10-05",
+       "date_to": "2025-10-11",
+       "timestamp": 1759622400,
+       "missing_data": false,
+       "values": [
+        5,
+        1,
+        2,
+        52,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-10-12",
+       "date_to": "2025-10-18",
+       "timestamp": 1760227200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        2,
+        57,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-10-19",
+       "date_to": "2025-10-25",
+       "timestamp": 1760832000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        2,
+        56,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-10-26",
+       "date_to": "2025-11-01",
+       "timestamp": 1761436800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        3,
+        59,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-11-02",
+       "date_to": "2025-11-08",
+       "timestamp": 1762041600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        4,
+        49,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-11-09",
+       "date_to": "2025-11-15",
+       "timestamp": 1762646400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        4,
+        54,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-11-16",
+       "date_to": "2025-11-22",
+       "timestamp": 1763251200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        53,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-11-23",
+       "date_to": "2025-11-29",
+       "timestamp": 1763856000,
+       "missing_data": false,
+       "values": [
+        7,
+        2,
+        6,
+        55,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-11-30",
+       "date_to": "2025-12-06",
+       "timestamp": 1764460800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        5,
+        59,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-12-07",
+       "date_to": "2025-12-13",
+       "timestamp": 1765065600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        5,
+        59,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-12-14",
+       "date_to": "2025-12-20",
+       "timestamp": 1765670400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        5,
+        60,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-12-21",
+       "date_to": "2025-12-27",
+       "timestamp": 1766275200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        6,
+        84,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-12-28",
+       "date_to": "2026-01-03",
+       "timestamp": 1766880000,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        6,
+        100,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-01-04",
+       "date_to": "2026-01-10",
+       "timestamp": 1767484800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        62,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-01-11",
+       "date_to": "2026-01-17",
+       "timestamp": 1768089600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        5,
+        53,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-01-18",
+       "date_to": "2026-01-24",
+       "timestamp": 1768694400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        4,
+        51,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-01-25",
+       "date_to": "2026-01-31",
+       "timestamp": 1769299200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        5,
+        49,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-02-01",
+       "date_to": "2026-02-07",
+       "timestamp": 1769904000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        4,
+        48,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-02-08",
+       "date_to": "2026-02-14",
+       "timestamp": 1770508800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        4,
+        58,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-02-15",
+       "date_to": "2026-02-21",
+       "timestamp": 1771113600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        3,
+        57,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-02-22",
+       "date_to": "2026-02-28",
+       "timestamp": 1771718400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        3,
+        51,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-03-01",
+       "date_to": "2026-03-07",
+       "timestamp": 1772323200,
+       "missing_data": false,
+       "values": [
+        8,
+        3,
+        5,
+        48,
+        3
+       ]
+      },
+      {
+       "date_from": "2026-03-08",
+       "date_to": "2026-03-14",
+       "timestamp": 1772928000,
+       "missing_data": false,
+       "values": [
+        6,
+        2,
+        4,
+        47,
+        3
+       ]
+      },
+      {
+       "date_from": "2026-03-15",
+       "date_to": "2026-03-21",
+       "timestamp": 1773532800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        48,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-03-22",
+       "date_to": "2026-03-28",
+       "timestamp": 1774137600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        48,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-03-29",
+       "date_to": "2026-04-04",
+       "timestamp": 1774742400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        50,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-04-05",
+       "date_to": "2026-04-11",
+       "timestamp": 1775347200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        46,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-04-12",
+       "date_to": "2026-04-18",
+       "timestamp": 1775952000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        44,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-04-19",
+       "date_to": "2026-04-25",
+       "timestamp": 1776556800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        3,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-04-26",
+       "date_to": "2026-05-02",
+       "timestamp": 1777161600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        40,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-05-03",
+       "date_to": "2026-05-09",
+       "timestamp": 1777766400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        4,
+        40,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-05-10",
+       "date_to": "2026-05-16",
+       "timestamp": 1778371200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        3,
+        41,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-05-17",
+       "date_to": "2026-05-23",
+       "timestamp": 1778976000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        4,
+        38,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-05-24",
+       "date_to": "2026-05-30",
+       "timestamp": 1779580800,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        4,
+        40,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-05-31",
+       "date_to": "2026-06-06",
+       "timestamp": 1780185600,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        5,
+        45,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-06-07",
+       "date_to": "2026-06-13",
+       "timestamp": 1780790400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        4,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-06-14",
+       "date_to": "2026-06-20",
+       "timestamp": 1781395200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        4,
+        44,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-06-21",
+       "date_to": "2026-06-27",
+       "timestamp": 1782000000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        4,
+        45,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-06-28",
+       "date_to": "2026-07-04",
+       "timestamp": 1782604800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        5,
+        50,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-07-05",
+       "date_to": "2026-07-11",
+       "timestamp": 1783209600,
+       "missing_data": false,
+       "values": [
+        6,
+        1,
+        4,
+        42,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-07-12",
+       "date_to": "2026-07-18",
+       "timestamp": 1783814400,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        3,
+        42,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-07-19",
+       "date_to": "2026-07-25",
+       "timestamp": 1784419200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        2,
+        46,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-07-26",
+       "date_to": "2026-08-01",
+       "timestamp": 1785024000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        2,
+        53,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-02",
+       "date_to": "2026-08-08",
+       "timestamp": 1785628800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        2,
+        54,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-09",
+       "date_to": "2026-08-15",
+       "timestamp": 1786233600,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        2,
+        56,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-08-16",
+       "date_to": "2026-08-22",
+       "timestamp": 1786838400,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        2,
+        53,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-23",
+       "date_to": "2026-08-29",
+       "timestamp": 1787443200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        2,
+        54,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-30",
+       "date_to": "2026-09-05",
+       "timestamp": 1788048000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        2,
+        53,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-09-06",
+       "date_to": "2026-09-07",
+       "timestamp": 1788652800,
+       "missing_data": true,
+       "values": [
+        3,
+        2,
+        2,
+        78,
+        2
+       ]
+      }
+     ],
+     "averages": [
+      4,
+      2,
+      4,
+      52,
+      2
+     ]
+    }
+   ]
+  }
+ ],
+ "brands_5y": [
+  {
+   "keywords": [
+    "Fire TV Stick",
+    "Chromecast",
+    "TVer",
+    "スマートテレビ"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&geo=JP&date=today%205-y&q=Fire%20TV%20Stick,Chromecast,TVer,%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%86%E3%83%AC%E3%83%93",
+   "datetime": "2026-09-07 00:05:33 +00:00",
+   "items_count": 1,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_graph",
+     "title": null,
+     "keywords": [
+      "Fire TV Stick",
+      "Chromecast",
+      "TVer",
+      "スマートテレビ"
+     ],
+     "data": [
+      {
+       "date_from": "2021-09-05",
+       "date_to": "2021-09-11",
+       "timestamp": 1630800000,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        17,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-09-12",
+       "date_to": "2021-09-18",
+       "timestamp": 1631404800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        17,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-09-19",
+       "date_to": "2021-09-25",
+       "timestamp": 1632009600,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        17,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-09-26",
+       "date_to": "2021-10-02",
+       "timestamp": 1632614400,
+       "missing_data": false,
+       "values": [
+        6,
+        3,
+        17,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-10-03",
+       "date_to": "2021-10-09",
+       "timestamp": 1633219200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        18,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-10-10",
+       "date_to": "2021-10-16",
+       "timestamp": 1633824000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        19,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-10-17",
+       "date_to": "2021-10-23",
+       "timestamp": 1634428800,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        23,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-10-24",
+       "date_to": "2021-10-30",
+       "timestamp": 1635033600,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        20,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-10-31",
+       "date_to": "2021-11-06",
+       "timestamp": 1635638400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        18,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-11-07",
+       "date_to": "2021-11-13",
+       "timestamp": 1636243200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        18,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-11-14",
+       "date_to": "2021-11-20",
+       "timestamp": 1636848000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        16,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-11-21",
+       "date_to": "2021-11-27",
+       "timestamp": 1637452800,
+       "missing_data": false,
+       "values": [
+        7,
+        3,
+        17,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-11-28",
+       "date_to": "2021-12-04",
+       "timestamp": 1638057600,
+       "missing_data": false,
+       "values": [
+        9,
+        2,
+        19,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-12-05",
+       "date_to": "2021-12-11",
+       "timestamp": 1638662400,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        24,
+        2
+       ]
+      },
+      {
+       "date_from": "2021-12-12",
+       "date_to": "2021-12-18",
+       "timestamp": 1639267200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        22,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-12-19",
+       "date_to": "2021-12-25",
+       "timestamp": 1639872000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        20,
+        1
+       ]
+      },
+      {
+       "date_from": "2021-12-26",
+       "date_to": "2022-01-01",
+       "timestamp": 1640476800,
+       "missing_data": false,
+       "values": [
+        6,
+        3,
+        29,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-01-02",
+       "date_to": "2022-01-08",
+       "timestamp": 1641081600,
+       "missing_data": false,
+       "values": [
+        7,
+        4,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-01-09",
+       "date_to": "2022-01-15",
+       "timestamp": 1641686400,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        26,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-01-16",
+       "date_to": "2022-01-22",
+       "timestamp": 1642291200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        25,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-01-23",
+       "date_to": "2022-01-29",
+       "timestamp": 1642896000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-01-30",
+       "date_to": "2022-02-05",
+       "timestamp": 1643500800,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        29,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-02-06",
+       "date_to": "2022-02-12",
+       "timestamp": 1644105600,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-02-13",
+       "date_to": "2022-02-19",
+       "timestamp": 1644710400,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        23,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-02-20",
+       "date_to": "2022-02-26",
+       "timestamp": 1645315200,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        23,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-02-27",
+       "date_to": "2022-03-05",
+       "timestamp": 1645920000,
+       "missing_data": false,
+       "values": [
+        6,
+        3,
+        22,
+        2
+       ]
+      },
+      {
+       "date_from": "2022-03-06",
+       "date_to": "2022-03-12",
+       "timestamp": 1646524800,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        23,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-03-13",
+       "date_to": "2022-03-19",
+       "timestamp": 1647129600,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-03-20",
+       "date_to": "2022-03-26",
+       "timestamp": 1647734400,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        25,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-03-27",
+       "date_to": "2022-04-02",
+       "timestamp": 1648339200,
+       "missing_data": false,
+       "values": [
+        6,
+        3,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-04-03",
+       "date_to": "2022-04-09",
+       "timestamp": 1648944000,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-04-10",
+       "date_to": "2022-04-16",
+       "timestamp": 1649548800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-04-17",
+       "date_to": "2022-04-23",
+       "timestamp": 1650153600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-04-24",
+       "date_to": "2022-04-30",
+       "timestamp": 1650758400,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-05-01",
+       "date_to": "2022-05-07",
+       "timestamp": 1651363200,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        27,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-05-08",
+       "date_to": "2022-05-14",
+       "timestamp": 1651968000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-05-15",
+       "date_to": "2022-05-21",
+       "timestamp": 1652572800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        27,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-05-22",
+       "date_to": "2022-05-28",
+       "timestamp": 1653177600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        26,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-05-29",
+       "date_to": "2022-06-04",
+       "timestamp": 1653782400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        25,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-06-05",
+       "date_to": "2022-06-11",
+       "timestamp": 1654387200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        29,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-06-12",
+       "date_to": "2022-06-18",
+       "timestamp": 1654992000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-06-19",
+       "date_to": "2022-06-25",
+       "timestamp": 1655596800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        25,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-06-26",
+       "date_to": "2022-07-02",
+       "timestamp": 1656201600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-07-03",
+       "date_to": "2022-07-09",
+       "timestamp": 1656806400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        22,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-07-10",
+       "date_to": "2022-07-16",
+       "timestamp": 1657411200,
+       "missing_data": false,
+       "values": [
+        11,
+        2,
+        25,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-07-17",
+       "date_to": "2022-07-23",
+       "timestamp": 1658016000,
+       "missing_data": false,
+       "values": [
+        6,
+        2,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-07-24",
+       "date_to": "2022-07-30",
+       "timestamp": 1658620800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        26,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-07-31",
+       "date_to": "2022-08-06",
+       "timestamp": 1659225600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-08-07",
+       "date_to": "2022-08-13",
+       "timestamp": 1659830400,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-08-14",
+       "date_to": "2022-08-20",
+       "timestamp": 1660435200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        25,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-08-21",
+       "date_to": "2022-08-27",
+       "timestamp": 1661040000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-08-28",
+       "date_to": "2022-09-03",
+       "timestamp": 1661644800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        26,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-09-04",
+       "date_to": "2022-09-10",
+       "timestamp": 1662249600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        24,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-09-11",
+       "date_to": "2022-09-17",
+       "timestamp": 1662854400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        23,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-09-18",
+       "date_to": "2022-09-24",
+       "timestamp": 1663459200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        26,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-09-25",
+       "date_to": "2022-10-01",
+       "timestamp": 1664064000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        25,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-10-02",
+       "date_to": "2022-10-08",
+       "timestamp": 1664668800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        27,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-10-09",
+       "date_to": "2022-10-15",
+       "timestamp": 1665273600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-10-16",
+       "date_to": "2022-10-22",
+       "timestamp": 1665878400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-10-23",
+       "date_to": "2022-10-29",
+       "timestamp": 1666483200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-10-30",
+       "date_to": "2022-11-05",
+       "timestamp": 1667088000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-11-06",
+       "date_to": "2022-11-12",
+       "timestamp": 1667692800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-11-13",
+       "date_to": "2022-11-19",
+       "timestamp": 1668297600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-11-20",
+       "date_to": "2022-11-26",
+       "timestamp": 1668902400,
+       "missing_data": false,
+       "values": [
+        8,
+        3,
+        26,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-11-27",
+       "date_to": "2022-12-03",
+       "timestamp": 1669507200,
+       "missing_data": false,
+       "values": [
+        10,
+        3,
+        25,
+        2
+       ]
+      },
+      {
+       "date_from": "2022-12-04",
+       "date_to": "2022-12-10",
+       "timestamp": 1670112000,
+       "missing_data": false,
+       "values": [
+        6,
+        2,
+        30,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-12-11",
+       "date_to": "2022-12-17",
+       "timestamp": 1670716800,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        29,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-12-18",
+       "date_to": "2022-12-24",
+       "timestamp": 1671321600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2022-12-25",
+       "date_to": "2022-12-31",
+       "timestamp": 1671926400,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-01-01",
+       "date_to": "2023-01-07",
+       "timestamp": 1672531200,
+       "missing_data": false,
+       "values": [
+        7,
+        3,
+        42,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-01-08",
+       "date_to": "2023-01-14",
+       "timestamp": 1673136000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-01-15",
+       "date_to": "2023-01-21",
+       "timestamp": 1673740800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-01-22",
+       "date_to": "2023-01-28",
+       "timestamp": 1674345600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-01-29",
+       "date_to": "2023-02-04",
+       "timestamp": 1674950400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        29,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-02-05",
+       "date_to": "2023-02-11",
+       "timestamp": 1675555200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-02-12",
+       "date_to": "2023-02-18",
+       "timestamp": 1676160000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        27,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-02-19",
+       "date_to": "2023-02-25",
+       "timestamp": 1676764800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-02-26",
+       "date_to": "2023-03-04",
+       "timestamp": 1677369600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        30,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-03-05",
+       "date_to": "2023-03-11",
+       "timestamp": 1677974400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-03-12",
+       "date_to": "2023-03-18",
+       "timestamp": 1678579200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-03-19",
+       "date_to": "2023-03-25",
+       "timestamp": 1679184000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-03-26",
+       "date_to": "2023-04-01",
+       "timestamp": 1679788800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-04-02",
+       "date_to": "2023-04-08",
+       "timestamp": 1680393600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-04-09",
+       "date_to": "2023-04-15",
+       "timestamp": 1680998400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-04-16",
+       "date_to": "2023-04-22",
+       "timestamp": 1681603200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-04-23",
+       "date_to": "2023-04-29",
+       "timestamp": 1682208000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-04-30",
+       "date_to": "2023-05-06",
+       "timestamp": 1682812800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-05-07",
+       "date_to": "2023-05-13",
+       "timestamp": 1683417600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-05-14",
+       "date_to": "2023-05-20",
+       "timestamp": 1684022400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-05-21",
+       "date_to": "2023-05-27",
+       "timestamp": 1684627200,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        29,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-05-28",
+       "date_to": "2023-06-03",
+       "timestamp": 1685232000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-06-04",
+       "date_to": "2023-06-10",
+       "timestamp": 1685836800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-06-11",
+       "date_to": "2023-06-17",
+       "timestamp": 1686441600,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-06-18",
+       "date_to": "2023-06-24",
+       "timestamp": 1687046400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-06-25",
+       "date_to": "2023-07-01",
+       "timestamp": 1687651200,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-07-02",
+       "date_to": "2023-07-08",
+       "timestamp": 1688256000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        27,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-07-09",
+       "date_to": "2023-07-15",
+       "timestamp": 1688860800,
+       "missing_data": false,
+       "values": [
+        7,
+        2,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-07-16",
+       "date_to": "2023-07-22",
+       "timestamp": 1689465600,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-07-23",
+       "date_to": "2023-07-29",
+       "timestamp": 1690070400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-07-30",
+       "date_to": "2023-08-05",
+       "timestamp": 1690675200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-08-06",
+       "date_to": "2023-08-12",
+       "timestamp": 1691280000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-08-13",
+       "date_to": "2023-08-19",
+       "timestamp": 1691884800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-08-20",
+       "date_to": "2023-08-26",
+       "timestamp": 1692489600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-08-27",
+       "date_to": "2023-09-02",
+       "timestamp": 1693094400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        43,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-09-03",
+       "date_to": "2023-09-09",
+       "timestamp": 1693699200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-09-10",
+       "date_to": "2023-09-16",
+       "timestamp": 1694304000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-09-17",
+       "date_to": "2023-09-23",
+       "timestamp": 1694908800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-09-24",
+       "date_to": "2023-09-30",
+       "timestamp": 1695513600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-10-01",
+       "date_to": "2023-10-07",
+       "timestamp": 1696118400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-10-08",
+       "date_to": "2023-10-14",
+       "timestamp": 1696723200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-10-15",
+       "date_to": "2023-10-21",
+       "timestamp": 1697328000,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-10-22",
+       "date_to": "2023-10-28",
+       "timestamp": 1697932800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-10-29",
+       "date_to": "2023-11-04",
+       "timestamp": 1698537600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-11-05",
+       "date_to": "2023-11-11",
+       "timestamp": 1699142400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-11-12",
+       "date_to": "2023-11-18",
+       "timestamp": 1699747200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-11-19",
+       "date_to": "2023-11-25",
+       "timestamp": 1700352000,
+       "missing_data": false,
+       "values": [
+        6,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-11-26",
+       "date_to": "2023-12-02",
+       "timestamp": 1700956800,
+       "missing_data": false,
+       "values": [
+        7,
+        2,
+        35,
+        2
+       ]
+      },
+      {
+       "date_from": "2023-12-03",
+       "date_to": "2023-12-09",
+       "timestamp": 1701561600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-12-10",
+       "date_to": "2023-12-16",
+       "timestamp": 1702166400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-12-17",
+       "date_to": "2023-12-23",
+       "timestamp": 1702771200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-12-24",
+       "date_to": "2023-12-30",
+       "timestamp": 1703376000,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        49,
+        1
+       ]
+      },
+      {
+       "date_from": "2023-12-31",
+       "date_to": "2024-01-06",
+       "timestamp": 1703980800,
+       "missing_data": false,
+       "values": [
+        5,
+        3,
+        66,
+        2
+       ]
+      },
+      {
+       "date_from": "2024-01-07",
+       "date_to": "2024-01-13",
+       "timestamp": 1704585600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        42,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-01-14",
+       "date_to": "2024-01-20",
+       "timestamp": 1705190400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-01-21",
+       "date_to": "2024-01-27",
+       "timestamp": 1705795200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-01-28",
+       "date_to": "2024-02-03",
+       "timestamp": 1706400000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-02-04",
+       "date_to": "2024-02-10",
+       "timestamp": 1707004800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-02-11",
+       "date_to": "2024-02-17",
+       "timestamp": 1707609600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        41,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-02-18",
+       "date_to": "2024-02-24",
+       "timestamp": 1708214400,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        41,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-02-25",
+       "date_to": "2024-03-02",
+       "timestamp": 1708819200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-03-03",
+       "date_to": "2024-03-09",
+       "timestamp": 1709424000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        45,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-03-10",
+       "date_to": "2024-03-16",
+       "timestamp": 1710028800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        41,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-03-17",
+       "date_to": "2024-03-23",
+       "timestamp": 1710633600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        43,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-03-24",
+       "date_to": "2024-03-30",
+       "timestamp": 1711238400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-03-31",
+       "date_to": "2024-04-06",
+       "timestamp": 1711843200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-04-07",
+       "date_to": "2024-04-13",
+       "timestamp": 1712448000,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-04-14",
+       "date_to": "2024-04-20",
+       "timestamp": 1713052800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-04-21",
+       "date_to": "2024-04-27",
+       "timestamp": 1713657600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-04-28",
+       "date_to": "2024-05-04",
+       "timestamp": 1714262400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-05-05",
+       "date_to": "2024-05-11",
+       "timestamp": 1714867200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-05-12",
+       "date_to": "2024-05-18",
+       "timestamp": 1715472000,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-05-19",
+       "date_to": "2024-05-25",
+       "timestamp": 1716076800,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-05-26",
+       "date_to": "2024-06-01",
+       "timestamp": 1716681600,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-06-02",
+       "date_to": "2024-06-08",
+       "timestamp": 1717286400,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-06-09",
+       "date_to": "2024-06-15",
+       "timestamp": 1717891200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-06-16",
+       "date_to": "2024-06-22",
+       "timestamp": 1718496000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-06-23",
+       "date_to": "2024-06-29",
+       "timestamp": 1719100800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-06-30",
+       "date_to": "2024-07-06",
+       "timestamp": 1719705600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-07-07",
+       "date_to": "2024-07-13",
+       "timestamp": 1720310400,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-07-14",
+       "date_to": "2024-07-20",
+       "timestamp": 1720915200,
+       "missing_data": false,
+       "values": [
+        6,
+        2,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-07-21",
+       "date_to": "2024-07-27",
+       "timestamp": 1721520000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        58,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-07-28",
+       "date_to": "2024-08-03",
+       "timestamp": 1722124800,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        100,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-08-04",
+       "date_to": "2024-08-10",
+       "timestamp": 1722729600,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        67,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-08-11",
+       "date_to": "2024-08-17",
+       "timestamp": 1723334400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        45,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-08-18",
+       "date_to": "2024-08-24",
+       "timestamp": 1723939200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-08-25",
+       "date_to": "2024-08-31",
+       "timestamp": 1724544000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-09-01",
+       "date_to": "2024-09-07",
+       "timestamp": 1725148800,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        42,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-09-08",
+       "date_to": "2024-09-14",
+       "timestamp": 1725753600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-09-15",
+       "date_to": "2024-09-21",
+       "timestamp": 1726358400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-09-22",
+       "date_to": "2024-09-28",
+       "timestamp": 1726963200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-09-29",
+       "date_to": "2024-10-05",
+       "timestamp": 1727568000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-10-06",
+       "date_to": "2024-10-12",
+       "timestamp": 1728172800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-10-13",
+       "date_to": "2024-10-19",
+       "timestamp": 1728777600,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        49,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-10-20",
+       "date_to": "2024-10-26",
+       "timestamp": 1729382400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        42,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-10-27",
+       "date_to": "2024-11-02",
+       "timestamp": 1729987200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-11-03",
+       "date_to": "2024-11-09",
+       "timestamp": 1730592000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-11-10",
+       "date_to": "2024-11-16",
+       "timestamp": 1731196800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-11-17",
+       "date_to": "2024-11-23",
+       "timestamp": 1731801600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-11-24",
+       "date_to": "2024-11-30",
+       "timestamp": 1732406400,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-12-01",
+       "date_to": "2024-12-07",
+       "timestamp": 1733011200,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-12-08",
+       "date_to": "2024-12-14",
+       "timestamp": 1733616000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-12-15",
+       "date_to": "2024-12-21",
+       "timestamp": 1734220800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        49,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-12-22",
+       "date_to": "2024-12-28",
+       "timestamp": 1734825600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        64,
+        1
+       ]
+      },
+      {
+       "date_from": "2024-12-29",
+       "date_to": "2025-01-04",
+       "timestamp": 1735430400,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        76,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-01-05",
+       "date_to": "2025-01-11",
+       "timestamp": 1736035200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-01-12",
+       "date_to": "2025-01-18",
+       "timestamp": 1736640000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        45,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-01-19",
+       "date_to": "2025-01-25",
+       "timestamp": 1737244800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-01-26",
+       "date_to": "2025-02-01",
+       "timestamp": 1737849600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-02-02",
+       "date_to": "2025-02-08",
+       "timestamp": 1738454400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-02-09",
+       "date_to": "2025-02-15",
+       "timestamp": 1739059200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-02-16",
+       "date_to": "2025-02-22",
+       "timestamp": 1739664000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-02-23",
+       "date_to": "2025-03-01",
+       "timestamp": 1740268800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-03-02",
+       "date_to": "2025-03-08",
+       "timestamp": 1740873600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-03-09",
+       "date_to": "2025-03-15",
+       "timestamp": 1741478400,
+       "missing_data": false,
+       "values": [
+        2,
+        9,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-03-16",
+       "date_to": "2025-03-22",
+       "timestamp": 1742083200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        43,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-03-23",
+       "date_to": "2025-03-29",
+       "timestamp": 1742688000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        41,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-03-30",
+       "date_to": "2025-04-05",
+       "timestamp": 1743292800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-04-06",
+       "date_to": "2025-04-12",
+       "timestamp": 1743897600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-04-13",
+       "date_to": "2025-04-19",
+       "timestamp": 1744502400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-04-20",
+       "date_to": "2025-04-26",
+       "timestamp": 1745107200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-04-27",
+       "date_to": "2025-05-03",
+       "timestamp": 1745712000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-05-04",
+       "date_to": "2025-05-10",
+       "timestamp": 1746316800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-05-11",
+       "date_to": "2025-05-17",
+       "timestamp": 1746921600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-05-18",
+       "date_to": "2025-05-24",
+       "timestamp": 1747526400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-05-25",
+       "date_to": "2025-05-31",
+       "timestamp": 1748131200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-06-01",
+       "date_to": "2025-06-07",
+       "timestamp": 1748736000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-06-08",
+       "date_to": "2025-06-14",
+       "timestamp": 1749340800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-06-15",
+       "date_to": "2025-06-21",
+       "timestamp": 1749945600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-06-22",
+       "date_to": "2025-06-28",
+       "timestamp": 1750550400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-06-29",
+       "date_to": "2025-07-05",
+       "timestamp": 1751155200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-07-06",
+       "date_to": "2025-07-12",
+       "timestamp": 1751760000,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-07-13",
+       "date_to": "2025-07-19",
+       "timestamp": 1752364800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-07-20",
+       "date_to": "2025-07-26",
+       "timestamp": 1752969600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-07-27",
+       "date_to": "2025-08-02",
+       "timestamp": 1753574400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-08-03",
+       "date_to": "2025-08-09",
+       "timestamp": 1754179200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-08-10",
+       "date_to": "2025-08-16",
+       "timestamp": 1754784000,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-08-17",
+       "date_to": "2025-08-23",
+       "timestamp": 1755388800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-08-24",
+       "date_to": "2025-08-30",
+       "timestamp": 1755993600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-08-31",
+       "date_to": "2025-09-06",
+       "timestamp": 1756598400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-09-07",
+       "date_to": "2025-09-13",
+       "timestamp": 1757203200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-09-14",
+       "date_to": "2025-09-20",
+       "timestamp": 1757808000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-09-21",
+       "date_to": "2025-09-27",
+       "timestamp": 1758412800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-09-28",
+       "date_to": "2025-10-04",
+       "timestamp": 1759017600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-10-05",
+       "date_to": "2025-10-11",
+       "timestamp": 1759622400,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        38,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-10-12",
+       "date_to": "2025-10-18",
+       "timestamp": 1760227200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        42,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-10-19",
+       "date_to": "2025-10-25",
+       "timestamp": 1760832000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        41,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-10-26",
+       "date_to": "2025-11-01",
+       "timestamp": 1761436800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        43,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-11-02",
+       "date_to": "2025-11-08",
+       "timestamp": 1762041600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-11-09",
+       "date_to": "2025-11-15",
+       "timestamp": 1762646400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-11-16",
+       "date_to": "2025-11-22",
+       "timestamp": 1763251200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-11-23",
+       "date_to": "2025-11-29",
+       "timestamp": 1763856000,
+       "missing_data": false,
+       "values": [
+        5,
+        1,
+        41,
+        2
+       ]
+      },
+      {
+       "date_from": "2025-11-30",
+       "date_to": "2025-12-06",
+       "timestamp": 1764460800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        43,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-12-07",
+       "date_to": "2025-12-13",
+       "timestamp": 1765065600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        43,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-12-14",
+       "date_to": "2025-12-20",
+       "timestamp": 1765670400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-12-21",
+       "date_to": "2025-12-27",
+       "timestamp": 1766275200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        62,
+        1
+       ]
+      },
+      {
+       "date_from": "2025-12-28",
+       "date_to": "2026-01-03",
+       "timestamp": 1766880000,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        73,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-01-04",
+       "date_to": "2026-01-10",
+       "timestamp": 1767484800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        45,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-01-11",
+       "date_to": "2026-01-17",
+       "timestamp": 1768089600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-01-18",
+       "date_to": "2026-01-24",
+       "timestamp": 1768694400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-01-25",
+       "date_to": "2026-01-31",
+       "timestamp": 1769299200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-02-01",
+       "date_to": "2026-02-07",
+       "timestamp": 1769904000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-02-08",
+       "date_to": "2026-02-14",
+       "timestamp": 1770508800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        42,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-02-15",
+       "date_to": "2026-02-21",
+       "timestamp": 1771113600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        42,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-02-22",
+       "date_to": "2026-02-28",
+       "timestamp": 1771718400,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        37,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-03-01",
+       "date_to": "2026-03-07",
+       "timestamp": 1772323200,
+       "missing_data": false,
+       "values": [
+        6,
+        2,
+        35,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-03-08",
+       "date_to": "2026-03-14",
+       "timestamp": 1772928000,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        35,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-03-15",
+       "date_to": "2026-03-21",
+       "timestamp": 1773532800,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        35,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-03-22",
+       "date_to": "2026-03-28",
+       "timestamp": 1774137600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        35,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-03-29",
+       "date_to": "2026-04-04",
+       "timestamp": 1774742400,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        37,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-04-05",
+       "date_to": "2026-04-11",
+       "timestamp": 1775347200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-04-12",
+       "date_to": "2026-04-18",
+       "timestamp": 1775952000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-04-19",
+       "date_to": "2026-04-25",
+       "timestamp": 1776556800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-04-26",
+       "date_to": "2026-05-02",
+       "timestamp": 1777161600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        30,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-05-03",
+       "date_to": "2026-05-09",
+       "timestamp": 1777766400,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        29,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-05-10",
+       "date_to": "2026-05-16",
+       "timestamp": 1778371200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        30,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-05-17",
+       "date_to": "2026-05-23",
+       "timestamp": 1778976000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        28,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-05-24",
+       "date_to": "2026-05-30",
+       "timestamp": 1779580800,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        29,
+        2
+       ]
+      },
+      {
+       "date_from": "2026-05-31",
+       "date_to": "2026-06-06",
+       "timestamp": 1780185600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-06-07",
+       "date_to": "2026-06-13",
+       "timestamp": 1780790400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-06-14",
+       "date_to": "2026-06-20",
+       "timestamp": 1781395200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        32,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-06-21",
+       "date_to": "2026-06-27",
+       "timestamp": 1782000000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        33,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-06-28",
+       "date_to": "2026-07-04",
+       "timestamp": 1782604800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        36,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-07-05",
+       "date_to": "2026-07-11",
+       "timestamp": 1783209600,
+       "missing_data": false,
+       "values": [
+        5,
+        1,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-07-12",
+       "date_to": "2026-07-18",
+       "timestamp": 1783814400,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        31,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-07-19",
+       "date_to": "2026-07-25",
+       "timestamp": 1784419200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        34,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-07-26",
+       "date_to": "2026-08-01",
+       "timestamp": 1785024000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-02",
+       "date_to": "2026-08-08",
+       "timestamp": 1785628800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-09",
+       "date_to": "2026-08-15",
+       "timestamp": 1786233600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        41,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-16",
+       "date_to": "2026-08-22",
+       "timestamp": 1786838400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-23",
+       "date_to": "2026-08-29",
+       "timestamp": 1787443200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        40,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-08-30",
+       "date_to": "2026-09-05",
+       "timestamp": 1788048000,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        39,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-09-06",
+       "date_to": "2026-09-07",
+       "timestamp": 1788652800,
+       "missing_data": true,
+       "values": [
+        2,
+        1,
+        59,
+        1
+       ]
+      }
+     ],
+     "averages": [
+      3,
+      2,
+      35,
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "models_12m": [
+  {
+   "keywords": [
+    "Fire TV Stick 4K",
+    "Fire TV Stick HD",
+    "Fire TV Cube",
+    "ファイヤースティック",
+    "Fire TV Stick セール"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&geo=JP&date=today%2012-m&q=Fire%20TV%20Stick%204K,Fire%20TV%20Stick%20HD,Fire%20TV%20Cube,%E3%83%95%E3%82%A1%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF,Fire%20TV%20Stick%20%E3%82%BB%E3%83%BC%E3%83%AB",
+   "datetime": "2026-09-07 00:05:43 +00:00",
+   "items_count": 1,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_graph",
+     "title": null,
+     "keywords": [
+      "Fire TV Stick 4K",
+      "Fire TV Stick HD",
+      "Fire TV Cube",
+      "ファイヤースティック",
+      "Fire TV Stick セール"
+     ],
+     "data": [
+      {
+       "date_from": "2025-09-07",
+       "date_to": "2025-09-13",
+       "timestamp": 1757203200,
+       "missing_data": false,
+       "values": [
+        1,
+        1,
+        null,
+        45,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-09-14",
+       "date_to": "2025-09-20",
+       "timestamp": 1757808000,
+       "missing_data": false,
+       "values": [
+        1,
+        1,
+        null,
+        49,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-09-21",
+       "date_to": "2025-09-27",
+       "timestamp": 1758412800,
+       "missing_data": false,
+       "values": [
+        1,
+        1,
+        1,
+        45,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-09-28",
+       "date_to": "2025-10-04",
+       "timestamp": 1759017600,
+       "missing_data": false,
+       "values": [
+        6,
+        1,
+        1,
+        46,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-10-05",
+       "date_to": "2025-10-11",
+       "timestamp": 1759622400,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        1,
+        66,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-10-12",
+       "date_to": "2025-10-18",
+       "timestamp": 1760227200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        1,
+        49,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-10-19",
+       "date_to": "2025-10-25",
+       "timestamp": 1760832000,
+       "missing_data": false,
+       "values": [
+        1,
+        null,
+        null,
+        46,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-10-26",
+       "date_to": "2025-11-01",
+       "timestamp": 1761436800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        null,
+        50,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-11-02",
+       "date_to": "2025-11-08",
+       "timestamp": 1762041600,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        1,
+        51,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-11-09",
+       "date_to": "2025-11-15",
+       "timestamp": 1762646400,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        1,
+        42,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-11-16",
+       "date_to": "2025-11-22",
+       "timestamp": 1763251200,
+       "missing_data": false,
+       "values": [
+        7,
+        2,
+        1,
+        61,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-11-23",
+       "date_to": "2025-11-29",
+       "timestamp": 1763856000,
+       "missing_data": false,
+       "values": [
+        12,
+        3,
+        2,
+        86,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-11-30",
+       "date_to": "2025-12-06",
+       "timestamp": 1764460800,
+       "missing_data": false,
+       "values": [
+        6,
+        1,
+        1,
+        57,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-12-07",
+       "date_to": "2025-12-13",
+       "timestamp": 1765065600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        null,
+        49,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-12-14",
+       "date_to": "2025-12-20",
+       "timestamp": 1765670400,
+       "missing_data": false,
+       "values": [
+        3,
+        null,
+        1,
+        52,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-12-21",
+       "date_to": "2025-12-27",
+       "timestamp": 1766275200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        null,
+        56,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-12-28",
+       "date_to": "2026-01-03",
+       "timestamp": 1766880000,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        null,
+        92,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-01-04",
+       "date_to": "2026-01-10",
+       "timestamp": 1767484800,
+       "missing_data": false,
+       "values": [
+        5,
+        1,
+        1,
+        52,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-01-11",
+       "date_to": "2026-01-17",
+       "timestamp": 1768089600,
+       "missing_data": false,
+       "values": [
+        3,
+        null,
+        null,
+        49,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-01-18",
+       "date_to": "2026-01-24",
+       "timestamp": 1768694400,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        null,
+        46,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-01-25",
+       "date_to": "2026-01-31",
+       "timestamp": 1769299200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        1,
+        47,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-02-01",
+       "date_to": "2026-02-07",
+       "timestamp": 1769904000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        1,
+        44,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-02-08",
+       "date_to": "2026-02-14",
+       "timestamp": 1770508800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        null,
+        46,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-02-15",
+       "date_to": "2026-02-21",
+       "timestamp": 1771113600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        null,
+        47,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-02-22",
+       "date_to": "2026-02-28",
+       "timestamp": 1771718400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        1,
+        53,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-03-01",
+       "date_to": "2026-03-07",
+       "timestamp": 1772323200,
+       "missing_data": false,
+       "values": [
+        10,
+        2,
+        1,
+        100,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-03-08",
+       "date_to": "2026-03-14",
+       "timestamp": 1772928000,
+       "missing_data": false,
+       "values": [
+        7,
+        1,
+        1,
+        84,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-03-15",
+       "date_to": "2026-03-21",
+       "timestamp": 1773532800,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        null,
+        61,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-03-22",
+       "date_to": "2026-03-28",
+       "timestamp": 1774137600,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        1,
+        53,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-03-29",
+       "date_to": "2026-04-04",
+       "timestamp": 1774742400,
+       "missing_data": false,
+       "values": [
+        6,
+        null,
+        1,
+        61,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-04-05",
+       "date_to": "2026-04-11",
+       "timestamp": 1775347200,
+       "missing_data": false,
+       "values": [
+        4,
+        1,
+        1,
+        54,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-04-12",
+       "date_to": "2026-04-18",
+       "timestamp": 1775952000,
+       "missing_data": false,
+       "values": [
+        4,
+        6,
+        null,
+        50,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-04-19",
+       "date_to": "2026-04-25",
+       "timestamp": 1776556800,
+       "missing_data": false,
+       "values": [
+        2,
+        3,
+        null,
+        44,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-04-26",
+       "date_to": "2026-05-02",
+       "timestamp": 1777161600,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        null,
+        58,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-05-03",
+       "date_to": "2026-05-09",
+       "timestamp": 1777766400,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        1,
+        59,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-10",
+       "date_to": "2026-05-16",
+       "timestamp": 1778371200,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        null,
+        42,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-17",
+       "date_to": "2026-05-23",
+       "timestamp": 1778976000,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        null,
+        44,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-24",
+       "date_to": "2026-05-30",
+       "timestamp": 1779580800,
+       "missing_data": false,
+       "values": [
+        5,
+        2,
+        1,
+        72,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-31",
+       "date_to": "2026-06-06",
+       "timestamp": 1780185600,
+       "missing_data": false,
+       "values": [
+        4,
+        2,
+        1,
+        89,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-06-07",
+       "date_to": "2026-06-13",
+       "timestamp": 1780790400,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        null,
+        55,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-06-14",
+       "date_to": "2026-06-20",
+       "timestamp": 1781395200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        null,
+        45,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-06-21",
+       "date_to": "2026-06-27",
+       "timestamp": 1782000000,
+       "missing_data": false,
+       "values": [
+        3,
+        4,
+        1,
+        41,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-06-28",
+       "date_to": "2026-07-04",
+       "timestamp": 1782604800,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        null,
+        46,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-07-05",
+       "date_to": "2026-07-11",
+       "timestamp": 1783209600,
+       "missing_data": false,
+       "values": [
+        10,
+        6,
+        1,
+        64,
+        1
+       ]
+      },
+      {
+       "date_from": "2026-07-12",
+       "date_to": "2026-07-18",
+       "timestamp": 1783814400,
+       "missing_data": false,
+       "values": [
+        4,
+        3,
+        1,
+        59,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-07-19",
+       "date_to": "2026-07-25",
+       "timestamp": 1784419200,
+       "missing_data": false,
+       "values": [
+        3,
+        1,
+        null,
+        45,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-07-26",
+       "date_to": "2026-08-01",
+       "timestamp": 1785024000,
+       "missing_data": false,
+       "values": [
+        1,
+        null,
+        null,
+        42,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-02",
+       "date_to": "2026-08-08",
+       "timestamp": 1785628800,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        null,
+        45,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-09",
+       "date_to": "2026-08-15",
+       "timestamp": 1786233600,
+       "missing_data": false,
+       "values": [
+        3,
+        2,
+        1,
+        58,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-16",
+       "date_to": "2026-08-22",
+       "timestamp": 1786838400,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        null,
+        45,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-23",
+       "date_to": "2026-08-29",
+       "timestamp": 1787443200,
+       "missing_data": false,
+       "values": [
+        2,
+        1,
+        0,
+        44,
+        0
+       ]
+      },
+      {
+       "date_from": "2026-08-30",
+       "date_to": "2026-09-05",
+       "timestamp": 1788048000,
+       "missing_data": false,
+       "values": [
+        2,
+        2,
+        0,
+        43,
+        0
+       ]
+      },
+      {
+       "date_from": "2026-09-06",
+       "date_to": "2026-09-07",
+       "timestamp": 1788652800,
+       "missing_data": true,
+       "values": [
+        2,
+        1,
+        0,
+        51,
+        0
+       ]
+      }
+     ],
+     "averages": [
+      4,
+      1,
+      0,
+      54,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "self_queries": [
+  {
+   "keywords": [
+    "Fire TV Stick"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&geo=JP&date=today%2012-m&q=Fire%20TV%20Stick",
+   "datetime": "2026-09-07 00:06:07 +00:00",
+   "items_count": 2,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_topics_list",
+     "title": null,
+     "keywords": [
+      "Fire TV Stick"
+     ],
+     "data": {
+      "top": [
+       {
+        "topic_id": "/m/0103f7wc",
+        "topic_title": "Amazon Fire TV",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 100
+       },
+       {
+        "topic_id": "/g/11cm12hhlm",
+        "topic_title": "Amazon",
+        "topic_type": "トピック",
+        "value": 20
+       },
+       {
+        "topic_id": "/m/07c52",
+        "topic_title": "テレビ",
+        "topic_type": "トピック",
+        "value": 17
+       },
+       {
+        "topic_id": "/g/11byd0pcqh",
+        "topic_title": "Amazon Hub Counter",
+        "topic_type": "トピック",
+        "value": 16
+       },
+       {
+        "topic_id": "/m/0mgkg",
+        "topic_title": "Amazon.com",
+        "topic_type": "企業",
+        "value": 16
+       },
+       {
+        "topic_id": "/g/11fqvz_zn5",
+        "topic_title": "Amazon Fire TV Stick",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 13
+       },
+       {
+        "topic_id": "/m/0bwh1_7",
+        "topic_title": "4K解像度",
+        "topic_type": "トピック",
+        "value": 13
+       },
+       {
+        "topic_id": "/m/0qjjc",
+        "topic_title": "リモコン",
+        "topic_type": "トピック",
+        "value": 7
+       },
+       {
+        "topic_id": "/g/11n3y624r3",
+        "topic_title": "Amazon Fire Tv Stick Hdストリーミングメディアプレーヤー",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 4
+       },
+       {
+        "topic_id": "/g/11bc5gctk6",
+        "topic_title": "ミラーリング",
+        "topic_type": "トピック",
+        "value": 4
+       },
+       {
+        "topic_id": "/m/017rf_",
+        "topic_title": "Netflix",
+        "topic_type": "トピック",
+        "value": 4
+       },
+       {
+        "topic_id": "/m/0gvlgh",
+        "topic_title": "Amazonプライム・ビデオ",
+        "topic_type": "テレビネットワーク",
+        "value": 3
+       },
+       {
+        "topic_id": "/m/02mvfg",
+        "topic_title": "HDMI",
+        "topic_type": "トピック",
+        "value": 3
+       },
+       {
+        "topic_id": "/m/0h4d9",
+        "topic_title": "Wi-Fi",
+        "topic_type": "トピック",
+        "value": 3
+       },
+       {
+        "topic_id": "/m/02522",
+        "topic_title": "ディスプレイ",
+        "topic_type": "トピック",
+        "value": 2
+       },
+       {
+        "topic_id": "/g/11mlndc4dw",
+        "topic_title": "Amazon Fire Tv Stick 4k Select メディアプレーヤー",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 2
+       },
+       {
+        "topic_id": "/m/0wf0rgl",
+        "topic_title": "Chromecast",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 2
+       },
+       {
+        "topic_id": "/m/07wcf",
+        "topic_title": "ユニバーサル・シリアル・バス",
+        "topic_type": "トピック",
+        "value": 2
+       },
+       {
+        "topic_id": "/g/11wx5mgl7h",
+        "topic_title": "Amazon Fire TV Stick 4k",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 1
+       }
+      ],
+      "rising": [
+       {
+        "topic_id": "/g/11n3y624r3",
+        "topic_title": "Amazon Fire Tv Stick Hdストリーミングメディアプレーヤー",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 388800
+       },
+       {
+        "topic_id": "/g/11mlndc4dw",
+        "topic_title": "Amazon Fire Tv Stick 4k Select メディアプレーヤー",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 206250
+       },
+       {
+        "topic_id": "/g/11wx5mgl7h",
+        "topic_title": "Amazon Fire TV Stick 4k",
+        "topic_type": "ストリーミング・メディアプレイヤー",
+        "value": 60200
+       },
+       {
+        "topic_id": "/m/017rf_",
+        "topic_title": "Netflix",
+        "topic_type": "トピック",
+        "value": 70
+       },
+       {
+        "topic_id": "/m/0bwh1_7",
+        "topic_title": "4K解像度",
+        "topic_type": "トピック",
+        "value": 50
+       }
+      ]
+     }
+    },
+    {
+     "position": 2,
+     "type": "google_trends_queries_list",
+     "title": null,
+     "keywords": [
+      "Fire TV Stick"
+     ],
+     "data": {
+      "top": [
+       {
+        "query": "amazon fire stick",
+        "value": 100
+       },
+       {
+        "query": "fire tv stick amazon",
+        "value": 97
+       },
+       {
+        "query": "amazon tv stick",
+        "value": 97
+       },
+       {
+        "query": "amazon fire tv",
+        "value": 96
+       },
+       {
+        "query": "fire stick 4k",
+        "value": 69
+       },
+       {
+        "query": "fire stick tv 4k",
+        "value": 68
+       },
+       {
+        "query": "テレビ",
+        "value": 43
+       },
+       {
+        "query": "fire tv リモコン",
+        "value": 32
+       },
+       {
+        "query": "fire tv stick hd",
+        "value": 27
+       },
+       {
+        "query": "fire スティック tv",
+        "value": 25
+       },
+       {
+        "query": "fire スティック",
+        "value": 25
+       },
+       {
+        "query": "fire tv stick 4k max",
+        "value": 23
+       },
+       {
+        "query": "amazon fire tv stick 4k",
+        "value": 21
+       },
+       {
+        "query": "ファイヤー tv",
+        "value": 20
+       },
+       {
+        "query": "fire tv stick 世代",
+        "value": 18
+       },
+       {
+        "query": "ファイヤー スティック tv",
+        "value": 18
+       },
+       {
+        "query": "ファイヤー スティック",
+        "value": 18
+       },
+       {
+        "query": "fire tv stick アプリ",
+        "value": 18
+       },
+       {
+        "query": "fire tv アプリ",
+        "value": 18
+       },
+       {
+        "query": "fire stick tv ミラーリング",
+        "value": 17
+       },
+       {
+        "query": "fire stick ミラーリング",
+        "value": 17
+       },
+       {
+        "query": "fire tv stick youtube",
+        "value": 16
+       },
+       {
+        "query": "fire tv stick 設定",
+        "value": 16
+       },
+       {
+        "query": "fire tv stick 4k select",
+        "value": 16
+       },
+       {
+        "query": "fire tv stick 違い",
+        "value": 15
+       }
+      ],
+      "rising": [
+       {
+        "query": "fire tv stick 4k select 違い",
+        "value": 55800
+       },
+       {
+        "query": "fire tv stick 嵐 ライブ",
+        "value": 47400
+       },
+       {
+        "query": "vega os",
+        "value": 27950
+       },
+       {
+        "query": "fire tv stick nhk one",
+        "value": 24850
+       },
+       {
+        "query": "ダウンタウン プラス",
+        "value": 21950
+       },
+       {
+        "query": "fire tv stick 4k select",
+        "value": 17900
+       },
+       {
+        "query": "ネット フリックス テレビ で 見る に は",
+        "value": 16050
+       },
+       {
+        "query": "amazon fire tv stick 4k select",
+        "value": 3550
+       },
+       {
+        "query": "fire tv stick 4k plus",
+        "value": 2650
+       },
+       {
+        "query": "amazon fire tv stick 4k plus",
+        "value": 2450
+       },
+       {
+        "query": "嵐 ラスト ライブ 配信",
+        "value": 550
+       },
+       {
+        "query": "fire tv stick pin リセット",
+        "value": 180
+       },
+       {
+        "query": "netflix テレビ で 見る 方法",
+        "value": 160
+       },
+       {
+        "query": "fire tv stick 日本 語 設定",
+        "value": 150
+       },
+       {
+        "query": "fire tv stick どこで 買える",
+        "value": 140
+       },
+       {
+        "query": "smarttube",
+        "value": 110
+       },
+       {
+        "query": "amazon fire tv stick 4k",
+        "value": 100
+       },
+       {
+        "query": "fire tv stick 4k max 何 が できる",
+        "value": 100
+       },
+       {
+        "query": "hdmi 延長 ケーブル",
+        "value": 90
+       },
+       {
+        "query": "fire tv stick 言語 設定",
+        "value": 90
+       },
+       {
+        "query": "amazon fire tv stick hd",
+        "value": 90
+       },
+       {
+        "query": "fire stick 4k",
+        "value": 70
+       },
+       {
+        "query": "fire stick tv 4k",
+        "value": 70
+       },
+       {
+        "query": "fire tv stick hd",
+        "value": 60
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "self_map": [
+  {
+   "keywords": [
+    "Fire TV Stick"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&geo=JP&date=today%2012-m&q=Fire%20TV%20Stick",
+   "datetime": "2026-09-07 00:06:20 +00:00",
+   "items_count": 1,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_map",
+     "title": null,
+     "keywords": [
+      "Fire TV Stick"
+     ],
+     "data": [
+      {
+       "geo_id": "JP-16",
+       "geo_name": "富山県",
+       "values": [
+        100
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-32",
+       "geo_name": "島根県",
+       "values": [
+        91
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-03",
+       "geo_name": "岩手県",
+       "values": [
+        85
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-45",
+       "geo_name": "宮崎県",
+       "values": [
+        85
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-05",
+       "geo_name": "秋田県",
+       "values": [
+        85
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-20",
+       "geo_name": "長野県",
+       "values": [
+        84
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-02",
+       "geo_name": "青森県",
+       "values": [
+        84
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-37",
+       "geo_name": "香川県",
+       "values": [
+        83
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-18",
+       "geo_name": "福井県",
+       "values": [
+        81
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-15",
+       "geo_name": "新潟県",
+       "values": [
+        80
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-17",
+       "geo_name": "石川県",
+       "values": [
+        79
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-36",
+       "geo_name": "徳島県",
+       "values": [
+        78
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-44",
+       "geo_name": "大分県",
+       "values": [
+        77
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-43",
+       "geo_name": "熊本県",
+       "values": [
+        77
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-33",
+       "geo_name": "岡山県",
+       "values": [
+        76
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-42",
+       "geo_name": "長崎県",
+       "values": [
+        76
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-06",
+       "geo_name": "山形県",
+       "values": [
+        76
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-31",
+       "geo_name": "鳥取県",
+       "values": [
+        75
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-39",
+       "geo_name": "高知県",
+       "values": [
+        74
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-28",
+       "geo_name": "兵庫県",
+       "values": [
+        74
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-25",
+       "geo_name": "滋賀県",
+       "values": [
+        72
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-10",
+       "geo_name": "群馬県",
+       "values": [
+        72
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-35",
+       "geo_name": "山口県",
+       "values": [
+        71
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-47",
+       "geo_name": "沖縄県",
+       "values": [
+        70
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-08",
+       "geo_name": "茨城県",
+       "values": [
+        70
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-22",
+       "geo_name": "静岡県",
+       "values": [
+        70
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-38",
+       "geo_name": "愛媛県",
+       "values": [
+        69
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-40",
+       "geo_name": "福岡県",
+       "values": [
+        69
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-04",
+       "geo_name": "宮城県",
+       "values": [
+        69
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-27",
+       "geo_name": "大阪府",
+       "values": [
+        69
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-09",
+       "geo_name": "栃木県",
+       "values": [
+        69
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-07",
+       "geo_name": "福島県",
+       "values": [
+        68
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-34",
+       "geo_name": "広島県",
+       "values": [
+        68
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-29",
+       "geo_name": "奈良県",
+       "values": [
+        68
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-12",
+       "geo_name": "千葉県",
+       "values": [
+        68
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-26",
+       "geo_name": "京都府",
+       "values": [
+        67
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-30",
+       "geo_name": "和歌山県",
+       "values": [
+        67
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-13",
+       "geo_name": "東京都",
+       "values": [
+        67
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-14",
+       "geo_name": "神奈川県",
+       "values": [
+        67
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-01",
+       "geo_name": "北海道",
+       "values": [
+        66
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-11",
+       "geo_name": "埼玉県",
+       "values": [
+        65
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-19",
+       "geo_name": "山梨県",
+       "values": [
+        65
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-21",
+       "geo_name": "岐阜県",
+       "values": [
+        65
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-23",
+       "geo_name": "愛知県",
+       "values": [
+        65
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-46",
+       "geo_name": "鹿児島県",
+       "values": [
+        64
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-41",
+       "geo_name": "佐賀県",
+       "values": [
+        64
+       ],
+       "max_value_index": 0
+      },
+      {
+       "geo_id": "JP-24",
+       "geo_name": "三重県",
+       "values": [
+        63
+       ],
+       "max_value_index": 0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube_12m": [
+  {
+   "keywords": [
+    "Fire TV Stick",
+    "Chromecast"
+   ],
+   "type": "trends",
+   "location_code": 2392,
+   "language_code": "ja",
+   "check_url": "https://trends.google.com/trends/explore?hl=ja&gprop=youtube&geo=JP&date=today%2012-m&q=Fire%20TV%20Stick,Chromecast",
+   "datetime": "2026-09-07 00:06:34 +00:00",
+   "items_count": 1,
+   "items": [
+    {
+     "position": 1,
+     "type": "google_trends_graph",
+     "title": null,
+     "keywords": [
+      "Fire TV Stick",
+      "Chromecast"
+     ],
+     "data": [
+      {
+       "date_from": "2025-09-07",
+       "date_to": "2025-09-13",
+       "timestamp": 1757203200,
+       "missing_data": false,
+       "values": [
+        24,
+        8
+       ]
+      },
+      {
+       "date_from": "2025-09-14",
+       "date_to": "2025-09-20",
+       "timestamp": 1757808000,
+       "missing_data": false,
+       "values": [
+        15,
+        9
+       ]
+      },
+      {
+       "date_from": "2025-09-21",
+       "date_to": "2025-09-27",
+       "timestamp": 1758412800,
+       "missing_data": false,
+       "values": [
+        22,
+        10
+       ]
+      },
+      {
+       "date_from": "2025-09-28",
+       "date_to": "2025-10-04",
+       "timestamp": 1759017600,
+       "missing_data": false,
+       "values": [
+        35,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-10-05",
+       "date_to": "2025-10-11",
+       "timestamp": 1759622400,
+       "missing_data": false,
+       "values": [
+        47,
+        10
+       ]
+      },
+      {
+       "date_from": "2025-10-12",
+       "date_to": "2025-10-18",
+       "timestamp": 1760227200,
+       "missing_data": false,
+       "values": [
+        31,
+        7
+       ]
+      },
+      {
+       "date_from": "2025-10-19",
+       "date_to": "2025-10-25",
+       "timestamp": 1760832000,
+       "missing_data": false,
+       "values": [
+        23,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-10-26",
+       "date_to": "2025-11-01",
+       "timestamp": 1761436800,
+       "missing_data": false,
+       "values": [
+        26,
+        10
+       ]
+      },
+      {
+       "date_from": "2025-11-02",
+       "date_to": "2025-11-08",
+       "timestamp": 1762041600,
+       "missing_data": false,
+       "values": [
+        23,
+        12
+       ]
+      },
+      {
+       "date_from": "2025-11-09",
+       "date_to": "2025-11-15",
+       "timestamp": 1762646400,
+       "missing_data": false,
+       "values": [
+        27,
+        9
+       ]
+      },
+      {
+       "date_from": "2025-11-16",
+       "date_to": "2025-11-22",
+       "timestamp": 1763251200,
+       "missing_data": false,
+       "values": [
+        53,
+        10
+       ]
+      },
+      {
+       "date_from": "2025-11-23",
+       "date_to": "2025-11-29",
+       "timestamp": 1763856000,
+       "missing_data": false,
+       "values": [
+        100,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-11-30",
+       "date_to": "2025-12-06",
+       "timestamp": 1764460800,
+       "missing_data": false,
+       "values": [
+        48,
+        10
+       ]
+      },
+      {
+       "date_from": "2025-12-07",
+       "date_to": "2025-12-13",
+       "timestamp": 1765065600,
+       "missing_data": false,
+       "values": [
+        29,
+        11
+       ]
+      },
+      {
+       "date_from": "2025-12-14",
+       "date_to": "2025-12-20",
+       "timestamp": 1765670400,
+       "missing_data": false,
+       "values": [
+        35,
+        8
+       ]
+      },
+      {
+       "date_from": "2025-12-21",
+       "date_to": "2025-12-27",
+       "timestamp": 1766275200,
+       "missing_data": false,
+       "values": [
+        31,
+        null
+       ]
+      },
+      {
+       "date_from": "2025-12-28",
+       "date_to": "2026-01-03",
+       "timestamp": 1766880000,
+       "missing_data": false,
+       "values": [
+        41,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-01-04",
+       "date_to": "2026-01-10",
+       "timestamp": 1767484800,
+       "missing_data": false,
+       "values": [
+        46,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-01-11",
+       "date_to": "2026-01-17",
+       "timestamp": 1768089600,
+       "missing_data": false,
+       "values": [
+        19,
+        10
+       ]
+      },
+      {
+       "date_from": "2026-01-18",
+       "date_to": "2026-01-24",
+       "timestamp": 1768694400,
+       "missing_data": false,
+       "values": [
+        26,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-01-25",
+       "date_to": "2026-01-31",
+       "timestamp": 1769299200,
+       "missing_data": false,
+       "values": [
+        32,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-02-01",
+       "date_to": "2026-02-07",
+       "timestamp": 1769904000,
+       "missing_data": false,
+       "values": [
+        30,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-02-08",
+       "date_to": "2026-02-14",
+       "timestamp": 1770508800,
+       "missing_data": false,
+       "values": [
+        30,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-02-15",
+       "date_to": "2026-02-21",
+       "timestamp": 1771113600,
+       "missing_data": false,
+       "values": [
+        24,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-02-22",
+       "date_to": "2026-02-28",
+       "timestamp": 1771718400,
+       "missing_data": false,
+       "values": [
+        27,
+        11
+       ]
+      },
+      {
+       "date_from": "2026-03-01",
+       "date_to": "2026-03-07",
+       "timestamp": 1772323200,
+       "missing_data": false,
+       "values": [
+        64,
+        13
+       ]
+      },
+      {
+       "date_from": "2026-03-08",
+       "date_to": "2026-03-14",
+       "timestamp": 1772928000,
+       "missing_data": false,
+       "values": [
+        64,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-03-15",
+       "date_to": "2026-03-21",
+       "timestamp": 1773532800,
+       "missing_data": false,
+       "values": [
+        27,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-03-22",
+       "date_to": "2026-03-28",
+       "timestamp": 1774137600,
+       "missing_data": false,
+       "values": [
+        28,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-03-29",
+       "date_to": "2026-04-04",
+       "timestamp": 1774742400,
+       "missing_data": false,
+       "values": [
+        38,
+        10
+       ]
+      },
+      {
+       "date_from": "2026-04-05",
+       "date_to": "2026-04-11",
+       "timestamp": 1775347200,
+       "missing_data": false,
+       "values": [
+        27,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-04-12",
+       "date_to": "2026-04-18",
+       "timestamp": 1775952000,
+       "missing_data": false,
+       "values": [
+        25,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-04-19",
+       "date_to": "2026-04-25",
+       "timestamp": 1776556800,
+       "missing_data": false,
+       "values": [
+        38,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-04-26",
+       "date_to": "2026-05-02",
+       "timestamp": 1777161600,
+       "missing_data": false,
+       "values": [
+        39,
+        11
+       ]
+      },
+      {
+       "date_from": "2026-05-03",
+       "date_to": "2026-05-09",
+       "timestamp": 1777766400,
+       "missing_data": false,
+       "values": [
+        29,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-10",
+       "date_to": "2026-05-16",
+       "timestamp": 1778371200,
+       "missing_data": false,
+       "values": [
+        31,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-17",
+       "date_to": "2026-05-23",
+       "timestamp": 1778976000,
+       "missing_data": false,
+       "values": [
+        19,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-24",
+       "date_to": "2026-05-30",
+       "timestamp": 1779580800,
+       "missing_data": false,
+       "values": [
+        36,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-05-31",
+       "date_to": "2026-06-06",
+       "timestamp": 1780185600,
+       "missing_data": false,
+       "values": [
+        32,
+        8
+       ]
+      },
+      {
+       "date_from": "2026-06-07",
+       "date_to": "2026-06-13",
+       "timestamp": 1780790400,
+       "missing_data": false,
+       "values": [
+        17,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-06-14",
+       "date_to": "2026-06-20",
+       "timestamp": 1781395200,
+       "missing_data": false,
+       "values": [
+        24,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-06-21",
+       "date_to": "2026-06-27",
+       "timestamp": 1782000000,
+       "missing_data": false,
+       "values": [
+        21,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-06-28",
+       "date_to": "2026-07-04",
+       "timestamp": 1782604800,
+       "missing_data": false,
+       "values": [
+        27,
+        12
+       ]
+      },
+      {
+       "date_from": "2026-07-05",
+       "date_to": "2026-07-11",
+       "timestamp": 1783209600,
+       "missing_data": false,
+       "values": [
+        73,
+        9
+       ]
+      },
+      {
+       "date_from": "2026-07-12",
+       "date_to": "2026-07-18",
+       "timestamp": 1783814400,
+       "missing_data": false,
+       "values": [
+        57,
+        9
+       ]
+      },
+      {
+       "date_from": "2026-07-19",
+       "date_to": "2026-07-25",
+       "timestamp": 1784419200,
+       "missing_data": false,
+       "values": [
+        24,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-07-26",
+       "date_to": "2026-08-01",
+       "timestamp": 1785024000,
+       "missing_data": false,
+       "values": [
+        16,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-02",
+       "date_to": "2026-08-08",
+       "timestamp": 1785628800,
+       "missing_data": false,
+       "values": [
+        20,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-09",
+       "date_to": "2026-08-15",
+       "timestamp": 1786233600,
+       "missing_data": false,
+       "values": [
+        33,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-16",
+       "date_to": "2026-08-22",
+       "timestamp": 1786838400,
+       "missing_data": false,
+       "values": [
+        26,
+        null
+       ]
+      },
+      {
+       "date_from": "2026-08-23",
+       "date_to": "2026-08-29",
+       "timestamp": 1787443200,
+       "missing_data": false,
+       "values": [
+        18,
+        4
+       ]
+      },
+      {
+       "date_from": "2026-08-30",
+       "date_to": "2026-09-05",
+       "timestamp": 1788048000,
+       "missing_data": false,
+       "values": [
+        23,
+        5
+       ]
+      },
+      {
+       "date_from": "2026-09-06",
+       "date_to": "2026-09-07",
+       "timestamp": 1788652800,
+       "missing_data": true,
+       "values": [
+        12,
+        null
+       ]
+      }
+     ],
+     "averages": [
+      33,
+      5
+     ]
+    }
+   ]
+  }
+ ]
+}
