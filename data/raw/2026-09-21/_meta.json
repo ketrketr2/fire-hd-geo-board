@@ -1,0 +1,12 @@
+{
+ "date": "2026-09-21",
+ "spent": {
+  "usd": 0.4811,
+  "calls": 55
+ },
+ "errors": [
+  "news:ストリーミングデバイス 新製品: RuntimeError: 40101 Internal SE Server Error.",
+  "app_data/apple/app_info get 09210033-1009-0419-0000-54c29feb1c8b: 40102 No Search Results.",
+  "app_data/apple/app_reviews get 09210033-1009-0425-0000-bda2d43cb1cd: 40102 No Search Results."
+ ]
+}
