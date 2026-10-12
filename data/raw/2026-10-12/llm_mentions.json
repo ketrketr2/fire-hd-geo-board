@@ -1,0 +1,27 @@
+{
+ "jp_supported": true,
+ "shape": null,
+ "tried": [
+  {
+   "shape": "keyword_list",
+   "error": "40501 Invalid Field: 'search_scope' (for keyword) must be a non-empty array.'."
+  },
+  {
+   "shape": "keyword_flat",
+   "error": "40501 Invalid Field: 'Each 'target' item must be an object.'."
+  },
+  {
+   "shape": "keyword_only",
+   "error": "40501 Invalid Field: 'Field 'target' is missing or has an invalid type (expected array).'."
+  },
+  {
+   "shape": "domain_list",
+   "error": "40501 Invalid Field: 'search_scope' (for domain) must be a non-empty array.'."
+  },
+  {
+   "shape": "domain_only",
+   "error": "40501 Invalid Field: 'Field 'target' is missing or has an invalid type (expected array).'."
+  }
+ ],
+ "result": null
+}

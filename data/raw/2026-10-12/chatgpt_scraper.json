@@ -1,0 +1,2822 @@
+{
+ "t001": {
+  "text": "テレビでYouTubeやNetflixを見るにはどうすればいいですか？",
+  "result": [
+   {
+    "keyword": "テレビでYouTubeやNetflixを見るにはどうすればいいですか？",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7YouTube%E3%82%84Netflix%E3%82%92%E8%A6%8B%E3%82%8B%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
+    "datetime": "2026-10-12 01:33:51 +00:00",
+    "markdown": "テレビでYouTubeやNetflixを見る方法は、**今お使いのテレビがどんな種類か**によって変わります。簡単な方法からご紹介しますね！\n\n## テレビで見る3つの方法\n\n![HAIER LED 32 INCH SMART LED LE32K6600GA GOOGLE ANDROID Fairdeal Electronics](https://images.openai.com/static-rsc-4/grFjECpAqNGV5b89pN8hLLpd3cxzamoHZUaa6fayIkqGmneMWSGiKqqehBBTUUVzcotpJVYVeXV819iCUvMc--AR8ZDZuBiFIjwG2BpyEyzzlzxNB5-yZyz9oihRgAKlP7ppodJkDuVc1TVZfpx0ffgPSbv2MsrinsOBDfpwwBYtNfp6j_kDsD3Wud2AGV6R?purpose=fullsize)\n\n**① スマートテレビを使う（いちばん簡単）**\n\nテレビがインターネットに対応していれば、YouTubeやNetflixのアプリを開くだけで見られます。\n\n- Wi-Fiに接続する\n- テレビのリモコンでアプリを選ぶ\n- Netflixは契約・ログインが必要です\n\n---\n\n![how to install a fire stick on a samsung smart tv | TVsBook](https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize)\n\n**② Fire TV Stickなどを取り付ける**\n\nスマートテレビでなくても、HDMI端子があれば利用できることが多いです。\n\n- 本体をテレビにつなぐ\n- Wi-Fiに接続する\n- YouTubeやNetflixのアプリを使う\n\n機器の購入費用がかかります。\n\n---\n\n![ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP](https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize)\n\n**③ パソコンをテレビにつなぐ**\n\nHDMIケーブルでパソコンとテレビを接続し、パソコンの画面をテレビに映す方法です。\n\n## まず、どのテレビをお使いですか？\n\n1\\. テレビの種類\n\nYouTubeやNetflixのボタンがリモコンにある\n\n普通のテレビで、よくわからない\n\n古いテレビで、インターネットには対応していないと思う\n\n---\n\n2\\. ご自宅にWi-Fiはありますか？\n\nある\n\nない\n\nわからない\n\n[この条件で、やり方を教えて]\n\n教えていただければ、**何を買えばいいか、どのボタンを押せばいいか**まで、順番にわかりやすくご案内します。",
+    "search_results": null,
+    "sources": null,
+    "fan_out_queries": null,
+    "brand_entities": null,
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_images"
+    ],
+    "items_count": 7,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "テレビでYouTubeやNetflixを見る方法は、**今お使いのテレビがどんな種類か**によって変わります。簡単な方法からご紹介しますね！\n\n## テレビで見る3つの方法\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": "![HAIER LED 32 INCH SMART LED LE32K6600GA GOOGLE ANDROID Fairdeal Electronics](https://images.openai.com/static-rsc-4/grFjECpAqNGV5b89pN8hLLpd3cxzamoHZUaa6fayIkqGmneMWSGiKqqehBBTUUVzcotpJVYVeXV819iCUvMc--AR8ZDZuBiFIjwG2BpyEyzzlzxNB5-yZyz9oihRgAKlP7ppodJkDuVc1TVZfpx0ffgPSbv2MsrinsOBDfpwwBYtNfp6j_kDsD3Wud2AGV6R?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.fairdealelectronics.in/shop/haier-le32k6600ga-led-tv-80-cm-32-inch-hd-ready-led-smart-google-android-tv-smart-ai-722.html",
+        "alt": "HAIER LED 32 INCH SMART LED LE32K6600GA GOOGLE ANDROID Fairdeal Electronics",
+        "image_url": "https://images.openai.com/static-rsc-4/grFjECpAqNGV5b89pN8hLLpd3cxzamoHZUaa6fayIkqGmneMWSGiKqqehBBTUUVzcotpJVYVeXV819iCUvMc--AR8ZDZuBiFIjwG2BpyEyzzlzxNB5-yZyz9oihRgAKlP7ppodJkDuVc1TVZfpx0ffgPSbv2MsrinsOBDfpwwBYtNfp6j_kDsD3Wud2AGV6R?purpose=fullsize",
+        "markdown": "![HAIER LED 32 INCH SMART LED LE32K6600GA GOOGLE ANDROID Fairdeal Electronics](https://images.openai.com/static-rsc-4/grFjECpAqNGV5b89pN8hLLpd3cxzamoHZUaa6fayIkqGmneMWSGiKqqehBBTUUVzcotpJVYVeXV819iCUvMc--AR8ZDZuBiFIjwG2BpyEyzzlzxNB5-yZyz9oihRgAKlP7ppodJkDuVc1TVZfpx0ffgPSbv2MsrinsOBDfpwwBYtNfp6j_kDsD3Wud2AGV6R?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n\n**① スマートテレビを使う（いちばん簡単）**\n\nテレビがインターネットに対応していれば、YouTubeやNetflixのアプリを開くだけで見られます。\n\n- Wi-Fiに接続する\n- テレビのリモコンでアプリを選ぶ\n- Netflixは契約・ログインが必要です\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "markdown": "![how to install a fire stick on a samsung smart tv | TVsBook](https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.tvsbook.com/threads/how-to-install-a-fire-stick-on-a-samsung-smart-tv.5040/",
+        "alt": "how to install a fire stick on a samsung smart tv | TVsBook",
+        "image_url": "https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize",
+        "markdown": "![how to install a fire stick on a samsung smart tv | TVsBook](https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n**② Fire TV Stickなどを取り付ける**\n\nスマートテレビでなくても、HDMI端子があれば利用できることが多いです。\n\n- 本体をテレビにつなぐ\n- Wi-Fiに接続する\n- YouTubeやNetflixのアプリを使う\n\n機器の購入費用がかかります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "markdown": "![ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP](https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://acemagic.jp/blogs/tips/how-to-connect-laptop-to-tv",
+        "alt": "ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP",
+        "image_url": "https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize",
+        "markdown": "![ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP](https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "markdown": "\n\n**③ パソコンをテレビにつなぐ**\n\nHDMIケーブルでパソコンとテレビを接続し、パソコンの画面をテレビに映す方法です。\n\n## まず、どのテレビをお使いですか？\n\n1\\. テレビの種類\n\nYouTubeやNetflixのボタンがリモコンにある\n\n普通のテレビで、よくわからない\n\n古いテレビで、インターネットには対応していないと思う\n\n---\n\n2\\. ご自宅にWi-Fiはありますか？\n\nある\n\nない\n\nわからない\n\n[この条件で、やり方を教えて]\n\n教えていただければ、**何を買えばいいか、どのボタンを押せばいいか**まで、順番にわかりやすくご案内します。",
+      "sources": null,
+      "brand_entities": null
+     }
+    ]
+   }
+  ],
+  "error": null
+ },
+ "t002": {
+  "text": "テレビのHDMIに挿すストリーミング端末のおすすめを教えてください",
+  "result": [
+   {
+    "keyword": "テレビのHDMIに挿すストリーミング端末のおすすめを教えてください",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=%E3%83%86%E3%83%AC%E3%83%93%E3%81%AEHDMI%E3%81%AB%E6%8C%BF%E3%81%99%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E7%AB%AF%E6%9C%AB%E3%81%AE%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+    "datetime": "2026-10-12 01:34:25 +00:00",
+    "markdown": "テレビのHDMI端子に挿すストリーミング端末なら、**YouTube、Netflix、Amazonプライム・ビデオなどをテレビの大画面で楽しめる機種**がおすすめです。\n\n選ぶときは、価格だけでなく、操作の快適さ、画質、使っているスマホとの相性も重要です。日本で使うことを前提に、まずは次の3タイプを比較すると選びやすいです。\n\n## おすすめ3機種\n\n![Buy Amazon Fire TV Stick 4K with Alexa and TV Guide with Live TV | Smart TV sticks and boxes | Argos](https://images.openai.com/static-rsc-4/p2b7L8vr_7dtgp9L_aDYwFJ4jwfJQeQa86PkaI1Kx9kHjOdP2iqxYMi8TkXncKZXCi54A7VezVfP8bX7EntAItfLWIAiR2-ddsMp_tejOLhrqs7yt2g-yhJH2X6RGBxjTGMnV2MUJVjVbShMbUqirkdTKMM6jqd9_xcKIVByLngEJuDhZ75-hAIOC3zALtw5?purpose=fullsize)\n\n## 1\\. Fire TV Stick 4K\n\n(迷ったらこれ)\n\n### 11,980円（税込・発表時価格）\n\nAmazonの新モデル・2026年9月発売\n\nAmazonプライム・ビデオをよく見る人におすすめ。4K対応で、Alexa音声検索も使えます。テレビのUSB端子から給電できる設計も便利です。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)\n\n**向いている人：** 価格と使いやすさのバランスを重視する人。\n\n[Amazon公式で確認](https://www.amazon.co.jp/firetv4k)\n\n---\n\n![Google TV Streamer (4K) - Porcelain | Best Buy Canada](https://images.openai.com/static-rsc-4/qhHlIB0OlD_FtZgsr7qxovTkDY-tDyeRHJPPOtHqZ-4mFJ3fsIkltiYsQjzNLvIZQwiLejVvLRQOx0g3moj_DBCkiXBFCAZzRrFMCbqLh2sxj5AyshLYfJcIUu_NNy5x79oGPUTAaJW2zdeR-ynsERXD8yYk3YeqzT3a6dgVPP7cizr3wvMD7TgY0eyNintJ?purpose=fullsize)\n\n## 2\\. GOOGLE Google TV Streamer 4K GA05662-JP\n\n### ￥16,000\n\nGoogle TV搭載\n\nYouTubeや各種動画サービスをまとめて探しやすく、Androidスマホとの連携にも便利。4K・Dolby Visionに対応し、有線LAN端子も備えています。HDMIケーブルは別途必要です。[store.google.com](https://store.google.com/jp/product/google_tv_streamer?hl=ja&pli=)\n\n**向いている人：** GoogleフォトやGoogle Homeも活用したい人。\n\n[Googleストア公式](https://store.google.com/jp/product/google_tv_streamer?hl=ja)\n\n---\n\n![Apple TV 4K 3rd Gen Wifi + Ethernet Streaming Device, 128 GB Storage, MN893AE Online at Best Price | Lulu Qatar](https://images.openai.com/static-rsc-4/fjEUxDvWeEO07ldI1ac92-BDBOoWwXkkCsOV5vvoJd-q4fZ6q20wCJdbXEDxnpd0229R9lKlEqIjqAWz3c2eirDkAjyhjbUZfMEbBjN2w2yUobsCDHH_K4S21hbsK8l4cDMcsJrD7AgTkAzI3mx4Pa8xliCIDILw3pS0tQL6ty0DwqQFOfKHThoVGMgnhkNL?purpose=fullsize)\n\n## 3\\. Apple TV 4K\n\n高性能・Apple製品との連携重視\n\n動作の快適さやシンプルな操作性を重視する人向け。iPhoneの画面共有やAirPlay、Apple製品との連携が魅力です。価格は高めなので、動画を見るだけなら予算と相談したい機種です。[www.whathifi.com](https://www.whathifi.com/best-buys/digital-tv-boxes/best-tv-streaming-boxes)\n\n**向いている人：** iPhoneやiPad、AirPodsをよく使う人。\n\n[Apple公式サイト](https://www.apple.com/jp/apple-tv-4k/)\n\n## どれを買うのがよい？\n\n| 重視すること | おすすめ |\n|--------|--------|\n| コスパ・手軽さ | Fire TV Stick 4K |\n| Googleサービスとの連携 | Google TV Streamer |\n| iPhoneとの連携・操作の快適さ | Apple TV 4K |\n\n\n※ 4K対応モデルでも、4K映像を楽しむにはテレビ側も4K対応である必要があります。また、動画サービスによっては別途契約が必要です。\n\n## あなたに合う機種を絞りましょう\n\n次のうち、どれに近いですか？\n\n1\\. 予算はいくらですか？\n\n5,000円前後まで\n\n5,000〜8,000円程度\n\n1万円前後〜1万5,000円\n\n価格より性能を優先\n\n---\n\n2\\. テレビは4K対応ですか？\n\n4K対応\n\nフルHD・4K非対応\n\n分からない\n\n---\n\n3\\. 主に何を見たいですか？\n\nAmazonプライム・ビデオ\n\nYouTube\n\nNetflixなどの動画配信\n\nスマホの写真や画面をテレビに映したい\n\n---\n\n4\\. スマホは何を使っていますか？\n\niPhone\n\nAndroid\n\nスマホとの連携は不要\n\n[おすすめを絞り込む]",
+    "search_results": [
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "domain": "press.aboutamazon.com",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表 - Press Center",
+      "description": null,
+      "breadcrumb": "press.aboutamazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://store.google.com/jp/product/google_tv_streamer?hl=ja&pli=",
+      "domain": "store.google.com",
+      "title": "Google TV Streamer (4K)",
+      "description": null,
+      "breadcrumb": "store.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.whathifi.com/best-buys/digital-tv-boxes/best-tv-streaming-boxes",
+      "domain": "www.whathifi.com",
+      "title": "Best streaming devices 2026: smart TV sticks and boxes chosen by our experts",
+      "description": "This comprehensive guide from What Hi-Fi? reviews the best streaming devices of 2026, highlighting advancements in smart TV sticks and boxes. Although modern TVs come equipped with built-in smart platforms (like Google TV, webOS, Fire OS), standalone streaming devices continue to offer superior picture and sound quality, faster performance, and wider app support.\n\nThe top pick overall is the Apple TV 4K (2022), praised for its stunning visuals, spatial audio, and A15 Bionic-powered performance at a reduced price. Google’s new Google TV Streamer is noted as a solid Android-based alternative, although its audio performance falls short. Amazon’s Fire TV Stick 4K Max (2nd Gen) takes the crown for the best budget streamer, delivering strong 4K HDR visuals and Dolby Atmos support at a lower cost. Sky Stream is featured as the best subscription box, bringing a full Sky service experience without the need for a satellite dish.\n\nThe review emphasizes the benefits of dedicated streamers for users with older TVs or projectors lacking smart capabilities, and details testing methodology and criteria. The guide also includes tips for choosing the right device, such as broadband speed requirements and app compatibility.",
+      "breadcrumb": "www.whathifi.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.tomsguide.com/entertainment/streaming-devices/best-streaming-devices",
+      "domain": "www.tomsguide.com",
+      "title": "These are the 3 best streaming devices we've tested for your TV",
+      "description": "This guide evaluates the top streaming devices available for enhancing TV viewing, particularly for users with non-smart or smart TVs seeking better interfaces and added features. The best overall pick is the Roku Streaming Stick Plus, which offers stellar 4K streaming, a user-friendly interface, and affordability under $40. Despite intrusive ads, it stands out for performance and design. The Google TV Streamer ranks second, excelling in smart home integration, 4K visuals, and the AI-powered Gemini assistant that enhances user experience. It costs $99 but is packed with valuable features. For Apple enthusiasts, the Apple TV 4K (2022) offers ultra-fast performance via the A15 Bionic chip, supports Matter for smart home use, and boasts a sleek tvOS interface, though at a premium price. Alexa users may opt for the Fire Stick 4K Select, known for its seamless Amazon ecosystem integration, though it lacks in HDR and audio versatility. The guide also details how these devices are tested, focusing on setup ease, UI, streaming quality, and extra features like voice search and app support. Buyers are encouraged to choose based on their ecosystem preferences, performance needs, or budget considerations.",
+      "breadcrumb": "www.tomsguide.com"
+     }
+    ],
+    "sources": [
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+      "snippet": null,
+      "domain": "press.aboutamazon.com",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "thumbnail": null,
+      "source_name": "Press Center",
+      "publication_date": "2026-09-30 00:00:00 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazon公式で確認",
+      "snippet": null,
+      "domain": "www.amazon.co.jp",
+      "url": "https://www.amazon.co.jp/firetv4k",
+      "thumbnail": null,
+      "source_name": null,
+      "publication_date": null,
+      "markdown": "[Amazon公式で確認](https://www.amazon.co.jp/firetv4k)"
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Google TV Streamer (4K)",
+      "snippet": null,
+      "domain": "store.google.com",
+      "url": "https://store.google.com/jp/product/google_tv_streamer?hl=ja&pli=",
+      "thumbnail": null,
+      "source_name": "Google Store",
+      "publication_date": null,
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Googleストア公式",
+      "snippet": null,
+      "domain": "store.google.com",
+      "url": "https://store.google.com/jp/product/google_tv_streamer?hl=ja",
+      "thumbnail": null,
+      "source_name": null,
+      "publication_date": null,
+      "markdown": "[Googleストア公式](https://store.google.com/jp/product/google_tv_streamer?hl=ja)"
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Best streaming devices 2026: smart TV sticks and boxes chosen by our experts",
+      "snippet": "This comprehensive guide from What Hi-Fi? reviews the best streaming devices of 2026, highlighting advancements in smart TV sticks and boxes. Although modern TVs come equipped with built-in smart pla…",
+      "domain": "www.whathifi.com",
+      "url": "https://www.whathifi.com/best-buys/digital-tv-boxes/best-tv-streaming-boxes",
+      "thumbnail": null,
+      "source_name": "What Hi-Fi?",
+      "publication_date": "2026-01-29 12:22:36 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Apple公式サイト",
+      "snippet": null,
+      "domain": "www.apple.com",
+      "url": "https://www.apple.com/jp/apple-tv-4k/",
+      "thumbnail": null,
+      "source_name": null,
+      "publication_date": null,
+      "markdown": "[Apple公式サイト](https://www.apple.com/jp/apple-tv-4k/)"
+     }
+    ],
+    "fan_out_queries": [
+     "2026 日本 おすすめ ストリーミング端末 Fire TV Stick 4K Google TV Streamer Apple TV 4K 価格 比較"
+    ],
+    "brand_entities": [
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Fire TV Stick 4K",
+      "category": "product",
+      "markdown": "Fire TV Stick 4K",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "GOOGLE Google TV Streamer 4K GA05662-JP",
+      "category": "product",
+      "markdown": "GOOGLE Google TV Streamer 4K GA05662-JP",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Appleのテレビ用ストリーミング端末",
+      "category": "product",
+      "markdown": "Apple TV 4K",
+      "urls": null
+     }
+    ],
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_images",
+     "chat_gpt_products",
+     "chat_gpt_table"
+    ],
+    "items_count": 11,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "テレビのHDMI端子に挿すストリーミング端末なら、**YouTube、Netflix、Amazonプライム・ビデオなどをテレビの大画面で楽しめる機種**がおすすめです。\n\n選ぶときは、価格だけでなく、操作の快適さ、画質、使っているスマホとの相性も重要です。日本で使うことを前提に、まずは次の3タイプを比較すると選びやすいです。\n\n## おすすめ3機種\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": "![Buy Amazon Fire TV Stick 4K with Alexa and TV Guide with Live TV | Smart TV sticks and boxes | Argos](https://images.openai.com/static-rsc-4/p2b7L8vr_7dtgp9L_aDYwFJ4jwfJQeQa86PkaI1Kx9kHjOdP2iqxYMi8TkXncKZXCi54A7VezVfP8bX7EntAItfLWIAiR2-ddsMp_tejOLhrqs7yt2g-yhJH2X6RGBxjTGMnV2MUJVjVbShMbUqirkdTKMM6jqd9_xcKIVByLngEJuDhZ75-hAIOC3zALtw5?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.argos.co.uk/product/4331902",
+        "alt": "Buy Amazon Fire TV Stick 4K with Alexa and TV Guide with Live TV | Smart TV sticks and boxes | Argos",
+        "image_url": "https://images.openai.com/static-rsc-4/p2b7L8vr_7dtgp9L_aDYwFJ4jwfJQeQa86PkaI1Kx9kHjOdP2iqxYMi8TkXncKZXCi54A7VezVfP8bX7EntAItfLWIAiR2-ddsMp_tejOLhrqs7yt2g-yhJH2X6RGBxjTGMnV2MUJVjVbShMbUqirkdTKMM6jqd9_xcKIVByLngEJuDhZ75-hAIOC3zALtw5?purpose=fullsize",
+        "markdown": "![Buy Amazon Fire TV Stick 4K with Alexa and TV Guide with Live TV | Smart TV sticks and boxes | Argos](https://images.openai.com/static-rsc-4/p2b7L8vr_7dtgp9L_aDYwFJ4jwfJQeQa86PkaI1Kx9kHjOdP2iqxYMi8TkXncKZXCi54A7VezVfP8bX7EntAItfLWIAiR2-ddsMp_tejOLhrqs7yt2g-yhJH2X6RGBxjTGMnV2MUJVjVbShMbUqirkdTKMM6jqd9_xcKIVByLngEJuDhZ75-hAIOC3zALtw5?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n\n## 1\\. Fire TV Stick 4K\n\n(迷ったらこれ)\n\n### 11,980円（税込・発表時価格）\n\nAmazonの新モデル・2026年9月発売\n\nAmazonプライム・ビデオをよく見る人におすすめ。4K対応で、Alexa音声検索も使えます。テレビのUSB端子から給電できる設計も便利です。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)\n\n**向いている人：** 価格と使いやすさのバランスを重視する人。\n\n[Amazon公式で確認](https://www.amazon.co.jp/firetv4k)\n\n---\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-09-30 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon公式で確認",
+        "snippet": null,
+        "domain": "www.amazon.co.jp",
+        "url": "https://www.amazon.co.jp/firetv4k",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[Amazon公式で確認](https://www.amazon.co.jp/firetv4k)"
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Fire TV Stick 4K",
+        "category": "product",
+        "markdown": "Fire TV Stick 4K",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "markdown": "![Google TV Streamer (4K) - Porcelain | Best Buy Canada](https://images.openai.com/static-rsc-4/qhHlIB0OlD_FtZgsr7qxovTkDY-tDyeRHJPPOtHqZ-4mFJ3fsIkltiYsQjzNLvIZQwiLejVvLRQOx0g3moj_DBCkiXBFCAZzRrFMCbqLh2sxj5AyshLYfJcIUu_NNy5x79oGPUTAaJW2zdeR-ynsERXD8yYk3YeqzT3a6dgVPP7cizr3wvMD7TgY0eyNintJ?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.bestbuy.ca/en-ca/product/google-tv-streamer-4k-porcelain/17970356",
+        "alt": "Google TV Streamer (4K) - Porcelain | Best Buy Canada",
+        "image_url": "https://images.openai.com/static-rsc-4/qhHlIB0OlD_FtZgsr7qxovTkDY-tDyeRHJPPOtHqZ-4mFJ3fsIkltiYsQjzNLvIZQwiLejVvLRQOx0g3moj_DBCkiXBFCAZzRrFMCbqLh2sxj5AyshLYfJcIUu_NNy5x79oGPUTAaJW2zdeR-ynsERXD8yYk3YeqzT3a6dgVPP7cizr3wvMD7TgY0eyNintJ?purpose=fullsize",
+        "markdown": "![Google TV Streamer (4K) - Porcelain | Best Buy Canada](https://images.openai.com/static-rsc-4/qhHlIB0OlD_FtZgsr7qxovTkDY-tDyeRHJPPOtHqZ-4mFJ3fsIkltiYsQjzNLvIZQwiLejVvLRQOx0g3moj_DBCkiXBFCAZzRrFMCbqLh2sxj5AyshLYfJcIUu_NNy5x79oGPUTAaJW2zdeR-ynsERXD8yYk3YeqzT3a6dgVPP7cizr3wvMD7TgY0eyNintJ?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n## 2\\. GOOGLE Google TV Streamer 4K GA05662-JP\n\n### ￥16,000\n\nGoogle TV搭載\n\nYouTubeや各種動画サービスをまとめて探しやすく、Androidスマホとの連携にも便利。4K・Dolby Visionに対応し、有線LAN端子も備えています。HDMIケーブルは別途必要です。[store.google.com](https://store.google.com/jp/product/google_tv_streamer?hl=ja&pli=)\n\n**向いている人：** GoogleフォトやGoogle Homeも活用したい人。\n\n[Googleストア公式](https://store.google.com/jp/product/google_tv_streamer?hl=ja)\n\n---\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV Streamer (4K)",
+        "snippet": null,
+        "domain": "store.google.com",
+        "url": "https://store.google.com/jp/product/google_tv_streamer?hl=ja&pli=",
+        "thumbnail": null,
+        "source_name": "Google Store",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Googleストア公式",
+        "snippet": null,
+        "domain": "store.google.com",
+        "url": "https://store.google.com/jp/product/google_tv_streamer?hl=ja",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[Googleストア公式](https://store.google.com/jp/product/google_tv_streamer?hl=ja)"
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "GOOGLE Google TV Streamer 4K GA05662-JP",
+        "category": "product",
+        "markdown": "GOOGLE Google TV Streamer 4K GA05662-JP",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "markdown": "![Apple TV 4K 3rd Gen Wifi + Ethernet Streaming Device, 128 GB Storage, MN893AE Online at Best Price | Lulu Qatar](https://images.openai.com/static-rsc-4/fjEUxDvWeEO07ldI1ac92-BDBOoWwXkkCsOV5vvoJd-q4fZ6q20wCJdbXEDxnpd0229R9lKlEqIjqAWz3c2eirDkAjyhjbUZfMEbBjN2w2yUobsCDHH_K4S21hbsK8l4cDMcsJrD7AgTkAzI3mx4Pa8xliCIDILw3pS0tQL6ty0DwqQFOfKHThoVGMgnhkNL?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://gcc.luluhypermarket.com/en-qa/apple-tv-4k-3rd-gen-wifi-ethernet-streaming-device-128-gb-storage-mn893ae/p/2050387/",
+        "alt": "Apple TV 4K 3rd Gen Wifi + Ethernet Streaming Device, 128 GB Storage, MN893AE Online at Best Price | Lulu Qatar",
+        "image_url": "https://images.openai.com/static-rsc-4/fjEUxDvWeEO07ldI1ac92-BDBOoWwXkkCsOV5vvoJd-q4fZ6q20wCJdbXEDxnpd0229R9lKlEqIjqAWz3c2eirDkAjyhjbUZfMEbBjN2w2yUobsCDHH_K4S21hbsK8l4cDMcsJrD7AgTkAzI3mx4Pa8xliCIDILw3pS0tQL6ty0DwqQFOfKHThoVGMgnhkNL?purpose=fullsize",
+        "markdown": "![Apple TV 4K 3rd Gen Wifi + Ethernet Streaming Device, 128 GB Storage, MN893AE Online at Best Price | Lulu Qatar](https://images.openai.com/static-rsc-4/fjEUxDvWeEO07ldI1ac92-BDBOoWwXkkCsOV5vvoJd-q4fZ6q20wCJdbXEDxnpd0229R9lKlEqIjqAWz3c2eirDkAjyhjbUZfMEbBjN2w2yUobsCDHH_K4S21hbsK8l4cDMcsJrD7AgTkAzI3mx4Pa8xliCIDILw3pS0tQL6ty0DwqQFOfKHThoVGMgnhkNL?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "markdown": "\n\n## 3\\. Apple TV 4K\n\n高性能・Apple製品との連携重視\n\n動作の快適さやシンプルな操作性を重視する人向け。iPhoneの画面共有やAirPlay、Apple製品との連携が魅力です。価格は高めなので、動画を見るだけなら予算と相談したい機種です。[www.whathifi.com](https://www.whathifi.com/best-buys/digital-tv-boxes/best-tv-streaming-boxes)\n\n**向いている人：** iPhoneやiPad、AirPodsをよく使う人。\n\n[Apple公式サイト](https://www.apple.com/jp/apple-tv-4k/)\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Best streaming devices 2026: smart TV sticks and boxes chosen by our experts",
+        "snippet": "This comprehensive guide from What Hi-Fi? reviews the best streaming devices of 2026, highlighting advancements in smart TV sticks and boxes. Although modern TVs come equipped with built-in smart pla…",
+        "domain": "www.whathifi.com",
+        "url": "https://www.whathifi.com/best-buys/digital-tv-boxes/best-tv-streaming-boxes",
+        "thumbnail": null,
+        "source_name": "What Hi-Fi?",
+        "publication_date": "2026-01-29 12:22:36 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Apple公式サイト",
+        "snippet": null,
+        "domain": "www.apple.com",
+        "url": "https://www.apple.com/jp/apple-tv-4k/",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[Apple公式サイト](https://www.apple.com/jp/apple-tv-4k/)"
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Appleのテレビ用ストリーミング端末",
+        "category": "product",
+        "markdown": "Apple TV 4K",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_products",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "items": [
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Fire TV Stick 4K",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": "迷ったらこれ",
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/p2b7L8vr_7dtgp9L_aDYwFJ4jwfJQeQa86PkaI1Kx9kHjOdP2iqxYMi8TkXncKZXCi54A7VezVfP8bX7EntAItfLWIAiR2-ddsMp_tejOLhrqs7yt2g-yhJH2X6RGBxjTGMnV2MUJVjVbShMbUqirkdTKMM6jqd9_xcKIVByLngEJuDhZ75-hAIOC3zALtw5?purpose=fullsize"
+        ],
+        "product_ids": null
+       },
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Apple TV 4K",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": null,
+        "url": "https://www.apple.com/jp/apple-tv-4k/",
+        "domain": "www.apple.com",
+        "images": [
+         "https://images.openai.com/static-rsc-4/fjEUxDvWeEO07ldI1ac92-BDBOoWwXkkCsOV5vvoJd-q4fZ6q20wCJdbXEDxnpd0229R9lKlEqIjqAWz3c2eirDkAjyhjbUZfMEbBjN2w2yUobsCDHH_K4S21hbsK8l4cDMcsJrD7AgTkAzI3mx4Pa8xliCIDILw3pS0tQL6ty0DwqQFOfKHThoVGMgnhkNL?purpose=fullsize"
+        ],
+        "product_ids": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "markdown": "## どれを買うのがよい？\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_table",
+      "rank_group": 1,
+      "rank_absolute": 10,
+      "text": null,
+      "markdown": "| 重視すること | おすすめ |\n|--------|--------|\n| コスパ・手軽さ | Fire TV Stick 4K |\n| Googleサービスとの連携 | Google TV Streamer |\n| iPhoneとの連携・操作の快適さ | Apple TV 4K |\n\n",
+      "table": {
+       "table_header": [
+        "重視すること",
+        "おすすめ"
+       ],
+       "table_content": [
+        [
+         "コスパ・手軽さ",
+         "Fire TV Stick 4K"
+        ],
+        [
+         "Googleサービスとの連携",
+         "Google TV Streamer"
+        ],
+        [
+         "iPhoneとの連携・操作の快適さ",
+         "Apple TV 4K"
+        ]
+       ]
+      },
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "markdown": "\n※ 4K対応モデルでも、4K映像を楽しむにはテレビ側も4K対応である必要があります。また、動画サービスによっては別途契約が必要です。\n\n## あなたに合う機種を絞りましょう\n\n次のうち、どれに近いですか？\n\n1\\. 予算はいくらですか？\n\n5,000円前後まで\n\n5,000〜8,000円程度\n\n1万円前後〜1万5,000円\n\n価格より性能を優先\n\n---\n\n2\\. テレビは4K対応ですか？\n\n4K対応\n\nフルHD・4K非対応\n\n分からない\n\n---\n\n3\\. 主に何を見たいですか？\n\nAmazonプライム・ビデオ\n\nYouTube\n\nNetflixなどの動画配信\n\nスマホの写真や画面をテレビに映したい\n\n---\n\n4\\. スマホは何を使っていますか？\n\niPhone\n\nAndroid\n\nスマホとの連携は不要\n\n[おすすめを絞り込む]",
+      "sources": null,
+      "brand_entities": null
+     }
+    ]
+   }
+  ],
+  "error": null
+ },
+ "t007": {
+  "text": "テレビでTVerを見る方法を教えてください",
+  "result": [
+   {
+    "keyword": "テレビでTVerを見る方法を教えてください",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7TVer%E3%82%92%E8%A6%8B%E3%82%8B%E6%96%B9%E6%B3%95%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+    "datetime": "2026-10-12 01:34:44 +00:00",
+    "markdown": "テレビでTVer（ティーバー）を見る方法はいくつかあります。**お使いのテレビの種類によって、いちばん簡単な方法が違います。**\n\n## テレビでTVerを見る4つの方法\n\n![Smart TV – главное звено в системе «Умный дом»](https://images.openai.com/static-rsc-4/RLY35tp-NimO63ZfZ7JRdbpRbumEUpyq4jpclzdOO20SHTNOHoPg-4yIAoPh5c8z7ESeOn5Z8G-eymJLcGhyd_QkffWjqXZsCIv-eLNOC8sN6mzcmaDl-RoG5u9dRnTe-B2s05hn3158avEV9GTIQ-vJgyCLZ8sqY3AM6Vv9nFVfjKHUvykfaVZzmZiCBa5y?purpose=fullsize)\n\n**① スマートテレビで見る**\n\nテレビがインターネットにつながっていて、TVerアプリに対応していれば、アプリを入れるだけで見られます。\n\nリモコンの「ホーム」→「アプリ」→「TVer」を探します。\n\n---\n\n![how to install a fire stick on a samsung smart tv | TVsBook](https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize)\n\n**② Fire TV Stickなどを使う**\n\nテレビのHDMI端子に機器を接続し、Wi-FiにつないでTVerアプリを使います。\n\nTVer非対応のテレビでも、対応機器を使えば視聴できる場合があります。\n\n---\n\n![Chromecast: Everything you need to know | Android Central](https://images.openai.com/static-rsc-4/dpPYN2URVzosT_uxBENwHRxVODaMjyvLiB0ARb558OEXIE0zB0FT3-BOYz9vnr7_KEcWY9hzxCwDRnOzZl2dViT9RCYJJvT5BiWE0PNml-yYYsoQalFTYejgurMLg17DfiZuudTBvOp7bxcMwBGucovUNiFI-Vr_Z_Ur1_cEa3TszwKvzR2M7L9t7W-EYGk6?purpose=fullsize)\n\n**③ Google TVなどの機器を使う**\n\n対応するストリーミング機器をテレビにつなぎ、TVerアプリをインストールして視聴します。\n\n---\n\n![ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP](https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize)\n\n**④ パソコンをテレビにつなぐ**\n\nHDMIケーブルでパソコンとテレビを接続し、パソコンのブラウザでTVerの公式サイトを開いて再生します。\n\nTVerの番組を見るには、基本的にインターネット接続が必要です。視聴料金は無料ですが、通信料などは別途かかる場合があります。\n\n公式の説明はこちらです：[TVerをテレビで見る方法（公式サイト）](https://tver.jp/_s/campaign/tvapp_promotion/index.html)。[help.tver.jp](https://help.tver.jp/hc/ja/articles/5108082825241-%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7%E8%A6%8B%E3%82%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B)[tver.jp](https://tver.jp/_s/campaign/tvapp_promotion/index.html)\n\n**お使いのテレビに合わせて、具体的な操作方法をご案内できます。**\n\nテレビのメーカーはどちらですか？ 例えば、**パナソニック（VIERA）、ソニー（BRAVIA）、シャープ（AQUOS）、東芝（REGZA）** などです。\n\nメーカーが分からなければ、「テレビのリモコンにTVerボタンがあるか」だけでも大丈夫です。",
+    "search_results": [
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/articles/5108082825241-%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7%E8%A6%8B%E3%82%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B",
+      "domain": "help.tver.jp",
+      "title": "テレビで見るには何が必要ですか？ – TVerヘルプページ/よくある質問",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/articles/20080570934937--TVer-%E3%81%AE%E8%A6%96%E8%81%B4%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+      "domain": "help.tver.jp",
+      "title": "「TVer」の視聴方法について教えてください – TVerヘルプページ/よくある質問",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/articles/13800487361945-Amazon-Fire-TV%E3%81%A7%E3%81%AE%E8%A6%96%E8%81%B4%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+      "domain": "help.tver.jp",
+      "title": "Amazon Fire TVでの視聴方法について教えてください – TVerヘルプページ/よくある質問",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/sections/56047937946521-%E8%A6%96%E8%81%B4%E6%96%B9%E6%B3%95",
+      "domain": "help.tver.jp",
+      "title": "視聴方法 – TVerヘルプページ/よくある質問",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/articles/13802040002585-Android-TV-Google-TV-%E3%81%A7%E3%81%AE%E8%A6%96%E8%81%B4%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+      "domain": "help.tver.jp",
+      "title": "Android TV（Google TV）での視聴方法について教えてください – TVerヘルプページ/よくある質問",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/articles/44050983074841-HDMI%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%82%84%E7%AB%AF%E6%9C%AB%E3%81%AE%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E8%A6%96%E8%81%B4%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B",
+      "domain": "help.tver.jp",
+      "title": "HDMIケーブルや端末の機能を使用してミラーリング視聴はできますか？ – TVerヘルプページ/よくある質問",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/articles/222120868-%E6%8E%A8%E5%A5%A8%E7%92%B0%E5%A2%83%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+      "domain": "help.tver.jp",
+      "title": "推奨環境を教えてください – TVerヘルプページ/よくある質問",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help.tver.jp/hc/ja/articles/18805557817497-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84-",
+      "domain": "help.tver.jp",
+      "title": "アプリのインストール方法について教えてください – ヘルプ",
+      "description": null,
+      "breadcrumb": "help.tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://tver.jp/_s/campaign/tvapp_promotion/index.html",
+      "domain": "tver.jp",
+      "title": "見逃し無料配信TVer（ティーバー）をテレビの大画面で見る方法",
+      "description": null,
+      "breadcrumb": "tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://tver.jp/tvapp/firetv",
+      "domain": "tver.jp",
+      "title": "インストール方法（Amazon Fire TV シリーズ）",
+      "description": null,
+      "breadcrumb": "tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://tver.jp/app",
+      "domain": "tver.jp",
+      "title": "TVerアプリ",
+      "description": null,
+      "breadcrumb": "tver.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://play.google.com/store/apps/details?hl=ja&id=jp.co.tver.tvapp",
+      "domain": "play.google.com",
+      "title": "TVer(ティーバー) 民放公式テレビ配信サービス - Google Play のアプリ",
+      "description": null,
+      "breadcrumb": "play.google.com"
+     }
+    ],
+    "sources": [
+     {
+      "type": "chat_gpt_source",
+      "title": "TVerをテレビで見る方法（公式サイト）",
+      "snippet": null,
+      "domain": "tver.jp",
+      "url": "https://tver.jp/_s/campaign/tvapp_promotion/index.html",
+      "thumbnail": null,
+      "source_name": null,
+      "publication_date": null,
+      "markdown": "[TVerをテレビで見る方法（公式サイト）](https://tver.jp/_s/campaign/tvapp_promotion/index.html)"
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "テレビで見るには何が必要ですか？",
+      "snippet": null,
+      "domain": "help.tver.jp",
+      "url": "https://help.tver.jp/hc/ja/articles/5108082825241-%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7%E8%A6%8B%E3%82%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B",
+      "thumbnail": null,
+      "source_name": "TVerヘルプページ/よくある質問",
+      "publication_date": "2022-03-24 00:00:00 +00:00",
+      "markdown": null
+     }
+    ],
+    "fan_out_queries": [
+     "TVer テレビで見る方法 公式 対応テレビ Fire TV Google TV"
+    ],
+    "brand_entities": null,
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_images"
+    ],
+    "items_count": 9,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "テレビでTVer（ティーバー）を見る方法はいくつかあります。**お使いのテレビの種類によって、いちばん簡単な方法が違います。**\n\n## テレビでTVerを見る4つの方法\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": "![Smart TV – главное звено в системе «Умный дом»](https://images.openai.com/static-rsc-4/RLY35tp-NimO63ZfZ7JRdbpRbumEUpyq4jpclzdOO20SHTNOHoPg-4yIAoPh5c8z7ESeOn5Z8G-eymJLcGhyd_QkffWjqXZsCIv-eLNOC8sN6mzcmaDl-RoG5u9dRnTe-B2s05hn3158avEV9GTIQ-vJgyCLZ8sqY3AM6Vv9nFVfjKHUvykfaVZzmZiCBa5y?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://signalmedia.ru/news/3491",
+        "alt": "Smart TV – главное звено в системе «Умный дом»",
+        "image_url": "https://images.openai.com/static-rsc-4/RLY35tp-NimO63ZfZ7JRdbpRbumEUpyq4jpclzdOO20SHTNOHoPg-4yIAoPh5c8z7ESeOn5Z8G-eymJLcGhyd_QkffWjqXZsCIv-eLNOC8sN6mzcmaDl-RoG5u9dRnTe-B2s05hn3158avEV9GTIQ-vJgyCLZ8sqY3AM6Vv9nFVfjKHUvykfaVZzmZiCBa5y?purpose=fullsize",
+        "markdown": "![Smart TV – главное звено в системе «Умный дом»](https://images.openai.com/static-rsc-4/RLY35tp-NimO63ZfZ7JRdbpRbumEUpyq4jpclzdOO20SHTNOHoPg-4yIAoPh5c8z7ESeOn5Z8G-eymJLcGhyd_QkffWjqXZsCIv-eLNOC8sN6mzcmaDl-RoG5u9dRnTe-B2s05hn3158avEV9GTIQ-vJgyCLZ8sqY3AM6Vv9nFVfjKHUvykfaVZzmZiCBa5y?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n\n**① スマートテレビで見る**\n\nテレビがインターネットにつながっていて、TVerアプリに対応していれば、アプリを入れるだけで見られます。\n\nリモコンの「ホーム」→「アプリ」→「TVer」を探します。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "markdown": "![how to install a fire stick on a samsung smart tv | TVsBook](https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.tvsbook.com/threads/how-to-install-a-fire-stick-on-a-samsung-smart-tv.5040/",
+        "alt": "how to install a fire stick on a samsung smart tv | TVsBook",
+        "image_url": "https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize",
+        "markdown": "![how to install a fire stick on a samsung smart tv | TVsBook](https://images.openai.com/static-rsc-4/MxbTHABd4PXFoaU7ULV7VtgS_-NfWnZYbf0nOnrQptP9dm807Joux_xwf-sAQlu01pyTAd8o_NHRP5dbKYW3eMKma1Bw-65ukRg9VKrjI9LJqdqi9pw7SYGdVnInxji6YJeOjhcslU10eW2G7rJ8QT9R9QWgYc1FYuCyrPvQ3ZHlceXmn7d1uyJRIG9OvHSU?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n**② Fire TV Stickなどを使う**\n\nテレビのHDMI端子に機器を接続し、Wi-FiにつないでTVerアプリを使います。\n\nTVer非対応のテレビでも、対応機器を使えば視聴できる場合があります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "markdown": "![Chromecast: Everything you need to know | Android Central](https://images.openai.com/static-rsc-4/dpPYN2URVzosT_uxBENwHRxVODaMjyvLiB0ARb558OEXIE0zB0FT3-BOYz9vnr7_KEcWY9hzxCwDRnOzZl2dViT9RCYJJvT5BiWE0PNml-yYYsoQalFTYejgurMLg17DfiZuudTBvOp7bxcMwBGucovUNiFI-Vr_Z_Ur1_cEa3TszwKvzR2M7L9t7W-EYGk6?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.androidcentral.com/chromecast",
+        "alt": "Chromecast: Everything you need to know | Android Central",
+        "image_url": "https://images.openai.com/static-rsc-4/dpPYN2URVzosT_uxBENwHRxVODaMjyvLiB0ARb558OEXIE0zB0FT3-BOYz9vnr7_KEcWY9hzxCwDRnOzZl2dViT9RCYJJvT5BiWE0PNml-yYYsoQalFTYejgurMLg17DfiZuudTBvOp7bxcMwBGucovUNiFI-Vr_Z_Ur1_cEa3TszwKvzR2M7L9t7W-EYGk6?purpose=fullsize",
+        "markdown": "![Chromecast: Everything you need to know | Android Central](https://images.openai.com/static-rsc-4/dpPYN2URVzosT_uxBENwHRxVODaMjyvLiB0ARb558OEXIE0zB0FT3-BOYz9vnr7_KEcWY9hzxCwDRnOzZl2dViT9RCYJJvT5BiWE0PNml-yYYsoQalFTYejgurMLg17DfiZuudTBvOp7bxcMwBGucovUNiFI-Vr_Z_Ur1_cEa3TszwKvzR2M7L9t7W-EYGk6?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "markdown": "\n\n**③ Google TVなどの機器を使う**\n\n対応するストリーミング機器をテレビにつなぎ、TVerアプリをインストールして視聴します。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 4,
+      "rank_absolute": 8,
+      "markdown": "![ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP](https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://acemagic.jp/blogs/tips/how-to-connect-laptop-to-tv",
+        "alt": "ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP",
+        "image_url": "https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize",
+        "markdown": "![ノートパソコンをテレビにつなぐ方法 | ステップバイステップガイド  – ACEMAGIC JP](https://images.openai.com/static-rsc-4/uqChqvGd4LNFKuELm2u0O2GbjPoocc_esTWtdHF2uEyVi4cAM-XofuAMRBPGW-sLr_ROMf6kRbm5EWjAjWkE22No5uACJWNgEXl8zkDRmaT3-xDnDRsyE7RDIb3FX027KOAeEUqzJ6sHvkJ-ZldSO51X3UNiUfQ1-8TwbbQsTUVGwuZ_Y-JcEW9OpEPLhSG9?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "markdown": "\n\n**④ パソコンをテレビにつなぐ**\n\nHDMIケーブルでパソコンとテレビを接続し、パソコンのブラウザでTVerの公式サイトを開いて再生します。\n\nTVerの番組を見るには、基本的にインターネット接続が必要です。視聴料金は無料ですが、通信料などは別途かかる場合があります。\n\n公式の説明はこちらです：[TVerをテレビで見る方法（公式サイト）](https://tver.jp/_s/campaign/tvapp_promotion/index.html)。[help.tver.jp](https://help.tver.jp/hc/ja/articles/5108082825241-%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7%E8%A6%8B%E3%82%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B)[tver.jp](https://tver.jp/_s/campaign/tvapp_promotion/index.html)\n\n**お使いのテレビに合わせて、具体的な操作方法をご案内できます。**\n\nテレビのメーカーはどちらですか？ 例えば、**パナソニック（VIERA）、ソニー（BRAVIA）、シャープ（AQUOS）、東芝（REGZA）** などです。\n\nメーカーが分からなければ、「テレビのリモコンにTVerボタンがあるか」だけでも大丈夫です。",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "TVerをテレビで見る方法（公式サイト）",
+        "snippet": null,
+        "domain": "tver.jp",
+        "url": "https://tver.jp/_s/campaign/tvapp_promotion/index.html",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[TVerをテレビで見る方法（公式サイト）](https://tver.jp/_s/campaign/tvapp_promotion/index.html)"
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "テレビで見るには何が必要ですか？",
+        "snippet": null,
+        "domain": "help.tver.jp",
+        "url": "https://help.tver.jp/hc/ja/articles/5108082825241-%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7%E8%A6%8B%E3%82%8B%E3%81%AB%E3%81%AF%E4%BD%95%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B",
+        "thumbnail": null,
+        "source_name": "TVerヘルプページ/よくある質問",
+        "publication_date": "2022-03-24 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "見逃し無料配信TVer（ティーバー）をテレビの大画面で見る方法",
+        "snippet": null,
+        "domain": "tver.jp",
+        "url": "https://tver.jp/_s/campaign/tvapp_promotion/index.html",
+        "thumbnail": null,
+        "source_name": "TVer",
+        "publication_date": null,
+        "markdown": null
+       }
+      ],
+      "brand_entities": null
+     }
+    ]
+   }
+  ],
+  "error": null
+ },
+ "t011": {
+  "text": "離れて暮らす親がテレビでYouTubeを見られるようにしたいです。何を送ればいいですか？",
+  "result": [
+   {
+    "keyword": "離れて暮らす親がテレビでYouTubeを見られるようにしたいです。何を送ればいいですか？",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=%E9%9B%A2%E3%82%8C%E3%81%A6%E6%9A%AE%E3%82%89%E3%81%99%E8%A6%AA%E3%81%8C%E3%83%86%E3%83%AC%E3%83%93%E3%81%A7YouTube%E3%82%92%E8%A6%8B%E3%82%89%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82%E4%BD%95%E3%82%92%E9%80%81%E3%82%8C%E3%81%B0%E3%81%84%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
+    "datetime": "2026-10-12 01:35:17 +00:00",
+    "markdown": "離れて暮らす親御さんにテレビでYouTubeを見てもらうなら、\\*\\*テレビのHDMI端子に挿すだけで使える「ストリーミング端末」\\*\\*を送るのが、いちばん手軽な方法です。\n\n親御さんが機械に詳しくない場合は、端末を選ぶだけでなく、リモコンの使いやすさや、最初の設定をどこまで済ませて送れるかも大切です。\n\nまず、次の3つを確認すると、ぴったりのものを選べます。\n\n1\\. 親御さんのテレビは？\n\nHDMI端子がある（テレビの横や裏にある差し込み口）\n\nHDMI端子がない\n\nわからない\n\n---\n\n2\\. 親御さんの家にWi-Fiはありますか？\n\nある（インターネットを使える）\n\nない\n\nわからない\n\n---\n\n3\\. 親御さんの機械操作に合わせると？\n\nとにかく簡単に。リモコンで操作してほしい\n\nスマホは普通に使える\n\n離れた場所からサポートしやすい方法がいい\n\n---\n\n予算の目安\n\n5,000円前後\n\n1万円前後\n\n予算より簡単さを優先\n\n[おすすめの機器を選ぶ]\n\n## 先に候補を挙げると\n\n![amazon 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize)\n\n**Amazon Fire TV Stick HD**\n\n(まず検討したい)\n\nテレビに挿してリモコンで操作\n\nYouTubeのほか、対応する動画配信サービスも利用できます。2026年には文字や表示を大きくする機能を含む新しいFire TV体験も展開されています。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan)[support.google.com](https://support.google.com/youtube/answer/7582560?hl=ja)[tv.google](https://tv.google/intl/ja_jp/products/)\n\n[Amazonで探す](https://www.amazon.co.jp/s?k=Fire+TV+Stick+HD)\n\n---\n\n![GOOGLE Google TV Streamer 4K - Entretenimiento rápido en tu televisor | Falabella Chile](https://images.openai.com/static-rsc-4/tEyzOMy62CHRh3tadkbwRenOILBjy6lEQK8aXyDc87lqrxCSSbTlWfldS4IpPSqz4so4PNL1f6VL-10569WYAB66nyZZSlbTGQTDlI_UN5fU4kk2K_6k10fbGAC7MgfLaz-s-gIRQtjkK_tJ5SmNI3N6rr8u4AZ7z9w1o3W3pDOE5SjbpXYtG1SImOoOgVVZ?purpose=fullsize)\n\n**Google TV Streamer 4K**\n\nGoogleのサービスをよく使う家庭向け\n\nYouTubeを含む動画アプリをテレビで楽しめます。公式価格は16,000円からです。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan)[support.google.com](https://support.google.com/youtube/answer/7582560?hl=ja)[tv.google](https://tv.google/intl/ja_jp/products/)\n\n[Google公式サイト](https://tv.google/intl/ja_jp/products/)\n\n**大事なポイント：** どちらも基本的に親御さん宅のWi-Fiが必要です。また、初回のWi-Fi接続などは済ませてから送るのがおすすめです。端末だけ送っても、初期設定でつまずくことがあります。\n\n上の質問に答えていただければ、親御さんができるだけ迷わず使えるものに絞り込みます。",
+    "search_results": [
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://support.google.com/youtube/answer/78358?hl=ja",
+      "domain": "support.google.com",
+      "title": "YouTube のシステム要件と対応デバイス - YouTube ヘルプ",
+      "description": null,
+      "breadcrumb": "support.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://support.google.com/youtube/answer/7582560?hl=ja",
+      "domain": "support.google.com",
+      "title": "視聴方法: サポートされているデバイス、ケーブルテレビ、衛星放送 - YouTube ヘルプ",
+      "description": null,
+      "breadcrumb": "support.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://support.google.com/youtube/answer/7640706?co=GENIE.Platform%3DDesktop&hl=ja",
+      "domain": "support.google.com",
+      "title": "スマートテレビで YouTube を視聴する: 動画をキャストする、またはスマートフォンをコンパニオンとして使用する - パソコン - YouTube ヘルプ",
+      "description": null,
+      "breadcrumb": "support.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://support.google.com/youtube/answer/7583931?hl=ja",
+      "domain": "support.google.com",
+      "title": "テレビで YouTube アプリを使ってみる - YouTube ヘルプ",
+      "description": null,
+      "breadcrumb": "support.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://tv.google/intl/ja_jp/products/",
+      "domain": "tv.google",
+      "title": "Google TV の入手方法 | Google TV",
+      "description": null,
+      "breadcrumb": "tv.google"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan",
+      "domain": "press.aboutamazon.com",
+      "title": "Amazon、ホーム画面を刷新し、新しいFire TV体験を日本で提供開始 - Press Center",
+      "description": null,
+      "breadcrumb": "press.aboutamazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "domain": "press.aboutamazon.com",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表 - Press Center",
+      "description": null,
+      "breadcrumb": "press.aboutamazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://plus.nhk.jp/info/help/articles/A003-4/",
+      "domain": "plus.nhk.jp",
+      "title": "テレビ向けアプリで視聴する - NHKプラス",
+      "description": null,
+      "breadcrumb": "plus.nhk.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://help-origin.unext.jp/guide/detail/how-to-watch-on-tv?searchQuery=2026",
+      "domain": "help-origin.unext.jp",
+      "title": "U-NEXT（ユーネクスト）をテレビで観る方法 - よくある質問 | U-NEXTヘルプセンター",
+      "description": null,
+      "breadcrumb": "help-origin.unext.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.tv-asahi.co.jp/douga_mv/help/guide/watch/",
+      "domain": "www.tv-asahi.co.jp",
+      "title": "動画視聴について｜テレ朝動画ヘルプセンター",
+      "description": null,
+      "breadcrumb": "www.tv-asahi.co.jp"
+     }
+    ],
+    "sources": [
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazon、ホーム画面を刷新し、新しいFire TV体験を日本で提供開始",
+      "snippet": null,
+      "domain": "press.aboutamazon.com",
+      "url": "https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan",
+      "thumbnail": null,
+      "source_name": "Press Center",
+      "publication_date": "2026-04-15 00:00:00 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "視聴方法: サポートされているデバイス、ケーブルテレビ、衛星放送",
+      "snippet": null,
+      "domain": "support.google.com",
+      "url": "https://support.google.com/youtube/answer/7582560?hl=ja",
+      "thumbnail": null,
+      "source_name": "YouTube ヘルプ",
+      "publication_date": null,
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Google TV の入手方法",
+      "snippet": null,
+      "domain": "tv.google",
+      "url": "https://tv.google/intl/ja_jp/products/",
+      "thumbnail": null,
+      "source_name": "Google TV",
+      "publication_date": null,
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazonで探す",
+      "snippet": null,
+      "domain": "www.amazon.co.jp",
+      "url": "https://www.amazon.co.jp/s?k=Fire+TV+Stick+HD",
+      "thumbnail": null,
+      "source_name": null,
+      "publication_date": null,
+      "markdown": "[Amazonで探す](https://www.amazon.co.jp/s?k=Fire+TV+Stick+HD)"
+     }
+    ],
+    "fan_out_queries": [
+     "日本 高齢者 テレビ YouTube 見る Fire TV Stick Google TV 2026 公式"
+    ],
+    "brand_entities": [
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Amazon Fire TV Stick HD",
+      "category": "product",
+      "markdown": "Amazon Fire TV Stick HD",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Google TV Streamer 4K",
+      "category": "product",
+      "markdown": "Google TV Streamer 4K",
+      "urls": null
+     }
+    ],
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_images",
+     "chat_gpt_products"
+    ],
+    "items_count": 6,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "離れて暮らす親御さんにテレビでYouTubeを見てもらうなら、\\*\\*テレビのHDMI端子に挿すだけで使える「ストリーミング端末」\\*\\*を送るのが、いちばん手軽な方法です。\n\n親御さんが機械に詳しくない場合は、端末を選ぶだけでなく、リモコンの使いやすさや、最初の設定をどこまで済ませて送れるかも大切です。\n\nまず、次の3つを確認すると、ぴったりのものを選べます。\n\n1\\. 親御さんのテレビは？\n\nHDMI端子がある（テレビの横や裏にある差し込み口）\n\nHDMI端子がない\n\nわからない\n\n---\n\n2\\. 親御さんの家にWi-Fiはありますか？\n\nある（インターネットを使える）\n\nない\n\nわからない\n\n---\n\n3\\. 親御さんの機械操作に合わせると？\n\nとにかく簡単に。リモコンで操作してほしい\n\nスマホは普通に使える\n\n離れた場所からサポートしやすい方法がいい\n\n---\n\n予算の目安\n\n5,000円前後\n\n1万円前後\n\n予算より簡単さを優先\n\n[おすすめの機器を選ぶ]\n\n## 先に候補を挙げると\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": "![amazon 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://shopping.yahoo.co.jp/category/1/19212/brand/",
+        "alt": "amazon 通販 - Yahoo!ショッピング",
+        "image_url": "https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize",
+        "markdown": "![amazon 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n\n**Amazon Fire TV Stick HD**\n\n(まず検討したい)\n\nテレビに挿してリモコンで操作\n\nYouTubeのほか、対応する動画配信サービスも利用できます。2026年には文字や表示を大きくする機能を含む新しいFire TV体験も展開されています。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan)[support.google.com](https://support.google.com/youtube/answer/7582560?hl=ja)[tv.google](https://tv.google/intl/ja_jp/products/)\n\n[Amazonで探す](https://www.amazon.co.jp/s?k=Fire+TV+Stick+HD)\n\n---\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、ホーム画面を刷新し、新しいFire TV体験を日本で提供開始",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-04-15 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "視聴方法: サポートされているデバイス、ケーブルテレビ、衛星放送",
+        "snippet": null,
+        "domain": "support.google.com",
+        "url": "https://support.google.com/youtube/answer/7582560?hl=ja",
+        "thumbnail": null,
+        "source_name": "YouTube ヘルプ",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV の入手方法",
+        "snippet": null,
+        "domain": "tv.google",
+        "url": "https://tv.google/intl/ja_jp/products/",
+        "thumbnail": null,
+        "source_name": "Google TV",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazonで探す",
+        "snippet": null,
+        "domain": "www.amazon.co.jp",
+        "url": "https://www.amazon.co.jp/s?k=Fire+TV+Stick+HD",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[Amazonで探す](https://www.amazon.co.jp/s?k=Fire+TV+Stick+HD)"
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Amazon Fire TV Stick HD",
+        "category": "product",
+        "markdown": "Amazon Fire TV Stick HD",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "markdown": "![GOOGLE Google TV Streamer 4K - Entretenimiento rápido en tu televisor | Falabella Chile](https://images.openai.com/static-rsc-4/tEyzOMy62CHRh3tadkbwRenOILBjy6lEQK8aXyDc87lqrxCSSbTlWfldS4IpPSqz4so4PNL1f6VL-10569WYAB66nyZZSlbTGQTDlI_UN5fU4kk2K_6k10fbGAC7MgfLaz-s-gIRQtjkK_tJ5SmNI3N6rr8u4AZ7z9w1o3W3pDOE5SjbpXYtG1SImOoOgVVZ?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.falabella.com/falabella-cl/product/143211082/Google-TV-Streamer-4K-Entretenimiento-rapido-en-tu-televisor/143211083",
+        "alt": "GOOGLE Google TV Streamer 4K - Entretenimiento rápido en tu televisor | Falabella Chile",
+        "image_url": "https://images.openai.com/static-rsc-4/tEyzOMy62CHRh3tadkbwRenOILBjy6lEQK8aXyDc87lqrxCSSbTlWfldS4IpPSqz4so4PNL1f6VL-10569WYAB66nyZZSlbTGQTDlI_UN5fU4kk2K_6k10fbGAC7MgfLaz-s-gIRQtjkK_tJ5SmNI3N6rr8u4AZ7z9w1o3W3pDOE5SjbpXYtG1SImOoOgVVZ?purpose=fullsize",
+        "markdown": "![GOOGLE Google TV Streamer 4K - Entretenimiento rápido en tu televisor | Falabella Chile](https://images.openai.com/static-rsc-4/tEyzOMy62CHRh3tadkbwRenOILBjy6lEQK8aXyDc87lqrxCSSbTlWfldS4IpPSqz4so4PNL1f6VL-10569WYAB66nyZZSlbTGQTDlI_UN5fU4kk2K_6k10fbGAC7MgfLaz-s-gIRQtjkK_tJ5SmNI3N6rr8u4AZ7z9w1o3W3pDOE5SjbpXYtG1SImOoOgVVZ?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n**Google TV Streamer 4K**\n\nGoogleのサービスをよく使う家庭向け\n\nYouTubeを含む動画アプリをテレビで楽しめます。公式価格は16,000円からです。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan)[support.google.com](https://support.google.com/youtube/answer/7582560?hl=ja)[tv.google](https://tv.google/intl/ja_jp/products/)\n\n[Google公式サイト](https://tv.google/intl/ja_jp/products/)\n\n**大事なポイント：** どちらも基本的に親御さん宅のWi-Fiが必要です。また、初回のWi-Fi接続などは済ませてから送るのがおすすめです。端末だけ送っても、初期設定でつまずくことがあります。\n\n上の質問に答えていただければ、親御さんができるだけ迷わず使えるものに絞り込みます。",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、ホーム画面を刷新し、新しいFire TV体験を日本で提供開始",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/4/amazon-revamps-home-screen-and-launches-new-fire-tv-experience-in-japan",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-04-15 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "視聴方法: サポートされているデバイス、ケーブルテレビ、衛星放送",
+        "snippet": null,
+        "domain": "support.google.com",
+        "url": "https://support.google.com/youtube/answer/7582560?hl=ja",
+        "thumbnail": null,
+        "source_name": "YouTube ヘルプ",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV の入手方法",
+        "snippet": null,
+        "domain": "tv.google",
+        "url": "https://tv.google/intl/ja_jp/products/",
+        "thumbnail": null,
+        "source_name": "Google TV",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Google公式サイト",
+        "snippet": null,
+        "domain": "tv.google",
+        "url": "https://tv.google/intl/ja_jp/products/",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[Google公式サイト](https://tv.google/intl/ja_jp/products/)"
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Google TV Streamer 4K",
+        "category": "product",
+        "markdown": "Google TV Streamer 4K",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_products",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "items": [
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Amazon Fire TV Stick HD",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": "まず検討したい",
+        "url": "https://www.amazon.co.jp/s?k=Fire+TV+Stick+HD",
+        "domain": "www.amazon.co.jp",
+        "images": [
+         "https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize"
+        ],
+        "product_ids": null
+       },
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Google TV Streamer 4K",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": null,
+        "url": "https://tv.google/intl/ja_jp/products/",
+        "domain": "tv.google",
+        "images": [
+         "https://images.openai.com/static-rsc-4/tEyzOMy62CHRh3tadkbwRenOILBjy6lEQK8aXyDc87lqrxCSSbTlWfldS4IpPSqz4so4PNL1f6VL-10569WYAB66nyZZSlbTGQTDlI_UN5fU4kk2K_6k10fbGAC7MgfLaz-s-gIRQtjkK_tJ5SmNI3N6rr8u4AZ7z9w1o3W3pDOE5SjbpXYtG1SImOoOgVVZ?purpose=fullsize"
+        ],
+        "product_ids": null
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "error": null
+ },
+ "t019": {
+  "text": "Fire TV StickとGoogle TV Streamerはどちらを買うべきですか？",
+  "result": [
+   {
+    "keyword": "Fire TV StickとGoogle TV Streamerはどちらを買うべきですか？",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=Fire%20TV%20Stick%E3%81%A8Google%20TV%20Streamer%E3%81%AF%E3%81%A9%E3%81%A1%E3%82%89%E3%82%92%E8%B2%B7%E3%81%86%E3%81%B9%E3%81%8D%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
+    "datetime": "2026-10-12 01:35:41 +00:00",
+    "markdown": "結論からいうと、**コスパ重視なら Fire TV Stick、長く快適に使いたいなら Google TV Streamer** がおすすめです。\n\nどちらもテレビの HDMI 端子につないで、Netflix・YouTube・Prime Video などを楽しめるストリーミング端末ですが、価格や操作性、スマートホームとの連携に違いがあります。\n\n## 2つを比較すると\n\n| 比較項目 | Fire TV Stick 4K | Google TV Streamer |\n|--------|--------|--------|\n| 日本での公式価格 | 11,980円 | 24,500円 |\n| 画質 | 最大4K HDR | 最大4K HDR |\n| 動作の快適さ | 十分実用的 | メモリ4GBで余裕あり |\n| 内蔵ストレージ | 8GB | 32GB |\n| 接続方法 | HDMIに挿すスティック型 | テレビ台に置くボックス型 |\n| 有線LAN | 別売りアダプター等 | 本体に搭載 |\n| スマートホーム | Alexaとの連携に強い | Google Home・Matterに対応 |\n\n\n価格・仕様は公式情報を参照。Fire TV Stickは2026年発売の第3世代4Kモデル。[store.google.com](https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja)[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax)[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)\n\n## それぞれ、こんな人におすすめ\n\n![Amazon veröffentlicht neuen Fire TV Stick 4K - Notebookcheck News](https://images.openai.com/static-rsc-4/-ShLxm6hxijOImI06IfyYQyFBIS9ap57xpbc81dThMjtcjGj9m5cGUP3pZfyHHeSsF-ZgvpIqBnLgX3GtpvyGsuV3AGaVrop8uLWu1432nWEFJboOTXj3hOI0u190w_Q_ofVbllqk712ZSVb_v0lib3lVhugCbEBdziE8qXas0ZNpzznDh5LUChqaq9T7zaH?purpose=fullsize)\n\n**Amazon Fire TV Stick 4K（第3世代）**\n\n(コスパ重視ならこちら)\n\n- Prime Videoをよく見る\n- YouTubeやNetflixなどが見られれば十分\n- 初期費用を抑えたい\n- コンパクトで持ち運びやすいものがいい\n\n通常価格 11,980円。プライム感謝祭の先行セールでは、プライム会員限定5,980円の案内もあります。[store.google.com](https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja)[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax)[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)\n\n---\n\n![Meet Google TV Streamer (4K) - Google TV Help](https://images.openai.com/static-rsc-4/fIzAUrqbMTBlZmHRqUtOCm0tnQ2rsgyEsLgmmjpv5mqEuUJWMsJxmTuBknbl4lKKoW-FtWF9bzzicT20bON7SrN41mBs9gKGlqXdfALdxqOubRV3Bl6AOlqWkmmSFdyX-yqeXgXo92h1r5FXk6wdzQFBc1nHZ_86xP9q__AUiNHxIPHvAIEAQiVtSGNlbyW4?purpose=fullsize)\n\n**Google TV Streamer（4K）**\n\n(快適さ・拡張性重視)\n\n- GoogleフォトやGoogle Homeをよく使う\n- アプリやコンテンツを快適に操作したい\n- アプリ用の容量に余裕がほしい\n- 有線LANで安定して接続したい\n\n公式価格 24,500円。メモリ4GB、ストレージ32GB、有線LAN端子を搭載しています。[store.google.com](https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja)[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax)[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)[store.google.com](https://store.google.com/jp/magazine/google_tv_streamer_compare?hl=ja)\n\n## 買ってから後悔しないためのポイント\n\n- **画質だけなら、大きな価格差を払う必要はありません。** どちらも4Kに対応しており、テレビや配信コンテンツの対応状況によって画質は変わります。\n- **操作の快適さなら Google TV Streamer が有利。** メモリとストレージに余裕があり、アプリをたくさん使う人に向いています。\n- **Googleのスマホから映像をキャストしたいなら注意。** Google TV StreamerはChromecast機能を備えた従来機とは異なり、スマホ画面や動画をキャストする用途によって対応状況が異なります。使いたいアプリの対応を確認しましょう。[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)[store.google.com](https://store.google.com/jp/magazine/google_tv_streamer_compare?hl=ja)\n\n## あなたにはどちらが合いそうですか？\n\n1\\. テレビの解像度は？\n\n4Kテレビ\n\nフルHD・古めのテレビ\n\n分からない\n\n---\n\n2\\. よく見るサービスは？\n\nPrime Video・Amazon中心\n\nYouTube・Netflixなど複数\n\nGoogleフォト・スマホからのキャスト\n\n---\n\n3\\. 一番重視することは？\n\n安さ・コスパ\n\nサクサク動くこと\n\n有線LANで安定した接続\n\n---\n\n4\\. 家で使っている機器は？\n\nAlexa・Amazon Echo\n\nGoogle Home・Androidスマホ\n\n特になし・iPhone中心\n\n[おすすめを診断する]",
+    "search_results": [
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja",
+      "domain": "store.google.com",
+      "title": "Google TV Streamer（4K）の仕様とパッケージ内容",
+      "description": null,
+      "breadcrumb": "store.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://store.google.com/jp/magazine/google_tv_streamer_compare?hl=ja",
+      "domain": "store.google.com",
+      "title": "Google TV ストリーミング デバイスの比較 - Google ストア",
+      "description": null,
+      "breadcrumb": "store.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "domain": "press.aboutamazon.com",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表 - Press Center",
+      "description": null,
+      "breadcrumb": "press.aboutamazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax",
+      "domain": "www.developer.amazon.com",
+      "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー | Amazon Fireデバイスの仕様",
+      "description": null,
+      "breadcrumb": "www.developer.amazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://support.google.com/googletv/answer/15273676?hl=ja",
+      "domain": "support.google.com",
+      "title": "Google TV Streamer（4K）のご紹介 - Google TV ヘルプ",
+      "description": null,
+      "breadcrumb": "support.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.whathifi.com/best-buys/digital-tv-boxes/best-tv-streaming-boxes",
+      "domain": "www.whathifi.com",
+      "title": "Best streaming devices 2026: smart TV sticks and boxes chosen by our experts",
+      "description": "This comprehensive guide from What Hi-Fi? reviews the best streaming devices of 2026, highlighting advancements in smart TV sticks and boxes. Although modern TVs come equipped with built-in smart platforms (like Google TV, webOS, Fire OS), standalone streaming devices continue to offer superior picture and sound quality, faster performance, and wider app support.\n\nThe top pick overall is the Apple TV 4K (2022), praised for its stunning visuals, spatial audio, and A15 Bionic-powered performance at a reduced price. Google’s new Google TV Streamer is noted as a solid Android-based alternative, although its audio performance falls short. Amazon’s Fire TV Stick 4K Max (2nd Gen) takes the crown for the best budget streamer, delivering strong 4K HDR visuals and Dolby Atmos support at a lower cost. Sky Stream is featured as the best subscription box, bringing a full Sky service experience without the need for a satellite dish.\n\nThe review emphasizes the benefits of dedicated streamers for users with older TVs or projectors lacking smart capabilities, and details testing methodology and criteria. The guide also includes tips for choosing the right device, such as broadband speed requirements and app compatibility.",
+      "breadcrumb": "www.whathifi.com"
+     }
+    ],
+    "sources": [
+     {
+      "type": "chat_gpt_source",
+      "title": "Google TV Streamer（4K）の仕様とパッケージ内容",
+      "snippet": null,
+      "domain": "store.google.com",
+      "url": "https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja",
+      "thumbnail": null,
+      "source_name": "Google Store",
+      "publication_date": null,
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+      "snippet": null,
+      "domain": "press.aboutamazon.com",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "thumbnail": null,
+      "source_name": "Press Center",
+      "publication_date": "2026-09-30 00:00:00 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー",
+      "snippet": null,
+      "domain": "www.developer.amazon.com",
+      "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax",
+      "thumbnail": null,
+      "source_name": "Amazon Fireデバイスの仕様",
+      "publication_date": null,
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Google TV Streamer（4K）のご紹介",
+      "snippet": null,
+      "domain": "support.google.com",
+      "url": "https://support.google.com/googletv/answer/15273676?hl=ja",
+      "thumbnail": null,
+      "source_name": "Google TV ヘルプ",
+      "publication_date": null,
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Google TV ストリーミング デバイスの比較",
+      "snippet": null,
+      "domain": "store.google.com",
+      "url": "https://store.google.com/jp/magazine/google_tv_streamer_compare?hl=ja",
+      "thumbnail": null,
+      "source_name": "Google ストア",
+      "publication_date": null,
+      "markdown": null
+     }
+    ],
+    "fan_out_queries": [
+     "Amazon Fire TV Stick 4K Max vs Google TV Streamer 4K Japan price features 2026"
+    ],
+    "brand_entities": [
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "2026年発売のストリーミング端末",
+      "category": "product",
+      "markdown": "Amazon Fire TV Stick 4K（第3世代）",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Google TV Streamer（4K）",
+      "category": "product",
+      "markdown": "Google TV Streamer（4K）",
+      "urls": null
+     }
+    ],
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_table",
+     "chat_gpt_images",
+     "chat_gpt_products"
+    ],
+    "items_count": 9,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "結論からいうと、**コスパ重視なら Fire TV Stick、長く快適に使いたいなら Google TV Streamer** がおすすめです。\n\nどちらもテレビの HDMI 端子につないで、Netflix・YouTube・Prime Video などを楽しめるストリーミング端末ですが、価格や操作性、スマートホームとの連携に違いがあります。\n\n## 2つを比較すると\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_table",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "text": null,
+      "markdown": "| 比較項目 | Fire TV Stick 4K | Google TV Streamer |\n|--------|--------|--------|\n| 日本での公式価格 | 11,980円 | 24,500円 |\n| 画質 | 最大4K HDR | 最大4K HDR |\n| 動作の快適さ | 十分実用的 | メモリ4GBで余裕あり |\n| 内蔵ストレージ | 8GB | 32GB |\n| 接続方法 | HDMIに挿すスティック型 | テレビ台に置くボックス型 |\n| 有線LAN | 別売りアダプター等 | 本体に搭載 |\n| スマートホーム | Alexaとの連携に強い | Google Home・Matterに対応 |\n\n",
+      "table": {
+       "table_header": [
+        "比較項目",
+        "Fire TV Stick 4K",
+        "Google TV Streamer"
+       ],
+       "table_content": [
+        [
+         "日本での公式価格",
+         "11,980円",
+         "24,500円"
+        ],
+        [
+         "画質",
+         "最大4K HDR",
+         "最大4K HDR"
+        ],
+        [
+         "動作の快適さ",
+         "十分実用的",
+         "メモリ4GBで余裕あり"
+        ],
+        [
+         "内蔵ストレージ",
+         "8GB",
+         "32GB"
+        ],
+        [
+         "接続方法",
+         "HDMIに挿すスティック型",
+         "テレビ台に置くボックス型"
+        ],
+        [
+         "有線LAN",
+         "別売りアダプター等",
+         "本体に搭載"
+        ],
+        [
+         "スマートホーム",
+         "Alexaとの連携に強い",
+         "Google Home・Matterに対応"
+        ]
+       ]
+      },
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n価格・仕様は公式情報を参照。Fire TV Stickは2026年発売の第3世代4Kモデル。[store.google.com](https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja)[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax)[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)\n\n## それぞれ、こんな人におすすめ\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV Streamer（4K）の仕様とパッケージ内容",
+        "snippet": null,
+        "domain": "store.google.com",
+        "url": "https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja",
+        "thumbnail": null,
+        "source_name": "Google Store",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-09-30 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー",
+        "snippet": null,
+        "domain": "www.developer.amazon.com",
+        "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax",
+        "thumbnail": null,
+        "source_name": "Amazon Fireデバイスの仕様",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV Streamer（4K）のご紹介",
+        "snippet": null,
+        "domain": "support.google.com",
+        "url": "https://support.google.com/googletv/answer/15273676?hl=ja",
+        "thumbnail": null,
+        "source_name": "Google TV ヘルプ",
+        "publication_date": null,
+        "markdown": null
+       }
+      ],
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "markdown": "![Amazon veröffentlicht neuen Fire TV Stick 4K - Notebookcheck News](https://images.openai.com/static-rsc-4/-ShLxm6hxijOImI06IfyYQyFBIS9ap57xpbc81dThMjtcjGj9m5cGUP3pZfyHHeSsF-ZgvpIqBnLgX3GtpvyGsuV3AGaVrop8uLWu1432nWEFJboOTXj3hOI0u190w_Q_ofVbllqk712ZSVb_v0lib3lVhugCbEBdziE8qXas0ZNpzznDh5LUChqaq9T7zaH?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.notebookcheck.com/Amazon-veroeffentlicht-neuen-Fire-TV-Stick-4K.1412642.0.html",
+        "alt": "Amazon veröffentlicht neuen Fire TV Stick 4K - Notebookcheck News",
+        "image_url": "https://images.openai.com/static-rsc-4/-ShLxm6hxijOImI06IfyYQyFBIS9ap57xpbc81dThMjtcjGj9m5cGUP3pZfyHHeSsF-ZgvpIqBnLgX3GtpvyGsuV3AGaVrop8uLWu1432nWEFJboOTXj3hOI0u190w_Q_ofVbllqk712ZSVb_v0lib3lVhugCbEBdziE8qXas0ZNpzznDh5LUChqaq9T7zaH?purpose=fullsize",
+        "markdown": "![Amazon veröffentlicht neuen Fire TV Stick 4K - Notebookcheck News](https://images.openai.com/static-rsc-4/-ShLxm6hxijOImI06IfyYQyFBIS9ap57xpbc81dThMjtcjGj9m5cGUP3pZfyHHeSsF-ZgvpIqBnLgX3GtpvyGsuV3AGaVrop8uLWu1432nWEFJboOTXj3hOI0u190w_Q_ofVbllqk712ZSVb_v0lib3lVhugCbEBdziE8qXas0ZNpzznDh5LUChqaq9T7zaH?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n**Amazon Fire TV Stick 4K（第3世代）**\n\n(コスパ重視ならこちら)\n\n- Prime Videoをよく見る\n- YouTubeやNetflixなどが見られれば十分\n- 初期費用を抑えたい\n- コンパクトで持ち運びやすいものがいい\n\n通常価格 11,980円。プライム感謝祭の先行セールでは、プライム会員限定5,980円の案内もあります。[store.google.com](https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja)[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax)[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV Streamer（4K）の仕様とパッケージ内容",
+        "snippet": null,
+        "domain": "store.google.com",
+        "url": "https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja",
+        "thumbnail": null,
+        "source_name": "Google Store",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-09-30 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー",
+        "snippet": null,
+        "domain": "www.developer.amazon.com",
+        "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax",
+        "thumbnail": null,
+        "source_name": "Amazon Fireデバイスの仕様",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV Streamer（4K）のご紹介",
+        "snippet": null,
+        "domain": "support.google.com",
+        "url": "https://support.google.com/googletv/answer/15273676?hl=ja",
+        "thumbnail": null,
+        "source_name": "Google TV ヘルプ",
+        "publication_date": null,
+        "markdown": null
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "2026年発売のストリーミング端末",
+        "category": "product",
+        "markdown": "Amazon Fire TV Stick 4K（第3世代）",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_products",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "items": [
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Amazon Fire TV Stick 4K（第3世代）",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": "コスパ重視ならこちら",
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/-ShLxm6hxijOImI06IfyYQyFBIS9ap57xpbc81dThMjtcjGj9m5cGUP3pZfyHHeSsF-ZgvpIqBnLgX3GtpvyGsuV3AGaVrop8uLWu1432nWEFJboOTXj3hOI0u190w_Q_ofVbllqk712ZSVb_v0lib3lVhugCbEBdziE8qXas0ZNpzznDh5LUChqaq9T7zaH?purpose=fullsize"
+        ],
+        "product_ids": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "markdown": "---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 8,
+      "markdown": "![Meet Google TV Streamer (4K) - Google TV Help](https://images.openai.com/static-rsc-4/fIzAUrqbMTBlZmHRqUtOCm0tnQ2rsgyEsLgmmjpv5mqEuUJWMsJxmTuBknbl4lKKoW-FtWF9bzzicT20bON7SrN41mBs9gKGlqXdfALdxqOubRV3Bl6AOlqWkmmSFdyX-yqeXgXo92h1r5FXk6wdzQFBc1nHZ_86xP9q__AUiNHxIPHvAIEAQiVtSGNlbyW4?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://support.google.com/googletv/answer/15273676?hl=en",
+        "alt": "Meet Google TV Streamer (4K) - Google TV Help",
+        "image_url": "https://images.openai.com/static-rsc-4/fIzAUrqbMTBlZmHRqUtOCm0tnQ2rsgyEsLgmmjpv5mqEuUJWMsJxmTuBknbl4lKKoW-FtWF9bzzicT20bON7SrN41mBs9gKGlqXdfALdxqOubRV3Bl6AOlqWkmmSFdyX-yqeXgXo92h1r5FXk6wdzQFBc1nHZ_86xP9q__AUiNHxIPHvAIEAQiVtSGNlbyW4?purpose=fullsize",
+        "markdown": "![Meet Google TV Streamer (4K) - Google TV Help](https://images.openai.com/static-rsc-4/fIzAUrqbMTBlZmHRqUtOCm0tnQ2rsgyEsLgmmjpv5mqEuUJWMsJxmTuBknbl4lKKoW-FtWF9bzzicT20bON7SrN41mBs9gKGlqXdfALdxqOubRV3Bl6AOlqWkmmSFdyX-yqeXgXo92h1r5FXk6wdzQFBc1nHZ_86xP9q__AUiNHxIPHvAIEAQiVtSGNlbyW4?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "markdown": "\n\n**Google TV Streamer（4K）**\n\n(快適さ・拡張性重視)\n\n- GoogleフォトやGoogle Homeをよく使う\n- アプリやコンテンツを快適に操作したい\n- アプリ用の容量に余裕がほしい\n- 有線LANで安定して接続したい\n\n公式価格 24,500円。メモリ4GB、ストレージ32GB、有線LAN端子を搭載しています。[store.google.com](https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja)[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax)[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)[store.google.com](https://store.google.com/jp/magazine/google_tv_streamer_compare?hl=ja)\n\n## 買ってから後悔しないためのポイント\n\n- **画質だけなら、大きな価格差を払う必要はありません。** どちらも4Kに対応しており、テレビや配信コンテンツの対応状況によって画質は変わります。\n- **操作の快適さなら Google TV Streamer が有利。** メモリとストレージに余裕があり、アプリをたくさん使う人に向いています。\n- **Googleのスマホから映像をキャストしたいなら注意。** Google TV StreamerはChromecast機能を備えた従来機とは異なり、スマホ画面や動画をキャストする用途によって対応状況が異なります。使いたいアプリの対応を確認しましょう。[support.google.com](https://support.google.com/googletv/answer/15273676?hl=ja)[store.google.com](https://store.google.com/jp/magazine/google_tv_streamer_compare?hl=ja)\n\n## あなたにはどちらが合いそうですか？\n\n1\\. テレビの解像度は？\n\n4Kテレビ\n\nフルHD・古めのテレビ\n\n分からない\n\n---\n\n2\\. よく見るサービスは？\n\nPrime Video・Amazon中心\n\nYouTube・Netflixなど複数\n\nGoogleフォト・スマホからのキャスト\n\n---\n\n3\\. 一番重視することは？\n\n安さ・コスパ\n\nサクサク動くこと\n\n有線LANで安定した接続\n\n---\n\n4\\. 家で使っている機器は？\n\nAlexa・Amazon Echo\n\nGoogle Home・Androidスマホ\n\n特になし・iPhone中心\n\n[おすすめを診断する]",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV Streamer（4K）の仕様とパッケージ内容",
+        "snippet": null,
+        "domain": "store.google.com",
+        "url": "https://store.google.com/jp/product/google_tv_streamer_specs?hl=ja",
+        "thumbnail": null,
+        "source_name": "Google Store",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-09-30 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー",
+        "snippet": null,
+        "domain": "www.developer.amazon.com",
+        "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4kmax",
+        "thumbnail": null,
+        "source_name": "Amazon Fireデバイスの仕様",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV Streamer（4K）のご紹介",
+        "snippet": null,
+        "domain": "support.google.com",
+        "url": "https://support.google.com/googletv/answer/15273676?hl=ja",
+        "thumbnail": null,
+        "source_name": "Google TV ヘルプ",
+        "publication_date": null,
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Google TV ストリーミング デバイスの比較",
+        "snippet": null,
+        "domain": "store.google.com",
+        "url": "https://store.google.com/jp/magazine/google_tv_streamer_compare?hl=ja",
+        "thumbnail": null,
+        "source_name": "Google ストア",
+        "publication_date": null,
+        "markdown": null
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Google TV Streamer（4K）",
+        "category": "product",
+        "markdown": "Google TV Streamer（4K）",
+        "urls": null
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "error": null
+ },
+ "t027": {
+  "text": "Fire TV Stickの評判を教えてください。買っても後悔しませんか？",
+  "result": [
+   {
+    "keyword": "Fire TV Stickの評判を教えてください。買っても後悔しませんか？",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=Fire%20TV%20Stick%E3%81%AE%E8%A9%95%E5%88%A4%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%E8%B2%B7%E3%81%A3%E3%81%A6%E3%82%82%E5%BE%8C%E6%82%94%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B%EF%BC%9F",
+    "datetime": "2026-10-12 01:36:05 +00:00",
+    "markdown": "Fire TV Stickは、**動画配信サービスをテレビの大画面で楽しみたい人なら、買って満足しやすい製品**です。特に、今あるテレビでYouTubeやAmazonプライム・ビデオ、Netflixなどを見たいなら、有力な選択肢です。\n\nただし、すでにスマートテレビを使っている人や、毎月の出費を増やしたくない人は、買う前に確認したい点もあります。\n\n## Fire TV Stickの評判は？\n\n\n**良い評判**\n\n- 古いテレビでもHDMI端子があれば使えることが多い\n- YouTubeや各種動画配信サービスを大画面で見られる\n- 小型で、取り付けや設定が比較的簡単\n- テレビを買い替えるより安く済みやすい\n\n---\n\n**気になる評判**\n\n- Wi-Fiが不安定だと動画が止まったり画質が落ちたりする\n- 安価なモデルでは、操作やアプリの起動に待ち時間が出ることがある\n- 動画配信サービスによっては、別途月額料金がかかる\n- テレビのリモコンとFire TVのリモコンを使い分ける場面がある\n\n※実際の使い心地は、テレビの性能、Wi-Fi環境、使用するアプリや機種によって異なります。\n\n## どのモデルを買えば後悔しにくい？\n\n2026年10月時点では、新しいHDモデルと4Kモデルが選択肢です。Amazonの公式発表では、新しいHDモデルは6,980円（税込）です。[www.aboutamazon.jp](https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html)\n\n![amazon 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize)\n\n**Fire TV Stick HD**\n\n(コスパ重視)\n\n## 6,980円（税込）\n\nメーカー発表価格\n\nフルHDテレビでYouTubeや映画を見たい人向け。4K画質にこだわらないなら、こちらで十分です。[www.aboutamazon.jp](https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html)\n\n---\n\n![Amazon Fire TV Stick 4K 3th Generation (2024) - Amazon - PCLAND](https://images.openai.com/static-rsc-4/cdWXXchz-lAuokM4Oda_RvB1mqodWcs-XdeqmtbFKaPgIqjpKtOroX3nBlg2iCRBmiQqGb9RC0efbzrtNrtozD6OHCz3-trGntTEnGgHK9edbg_Q-jNp4RLasWL2tPDj9d7_7bOUeWDLS8oEM-blMY0i68eYiOaeYaVmfCW-PSAnW4uzu062ALhWkc5taa9S?purpose=fullsize)\n\n**Fire TV Stick 4K（2026年モデル）**\n\n(高画質重視)\n\n4Kテレビを使っている人や、映像の美しさを重視する人向け。新モデルではWi-Fi 6にも対応しています。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[developer.amazon.com](https://developer.amazon.com/ja/docs/fire-tv/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4k_2026)\n\n価格はセールや販売店によって変わるため、購入時に比較するのがおすすめです。\n\n## 買って後悔しない人・しやすい人\n\n| こんな人 | おすすめ度 |\n|--------|--------|\n| テレビでYouTubeを見たい | ◎ |\n| Amazonプライム・ビデオをよく見る | ◎ |\n| 古いテレビを活用したい | ◎ |\n| 4Kテレビで高画質を楽しみたい | ○（4Kモデル） |\n| すでにテレビで各種アプリが快適に使える | △ |\n| Wi-Fi環境が悪い | △ |\n\n\n**特に大切なのは、Fire TV Stick本体を買うだけですべての動画が無料になるわけではないこと。** YouTubeなど無料で視聴できるサービスもありますが、Netflixなどは別途契約が必要です。\n\n## あなたの場合、買う価値があるか確認しましょう\n\n次の1つだけ教えてください。\n\n1\\. 今使っているテレビは？\n\n普通のテレビ（ネット動画は見られない）\n\nネット動画が見られるスマートテレビ\n\nよく分からない\n\n---\n\n2\\. 何を一番見たいですか？\n\nYouTube\n\nAmazonプライム・ビデオ\n\nNetflixなどの有料動画配信\n\nいろいろな動画を見たい\n\n---\n\n3\\. 予算は？\n\nできるだけ安く済ませたい\n\n多少高くても快適さを重視したい\n\n[この条件でおすすめを教えて]\n\n条件に合わせて、**本当に買うべきか、安いモデルで十分か、それとも買わない方がいいか**まで具体的にお伝えします。",
+    "search_results": [
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "domain": "press.aboutamazon.com",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表 - Press Center",
+      "description": null,
+      "breadcrumb": "press.aboutamazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://press.aboutamazon.com/jp/news/devices/2025/9/fire-tv-stick-4k-select",
+      "domain": "press.aboutamazon.com",
+      "title": "Amazon、新たに「Fire TV Stick 4K Select」を発表 - Press Center",
+      "description": null,
+      "breadcrumb": "press.aboutamazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd",
+      "domain": "www.aboutamazon.jp",
+      "title": "Amazon、「新Fire TV Stick HD」を発表 - About Amazon Japan",
+      "description": null,
+      "breadcrumb": "www.aboutamazon.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html",
+      "domain": "www.developer.amazon.com",
+      "title": "各種Fire TVデバイスの比較表 | Amazon Fireデバイスの仕様",
+      "description": null,
+      "breadcrumb": "www.developer.amazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://developer.amazon.com/ja/docs/fire-tv/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4k_2026",
+      "domain": "developer.amazon.com",
+      "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー | Amazon Fireデバイスの仕様",
+      "description": null,
+      "breadcrumb": "developer.amazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.reddit.com/r/fireTV/comments/1wtf2v9/heads_up_your_fire_tv_stick_might_be_whats/",
+      "domain": "www.reddit.com",
+      "title": "Heads up: your Fire TV Stick might be what's tanking your Wi-Fi. Known Fire OS bug, and how I fixed it",
+      "description": null,
+      "breadcrumb": "www.reddit.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.reddit.com/r/firetvstick/comments/1wti35o/psa_fire_tv_stick_can_kill_your_entire_wifi_wired/",
+      "domain": "www.reddit.com",
+      "title": "PSA: Fire TV Stick can kill your entire Wi-Fi (wired stays fine). It's an unfixed Fire OS mDNS bug, here's the fix",
+      "description": null,
+      "breadcrumb": "www.reddit.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.tomsguide.com/tvs/amazon-fire-tv-stick-4k-select-streaming-stick-review",
+      "domain": "www.tomsguide.com",
+      "title": "I went hands-on with the new Fire TV Stick 4K Select and the new Vega OS is a sidegrade and not the upgrade Amazon needed",
+      "description": "The Amazon Fire TV Stick 4K Select offers a decent streaming experience with 4K HDR10+ support and the inclusion of Alexa+ AI for improved content curation and smart home integration. Priced at $39, it targets value-conscious buyers, but sacrifices several features including Dolby Vision, Dolby Atmos, and support for newer wireless standards like Wi-Fi 6. The device marks Amazon’s shift from Android to its new Linux-based Vega OS, which, while visually and operationally familiar, feels undercooked with performance issues and limited app support attributed to a cloud-based structure.\n\nPhysically, the stick retains Amazon's standard black rectangular design and includes a basic, functional remote. Setup is relatively simple despite some software update hiccups. Performance in terms of streaming and interface navigation is largely smooth, but Vega OS’s reliance on cloud apps can hamper the experience due to potential network lag. The inability to sideload apps and limited VPN and gaming support further hinder its appeal.\n\nUltimately, the Fire TV Stick 4K Select is marginally above average and best suited for users already invested in the Amazon ecosystem. However, more complete and competitively priced options like the Roku Streaming Stick Plus make it a tougher sell in today's market.",
+      "breadcrumb": "www.tomsguide.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.androidcentral.com/streaming-tv/amazon-fire-tv/amazon-new-fire-tv-stick-4k-2026-launched",
+      "domain": "www.androidcentral.com",
+      "title": "Amazon just refreshed its Fire TV Stick 4K - here's what's new",
+      "description": "Amazon has unveiled an upgraded version of its popular Fire TV Stick 4K for 2026, featuring significant performance enhancements and a redesigned remote. The new model is equipped with a quad-core 1.7GHz processor, 8GB of internal storage, and modern connectivity options including Wi-Fi 6 and Bluetooth 5.3. It supports a wide range of video formats such as HDR10, HDR10+, HLG, AV1, and can stream up to 4K at 60fps. Amazon claims the device allows apps to launch 35% faster and content to play 20% sooner compared to earlier versions.\n\nThe updated Fire TV Stick 4K introduces Amazon's new Vega OS and includes Direct Power support, enabling it to be powered via a TV's USB port. The accompanying remote has been redesigned for easier navigation, featuring an asymmetrical shape, tactile buttons, and a distinct metallic Home button. It includes quick-access keys for popular streaming services and will soon be joined by the premium Fire TV Remote Plus, which offers aluminum construction, backlit buttons, and a “Find My Remote” function.\n\nThe device is priced at $60 but is temporarily available for $30 in the U.S., with availability extending to numerous international markets.",
+      "breadcrumb": "www.androidcentral.com"
+     }
+    ],
+    "sources": [
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazon、「新Fire TV Stick HD」を発表",
+      "snippet": null,
+      "domain": "www.aboutamazon.jp",
+      "url": "https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd",
+      "thumbnail": null,
+      "source_name": "About Amazon Japan",
+      "publication_date": "2026-04-15 12:59:51 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "各種Fire TVデバイスの比較表",
+      "snippet": null,
+      "domain": "www.developer.amazon.com",
+      "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html",
+      "thumbnail": null,
+      "source_name": "Amazon Fireデバイスの仕様",
+      "publication_date": null,
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+      "snippet": null,
+      "domain": "press.aboutamazon.com",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "thumbnail": null,
+      "source_name": "Press Center",
+      "publication_date": "2026-09-30 00:00:00 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー",
+      "snippet": null,
+      "domain": "developer.amazon.com",
+      "url": "https://developer.amazon.com/ja/docs/fire-tv/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4k_2026",
+      "thumbnail": null,
+      "source_name": "Amazon Fireデバイスの仕様",
+      "publication_date": null,
+      "markdown": null
+     }
+    ],
+    "fan_out_queries": [
+     "Amazon Fire TV Stick 2026 Japan models reviews price differences official Amazon"
+    ],
+    "brand_entities": [
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Fire TV Stick HD",
+      "category": "product",
+      "markdown": "Fire TV Stick HD",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Fire TV Stick 4K（2026年モデル）",
+      "category": "product",
+      "markdown": "Fire TV Stick 4K（2026年モデル）",
+      "urls": null
+     }
+    ],
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_images",
+     "chat_gpt_products",
+     "chat_gpt_table"
+    ],
+    "items_count": 11,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "Fire TV Stickは、**動画配信サービスをテレビの大画面で楽しみたい人なら、買って満足しやすい製品**です。特に、今あるテレビでYouTubeやAmazonプライム・ビデオ、Netflixなどを見たいなら、有力な選択肢です。\n\nただし、すでにスマートテレビを使っている人や、毎月の出費を増やしたくない人は、買う前に確認したい点もあります。\n\n## Fire TV Stickの評判は？\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": null,
+      "items": null
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n\n**良い評判**\n\n- 古いテレビでもHDMI端子があれば使えることが多い\n- YouTubeや各種動画配信サービスを大画面で見られる\n- 小型で、取り付けや設定が比較的簡単\n- テレビを買い替えるより安く済みやすい\n\n---\n\n**気になる評判**\n\n- Wi-Fiが不安定だと動画が止まったり画質が落ちたりする\n- 安価なモデルでは、操作やアプリの起動に待ち時間が出ることがある\n- 動画配信サービスによっては、別途月額料金がかかる\n- テレビのリモコンとFire TVのリモコンを使い分ける場面がある\n\n※実際の使い心地は、テレビの性能、Wi-Fi環境、使用するアプリや機種によって異なります。\n\n## どのモデルを買えば後悔しにくい？\n\n2026年10月時点では、新しいHDモデルと4Kモデルが選択肢です。Amazonの公式発表では、新しいHDモデルは6,980円（税込）です。[www.aboutamazon.jp](https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html)\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、「新Fire TV Stick HD」を発表",
+        "snippet": null,
+        "domain": "www.aboutamazon.jp",
+        "url": "https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd",
+        "thumbnail": null,
+        "source_name": "About Amazon Japan",
+        "publication_date": "2026-04-15 12:59:51 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "各種Fire TVデバイスの比較表",
+        "snippet": null,
+        "domain": "www.developer.amazon.com",
+        "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html",
+        "thumbnail": null,
+        "source_name": "Amazon Fireデバイスの仕様",
+        "publication_date": null,
+        "markdown": null
+       }
+      ],
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "markdown": "![amazon 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://shopping.yahoo.co.jp/category/1/19212/brand/",
+        "alt": "amazon 通販 - Yahoo!ショッピング",
+        "image_url": "https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize",
+        "markdown": "![amazon 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n**Fire TV Stick HD**\n\n(コスパ重視)\n\n## 6,980円（税込）\n\nメーカー発表価格\n\nフルHDテレビでYouTubeや映画を見たい人向け。4K画質にこだわらないなら、こちらで十分です。[www.aboutamazon.jp](https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd)[www.developer.amazon.com](https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html)\n\n---\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、「新Fire TV Stick HD」を発表",
+        "snippet": null,
+        "domain": "www.aboutamazon.jp",
+        "url": "https://www.aboutamazon.jp/news/devices/amazon-launches-fire-tv-stick-hd",
+        "thumbnail": null,
+        "source_name": "About Amazon Japan",
+        "publication_date": "2026-04-15 12:59:51 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "各種Fire TVデバイスの比較表",
+        "snippet": null,
+        "domain": "www.developer.amazon.com",
+        "url": "https://www.developer.amazon.com/ja/docs/device-specs/device-specifications-comparison-table.html",
+        "thumbnail": null,
+        "source_name": "Amazon Fireデバイスの仕様",
+        "publication_date": null,
+        "markdown": null
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Fire TV Stick HD",
+        "category": "product",
+        "markdown": "Fire TV Stick HD",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "markdown": "![Amazon Fire TV Stick 4K 3th Generation (2024) - Amazon - PCLAND](https://images.openai.com/static-rsc-4/cdWXXchz-lAuokM4Oda_RvB1mqodWcs-XdeqmtbFKaPgIqjpKtOroX3nBlg2iCRBmiQqGb9RC0efbzrtNrtozD6OHCz3-trGntTEnGgHK9edbg_Q-jNp4RLasWL2tPDj9d7_7bOUeWDLS8oEM-blMY0i68eYiOaeYaVmfCW-PSAnW4uzu062ALhWkc5taa9S?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://pcland.hu/amazon-fire-tv-stick-4k-3th-generation-2024-165038",
+        "alt": "Amazon Fire TV Stick 4K 3th Generation (2024) - Amazon - PCLAND",
+        "image_url": "https://images.openai.com/static-rsc-4/cdWXXchz-lAuokM4Oda_RvB1mqodWcs-XdeqmtbFKaPgIqjpKtOroX3nBlg2iCRBmiQqGb9RC0efbzrtNrtozD6OHCz3-trGntTEnGgHK9edbg_Q-jNp4RLasWL2tPDj9d7_7bOUeWDLS8oEM-blMY0i68eYiOaeYaVmfCW-PSAnW4uzu062ALhWkc5taa9S?purpose=fullsize",
+        "markdown": "![Amazon Fire TV Stick 4K 3th Generation (2024) - Amazon - PCLAND](https://images.openai.com/static-rsc-4/cdWXXchz-lAuokM4Oda_RvB1mqodWcs-XdeqmtbFKaPgIqjpKtOroX3nBlg2iCRBmiQqGb9RC0efbzrtNrtozD6OHCz3-trGntTEnGgHK9edbg_Q-jNp4RLasWL2tPDj9d7_7bOUeWDLS8oEM-blMY0i68eYiOaeYaVmfCW-PSAnW4uzu062ALhWkc5taa9S?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "markdown": "\n\n**Fire TV Stick 4K（2026年モデル）**\n\n(高画質重視)\n\n4Kテレビを使っている人や、映像の美しさを重視する人向け。新モデルではWi-Fi 6にも対応しています。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[developer.amazon.com](https://developer.amazon.com/ja/docs/fire-tv/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4k_2026)\n\n価格はセールや販売店によって変わるため、購入時に比較するのがおすすめです。\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-09-30 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "デバイスの仕様： Fire TVストリーミングメディアプレーヤー",
+        "snippet": null,
+        "domain": "developer.amazon.com",
+        "url": "https://developer.amazon.com/ja/docs/fire-tv/device-specifications-fire-tv-streaming-media-player.html?v=ftvstick4k_2026",
+        "thumbnail": null,
+        "source_name": "Amazon Fireデバイスの仕様",
+        "publication_date": null,
+        "markdown": null
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Fire TV Stick 4K（2026年モデル）",
+        "category": "product",
+        "markdown": "Fire TV Stick 4K（2026年モデル）",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_products",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "items": [
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Fire TV Stick HD",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": "コスパ重視",
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/HKnafCFds17-uLi8IE8proM-1os-INFyHTqsgvdU9mprcSBtVQP4EdK_e0Xe9nGvTPoO0h9YMdaUE6QqYqh29kCAoTF5LEKYg_tdvpB4Cdjv7-yfB1a-mCGe0vyBixkyI8ZHaedDuPUcvqKGKm3HCFa7hSU3uQQS-BlVP703u9v5-ak92QshmqSFhIrSE5Qn?purpose=fullsize"
+        ],
+        "product_ids": null
+       },
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Fire TV Stick 4K（2026年モデル）",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": "高画質重視",
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/cdWXXchz-lAuokM4Oda_RvB1mqodWcs-XdeqmtbFKaPgIqjpKtOroX3nBlg2iCRBmiQqGb9RC0efbzrtNrtozD6OHCz3-trGntTEnGgHK9edbg_Q-jNp4RLasWL2tPDj9d7_7bOUeWDLS8oEM-blMY0i68eYiOaeYaVmfCW-PSAnW4uzu062ALhWkc5taa9S?purpose=fullsize"
+        ],
+        "product_ids": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "markdown": "## 買って後悔しない人・しやすい人\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_table",
+      "rank_group": 1,
+      "rank_absolute": 10,
+      "text": null,
+      "markdown": "| こんな人 | おすすめ度 |\n|--------|--------|\n| テレビでYouTubeを見たい | ◎ |\n| Amazonプライム・ビデオをよく見る | ◎ |\n| 古いテレビを活用したい | ◎ |\n| 4Kテレビで高画質を楽しみたい | ○（4Kモデル） |\n| すでにテレビで各種アプリが快適に使える | △ |\n| Wi-Fi環境が悪い | △ |\n\n",
+      "table": {
+       "table_header": [
+        "こんな人",
+        "おすすめ度"
+       ],
+       "table_content": [
+        [
+         "テレビでYouTubeを見たい",
+         "◎"
+        ],
+        [
+         "Amazonプライム・ビデオをよく見る",
+         "◎"
+        ],
+        [
+         "古いテレビを活用したい",
+         "◎"
+        ],
+        [
+         "4Kテレビで高画質を楽しみたい",
+         "○（4Kモデル）"
+        ],
+        [
+         "すでにテレビで各種アプリが快適に使える",
+         "△"
+        ],
+        [
+         "Wi-Fi環境が悪い",
+         "△"
+        ]
+       ]
+      },
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "markdown": "\n**特に大切なのは、Fire TV Stick本体を買うだけですべての動画が無料になるわけではないこと。** YouTubeなど無料で視聴できるサービスもありますが、Netflixなどは別途契約が必要です。\n\n## あなたの場合、買う価値があるか確認しましょう\n\n次の1つだけ教えてください。\n\n1\\. 今使っているテレビは？\n\n普通のテレビ（ネット動画は見られない）\n\nネット動画が見られるスマートテレビ\n\nよく分からない\n\n---\n\n2\\. 何を一番見たいですか？\n\nYouTube\n\nAmazonプライム・ビデオ\n\nNetflixなどの有料動画配信\n\nいろいろな動画を見たい\n\n---\n\n3\\. 予算は？\n\nできるだけ安く済ませたい\n\n多少高くても快適さを重視したい\n\n[この条件でおすすめを教えて]\n\n条件に合わせて、**本当に買うべきか、安いモデルで十分か、それとも買わない方がいいか**まで具体的にお伝えします。",
+      "sources": null,
+      "brand_entities": null
+     }
+    ]
+   }
+  ],
+  "error": null
+ },
+ "t033": {
+  "text": "テレビ用のストリーミング端末はどこで買うのが一番お得ですか？",
+  "result": [
+   {
+    "keyword": "テレビ用のストリーミング端末はどこで買うのが一番お得ですか？",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=%E3%83%86%E3%83%AC%E3%83%93%E7%94%A8%E3%81%AE%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E7%AB%AF%E6%9C%AB%E3%81%AF%E3%81%A9%E3%81%93%E3%81%A7%E8%B2%B7%E3%81%86%E3%81%AE%E3%81%8C%E4%B8%80%E7%95%AA%E3%81%8A%E5%BE%97%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F",
+    "datetime": "2026-10-12 01:37:14 +00:00",
+    "markdown": "テレビ用のストリーミング端末なら、**安さ重視ならAmazonのセール、ポイント還元も含めるなら楽天市場や家電量販店**を比較するのがおすすめです。\n\nYouTube、Netflix、Prime Videoなどをテレビで見たい場合は、主に次の端末が候補になります。\n\n![Amazon Streaming Media Player Fire Tv Stick 4k (2nd Gen) With Alexa Voice Remote (3rd Gen) - Black | 840268935092 Buy, Best Price in UAE, Dubai, Abu Dhabi, Sharjah](https://images.openai.com/static-rsc-4/egUI-1ChYMvbjP_c39sUrN_xp9UkSdn5n3AhhB0UpRO7ojfPyrn9P80ddnlwKLU6j-XTpeI7oNamF6UfsLf4Q9hun21QU9IPk-iHEq3qZfaG92Za5PXoi6hlRur2F5mtLdob24kmXx4JQVSnlVt41XqWMUXu2m-G09yova4bnseC9CeDEGZ6f5Yey3Rkj9gj?purpose=fullsize)\n\n**Amazon Fire TV Stick**\n\n手軽さ・コスパ重視\n\nテレビのHDMI端子に挿して使う定番モデル。Amazonのセール時は特に価格を比較する価値があります。\n\n---\n\n![Google TV Streamer 4K -  Voice Search Remote - 4K HDR - Smart Home Control - 32 GB of Storage - Porcelain (Open Box)](https://images.openai.com/static-rsc-4/9iuE328UAAkCqkvhl2sHyKV79FHp9X4TqfznHE2CCALUww2v83p9K1gsomb0V9vRm03XFjUulGhyj81q5hdTPKNQLa3muLOx9oTG_Qnr0pWdTxQ2gPW5lNV_Oem6IPcH3RsB0gihoj7K9nEMjHisWi-Q1-GkOPl3pMOhm6w4GjLzoptVp6OxqXR-W5p3Ck0w?purpose=fullsize)\n\n**Google TV Streamer**\n\nGoogleサービスとの連携重視\n\nGoogle TVの操作性やGoogleアシスタントなどを重視する人向け。最安値だけでなく機能も比較しましょう。\n\n---\n\n![Apple TV 4K (3. Gen, 2022) A2843 | 128 GB Wi-Fi + Ethernet | 12 Monat, 140,00 €](https://images.openai.com/static-rsc-4/oCCQ_l5XWZZEktqoaG59kOv_9h0M8Vmnu9LtKaMEtWj5gOtGQCxg93zRJ6o_AiaNF8JmEslXd1aF1j1gJoNFP01-pSbNNiMY135bxRtctFdsjyVooT7gzu4uud5svv3zPZK7YIBURq7Fp-QSwScKJO0VWyQ0K3EXvXsqy8qk6ys08FEUW8Z4af-XZikySWgc?purpose=fullsize)\n\n**Apple TV 4K**\n\nApple製品との連携重視\n\niPhoneやAppleのサービスをよく使う人向け。初期費用を抑えたい場合は、ほかの端末が有利なことが多いです。\n\n## 今買うなら、どこが一番お得？\n\n2026年10月12日時点では、**Amazonのプライム感謝祭の先行セール（10月13日開始）を待つ**のが有力です。Fire TV Stick 4Kのセール価格が5,980円と事前告知されています。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.phileweb.com](https://www.phileweb.com/sp/news/hobby/202610/11/8597.html)\n\n![FireTV Stick 4K Select  ブラック B0CN415PTV｜の通販はソフマップ[sofmap]](https://images.openai.com/static-rsc-4/Pq9BWTwlYB4yAWB20--5LdcXhFzzZHRYIwk8RToqkF11Q_owd4EhMylqPrlCLjTX-FLn6XP2DtX0nCmQn3YE0LXErkLvt1_546LRTd-UdSqEuCaeMvfvyyxdm3B0714j9SNeP5fWre6HMilBZ5yRuAXjFIDn0LTCAWIlLj2tCyfeuVyYPlbq2MLfa1AKE0Ng?purpose=fullsize)\n\n**Fire TV Stick 4K Select**\n\nセール予告価格\n\n# 3,980円\n\n通常価格 10,980円\n\n4K対応。価格を最優先するなら注目の候補です。\n\n[Amazonで価格を確認](https://www.amazon.co.jp/firetv4k)\n\n---\n\n![Nuevo Amazon Fire TV Stick 4K (2026): ficha técnica, precio y novedades](https://images.openai.com/static-rsc-4/fSIO6y0jcGl4LV0xakQOMeJF6zkSwjp8qdM5zIoDVDfHxVFzYmkNOjYdJ7zeJdgJBVpJdAE10SXQO2LJZaa3fiD47NijDX77eeFzYP8TEbxZHNrHf9pw50l2hWjx883sbfeQyrw_w1zOtXotmIOKD86FLkOrUg6YdV65uIxAE5LHoLUXO77Jd01qf0YhqfrQ?purpose=fullsize)\n\n**Fire TV Stick 4K**\n\n## 5,980円\n\nセール予告価格・通常11,980円\n\nこちらも4K対応。セール開始後にSelectとの機能差を確認して選ぶのがおすすめです。\n\n[Amazonで価格を確認](https://www.amazon.co.jp/firetv4k)\n\nセール価格は対象条件や在庫によって変わる可能性があります。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.phileweb.com](https://www.phileweb.com/sp/news/hobby/202610/11/8597.html)\n\n購入先は、Amazonのほか、楽天市場、Yahoo\\!ショッピング、ヨドバシ.comも比較するとよいでしょう。ポイント還元を差し引いた実質価格で判断してください。\n\n**ひとつ教えてください。** どのくらいの予算で探していますか？\n\n予算は？\n\n3,000円前後（とにかく安く）\n\n5,000円前後（コスパ重視）\n\n10,000円前後（性能も重視）\n\n予算よりも一番お得なもの\n\n---\n\nテレビの画質は？\n\nフルHD（普通の画質）で十分\n\n4K対応がいい\n\nわからない\n\n[お得な購入先を比較する]",
+    "search_results": [
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://my-best.com/5466",
+      "domain": "my-best.com",
+      "title": "〖徹底比較〗ストリーミングデバイスのおすすめ人気ランキング〖どれがいい？2026年9月〗 | マイベスト",
+      "description": null,
+      "breadcrumb": "my-best.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://my-best.com/19987",
+      "domain": "my-best.com",
+      "title": "【徹底比較】Fire TVシリーズのおすすめ人気ランキング【どれがいい？2026年9月】",
+      "description": "テレビにつなぐだけで、さまざまな動画配信サービスを楽しめるFire TVシリーズ。YouTube・Tverなどの無料アプリや、スマホの画面をそのまま映し出す...",
+      "breadcrumb": "my-best.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://my-best.com/19988",
+      "domain": "my-best.com",
+      "title": "【徹底比較】クロームキャストシリーズのおすすめ人気ランキング【2026年】",
+      "description": "テレビのHDMI端子に接続するだけで、手軽に動画配信サービスを大画面で楽しめるクロームキャストシリーズ。YouTubeやNetflixなどをスマホよりも大きな...",
+      "breadcrumb": "my-best.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.watch.impress.co.jp/docs/series/nishida/2082558.html",
+      "domain": "www.watch.impress.co.jp",
+      "title": "冬季オリンピックにWBCがまもなく開幕 「テレビで映像配信を見る方法」【西田宗千佳のイマトミライ】",
+      "description": "2月6日から「第25回オリンピック冬季競技大会」がスタートする。また、3月5日からは「ワールド・ベースボール・クラシック 2026」(以下WBC)も始まる。",
+      "breadcrumb": "www.watch.impress.co.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://vod.app-liv.jp/archive/129809/",
+      "domain": "vod.app-liv.jp",
+      "title": "「dアニメストア」をテレビで見る方法 Fire TV Stickの接続手順からiPhoneでのミラーリングまで",
+      "description": "「dアニメストア」をテレビで観る方法を解説します。Wi-Fi回線があればほぼ準備完了！ Amazonの「Fire TV Stick」やPC（パソコン）を使って、「d...",
+      "breadcrumb": "vod.app-liv.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://vod.app-liv.jp/archive/129776/",
+      "domain": "vod.app-liv.jp",
+      "title": "簡単に「ディズニープラス」をテレビで見られる！ Fire TV Stick徹底解説",
+      "description": "「Disney+ (ディズニープラス)」をテレビで見る方法はスマートテレビやPS5など、複数あります。 なかでもおすすめはAmazonのメディアストリーミング...",
+      "breadcrumb": "vod.app-liv.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.bcnretail.com/news/detail/20251107_570077.html",
+      "domain": "www.bcnretail.com",
+      "title": "自宅TVを手軽にスマート化！Google・Apple・Amazonの最新ストリーミングデバイスを用途別に比較",
+      "description": "自宅のテレビをスマートテレビ化する手段として、ストリーミングデバイス（スマートTVアダプター）の人気が高まっています。",
+      "breadcrumb": "www.bcnretail.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://kakakumag.com/av-kaden/?id=21389",
+      "domain": "kakakumag.com",
+      "title": "Google TV Streamer（4K）実機レビュー！ 性能は向上、目玉の生成AIはこれから？",
+      "description": "2024年9月24日にGoogle「Google TV Streamer（4K）」が日本を含む19か国で発売された。Amazon「FireTV」シリーズやアップル「AppleTV」シリーズと同じ...",
+      "breadcrumb": "kakakumag.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://360life.shinyusha.co.jp/articles/-/5141",
+      "domain": "360life.shinyusha.co.jp",
+      "title": "ストリーミングデバイスのおすすめランキング4選。大手3社のSTBの実力は？",
+      "description": "テレビでNetflixやYouTubeなどを楽しむなら、ストリーミングデバイス(セットトップボックス・STB )がおすすめ。でも、口コミだけでは選び方が...",
+      "breadcrumb": "360life.shinyusha.co.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://av.watch.impress.co.jp/docs/topic/2112614.html",
+      "domain": "av.watch.impress.co.jp",
+      "title": "31日「嵐」ラストライブ配信、テレビ視聴時の注意点をシャープがアナウンス",
+      "description": "アイドルグループ・嵐のライブツアー「ARASHI LIVE TOUR 2026 『We are ARASHI』」の最終公演となる東京ドーム公演の模様が、5月31日18時より有料...",
+      "breadcrumb": "av.watch.impress.co.jp"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "domain": "press.aboutamazon.com",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表 - Press Center",
+      "description": null,
+      "breadcrumb": "press.aboutamazon.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.yodobashi.com/product/100000001010248568/",
+      "domain": "www.yodobashi.com",
+      "title": "ヨドバシ.com - Amazon アマゾン Fire TV Stick 4K/4Kの高画質ストリーミング/新しいFire TVリモコン付属/ストリーミングメディアプレイヤー B0GSHC4PWG 通販〖全品無料配達〗",
+      "description": null,
+      "breadcrumb": "www.yodobashi.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://store.google.com/jp/product/google_tv_streamer?hl=ja&pli=",
+      "domain": "store.google.com",
+      "title": "Google TV Streamer (4K)",
+      "description": null,
+      "breadcrumb": "store.google.com"
+     },
+     {
+      "type": "chatgpt_search_result",
+      "url": "https://www.phileweb.com/sp/news/hobby/202610/11/8597.html",
+      "domain": "www.phileweb.com",
+      "title": "一番お得なモデルはコレ！「Amazon Fire TVシリーズ」セール価格が事前公開中〖プライム感謝祭〗 - PHILE WEB",
+      "description": null,
+      "breadcrumb": "www.phileweb.com"
+     }
+    ],
+    "sources": [
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+      "snippet": null,
+      "domain": "press.aboutamazon.com",
+      "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+      "thumbnail": null,
+      "source_name": "Press Center",
+      "publication_date": "2026-09-30 00:00:00 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "一番お得なモデルはコレ！「Amazon Fire TVシリーズ」セール価格が事前公開中〖プライム感謝祭〗",
+      "snippet": null,
+      "domain": "www.phileweb.com",
+      "url": "https://www.phileweb.com/sp/news/hobby/202610/11/8597.html",
+      "thumbnail": null,
+      "source_name": "PHILE WEB",
+      "publication_date": "2026-10-11 00:00:00 +00:00",
+      "markdown": null
+     },
+     {
+      "type": "chat_gpt_source",
+      "title": "Amazonで価格を確認",
+      "snippet": null,
+      "domain": "www.amazon.co.jp",
+      "url": "https://www.amazon.co.jp/firetv4k",
+      "thumbnail": null,
+      "source_name": null,
+      "publication_date": null,
+      "markdown": "[Amazonで価格を確認](https://www.amazon.co.jp/firetv4k)"
+     }
+    ],
+    "fan_out_queries": [
+     "日本 テレビ ストリーミング端末 Fire TV Stick Google TV Streamer Apple TV 4K 価格 セール 2026年"
+    ],
+    "brand_entities": [
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "テレビ用ストリーミング端末",
+      "category": "product",
+      "markdown": "Amazon Fire TV Stick",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Googleのテレビ用ストリーミング端末",
+      "category": "product",
+      "markdown": "Google TV Streamer",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Appleのテレビ用ストリーミング端末",
+      "category": "product",
+      "markdown": "Apple TV 4K",
+      "urls": null
+     },
+     {
+      "type": "chat_gpt_brand_entity",
+      "title": "Amazon製ストリーミング端末",
+      "category": "product",
+      "markdown": "Fire TV Stick 4K Select",
+      "urls": null
+     }
+    ],
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_images",
+     "chat_gpt_products"
+    ],
+    "items_count": 13,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "テレビ用のストリーミング端末なら、**安さ重視ならAmazonのセール、ポイント還元も含めるなら楽天市場や家電量販店**を比較するのがおすすめです。\n\nYouTube、Netflix、Prime Videoなどをテレビで見たい場合は、主に次の端末が候補になります。\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": "![Amazon Streaming Media Player Fire Tv Stick 4k (2nd Gen) With Alexa Voice Remote (3rd Gen) - Black | 840268935092 Buy, Best Price in UAE, Dubai, Abu Dhabi, Sharjah](https://images.openai.com/static-rsc-4/egUI-1ChYMvbjP_c39sUrN_xp9UkSdn5n3AhhB0UpRO7ojfPyrn9P80ddnlwKLU6j-XTpeI7oNamF6UfsLf4Q9hun21QU9IPk-iHEq3qZfaG92Za5PXoi6hlRur2F5mtLdob24kmXx4JQVSnlVt41XqWMUXu2m-G09yova4bnseC9CeDEGZ6f5Yey3Rkj9gj?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://uae.microless.com/product/amazon-streaming-media-player-fire-tv-stick-4k-2nd-gen-with-alexa-voice-remote-3rd-gen-black/",
+        "alt": "Amazon Streaming Media Player Fire Tv Stick 4k (2nd Gen) With Alexa Voice Remote (3rd Gen) - Black | 840268935092 Buy, Best Price in UAE, Dubai, Abu Dhabi, Sharjah",
+        "image_url": "https://images.openai.com/static-rsc-4/egUI-1ChYMvbjP_c39sUrN_xp9UkSdn5n3AhhB0UpRO7ojfPyrn9P80ddnlwKLU6j-XTpeI7oNamF6UfsLf4Q9hun21QU9IPk-iHEq3qZfaG92Za5PXoi6hlRur2F5mtLdob24kmXx4JQVSnlVt41XqWMUXu2m-G09yova4bnseC9CeDEGZ6f5Yey3Rkj9gj?purpose=fullsize",
+        "markdown": "![Amazon Streaming Media Player Fire Tv Stick 4k (2nd Gen) With Alexa Voice Remote (3rd Gen) - Black | 840268935092 Buy, Best Price in UAE, Dubai, Abu Dhabi, Sharjah](https://images.openai.com/static-rsc-4/egUI-1ChYMvbjP_c39sUrN_xp9UkSdn5n3AhhB0UpRO7ojfPyrn9P80ddnlwKLU6j-XTpeI7oNamF6UfsLf4Q9hun21QU9IPk-iHEq3qZfaG92Za5PXoi6hlRur2F5mtLdob24kmXx4JQVSnlVt41XqWMUXu2m-G09yova4bnseC9CeDEGZ6f5Yey3Rkj9gj?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n\n**Amazon Fire TV Stick**\n\n手軽さ・コスパ重視\n\nテレビのHDMI端子に挿して使う定番モデル。Amazonのセール時は特に価格を比較する価値があります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "テレビ用ストリーミング端末",
+        "category": "product",
+        "markdown": "Amazon Fire TV Stick",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "markdown": "![Google TV Streamer 4K -  Voice Search Remote - 4K HDR - Smart Home Control - 32 GB of Storage - Porcelain (Open Box)](https://images.openai.com/static-rsc-4/9iuE328UAAkCqkvhl2sHyKV79FHp9X4TqfznHE2CCALUww2v83p9K1gsomb0V9vRm03XFjUulGhyj81q5hdTPKNQLa3muLOx9oTG_Qnr0pWdTxQ2gPW5lNV_Oem6IPcH3RsB0gihoj7K9nEMjHisWi-Q1-GkOPl3pMOhm6w4GjLzoptVp6OxqXR-W5p3Ck0w?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://bankofelectronics.com/home/216-google-tv-streamer-4k-voice-search-remote-4k-hdr-smart-home-control-32-gb-of-storage-porcelain.html?srsltid=AfmBOopMeklO3kQMDd5XR8KFp9tNdE6rbyXbaIVvL4pnAOByWLKa8zyK",
+        "alt": "Google TV Streamer 4K -  Voice Search Remote - 4K HDR - Smart Home Control - 32 GB of Storage - Porcelain (Open Box)",
+        "image_url": "https://images.openai.com/static-rsc-4/9iuE328UAAkCqkvhl2sHyKV79FHp9X4TqfznHE2CCALUww2v83p9K1gsomb0V9vRm03XFjUulGhyj81q5hdTPKNQLa3muLOx9oTG_Qnr0pWdTxQ2gPW5lNV_Oem6IPcH3RsB0gihoj7K9nEMjHisWi-Q1-GkOPl3pMOhm6w4GjLzoptVp6OxqXR-W5p3Ck0w?purpose=fullsize",
+        "markdown": "![Google TV Streamer 4K -  Voice Search Remote - 4K HDR - Smart Home Control - 32 GB of Storage - Porcelain (Open Box)](https://images.openai.com/static-rsc-4/9iuE328UAAkCqkvhl2sHyKV79FHp9X4TqfznHE2CCALUww2v83p9K1gsomb0V9vRm03XFjUulGhyj81q5hdTPKNQLa3muLOx9oTG_Qnr0pWdTxQ2gPW5lNV_Oem6IPcH3RsB0gihoj7K9nEMjHisWi-Q1-GkOPl3pMOhm6w4GjLzoptVp6OxqXR-W5p3Ck0w?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n**Google TV Streamer**\n\nGoogleサービスとの連携重視\n\nGoogle TVの操作性やGoogleアシスタントなどを重視する人向け。最安値だけでなく機能も比較しましょう。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Googleのテレビ用ストリーミング端末",
+        "category": "product",
+        "markdown": "Google TV Streamer",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "markdown": "![Apple TV 4K (3. Gen, 2022) A2843 | 128 GB Wi-Fi + Ethernet | 12 Monat, 140,00 €](https://images.openai.com/static-rsc-4/oCCQ_l5XWZZEktqoaG59kOv_9h0M8Vmnu9LtKaMEtWj5gOtGQCxg93zRJ6o_AiaNF8JmEslXd1aF1j1gJoNFP01-pSbNNiMY135bxRtctFdsjyVooT7gzu4uud5svv3zPZK7YIBURq7Fp-QSwScKJO0VWyQ0K3EXvXsqy8qk6ys08FEUW8Z4af-XZikySWgc?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://itreturn.at/Apple-TV-4K-3-Generation-2022-Wi-Fi-Ethernet-128-GB-A2843-/-12-Monate-Garantie",
+        "alt": "Apple TV 4K (3. Gen, 2022) A2843 | 128 GB Wi-Fi + Ethernet | 12 Monat, 140,00 €",
+        "image_url": "https://images.openai.com/static-rsc-4/oCCQ_l5XWZZEktqoaG59kOv_9h0M8Vmnu9LtKaMEtWj5gOtGQCxg93zRJ6o_AiaNF8JmEslXd1aF1j1gJoNFP01-pSbNNiMY135bxRtctFdsjyVooT7gzu4uud5svv3zPZK7YIBURq7Fp-QSwScKJO0VWyQ0K3EXvXsqy8qk6ys08FEUW8Z4af-XZikySWgc?purpose=fullsize",
+        "markdown": "![Apple TV 4K (3. Gen, 2022) A2843 | 128 GB Wi-Fi + Ethernet | 12 Monat, 140,00 €](https://images.openai.com/static-rsc-4/oCCQ_l5XWZZEktqoaG59kOv_9h0M8Vmnu9LtKaMEtWj5gOtGQCxg93zRJ6o_AiaNF8JmEslXd1aF1j1gJoNFP01-pSbNNiMY135bxRtctFdsjyVooT7gzu4uud5svv3zPZK7YIBURq7Fp-QSwScKJO0VWyQ0K3EXvXsqy8qk6ys08FEUW8Z4af-XZikySWgc?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "markdown": "\n\n**Apple TV 4K**\n\nApple製品との連携重視\n\niPhoneやAppleのサービスをよく使う人向け。初期費用を抑えたい場合は、ほかの端末が有利なことが多いです。\n\n## 今買うなら、どこが一番お得？\n\n2026年10月12日時点では、**Amazonのプライム感謝祭の先行セール（10月13日開始）を待つ**のが有力です。Fire TV Stick 4Kのセール価格が5,980円と事前告知されています。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.phileweb.com](https://www.phileweb.com/sp/news/hobby/202610/11/8597.html)\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-09-30 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "一番お得なモデルはコレ！「Amazon Fire TVシリーズ」セール価格が事前公開中〖プライム感謝祭〗",
+        "snippet": null,
+        "domain": "www.phileweb.com",
+        "url": "https://www.phileweb.com/sp/news/hobby/202610/11/8597.html",
+        "thumbnail": null,
+        "source_name": "PHILE WEB",
+        "publication_date": "2026-10-11 00:00:00 +00:00",
+        "markdown": null
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Appleのテレビ用ストリーミング端末",
+        "category": "product",
+        "markdown": "Apple TV 4K",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 4,
+      "rank_absolute": 8,
+      "markdown": "![FireTV Stick 4K Select  ブラック B0CN415PTV｜の通販はソフマップ[sofmap]](https://images.openai.com/static-rsc-4/Pq9BWTwlYB4yAWB20--5LdcXhFzzZHRYIwk8RToqkF11Q_owd4EhMylqPrlCLjTX-FLn6XP2DtX0nCmQn3YE0LXErkLvt1_546LRTd-UdSqEuCaeMvfvyyxdm3B0714j9SNeP5fWre6HMilBZ5yRuAXjFIDn0LTCAWIlLj2tCyfeuVyYPlbq2MLfa1AKE0Ng?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.sofmap.com/product_detail.aspx?sku=101907330",
+        "alt": "FireTV Stick 4K Select  ブラック B0CN415PTV｜の通販はソフマップ[sofmap]",
+        "image_url": "https://images.openai.com/static-rsc-4/Pq9BWTwlYB4yAWB20--5LdcXhFzzZHRYIwk8RToqkF11Q_owd4EhMylqPrlCLjTX-FLn6XP2DtX0nCmQn3YE0LXErkLvt1_546LRTd-UdSqEuCaeMvfvyyxdm3B0714j9SNeP5fWre6HMilBZ5yRuAXjFIDn0LTCAWIlLj2tCyfeuVyYPlbq2MLfa1AKE0Ng?purpose=fullsize",
+        "markdown": "![FireTV Stick 4K Select  ブラック B0CN415PTV｜の通販はソフマップ[sofmap]](https://images.openai.com/static-rsc-4/Pq9BWTwlYB4yAWB20--5LdcXhFzzZHRYIwk8RToqkF11Q_owd4EhMylqPrlCLjTX-FLn6XP2DtX0nCmQn3YE0LXErkLvt1_546LRTd-UdSqEuCaeMvfvyyxdm3B0714j9SNeP5fWre6HMilBZ5yRuAXjFIDn0LTCAWIlLj2tCyfeuVyYPlbq2MLfa1AKE0Ng?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "markdown": "\n\n**Fire TV Stick 4K Select**\n\nセール予告価格\n\n# 3,980円\n\n通常価格 10,980円\n\n4K対応。価格を最優先するなら注目の候補です。\n\n[Amazonで価格を確認](https://www.amazon.co.jp/firetv4k)\n\n---\n\n",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazonで価格を確認",
+        "snippet": null,
+        "domain": "www.amazon.co.jp",
+        "url": "https://www.amazon.co.jp/firetv4k",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[Amazonで価格を確認](https://www.amazon.co.jp/firetv4k)"
+       }
+      ],
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Amazon製ストリーミング端末",
+        "category": "product",
+        "markdown": "Fire TV Stick 4K Select",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "markdown": "![Nuevo Amazon Fire TV Stick 4K (2026): ficha técnica, precio y novedades](https://images.openai.com/static-rsc-4/fSIO6y0jcGl4LV0xakQOMeJF6zkSwjp8qdM5zIoDVDfHxVFzYmkNOjYdJ7zeJdgJBVpJdAE10SXQO2LJZaa3fiD47NijDX77eeFzYP8TEbxZHNrHf9pw50l2hWjx883sbfeQyrw_w1zOtXotmIOKD86FLkOrUg6YdV65uIxAE5LHoLUXO77Jd01qf0YhqfrQ?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.elgrupoinformatico.com/hardware/nuevo-amazon-fire-tv-stick-4k-2026/",
+        "alt": "Nuevo Amazon Fire TV Stick 4K (2026): ficha técnica, precio y novedades",
+        "image_url": "https://images.openai.com/static-rsc-4/fSIO6y0jcGl4LV0xakQOMeJF6zkSwjp8qdM5zIoDVDfHxVFzYmkNOjYdJ7zeJdgJBVpJdAE10SXQO2LJZaa3fiD47NijDX77eeFzYP8TEbxZHNrHf9pw50l2hWjx883sbfeQyrw_w1zOtXotmIOKD86FLkOrUg6YdV65uIxAE5LHoLUXO77Jd01qf0YhqfrQ?purpose=fullsize",
+        "markdown": "![Nuevo Amazon Fire TV Stick 4K (2026): ficha técnica, precio y novedades](https://images.openai.com/static-rsc-4/fSIO6y0jcGl4LV0xakQOMeJF6zkSwjp8qdM5zIoDVDfHxVFzYmkNOjYdJ7zeJdgJBVpJdAE10SXQO2LJZaa3fiD47NijDX77eeFzYP8TEbxZHNrHf9pw50l2hWjx883sbfeQyrw_w1zOtXotmIOKD86FLkOrUg6YdV65uIxAE5LHoLUXO77Jd01qf0YhqfrQ?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "markdown": "\n\n**Fire TV Stick 4K**\n\n",
+      "sources": null,
+      "brand_entities": [
+       {
+        "type": "chat_gpt_brand_entity",
+        "title": "Amazon製ストリーミング端末",
+        "category": "product",
+        "markdown": "Fire TV Stick 4K",
+        "urls": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_products",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "items": [
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Amazon Fire TV Stick",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": null,
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/egUI-1ChYMvbjP_c39sUrN_xp9UkSdn5n3AhhB0UpRO7ojfPyrn9P80ddnlwKLU6j-XTpeI7oNamF6UfsLf4Q9hun21QU9IPk-iHEq3qZfaG92Za5PXoi6hlRur2F5mtLdob24kmXx4JQVSnlVt41XqWMUXu2m-G09yova4bnseC9CeDEGZ6f5Yey3Rkj9gj?purpose=fullsize"
+        ],
+        "product_ids": null
+       },
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Google TV Streamer",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": null,
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/9iuE328UAAkCqkvhl2sHyKV79FHp9X4TqfznHE2CCALUww2v83p9K1gsomb0V9vRm03XFjUulGhyj81q5hdTPKNQLa3muLOx9oTG_Qnr0pWdTxQ2gPW5lNV_Oem6IPcH3RsB0gihoj7K9nEMjHisWi-Q1-GkOPl3pMOhm6w4GjLzoptVp6OxqXR-W5p3Ck0w?purpose=fullsize"
+        ],
+        "product_ids": null
+       },
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Apple TV 4K",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": null,
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/oCCQ_l5XWZZEktqoaG59kOv_9h0M8Vmnu9LtKaMEtWj5gOtGQCxg93zRJ6o_AiaNF8JmEslXd1aF1j1gJoNFP01-pSbNNiMY135bxRtctFdsjyVooT7gzu4uud5svv3zPZK7YIBURq7Fp-QSwScKJO0VWyQ0K3EXvXsqy8qk6ys08FEUW8Z4af-XZikySWgc?purpose=fullsize"
+        ],
+        "product_ids": null
+       },
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Fire TV Stick 4K Select",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": null,
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/Pq9BWTwlYB4yAWB20--5LdcXhFzzZHRYIwk8RToqkF11Q_owd4EhMylqPrlCLjTX-FLn6XP2DtX0nCmQn3YE0LXErkLvt1_546LRTd-UdSqEuCaeMvfvyyxdm3B0714j9SNeP5fWre6HMilBZ5yRuAXjFIDn0LTCAWIlLj2tCyfeuVyYPlbq2MLfa1AKE0Ng?purpose=fullsize"
+        ],
+        "product_ids": null
+       },
+       {
+        "type": "chat_gpt_products_element",
+        "product_id": null,
+        "merchants": null,
+        "id_to_token_map": null,
+        "title": "Fire TV Stick 4K",
+        "rating": null,
+        "price": null,
+        "currency": null,
+        "tag": null,
+        "url": null,
+        "domain": null,
+        "images": [
+         "https://images.openai.com/static-rsc-4/fSIO6y0jcGl4LV0xakQOMeJF6zkSwjp8qdM5zIoDVDfHxVFzYmkNOjYdJ7zeJdgJBVpJdAE10SXQO2LJZaa3fiD47NijDX77eeFzYP8TEbxZHNrHf9pw50l2hWjx883sbfeQyrw_w1zOtXotmIOKD86FLkOrUg6YdV65uIxAE5LHoLUXO77Jd01qf0YhqfrQ?purpose=fullsize"
+        ],
+        "product_ids": null
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 7,
+      "rank_absolute": 13,
+      "markdown": "## 5,980円\n\nセール予告価格・通常11,980円\n\nこちらも4K対応。セール開始後にSelectとの機能差を確認して選ぶのがおすすめです。\n\n[Amazonで価格を確認](https://www.amazon.co.jp/firetv4k)\n\nセール価格は対象条件や在庫によって変わる可能性があります。[press.aboutamazon.com](https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus)[www.phileweb.com](https://www.phileweb.com/sp/news/hobby/202610/11/8597.html)\n\n購入先は、Amazonのほか、楽天市場、Yahoo\\!ショッピング、ヨドバシ.comも比較するとよいでしょう。ポイント還元を差し引いた実質価格で判断してください。\n\n**ひとつ教えてください。** どのくらいの予算で探していますか？\n\n予算は？\n\n3,000円前後（とにかく安く）\n\n5,000円前後（コスパ重視）\n\n10,000円前後（性能も重視）\n\n予算よりも一番お得なもの\n\n---\n\nテレビの画質は？\n\nフルHD（普通の画質）で十分\n\n4K対応がいい\n\nわからない\n\n[お得な購入先を比較する]",
+      "sources": [
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazonで価格を確認",
+        "snippet": null,
+        "domain": "www.amazon.co.jp",
+        "url": "https://www.amazon.co.jp/firetv4k",
+        "thumbnail": null,
+        "source_name": null,
+        "publication_date": null,
+        "markdown": "[Amazonで価格を確認](https://www.amazon.co.jp/firetv4k)"
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "Amazon、新「Fire TV Stick 4K」と一新した「Fire TVリモコン」、「Fire TVリモコンPlus」を発表",
+        "snippet": null,
+        "domain": "press.aboutamazon.com",
+        "url": "https://press.aboutamazon.com/jp/2026/9/amazon-announces-the-new-fire-tv-stick-4k-and-redesigned-fire-tv-remote-and-fire-tv-remote-plus",
+        "thumbnail": null,
+        "source_name": "Press Center",
+        "publication_date": "2026-09-30 00:00:00 +00:00",
+        "markdown": null
+       },
+       {
+        "type": "chat_gpt_source",
+        "title": "一番お得なモデルはコレ！「Amazon Fire TVシリーズ」セール価格が事前公開中〖プライム感謝祭〗",
+        "snippet": null,
+        "domain": "www.phileweb.com",
+        "url": "https://www.phileweb.com/sp/news/hobby/202610/11/8597.html",
+        "thumbnail": null,
+        "source_name": "PHILE WEB",
+        "publication_date": "2026-10-11 00:00:00 +00:00",
+        "markdown": null
+       }
+      ],
+      "brand_entities": null
+     }
+    ]
+   }
+  ],
+  "error": null
+ },
+ "t038": {
+  "text": "Fire TV Stickのデメリットを教えてください",
+  "result": [
+   {
+    "keyword": "Fire TV Stickのデメリットを教えてください",
+    "location_code": 2392,
+    "language_code": "ja",
+    "model": "gpt-6",
+    "check_url": "https://chatgpt.com/?prompt=Fire%20TV%20Stick%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84",
+    "datetime": "2026-10-12 01:37:45 +00:00",
+    "markdown": "Fire TV Stickは、テレビのHDMI端子に挿すだけで、YouTubeやNetflix、Prime Videoなどを楽しめる便利な機器です。ただし、購入前に知っておきたいデメリットもあります。\n\n## Fire TV Stickの主なデメリット\n\n![Amazon Fire TV Stick HD 2024 Wifi 5 / 8GB / Alexa - Preto | AMAZON | Visãovip Informática](https://images.openai.com/static-rsc-4/8K1E8nkKNNgh04gwdiFj1c8b9C3ahbw0JxjmYmgfgxgyqqgj-glgvBIrg_1EiavT-jOeH_QuZwwdQ6Tw5lD-QRoJNW0sA0o0CNQ6mfMnQ86Q3nZNBXo9TQCzOWwD6du_NXpWCnZ6MmQUN6d_VfjSA0Lv4BUFZYxj39FfyrK9IOn3yjoA5Z68QgHPIE1xV3ne?purpose=fullsize)\n\n**1\\. Wi-Fi環境が必要**\n\n動画の視聴には基本的に安定したインターネット接続が必要です。Wi-Fiが遅かったり不安定だったりすると、動画が止まる、画質が落ちるといった問題が起こります。\n\n---\n\n![Amazon Fire TV Stick con mando por voz Alexa (incluye controles del TV) 2021 desde 44,89 € | Compara precios en idealo](https://images.openai.com/static-rsc-4/FKhArR4ZNpk2tEvFLTktOnikYiHEUEbjOplV2TfTAY9lAQ0n6PB9TZs9TCE0HaSPvJJ1UGGQ2WmkcUKP9Uw1vuP9Nw4h1vuETFAxV63kYniJw6KCCO1BNOXjY5WmoItPlvKNkxdOaqNGQqpggL9hYYuhwmKGtN7aWyytZc6uhSgg1NTdcQ7fYyygt8km71ji?purpose=fullsize)\n\n**2\\. リモコン操作に慣れが必要**\n\n文字入力はスマホやパソコンより手間がかかります。検索やログイン時のパスワード入力を面倒に感じる人もいます。\n\n---\n\n![Amazon Fire TV Stick 4K (2. Gen.): Flinker 4K-Streamer im Test - COMPUTER BILD](https://images.openai.com/static-rsc-4/mA-1YCJSFatGpswOU9d5Uym6LifOsEl-6vxo8MRvCNCAWc115uY_h2v9WZRlzlSck3UzDk-OzFjz614UA8WMP_s_nvwN_k0cyIEJg3KHDiNW__cD8j9nk2y4vZdHMEK-184YUFjKtMxseF2Zg5s63qQHATGzWJnoE6IlddP8flA0gl4nyM2pZP9C8Ye97FGv?purpose=fullsize)\n\n**3\\. 広告やおすすめ表示が多い**\n\nホーム画面に広告やおすすめ作品が表示されます。シンプルな画面が好きな人には、少し煩わしく感じることがあります。\n\n---\n\n![Amazon Fire TV Stick HD (2026) - WinFuture.de](https://images.openai.com/static-rsc-4/rk7GCne-GuT6zVyTp9rC69s_iCnjLjQrYoZdfXe-J7sOQf9pVUrAhs9Gg58g4Z0O3cgoEhmwxQxremu7Ux9Yl3ZTIdWq9J-tBmYSlJIlihkOZBi3Bi-mK-qfp204j7KqvaTwVXHofr4GMy8aDAhGZ176NJXGnx7C3-givWaJ7L9UDasDou1wxHcpCYM6ixRa?purpose=fullsize)\n\n**4\\. テレビのHDMI端子を使う**\n\nHDMI端子が必要です。テレビの背面が狭い場合や、端子の位置によっては接続しにくいことがあります。\n\n---\n\n![ファイヤースティック tv  fire stick HD ファイアースティック アマゾン ファイヤーtvスティック amazon アレクサ : Colulu - 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/WvpuA_1gTLLNyZ2-UJ7f8OJI-h10PlipyqUW-sr8znDqGGbaAGpyyY8qZxn2FhA6xnpmC9JfiVdCrynHCD5Torbv_q8SjEszrjoaucCB9avEvKKP6I_YpB8hiTuOCVckdh-GbrbnH6wwYbDHN9Ab9IQUIaDwErEL-_AI2V4EfoQlW_waw3gNb62BjQ7Jbqld?purpose=fullsize)\n\n**5\\. 有料サービスは別料金**\n\nFire TV Stick本体を買っても、Netflixなどの有料サービスが無料になるわけではありません。サービスによっては月額料金がかかります。無料動画にも広告が入る場合があります。\n\n---\n\n![NEW Amazon Fire TV Stick | 3rd Gen | Lite | 4K | 4K Max 2nd Gen - SEALED  | eBay UK](https://images.openai.com/static-rsc-4/bRpnQgbIaOeqvqI28VOJfCJUOvrhLAgTFom-Zs0VzwMOxtsS7wtaS_tCoj9f28kqETYAQxXpoGw8K1VdcOF_XxPLXCVTby2JbKlWf-wRTSIKWVtjUJ55zKqTpj0V-92Vr7Jrbpb7Z3aCNdfG_BwPoGZd9DbE-Uz6LGleKJK9TO7mgaNnowU3LqCBkDEUUZsy?purpose=fullsize)\n\n**6\\. 古いモデルは動作が遅くなることがある**\n\nアプリの起動や画面の切り替えに時間がかかる場合があります。性能はモデルによって異なり、長く使うと不便に感じることもあります。\n\n---\n\n![【楽天市場】【★マラソンセール★全品10%OFF】【純正品】 Fire TV Stick amazon Alexa対応音声認識リモコン Pro アマゾン 新型 第4世代 リモコン 交換用リモコン ファイヤーtvスティック Alexa 4K ウルトラHD HDR G25N8L 代用リモコン 父の日 母の日 ギフト：CUMAINTE](https://images.openai.com/static-rsc-4/XsNr177ptbLqfhZU2uCc4iVvpV2-iCB5LNlnYLGyPI82Q2N14ug72IqtX3BIdZGp_Z24hVcFau5V66g1IPWkCUA9wEAdEUogXkimLvAG-ocJgkv2g_6TvIlugidJWlh6f4IOh-sewy_NzbPkCrG026C0YOmcYE6W8kLEM8gzRe_7e4nivRm98FYUt4Q07Wko?purpose=fullsize)\n\n**7\\. リモコンの電池交換や紛失の心配**\n\nリモコンには電池が必要です。紛失や故障をすると、交換品の購入などが必要になる場合があります。\n\n## 結局、Fire TV Stickは買うべき？\n\n| こんな人 | おすすめ度 |\n|--------|--------|\n| 普通のテレビでYouTubeを見たい | ◎ |\n| Netflixなどを大画面で見たい | ◎ |\n| Wi-Fi環境がない | △〜× |\n| 広告の少ないシンプルな画面がいい | △ |\n| テレビに動画アプリがすでにそろっている | 必要性は低め |\n\n\n**特に注意したいのは、テレビに最初からYouTubeやNetflixなどが搭載されている場合です。** その場合、Fire TV Stickを買っても機能が大きく変わらない可能性があります。\n\n逆に、古いテレビを買い替えずに動画対応にしたい場合は、便利な選択肢です。\n\n今使っているテレビのメーカーと、主に見たい動画（YouTube、Netflix、Amazonプライム・ビデオなど）を教えていただければ、Fire TV Stickが本当に必要かどうかもお伝えできます。",
+    "search_results": null,
+    "sources": null,
+    "fan_out_queries": null,
+    "brand_entities": null,
+    "se_results_count": 0,
+    "item_types": [
+     "chat_gpt_text",
+     "chat_gpt_images",
+     "chat_gpt_table"
+    ],
+    "items_count": 17,
+    "items": [
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "Fire TV Stickは、テレビのHDMI端子に挿すだけで、YouTubeやNetflix、Prime Videoなどを楽しめる便利な機器です。ただし、購入前に知っておきたいデメリットもあります。\n\n## Fire TV Stickの主なデメリット\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": "![Amazon Fire TV Stick HD 2024 Wifi 5 / 8GB / Alexa - Preto | AMAZON | Visãovip Informática](https://images.openai.com/static-rsc-4/8K1E8nkKNNgh04gwdiFj1c8b9C3ahbw0JxjmYmgfgxgyqqgj-glgvBIrg_1EiavT-jOeH_QuZwwdQ6Tw5lD-QRoJNW0sA0o0CNQ6mfMnQ86Q3nZNBXo9TQCzOWwD6du_NXpWCnZ6MmQUN6d_VfjSA0Lv4BUFZYxj39FfyrK9IOn3yjoA5Z68QgHPIE1xV3ne?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.visaovip.com/prod/streaming-de-midia/amazon-fire-tv-stick-hd-2024-wifi-5-8gb-alexa-preto/49098/",
+        "alt": "Amazon Fire TV Stick HD 2024 Wifi 5 / 8GB / Alexa - Preto | AMAZON | Visãovip Informática",
+        "image_url": "https://images.openai.com/static-rsc-4/8K1E8nkKNNgh04gwdiFj1c8b9C3ahbw0JxjmYmgfgxgyqqgj-glgvBIrg_1EiavT-jOeH_QuZwwdQ6Tw5lD-QRoJNW0sA0o0CNQ6mfMnQ86Q3nZNBXo9TQCzOWwD6du_NXpWCnZ6MmQUN6d_VfjSA0Lv4BUFZYxj39FfyrK9IOn3yjoA5Z68QgHPIE1xV3ne?purpose=fullsize",
+        "markdown": "![Amazon Fire TV Stick HD 2024 Wifi 5 / 8GB / Alexa - Preto | AMAZON | Visãovip Informática](https://images.openai.com/static-rsc-4/8K1E8nkKNNgh04gwdiFj1c8b9C3ahbw0JxjmYmgfgxgyqqgj-glgvBIrg_1EiavT-jOeH_QuZwwdQ6Tw5lD-QRoJNW0sA0o0CNQ6mfMnQ86Q3nZNBXo9TQCzOWwD6du_NXpWCnZ6MmQUN6d_VfjSA0Lv4BUFZYxj39FfyrK9IOn3yjoA5Z68QgHPIE1xV3ne?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "\n\n**1\\. Wi-Fi環境が必要**\n\n動画の視聴には基本的に安定したインターネット接続が必要です。Wi-Fiが遅かったり不安定だったりすると、動画が止まる、画質が落ちるといった問題が起こります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "markdown": "![Amazon Fire TV Stick con mando por voz Alexa (incluye controles del TV) 2021 desde 44,89 € | Compara precios en idealo](https://images.openai.com/static-rsc-4/FKhArR4ZNpk2tEvFLTktOnikYiHEUEbjOplV2TfTAY9lAQ0n6PB9TZs9TCE0HaSPvJJ1UGGQ2WmkcUKP9Uw1vuP9Nw4h1vuETFAxV63kYniJw6KCCO1BNOXjY5WmoItPlvKNkxdOaqNGQqpggL9hYYuhwmKGtN7aWyytZc6uhSgg1NTdcQ7fYyygt8km71ji?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.idealo.es/precios/201245852/amazon-fire-tv-stick-con-mando-por-voz-alexa-incluye-controles-del-tv-2021.html",
+        "alt": "Amazon Fire TV Stick con mando por voz Alexa (incluye controles del TV) 2021 desde 44,89 € | Compara precios en idealo",
+        "image_url": "https://images.openai.com/static-rsc-4/FKhArR4ZNpk2tEvFLTktOnikYiHEUEbjOplV2TfTAY9lAQ0n6PB9TZs9TCE0HaSPvJJ1UGGQ2WmkcUKP9Uw1vuP9Nw4h1vuETFAxV63kYniJw6KCCO1BNOXjY5WmoItPlvKNkxdOaqNGQqpggL9hYYuhwmKGtN7aWyytZc6uhSgg1NTdcQ7fYyygt8km71ji?purpose=fullsize",
+        "markdown": "![Amazon Fire TV Stick con mando por voz Alexa (incluye controles del TV) 2021 desde 44,89 € | Compara precios en idealo](https://images.openai.com/static-rsc-4/FKhArR4ZNpk2tEvFLTktOnikYiHEUEbjOplV2TfTAY9lAQ0n6PB9TZs9TCE0HaSPvJJ1UGGQ2WmkcUKP9Uw1vuP9Nw4h1vuETFAxV63kYniJw6KCCO1BNOXjY5WmoItPlvKNkxdOaqNGQqpggL9hYYuhwmKGtN7aWyytZc6uhSgg1NTdcQ7fYyygt8km71ji?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "markdown": "\n\n**2\\. リモコン操作に慣れが必要**\n\n文字入力はスマホやパソコンより手間がかかります。検索やログイン時のパスワード入力を面倒に感じる人もいます。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "markdown": "![Amazon Fire TV Stick 4K (2. Gen.): Flinker 4K-Streamer im Test - COMPUTER BILD](https://images.openai.com/static-rsc-4/mA-1YCJSFatGpswOU9d5Uym6LifOsEl-6vxo8MRvCNCAWc115uY_h2v9WZRlzlSck3UzDk-OzFjz614UA8WMP_s_nvwN_k0cyIEJg3KHDiNW__cD8j9nk2y4vZdHMEK-184YUFjKtMxseF2Zg5s63qQHATGzWJnoE6IlddP8flA0gl4nyM2pZP9C8Ye97FGv?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.computerbild.de/artikel/cb-Tests-Streaming-Amazon-Fire-TV-Stick-4K-2.-Gen.-37010379.html",
+        "alt": "Amazon Fire TV Stick 4K (2. Gen.): Flinker 4K-Streamer im Test - COMPUTER BILD",
+        "image_url": "https://images.openai.com/static-rsc-4/mA-1YCJSFatGpswOU9d5Uym6LifOsEl-6vxo8MRvCNCAWc115uY_h2v9WZRlzlSck3UzDk-OzFjz614UA8WMP_s_nvwN_k0cyIEJg3KHDiNW__cD8j9nk2y4vZdHMEK-184YUFjKtMxseF2Zg5s63qQHATGzWJnoE6IlddP8flA0gl4nyM2pZP9C8Ye97FGv?purpose=fullsize",
+        "markdown": "![Amazon Fire TV Stick 4K (2. Gen.): Flinker 4K-Streamer im Test - COMPUTER BILD](https://images.openai.com/static-rsc-4/mA-1YCJSFatGpswOU9d5Uym6LifOsEl-6vxo8MRvCNCAWc115uY_h2v9WZRlzlSck3UzDk-OzFjz614UA8WMP_s_nvwN_k0cyIEJg3KHDiNW__cD8j9nk2y4vZdHMEK-184YUFjKtMxseF2Zg5s63qQHATGzWJnoE6IlddP8flA0gl4nyM2pZP9C8Ye97FGv?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "markdown": "\n\n**3\\. 広告やおすすめ表示が多い**\n\nホーム画面に広告やおすすめ作品が表示されます。シンプルな画面が好きな人には、少し煩わしく感じることがあります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 4,
+      "rank_absolute": 8,
+      "markdown": "![Amazon Fire TV Stick HD (2026) - WinFuture.de](https://images.openai.com/static-rsc-4/rk7GCne-GuT6zVyTp9rC69s_iCnjLjQrYoZdfXe-J7sOQf9pVUrAhs9Gg58g4Z0O3cgoEhmwxQxremu7Ux9Yl3ZTIdWq9J-tBmYSlJIlihkOZBi3Bi-mK-qfp204j7KqvaTwVXHofr4GMy8aDAhGZ176NJXGnx7C3-givWaJ7L9UDasDou1wxHcpCYM6ixRa?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://winfuture.de/screenshots/Amazon-Fire-TV-Stick-HD-2026-31392-1.html",
+        "alt": "Amazon Fire TV Stick HD (2026) - WinFuture.de",
+        "image_url": "https://images.openai.com/static-rsc-4/rk7GCne-GuT6zVyTp9rC69s_iCnjLjQrYoZdfXe-J7sOQf9pVUrAhs9Gg58g4Z0O3cgoEhmwxQxremu7Ux9Yl3ZTIdWq9J-tBmYSlJIlihkOZBi3Bi-mK-qfp204j7KqvaTwVXHofr4GMy8aDAhGZ176NJXGnx7C3-givWaJ7L9UDasDou1wxHcpCYM6ixRa?purpose=fullsize",
+        "markdown": "![Amazon Fire TV Stick HD (2026) - WinFuture.de](https://images.openai.com/static-rsc-4/rk7GCne-GuT6zVyTp9rC69s_iCnjLjQrYoZdfXe-J7sOQf9pVUrAhs9Gg58g4Z0O3cgoEhmwxQxremu7Ux9Yl3ZTIdWq9J-tBmYSlJIlihkOZBi3Bi-mK-qfp204j7KqvaTwVXHofr4GMy8aDAhGZ176NJXGnx7C3-givWaJ7L9UDasDou1wxHcpCYM6ixRa?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "markdown": "\n\n**4\\. テレビのHDMI端子を使う**\n\nHDMI端子が必要です。テレビの背面が狭い場合や、端子の位置によっては接続しにくいことがあります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "markdown": "![ファイヤースティック tv  fire stick HD ファイアースティック アマゾン ファイヤーtvスティック amazon アレクサ : Colulu - 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/WvpuA_1gTLLNyZ2-UJ7f8OJI-h10PlipyqUW-sr8znDqGGbaAGpyyY8qZxn2FhA6xnpmC9JfiVdCrynHCD5Torbv_q8SjEszrjoaucCB9avEvKKP6I_YpB8hiTuOCVckdh-GbrbnH6wwYbDHN9Ab9IQUIaDwErEL-_AI2V4EfoQlW_waw3gNb62BjQ7Jbqld?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://store.shopping.yahoo.co.jp/revoace/compass1598521581.html",
+        "alt": "ファイヤースティック tv  fire stick HD ファイアースティック アマゾン ファイヤーtvスティック amazon アレクサ : Colulu - 通販 - Yahoo!ショッピング",
+        "image_url": "https://images.openai.com/static-rsc-4/WvpuA_1gTLLNyZ2-UJ7f8OJI-h10PlipyqUW-sr8znDqGGbaAGpyyY8qZxn2FhA6xnpmC9JfiVdCrynHCD5Torbv_q8SjEszrjoaucCB9avEvKKP6I_YpB8hiTuOCVckdh-GbrbnH6wwYbDHN9Ab9IQUIaDwErEL-_AI2V4EfoQlW_waw3gNb62BjQ7Jbqld?purpose=fullsize",
+        "markdown": "![ファイヤースティック tv  fire stick HD ファイアースティック アマゾン ファイヤーtvスティック amazon アレクサ : Colulu - 通販 - Yahoo!ショッピング](https://images.openai.com/static-rsc-4/WvpuA_1gTLLNyZ2-UJ7f8OJI-h10PlipyqUW-sr8znDqGGbaAGpyyY8qZxn2FhA6xnpmC9JfiVdCrynHCD5Torbv_q8SjEszrjoaucCB9avEvKKP6I_YpB8hiTuOCVckdh-GbrbnH6wwYbDHN9Ab9IQUIaDwErEL-_AI2V4EfoQlW_waw3gNb62BjQ7Jbqld?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "markdown": "\n\n**5\\. 有料サービスは別料金**\n\nFire TV Stick本体を買っても、Netflixなどの有料サービスが無料になるわけではありません。サービスによっては月額料金がかかります。無料動画にも広告が入る場合があります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 6,
+      "rank_absolute": 12,
+      "markdown": "![NEW Amazon Fire TV Stick | 3rd Gen | Lite | 4K | 4K Max 2nd Gen - SEALED  | eBay UK](https://images.openai.com/static-rsc-4/bRpnQgbIaOeqvqI28VOJfCJUOvrhLAgTFom-Zs0VzwMOxtsS7wtaS_tCoj9f28kqETYAQxXpoGw8K1VdcOF_XxPLXCVTby2JbKlWf-wRTSIKWVtjUJ55zKqTpj0V-92Vr7Jrbpb7Z3aCNdfG_BwPoGZd9DbE-Uz6LGleKJK9TO7mgaNnowU3LqCBkDEUUZsy?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://www.ebay.co.uk/itm/115920916603",
+        "alt": "NEW Amazon Fire TV Stick | 3rd Gen | Lite | 4K | 4K Max 2nd Gen - SEALED  | eBay UK",
+        "image_url": "https://images.openai.com/static-rsc-4/bRpnQgbIaOeqvqI28VOJfCJUOvrhLAgTFom-Zs0VzwMOxtsS7wtaS_tCoj9f28kqETYAQxXpoGw8K1VdcOF_XxPLXCVTby2JbKlWf-wRTSIKWVtjUJ55zKqTpj0V-92Vr7Jrbpb7Z3aCNdfG_BwPoGZd9DbE-Uz6LGleKJK9TO7mgaNnowU3LqCBkDEUUZsy?purpose=fullsize",
+        "markdown": "![NEW Amazon Fire TV Stick | 3rd Gen | Lite | 4K | 4K Max 2nd Gen - SEALED  | eBay UK](https://images.openai.com/static-rsc-4/bRpnQgbIaOeqvqI28VOJfCJUOvrhLAgTFom-Zs0VzwMOxtsS7wtaS_tCoj9f28kqETYAQxXpoGw8K1VdcOF_XxPLXCVTby2JbKlWf-wRTSIKWVtjUJ55zKqTpj0V-92Vr7Jrbpb7Z3aCNdfG_BwPoGZd9DbE-Uz6LGleKJK9TO7mgaNnowU3LqCBkDEUUZsy?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 7,
+      "rank_absolute": 13,
+      "markdown": "\n\n**6\\. 古いモデルは動作が遅くなることがある**\n\nアプリの起動や画面の切り替えに時間がかかる場合があります。性能はモデルによって異なり、長く使うと不便に感じることもあります。\n\n---\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_images",
+      "rank_group": 7,
+      "rank_absolute": 14,
+      "markdown": "![【楽天市場】【★マラソンセール★全品10%OFF】【純正品】 Fire TV Stick amazon Alexa対応音声認識リモコン Pro アマゾン 新型 第4世代 リモコン 交換用リモコン ファイヤーtvスティック Alexa 4K ウルトラHD HDR G25N8L 代用リモコン 父の日 母の日 ギフト：CUMAINTE](https://images.openai.com/static-rsc-4/XsNr177ptbLqfhZU2uCc4iVvpV2-iCB5LNlnYLGyPI82Q2N14ug72IqtX3BIdZGp_Z24hVcFau5V66g1IPWkCUA9wEAdEUogXkimLvAG-ocJgkv2g_6TvIlugidJWlh6f4IOh-sewy_NzbPkCrG026C0YOmcYE6W8kLEM8gzRe_7e4nivRm98FYUt4Q07Wko?purpose=fullsize)",
+      "items": [
+       {
+        "type": "chat_gpt_images_element",
+        "url": "https://item.rakuten.co.jp/cumainte/yk0014/",
+        "alt": "【楽天市場】【★マラソンセール★全品10%OFF】【純正品】 Fire TV Stick amazon Alexa対応音声認識リモコン Pro アマゾン 新型 第4世代 リモコン 交換用リモコン ファイヤーtvスティック Alexa 4K ウルトラHD HDR G25N8L 代用リモコン 父の日 母の日 ギフト：CUMAINTE",
+        "image_url": "https://images.openai.com/static-rsc-4/XsNr177ptbLqfhZU2uCc4iVvpV2-iCB5LNlnYLGyPI82Q2N14ug72IqtX3BIdZGp_Z24hVcFau5V66g1IPWkCUA9wEAdEUogXkimLvAG-ocJgkv2g_6TvIlugidJWlh6f4IOh-sewy_NzbPkCrG026C0YOmcYE6W8kLEM8gzRe_7e4nivRm98FYUt4Q07Wko?purpose=fullsize",
+        "markdown": "![【楽天市場】【★マラソンセール★全品10%OFF】【純正品】 Fire TV Stick amazon Alexa対応音声認識リモコン Pro アマゾン 新型 第4世代 リモコン 交換用リモコン ファイヤーtvスティック Alexa 4K ウルトラHD HDR G25N8L 代用リモコン 父の日 母の日 ギフト：CUMAINTE](https://images.openai.com/static-rsc-4/XsNr177ptbLqfhZU2uCc4iVvpV2-iCB5LNlnYLGyPI82Q2N14ug72IqtX3BIdZGp_Z24hVcFau5V66g1IPWkCUA9wEAdEUogXkimLvAG-ocJgkv2g_6TvIlugidJWlh6f4IOh-sewy_NzbPkCrG026C0YOmcYE6W8kLEM8gzRe_7e4nivRm98FYUt4Q07Wko?purpose=fullsize)"
+       }
+      ]
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 8,
+      "rank_absolute": 15,
+      "markdown": "\n\n**7\\. リモコンの電池交換や紛失の心配**\n\nリモコンには電池が必要です。紛失や故障をすると、交換品の購入などが必要になる場合があります。\n\n## 結局、Fire TV Stickは買うべき？\n\n",
+      "sources": null,
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_table",
+      "rank_group": 1,
+      "rank_absolute": 16,
+      "text": null,
+      "markdown": "| こんな人 | おすすめ度 |\n|--------|--------|\n| 普通のテレビでYouTubeを見たい | ◎ |\n| Netflixなどを大画面で見たい | ◎ |\n| Wi-Fi環境がない | △〜× |\n| 広告の少ないシンプルな画面がいい | △ |\n| テレビに動画アプリがすでにそろっている | 必要性は低め |\n\n",
+      "table": {
+       "table_header": [
+        "こんな人",
+        "おすすめ度"
+       ],
+       "table_content": [
+        [
+         "普通のテレビでYouTubeを見たい",
+         "◎"
+        ],
+        [
+         "Netflixなどを大画面で見たい",
+         "◎"
+        ],
+        [
+         "Wi-Fi環境がない",
+         "△〜×"
+        ],
+        [
+         "広告の少ないシンプルな画面がいい",
+         "△"
+        ],
+        [
+         "テレビに動画アプリがすでにそろっている",
+         "必要性は低め"
+        ]
+       ]
+      },
+      "brand_entities": null
+     },
+     {
+      "type": "chat_gpt_text",
+      "rank_group": 9,
+      "rank_absolute": 17,
+      "markdown": "\n**特に注意したいのは、テレビに最初からYouTubeやNetflixなどが搭載されている場合です。** その場合、Fire TV Stickを買っても機能が大きく変わらない可能性があります。\n\n逆に、古いテレビを買い替えずに動画対応にしたい場合は、便利な選択肢です。\n\n今使っているテレビのメーカーと、主に見たい動画（YouTube、Netflix、Amazonプライム・ビデオなど）を教えていただければ、Fire TV Stickが本当に必要かどうかもお伝えできます。",
+      "sources": null,
+      "brand_entities": null
+     }
+    ]
+   }
+  ],
+  "error": null
+ }
+}
